@@ -1,0 +1,39 @@
+name: Update Bestseller Data
+
+on:
+  schedule:
+    # 매 시간 정각에 실행 (UTC 기준)
+    - cron: '0 * * * *'
+  workflow_dispatch: # 수동 실행 버튼
+
+permissions:
+  contents: write # 봇이 파일을 덮어쓸 권한
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1. 코드 가져오기
+        uses: actions/checkout@v4
+
+      - name: 2. 파이썬 환경 세팅
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: 3. 라이브러리 설치
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: 4. 스크래퍼 실행 (데이터 수집)
+        run: python scraper.py
+
+      - name: 5. 갱신된 JSON 저장하기
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add bestseller_data.json
+          git commit -m "Auto-update bestseller data" || exit 0
+          git push
