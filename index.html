@@ -99,7 +99,7 @@
     .card-img-wrap { position: relative; aspect-ratio: 3 / 4; background: #e8e8e8; overflow: hidden; flex-shrink: 0; }
     .card-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .card-img-wrap.skeleton { background: #f0f0f0; }
-    .card-img-wrap.skeleton::after { content: '이미지\A준비 중'; white-space: pre; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #bbb; line-height: 1.8; text-align: center; font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;}
+    .card-img-wrap.skeleton::after { content: '이미지\A준비 중'; white-space: pre; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #bbb; line-height: 1.8; text-align: center; }
 
     .card-info { padding: 8px 9px 9px; display: flex; flex-direction: column; gap: 3px; flex: 1; }
     .card-rank-row { display: flex; align-items: baseline; gap: 5px; }
@@ -187,7 +187,6 @@ let historyData = [];
 let filterOn = false;
 let searchQuery = '';
 let currentView = 'list';
-let searchTimeout; // 검색창 디바운스용 변수
 
 function setStoreColor(store) {
   document.documentElement.style.setProperty('--store-color', STORE_COLORS[store]);
@@ -269,13 +268,9 @@ function toggleFilter() {
   applyFilters();
 }
 
-/* ⚡ 개선 3. 검색창 과부하 방지 (Debounce) */
 function handleSearch(e) {
-  clearTimeout(searchTimeout); // 타이핑 중에는 이전 예약을 취소
-  searchTimeout = setTimeout(() => { // 0.2초 동안 타이핑을 멈추면 그때 실행!
-    searchQuery = e.target.value.toLowerCase().trim();
-    applyFilters();
-  }, 200);
+  searchQuery = e.target.value.toLowerCase().trim();
+  applyFilters();
 }
 
 async function handleRefresh(btn) {
@@ -284,6 +279,7 @@ async function handleRefresh(btn) {
   await loadLatest();
 }
 
+/* 👑 핵심 엔진 1: 3사 데이터 융합 알고리즘 */
 function calculateTotal(kData, aData, yData) {
   const bookMap = {};
   const process = (data, sName) => {
@@ -292,7 +288,7 @@ function calculateTotal(kData, aData, yData) {
       if (!t) return;
       const k = t + '|' + a;
       const r = parseInt(b['순위']) || 100;
-      const pts = 101 - r;
+      const pts = 101 - r; // 1위는 100점, 100위는 1점
 
       if (!bookMap[k]) bookMap[k] = { ...b, points: 0, stores: [] };
       bookMap[k].points += pts;
@@ -306,6 +302,7 @@ function calculateTotal(kData, aData, yData) {
   return sorted;
 }
 
+/* 📈 핵심 엔진 2: 시간별 추이 모달 띄우기 */
 function openTrendModal(el) {
   const title = el.dataset.title;
   const author = el.dataset.author;
@@ -313,7 +310,7 @@ function openTrendModal(el) {
   document.getElementById('modalAuthor').textContent = author;
 
   let html = '';
-  const limits = historyData.slice(0, 12);
+  const limits = historyData.slice(0, 12); // 과거 12시간 추적
 
   limits.forEach((entry, idx) => {
     const time = toOnTheHour(entry['수집시각']);
@@ -349,7 +346,8 @@ function openTrendModal(el) {
   if(limits.length === 0) html = '<div style="padding:20px; text-align:center; color:#999;">과거 데이터가 아직 없습니다.</div>';
 
   document.getElementById('trendList').innerHTML = html;
-  document.getElementById('trendModal').classList.add('show');
+  const modal = document.getElementById('trendModal');
+  modal.classList.add('show');
 }
 
 function closeTrendModal() {
@@ -490,21 +488,6 @@ function parseCSV(text) {
   });
 }
 
-/* 🛡️ 개선 1 & 2. 무적의 재시도 로직 + 캐시 완벽 차단 함수 */
-async function fetchWithRetry(url, retries = 3) {
-  for (let i = 0; i < retries; i++) {
-    try {
-      // cache: 'no-store'로 브라우저의 몹쓸 캐싱 습관 원천 차단
-      const res = await fetch(url, { cache: 'no-store' });
-      if (!res.ok) throw new Error('서버 응답 오류');
-      return res;
-    } catch (err) {
-      if (i === retries - 1) throw err; // 3번 다 실패하면 에러 뿜기
-      await new Promise(r => setTimeout(r, 1000)); // 1초 쉬고 다시 시도
-    }
-  }
-}
-
 async function loadLatest() {
   const container = document.getElementById('latest-view');
   if (container.innerHTML.includes('loading')) container.innerHTML = '<div class="loading">불러오는 중...</div>';
@@ -512,22 +495,22 @@ async function loadLatest() {
   try {
     if (currentStore === 'total') {
       const [kRes, aRes, yRes] = await Promise.all([
-        fetchWithRetry(RAW + CSV_FILES['kyobo'] + '?t=' + Date.now()),
-        fetchWithRetry(RAW + CSV_FILES['aladin'] + '?t=' + Date.now()),
-        fetchWithRetry(RAW + CSV_FILES['yes24'] + '?t=' + Date.now())
+        fetch(RAW + CSV_FILES['kyobo'] + '?t=' + Date.now()),
+        fetch(RAW + CSV_FILES['aladin'] + '?t=' + Date.now()),
+        fetch(RAW + CSV_FILES['yes24'] + '?t=' + Date.now())
       ]);
       const sorted = calculateTotal(parseCSV(await kRes.text()), parseCSV(await aRes.text()), parseCSV(await yRes.text()));
       renderBooks(sorted, container);
     } else {
-      const res = await fetchWithRetry(RAW + CSV_FILES[currentStore] + '?t=' + Date.now());
+      const res = await fetch(RAW + CSV_FILES[currentStore] + '?t=' + Date.now());
       renderBooks(parseCSV(await res.text()), container);
     }
-  } catch { container.innerHTML = '<div class="error">데이터를 완벽하게 불러오지 못했어요. 잠시 후 🔄 버튼을 눌러보세요.</div>'; }
+  } catch { container.innerHTML = '<div class="error">데이터를 불러오지 못했어요.</div>'; }
 }
 
 async function loadHistory() {
   try {
-    const res = await fetchWithRetry(RAW + 'history.json?t=' + Date.now());
+    const res = await fetch(RAW + 'history.json?t=' + Date.now());
     historyData = await res.json(); renderHistoryList(historyData);
   } catch { document.getElementById('history-view').innerHTML = '<div class="error">지난 차트가 아직 없어요.</div>'; }
 }
