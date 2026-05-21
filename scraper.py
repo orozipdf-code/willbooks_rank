@@ -354,10 +354,7 @@ def collect_once(is_scheduled=True):
             book["이전순위"] = prev
             book["순위변동"] = calc_change(book["순위"], prev)
         save_csv(store, books)
-    if is_scheduled:
         save_history(all_books, now)
-        print("\n자동 수집 완료 - history.json 저장")
-    else:
         print("\n수동 수집 완료 - history.json 미저장")
 
 
