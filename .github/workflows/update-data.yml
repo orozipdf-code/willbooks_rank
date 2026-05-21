@@ -1,9 +1,6 @@
 name: scraping
 
 on:
-  schedule:
-    - cron: '23 * * * *'
-    - cron: '51 * * * *'
   workflow_dispatch:
     inputs:
       source:
