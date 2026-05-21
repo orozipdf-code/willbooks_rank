@@ -1,4 +1,4 @@
-name: 교보문고 베스트 수집
+name: scraping
 on:
   schedule:
     - cron: '23 * * * *'
