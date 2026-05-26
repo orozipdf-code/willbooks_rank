@@ -23,9 +23,9 @@
     .store-tabs { display: flex; gap: 6px; padding-bottom: 10px; flex-wrap: wrap; }
     .store-tab { padding: 5px 12px; font-size: 13px; font-weight: 600; border-radius: 20px; cursor: pointer; border: 1px solid #ddd; color: #666; background: #fff; transition: all 0.15s; }
     .store-tab.active { color: #fff; }
-    .store-tab[data-store="kyobo"].active { background: #6DB329; border-color: #6DB329; }
-    .store-tab[data-store="aladin"].active { background: #FB2888; border-color: #FB2888; }
-    .store-tab[data-store="yes24"].active { background: #0080FF; border-color: #0080FF; }
+    .store-tab[data-store="kyobo"].active { background: #4DAC27; border-color: #4DAC27; }
+    .store-tab[data-store="aladin"].active { background: #A2052C; border-color: #A2052C; }
+    .store-tab[data-store="yes24"].active { background: #020287; border-color: #020287; }
     .store-tab[data-store="total"].active { background: #8e44ad; border-color: #8e44ad; }
 
     .container { max-width: 900px; margin: 0 auto; padding: 20px; }
@@ -127,13 +127,13 @@
     .hl-box-title { font-size: 13px; font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 5px; }
     .hl-box.up .hl-box-title { color: #e60012; }
     .hl-box.new .hl-box-title { color: #ff7f00; }
-    .hl-row { display: flex; align-items: center; gap: 8px; padding: 6px 0; cursor: pointer; border-radius: 6px; transition: background 0.12s; }
+    .hl-row { display: flex; align-items: center; gap: 8px; padding: 6px 0; cursor: pointer; border-radius: 6px; transition: background 0.12s; min-width: 0; }
     .hl-row:hover { background: #f7f7f7; }
     .hl-row + .hl-row { border-top: 1px solid #f2f2f2; }
     .hl-rank { font-size: 13px; font-weight: 800; min-width: 30px; text-align: center; color: #555; flex-shrink: 0; }
-    .hl-info { flex: 1; min-width: 0; }
-    .hl-title { font-size: 12px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .hl-sub { font-size: 10px; color: #aaa; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .hl-info { flex: 1 1 0; min-width: 0; overflow: hidden; }
+    .hl-title { font-size: 12px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+    .hl-sub { font-size: 10px; color: #aaa; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
     .hl-badge { font-size: 11px; font-weight: 800; flex-shrink: 0; padding: 2px 7px; border-radius: 10px; }
     .hl-badge.up { color: #e60012; background: #fdeaea; }
     .hl-badge.new { color: #ff7f00; background: #fff3e0; }
@@ -174,7 +174,7 @@
 <div class="header" id="header">
   <div class="header-inner">
     <div class="logo" id="logo">REALTIME BESTSELLER by ahu(orozi) </div>
-    <h1>실시간 베스트셀러(beta)</h1>
+    <h1>실시간 베스트셀러</h1>
     <div class="tabs-row">
       <div class="tabs">
         <div class="tab active" onclick="showMainTab('latest')">최신 차트</div>
@@ -214,13 +214,14 @@
 </div>
 
 <div class="footer">
-  Data provided by orozi(ahu@willbookspub.com)
+  Data provided by orozi(ahu@willbookspub.com)<br>
+  Based on <a href="https://jangmee.github.io/kyobo-bestseller/" target="_blank" rel="noopener">jangmee.github.io/kyobo-bestseller</a>
 </div>
 
 <script>
 const RAW = "https://raw.githubusercontent.com/orozipdf-code/orozi-test/master/";
 const CSV_FILES = { kyobo: "kyobo_bestseller.csv", aladin: "aladin_bestseller.csv", yes24: "yes24_bestseller.csv" };
-const STORE_COLORS = { kyobo: "#6DB329", aladin: "#FB2888", yes24: "#0080FF", total: "#8e44ad" };
+const STORE_COLORS = { kyobo: "#4DAC27", aladin: "#A2052C", yes24: "#020287", total: "#8e44ad" };
 const STORE_NAMES = { kyobo: "교보", aladin: "알라딘", yes24: "예스24" };
 
 // 💡 글자 수가 긴 브랜드부터 배열에 배치해야 '윌북주니어'가 '윌북'으로 잘못 잡히지 않습니다.
@@ -431,15 +432,24 @@ function buildHighlights(books, isTotal) {
     .slice(0, 5);
 
   const esc = s => (s || '').replace(/"/g, '&quot;');
+  // 화면 표시용 말줄임: CSS flex 말줄임이 불안정하므로 글자 수로 직접 자른다.
+  // (data-title 에는 원본 전체 제목을 유지해야 추이 모달의 책 매칭이 깨지지 않음)
+  const cut = (s, n) => {
+    s = (s || '').toString();
+    return s.length > n ? s.slice(0, n) + '…' : s;
+  };
 
   const rowHtml = (b, badgeText, badgeCls) => {
     const t = esc(b['제목']);
     const a = esc(b['저자']);
+    const titleShort = cut(b['제목'], 24);          // 제목은 24자까지
+    const subFull = `${b['저자']||''} · ${b['출판사']||''}`;
+    const subShort = cut(subFull, 28);              // 저자·출판사 합쳐 28자까지
     return `<div class="hl-row" data-title="${t}" data-author="${a}" onclick="openTrendModal(this)">
       <span class="hl-rank">${parseInt(b['순위'])||'-'}위</span>
       <div class="hl-info">
-        <div class="hl-title">${b['제목']||''}</div>
-        <div class="hl-sub">${b['저자']||''} · ${b['출판사']||''}</div>
+        <div class="hl-title" title="${esc(b['제목'])}">${titleShort}</div>
+        <div class="hl-sub">${subShort}</div>
       </div>
       <span class="hl-badge ${badgeCls}">${badgeText}</span>
     </div>`;
@@ -592,9 +602,9 @@ function openTrendModal(el) {
       const kr = getR('kyobo'), ar = getR('aladin'), yr = getR('yes24');
       if (kr || ar || yr) {
         rankText = `<div class="trend-stores">
-          ${kr ? `<span class="store-badge-mini" style="background:#6DB329">교 ${kr}위</span>` : ''}
-          ${ar ? `<span class="store-badge-mini" style="background:#FB2888">알 ${ar}위</span>` : ''}
-          ${yr ? `<span class="store-badge-mini" style="background:#0080FF">예 ${yr}위</span>` : ''}
+          ${kr ? `<span class="store-badge-mini" style="background:#4DAC27">교 ${kr}위</span>` : ''}
+          ${ar ? `<span class="store-badge-mini" style="background:#A2052C">알 ${ar}위</span>` : ''}
+          ${yr ? `<span class="store-badge-mini" style="background:#020287">예 ${yr}위</span>` : ''}
         </div>`;
         if(kr<=10 || ar<=10 || yr<=10) isTop = true;
       }
