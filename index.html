@@ -310,13 +310,13 @@ function renderIssues() {
   const genAt = issuesData.generated_at ? new Date(issuesData.generated_at) : null;
   const metaTime = genAt && !isNaN(genAt) ? genAt.toLocaleString('ko-KR', { month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit' }) : '';
   if (!items.length) {
-    wrap.innerHTML = `<div class="issue-empty">최근 1일 동안 새로 잡힌 뉴스가 없어요.<br><small>순위 변동이 뉴스보다 앞선 경우일 수 있어요.</small>
+    wrap.innerHTML = `<div class="issue-empty">최근 1일 동안 새로 올라온 글이 없어요.<br><small>순위 변동이 웹 언급보다 앞선 경우일 수 있어요.</small>
       <div class="issue-more"><a href="${gLink}" target="_blank" rel="noopener">구글에서 직접 확인 →</a></div></div>`;
     return;
   }
   const esc = s => (s||'').toString().replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   wrap.innerHTML = `
-    <div class="issue-meta">🕒 최근 1일 · 구글 뉴스 ${items.length}건${metaTime ? ` · ${metaTime} 갱신` : ''}</div>
+    <div class="issue-meta">🕒 최근 1일 · 구글 검색 ${items.length}건${metaTime ? ` · ${metaTime} 갱신` : ''}</div>
     <div class="issue-list">${items.map(it => `
       <a class="issue-card" href="${esc(it.link)}" target="_blank" rel="noopener noreferrer">
         <div class="issue-title">${esc(it.title)}</div>
