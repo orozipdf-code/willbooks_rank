@@ -216,7 +216,7 @@
         <div class="store-tab active" data-store="kyobo" onclick="setStore('kyobo')">교보문고</div>
         <div class="store-tab" data-store="aladin" onclick="setStore('aladin')">알라딘</div>
         <div class="store-tab" data-store="yes24" onclick="setStore('yes24')">예스24</div>
-        <div class="store-tab" data-store="total" onclick="setStore('total')"><span class="info-wrap">👑 통합 차트<span class="info-icon" onclick="event.stopPropagation(); this.parentElement.querySelector('.info-tip').classList.toggle('show')">i</span><span class="info-tip" onclick="event.stopPropagation()"><span class="tip-title">👑 통합 점수 계산법</span>세 서점(교보·알라딘·예스24)의 순위를 점수로 바꿔 합산합니다.<span class="tip-formula">점수 = (101 − 순위) 를 서점별로 합산</span>예) 1위 = 100점, 2위 = 99점 … 세 서점 모두 1위면 <b>300점 만점</b>. 한 곳에만 있으면 그 점수만 반영돼요.</span></span></div>
+        <div class="store-tab" data-store="total" onclick="setStore('total')"><span class="info-wrap">👑 통합 차트<span class="info-icon" onclick="event.stopPropagation(); this.parentElement.querySelector('.info-tip').classList.toggle('show')">i</span><span class="info-tip" onclick="event.stopPropagation()"><span class="tip-title">👑 통합 점수 계산법</span>세 서점(교보·알라딘·예스24)의 순위를 점수로 바꿔 합산합니다.<span class="tip-formula">점수 = (301 − 순위) 를 서점별로 합산</span>예) 1위 = 300점, 2위 = 299점 … 300위 = 1점. 세 서점 모두 1위면 <b>900점 만점</b>. 한 곳에만 있으면 그 점수만 반영돼요.</span></span></div>
       </div>
     </div>
   </div>
@@ -486,19 +486,76 @@ async function handleRefresh(btn) {
   await loadLatest();
 }
 
+// 🔗 통합 차트 병합 키: (부제 제거한) 제목 + 출판사
+// 저자 표기가 서점마다 달라도, 부제까지 다르게 적혀 있어도 같은 책으로 묶기 위함.
+// 예) "원소 원정대"  =  "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집"
+//
+// ⚠️ 시리즈물 오병합 방지: 부제를 떼기 전에 "1권 / 2권 / 3부 / 시즌2" 같은
+//    편수 표기가 있으면 그 숫자를 보존해 키에 붙인다. (1권과 2권은 안 묶이게)
+function stripSubtitle(rawTitle) {
+  let t = (rawTitle || '').trim();
+
+  // 1) 편수/권차 표기 추출 (있으면 나중에 키에 덧붙임)
+  //    "…1", "… 2권", "…3부", "…시즌2", "… vol.2", "… (상/하)" 등
+  let volume = '';
+  const volPatterns = [
+    /(\d+)\s*권/,           // 2권
+    /(\d+)\s*부/,           // 3부
+    /시즌\s*(\d+)/i,        // 시즌2
+    /vol\.?\s*(\d+)/i,      // vol.2
+    /\b([0-9]{1,2})\b\s*$/, // 끝에 붙은 숫자 (미움받을 용기 2)
+    /\b(상|하|중)\b\s*$/,   // 상/하/중
+    /\b(Ⅰ|Ⅱ|Ⅲ|Ⅳ|Ⅴ)\b/,   // 로마자 편수
+  ];
+  for (const re of volPatterns) {
+    const m = t.match(re);
+    if (m) { volume = m[1]; break; }
+  }
+
+  // 2) 부제 구분자(콜론·대시·물결) 앞부분만 사용
+  //    전각/반각 콜론, " - ", " ~ " 등을 경계로 자른다.
+  let base = t.split(/\s*[:：]\s*/)[0];       // 콜론 우선
+  base = base.split(/\s+[-–—~]\s+/)[0];        // 공백으로 둘러싸인 대시/물결
+  base = base.trim();
+
+  // 3) 정규화: 공백/대소문자 제거
+  let key = base.replace(/\s+/g, '').toLowerCase();
+
+  // 4) 편수 표기가 있었으면 키에 덧붙여 시리즈 각 권을 구분
+  if (volume) key += '#' + volume;
+
+  return key;
+}
+
+function mergeKey(book) {
+  const title = stripSubtitle(book['제목']);
+  const pub = (book['출판사'] || '').replace(/\s+/g, '').toLowerCase();
+  return title + '|' + pub;
+}
+
 function calculateTotal(kData, aData, yData) {
   const bookMap = {};
   const process = (data, sName) => {
     (data || []).forEach(b => {
-      const t = (b['제목'] || '').trim(); const a = (b['저자'] || '').trim();
+      const t = (b['제목'] || '').trim();
       if (!t) return;
-      const k = t + '|' + a;
-      const r = parseInt(b['순위']) || 100;
-      const pts = 101 - r;
+      const k = mergeKey(b);   // 제목 + 출판사 기준으로 병합
+      const r = parseInt(b['순위']) || 300;
+      const pts = Math.max(0, 301 - r);   // 300위까지 차등 점수 (음수 방지)
 
-      if (!bookMap[k]) bookMap[k] = { ...b, points: 0, stores: [] };
+      if (!bookMap[k]) {
+        bookMap[k] = { ...b, points: 0, stores: [] };
+      } else {
+        // 대표 정보 보강: 저자 표기가 더 자세한 쪽(더 긴 문자열)을 채택
+        const curA = (bookMap[k]['저자'] || '');
+        const newA = (b['저자'] || '');
+        if (newA.length > curA.length) bookMap[k]['저자'] = newA;
+        // 이미지가 없던 경우 채워넣기
+        if (!bookMap[k]['이미지URL'] && b['이미지URL']) bookMap[k]['이미지URL'] = b['이미지URL'];
+        if (!bookMap[k]['LINK'] && b['LINK']) bookMap[k]['LINK'] = b['LINK'];
+      }
       bookMap[k].points += pts;
-      bookMap[k].stores.push(sName);
+      if (!bookMap[k].stores.includes(sName)) bookMap[k].stores.push(sName);
     });
   };
   process(kData, 'kyobo'); process(aData, 'aladin'); process(yData, 'yes24');
@@ -528,8 +585,6 @@ function buildHighlights(books, isTotal) {
     .slice(0, 5);
 
   const esc = s => (s || '').replace(/"/g, '&quot;');
-  // 화면 표시용 말줄임: CSS flex 말줄임이 불안정하므로 글자 수로 직접 자른다.
-  // (data-title 에는 원본 전체 제목을 유지해야 추이 모달의 책 매칭이 깨지지 않음)
   const cut = (s, n) => {
     s = (s || '').toString();
     return s.length > n ? s.slice(0, n) + '…' : s;
@@ -538,9 +593,9 @@ function buildHighlights(books, isTotal) {
   const rowHtml = (b, badgeText, badgeCls) => {
     const t = esc(b['제목']);
     const a = esc(b['저자']);
-    const titleShort = cut(b['제목'], 24);          // 제목은 24자까지
+    const titleShort = cut(b['제목'], 24);
     const subFull = `${b['저자']||''} · ${b['출판사']||''}`;
-    const subShort = cut(subFull, 28);              // 저자·출판사 합쳐 28자까지
+    const subShort = cut(subFull, 28);
     return `<div class="hl-row" data-title="${t}" data-author="${a}" data-publisher="${esc(b['출판사'])}" onclick="openTrendModal(this)">
       <span class="hl-rank">${parseInt(b['순위'])||'-'}위</span>
       <div class="hl-info">
@@ -578,7 +633,6 @@ function getTrendSeries(title) {
   const ordered = [...historyData];  // 과거 → 현재 순
   const labels = [];
   if (currentStore === 'total') {
-    // 통합: 세 서점 각각의 순위를 별도 라인으로
     const series = { kyobo: [], aladin: [], yes24: [] };
     ordered.forEach(entry => {
       labels.push(toShortTime(entry['수집시각']));
@@ -623,9 +677,7 @@ function renderTrendChart(title) {
     pointBorderColor: STORE_COLORS[store],
     pointBorderWidth: 2,
     tension: 0.3,
-    spanGaps: true,         // 데이터 없는 구간은 선을 건너뜀
-    // Y축 reverse 상태에서 'start'/'end'는 동작이 불안정함.
-    // 채우기 기준점을 100위(차트 최하단)로 직접 지정해 라인 아래쪽을 확실히 채운다.
+    spanGaps: true,
     fill: isTotal ? false : { value: 100 }
   }));
 
@@ -648,9 +700,9 @@ function renderTrendChart(title) {
       },
       scales: {
         y: {
-          reverse: true,           // 1위가 위로 가도록 Y축 뒤집기
+          reverse: true,
           min: 1,
-          max: 100,                // 순위 범위(1~100위)로 축 고정 — 데이터에 따라 안 흔들림
+          max: 100,
           ticks: {
             precision: 0,
             stepSize: 10,
@@ -667,7 +719,7 @@ function renderTrendChart(title) {
   });
 }
 
-// 📈 추이 모달: 그래프 ↔ 목록 전환
+// 📈 추이 모달: 그래프 ↔ 목록 ↔ 이슈 전환
 function setTrendView(view) {
   trendView = view;
   document.getElementById('trendBtnChart').classList.toggle('active', view === 'chart');
@@ -685,13 +737,11 @@ function openTrendModal(el) {
   const author = el.dataset.author;
   modalBookTitle = title;
   modalBookAuthor = author;
-  // 🔥 이 책이 윌북 계열인지 판별 → '최근 이슈' 탭 노출 여부 결정
   modalBookIsOurs = isOurPublisher(el.dataset.publisher || '');
   document.getElementById('trendBtnIssues').style.display = modalBookIsOurs ? '' : 'none';
   document.getElementById('modalTitle').textContent = title;
   document.getElementById('modalAuthor').textContent = author;
 
-  // --- 목록 뷰 HTML 생성 (기존 로직 유지) ---
   let html = '';
   const limits = [...historyData].reverse().slice(0, 12);
 
@@ -729,7 +779,6 @@ function openTrendModal(el) {
   if(limits.length === 0) html = '<div style="padding:20px; text-align:center; color:#999;">과거 데이터가 아직 없습니다.</div>';
   document.getElementById('trendList').innerHTML = html;
 
-  // 모달 열 때는 항상 그래프 뷰부터 보여줌
   document.getElementById('trendModal').classList.add('show');
   setTrendView('chart');
 }
@@ -759,7 +808,6 @@ function renderBooks(books, container) {
     const authorClean = author.replace(/"/g, '&quot;');
     const isOurs = isOurPublisher(publisher);
 
-    // 💡 우리 출판사 이름 동적 할당 및 맞춤형 색상 지정
     const ourPubName = isOurs ? OUR_PUBLISHERS.find(p => publisher.includes(p)) : '';
     const pubBgColor = ourPubName ? (PUB_COLORS[ourPubName] || 'var(--store-color)') : '';
 
@@ -923,6 +971,6 @@ async function loadHistory() {
 
 setStoreColor('kyobo'); loadLatest(); loadHistory(); loadIssues();
 </script>
-<script data-goatcounter="https://rt-bestseller.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script data-goatcounter="https://orozi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
