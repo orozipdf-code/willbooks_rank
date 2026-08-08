@@ -1,71 +1,102 @@
 {
-  "generated_at": "2026-08-07T21:42:14.858261+00:00",
+  "generated_at": "2026-08-08T21:33:36.168954+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 1,
-  "searches_used": 1,
+  "book_count": 2,
+  "searches_used": 2,
   "books": [
+    {
+      "title": "원소 원정대",
+      "author": "아게도리도리",
+      "publisher": "윌북주니어",
+      "brand": "윌북주니어",
+      "items": [
+        {
+          "title": "내용이 긴 문서",
+          "link": "https://namu.wiki/LongestPages?until=7786015",
+          "source": "나무위키",
+          "published": "19시간 전",
+          "snippet": "원소 원정대 (951글자); 외뮈르 셰놀 (951글자); 가장 쉬운 독학 부동산 공부 첫걸음 (951글자); 미국-도미니카 연방 관계 (951글자); 에지니와 택시기사 (951글자); 이종 ..."
+        },
+        {
+          "title": "청소년",
+          "link": "https://m.yes24.com/category/display/001001005",
+          "source": "예스24",
+          "published": "9시간 전",
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
+        },
+        {
+          "title": "물론입니다 2 파동은 물의 언어다 | 윤경용 | 흔들의자",
+          "link": "https://www.yes24.com/product/goods/194749906",
+          "source": "예스24",
+          "published": "13시간 전",
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수. 17,820원 (10% 할인). 이기적 유전자 The Selfish Gene. 리처드 ..."
+        }
+      ],
+      "item_count": 3,
+      "time_range": "qdr:d"
+    },
     {
       "title": "내면 근력",
       "author": "짐 머피",
-      "publisher": "윌북",
+      "publisher": "윌북(willbook)",
       "brand": "윌북",
       "items": [
         {
-          "title": "대치노인복지관 > 복지관이야기 > 자료마당 > 정보마당",
-          "link": "https://www.gangnam.go.kr/office/gndcsenior/board/gndcsenior_info/3908/view.do",
-          "source": "강남구청",
-          "published": "15시간 전",
-          "snippet": "인생을 주도적으로 살아가고 싶은 이에게 내면 근력은 필수적인 토대다. ... 내면 근력 훈련은 바로 이 잠재의식을 근본적으로 재설계하는 과정이다. (20쪽 ..."
-        },
-        {
-          "title": "한화 마무리 김서현도 무너뜨린 '입스'… 이겨낸 사람들의 ...",
-          "link": "https://www.hankookilbo.com/news/article/A2026080711150003851",
-          "source": "한국일보",
-          "published": "17시간 전",
-          "snippet": "입스는 스포츠 선수뿐만 아니라 일상에서도 겪는 심리적 장애로, 내면 근력과 감사, 겸손한 태도가 극복의 핵심이다. 자기중심성을 벗어나 성장과 몰입, 긍정적 루틴이 ..."
-        },
-        {
-          "title": "한화 마무리 김서현도 무너뜨린 '입스'… 이겨낸 사람들의 ...",
-          "link": "https://v.daum.net/v/20260807140244025",
-          "source": "Daum",
-          "published": "17시간 전",
-          "snippet": "그 결론이 바로 '내면 근력'이다. 원어로는 'Inner Exellence'. 그 어떤 수월성 보다도 중요한 건 내면의 수월성이더라는 결론이다. 이 내면의 수월성을 어떻게 길러내야 ..."
-        },
-        {
-          "title": "내면 근력 (INNER EXCELLENCE) 자기계발서 | 도서",
-          "link": "https://www.daangn.com/kr/buy-sell/%EB%82%B4%EB%A9%B4-%EA%B7%BC%EB%A0%A5-inner-excellence-%EC%9E%90%EA%B8%B0%EA%B3%84%EB%B0%9C%EC%84%9C-d61br5qf4365/",
-          "source": "당근",
-          "published": "15시간 전",
-          "snippet": "결국 멘탈 게임이다, 내면 근력에 대한 책이에요 정여피 지음, 지여울 옮김 책의 핵심 내용을 담고 있으며, 사진에서 보이는 것처럼 깔끔한 상태를 유지하고 있어요 ..."
-        },
-        {
-          "title": "eng) 침대에서 많이 뒹굴거린 날에는 자책하지 말고 체력 ...",
-          "link": "https://www.youtube.com/watch?v=4dGag8p_JME",
-          "source": "YouTube · 미노기minogi",
-          "published": "",
-          "snippet": "eng) 침대에서 많이 뒹굴거린 날에는 자책하지 말고 체력 충전했다고 생각하며 다음 갓생을 준비하는 30대 직장인 휴무 일상 vlog | 잠만보 수준, '내면 근력' 책, 강아지."
-        },
-        {
-          "title": "천하를 위하는 것은",
-          "link": "https://www.threads.com/@songchangmin78/post/DbvJ5BqE67I",
+          "title": "에너지 충전 완료. 궁금했던 내면근력 구매 완료.",
+          "link": "https://www.threads.com/@million.library/post/DbxLPILEl5v/%EC%97%90%EB%84%88%EC%A7%80-%EC%B6%A9%EC%A0%84-%EC%99%84%EB%A3%8C%EA%B6%81%EA%B8%88%ED%96%88%EB%8D%98-%EB%82%B4%EB%A9%B4%EA%B7%BC%EB%A0%A5-%EA%B5%AC%EB%A7%A4-%EC%99%84%EB%A3%8C/",
           "source": "Threads",
+          "published": "16시간 전",
+          "snippet": "백만서재 (@million.library). 177 Views. 에너지 충전 완료. 궁금했던 내면근력 구매 완료."
+        },
+        {
+          "title": "국내도서",
+          "link": "https://m.yes24.com/home/books",
+          "source": "예스24",
           "published": "10시간 전",
-          "snippet": "... 단련할 수 있다. -'짐 머피, <내면 근력>-. 매일 외치는 긍정 확언이 내 정신을 단련하는 훈련이다. 부정적 사고를 멀리하고 나 스스로 삶을 선택할 수 있다. 16. 6. 6."
+          "snippet": "내면 근력. 짐 머피 저/지여울 역. 리뷰 총점 9.2 회원리뷰(162). 내면 근력 이동. 4 우리는 어쩌다 과학을 믿게 되었을까 12위 상승. 우리는 어쩌다 과학을 믿게 ..."
         },
         {
-          "title": "크레마샵",
-          "link": "https://cremaclub.yes24.com/bookclub/bookclubshop",
-          "source": "크레마클럽",
-          "published": "7시간 전",
-          "snippet": "내면 근력. 짐 머피 저/지여울 역. 19,800원. 크레마머니 적용가 18,300원 포인트적립1,100원. 내면 근력 · 소년이 온다. 한강 저. 13,500원. 크레마머니 ..."
-        },
-        {
-          "title": "억만장자 메신저 | 나를 키우는 것이 먼저입니다.",
-          "link": "https://www.instagram.com/p/Dbul0N1B1Dw/",
-          "source": "Instagram · super_writer12",
+          "title": "부족하지만 조금씩 나아지는 연습을 하려는 나에게 칭찬 ...",
+          "link": "https://www.instagram.com/p/DbxPzfKPUKp/",
+          "source": "Instagram · sinmira5139",
           "published": "",
-          "snippet": "#좋은글#내면근력#젠슨황인생책 · July 12. OCR. 인생을 사는 가장 위대한 방법은 자기 삶에서 탁월함을 키우고, 배우며 성장하고, 다른 이들에게서도 탁월함을 끌어내는 ..."
+          "snippet": "#내면근력_짐머피 · July 8. OCR. 내면 근력 INNER EXCELLENCE 결국 멘탈 게임이다 짐 머피 지음 미국 아마존 종합 베스트셀러 1위 뉴욕타임스 베스트셀러 1위 최고의 선수 ..."
+        },
+        {
+          "title": "백운호수도서관",
+          "link": "https://www.uwlib.or.kr/baegun/index.do",
+          "source": "의왕시도서관",
+          "published": "12시간 전",
+          "snippet": "모순 세네카 비스킷 수족관 긴긴밤 social 불안 송희구 급류 내면근력. 팝업존. 자동슬라이드 stop 자동슬라이드 play 이전슬라이드 다음슬라이드. 우리 가족, 도서관 ..."
+        },
+        {
+          "title": "<안 읽은 책을 쌓아두는 게 얼마나 멋진 일인지 모르는 ...",
+          "link": "https://www.facebook.com/somewon.yoon/posts/%EC%95%88-%EC%9D%BD%EC%9D%80-%EC%B1%85%EC%9D%84-%EC%8C%93%EC%95%84%EB%91%90%EB%8A%94-%EA%B2%8C-%EC%96%BC%EB%A7%88%EB%82%98-%EB%A9%8B%EC%A7%84-%EC%9D%BC%EC%9D%B8%EC%A7%80-%EB%AA%A8%EB%A5%B4%EB%8A%94-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%97%90%EA%B2%8C-%E3%84%B7%E3%84%B71-%EC%9E%91%EA%B0%80-%EC%9B%80%EB%B2%A0%EB%A5%B4%ED%86%A0-%EC%97%90%EC%BD%94%EB%8A%94-%EC%9D%BD%EC%9D%80-%EC%B1%85%EC%9D%B4-%EB%A7%8E%EC%9D%80-%EA%B2%83%EB%B3%B4%EB%8B%A4-%EC%95%88-%EC%9D%BD%EC%9D%80-%EC%B1%85%EC%9D%B4-%EC%8C%93%EC%97%AC-%EC%9E%88%EB%8A%94-%EA%B2%83/37957071957240051/",
+          "source": "Facebook · Somewon Yoon",
+          "published": "",
+          "snippet": "... 내면 근력 훈련을 나누고 있다. 13. 이 모든 경험을 통해 내가 얻은 결론은 분명 ... 내면 근력 훈련은 이 잠재의식을 근본적으로 재설계하는 과정이다. 16. 그 ..."
+        },
+        {
+          "title": "2등은 실패가 아닙니다. 문제는 성취를 '놓친 1등'으로만 읽는 ...",
+          "link": "https://www.instagram.com/p/DbxzxlXlCum/",
+          "source": "Instagram · gameplan_korea",
+          "published": "",
+          "snippet": "당신을 가둔 병도 아직 거기 있나요? #내면근력 #짐머피 #자기계발베스트셀러 #멘탈관리 #마인드셋 #평정심 #동기부여 #책소공 #내면근력책 #내면근력요약 #내면근력후기 # ..."
+        },
+        {
+          "title": "유닉스 세라믹 판고데기 핑크 | 뷰티/미용 | 당근 중고거래",
+          "link": "https://www.daangn.com/kr/buy-sell/%EC%9C%A0%EB%8B%89%EC%8A%A4-%EC%84%B8%EB%9D%BC%EB%AF%B9-%ED%8C%90%EA%B3%A0%EB%8D%B0%EA%B8%B0-%ED%95%91%ED%81%AC-mxqef2or8icu/",
+          "source": "당근",
+          "published": "13시간 전",
+          "snippet": "내면 근력 (INNER EXCELLENCE) 자기계발서12,000원. 도곡1동· 끌올 7시간 후. thumbnail. 내면 근력 (INNER EXCELLENCE) 자기계발서12,000원. 논현동· 끌올 7시간 후."
+        },
+        {
+          "title": "Reel by 김하경 (@haawe.ai) · August 8, 2026",
+          "link": "https://www.instagram.com/reel/DbxvoC1JlnX/",
+          "source": "Instagram",
+          "published": "",
+          "snippet": "#내면근력 · July 18. Transcript. Why do birds suddenly appear every time you ... 짐 머피 <내면근력>에서. the.ohjong's profile picture · the.ohjong. •. Follow."
         }
       ],
       "item_count": 8,
