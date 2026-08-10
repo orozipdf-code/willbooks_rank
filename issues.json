@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-09T21:35:56.351110+00:00",
+  "generated_at": "2026-08-10T21:44:53.894841+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 3,
-  "searches_used": 3,
+  "book_count": 2,
+  "searches_used": 2,
   "books": [
     {
       "title": "원소 원정대",
@@ -12,60 +12,60 @@
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "Uranium turns dark? The chemistry book that even got ...",
-          "link": "https://www.youtube.com/watch?v=b5fFj3lxrwI",
-          "source": "YouTube · 안될과학 Unrealscience",
+          "title": "『원소 원정대』 118개 캐릭터로 배우는 주기율표, 학생",
+          "link": "https://bookshelf-journey.tistory.com/entry/%E3%80%8E%EC%9B%90%EC%86%8C-%EC%9B%90%EC%A0%95%EB%8C%80%E3%80%8F-118%EA%B0%9C-%EC%BA%90%EB%A6%AD%ED%84%B0%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%A3%BC%EA%B8%B0%EC%9C%A8%ED%91%9C-%ED%95%99%EC%83%9D%C2%B7%ED%95%99%EB%B6%80%EB%AA%A8%EC%97%90%EA%B2%8C-%EA%B6%8C%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%9D%80-%ED%99%94%ED%95%99%EC%B1%85",
+          "source": "앱테크 퀴즈 뉴스",
+          "published": "15시간 전",
+          "snippet": "일본에서 시작된 『元素楽章』의 세계, 캐릭터를 따라 주기율표를 다시 걷다. 원소 원정대 아게도리도리 글그림 박재현 번역 장홍제 감수 표지."
+        },
+        {
+          "title": "'원소 원정대'라는 책.. 화학책을 이렇게 만들다니!!",
+          "link": "https://www.clien.net/service/board/park/19244569",
+          "source": "클리앙",
+          "published": "18시간 전",
+          "snippet": "'원소 원정대'라는 책.. 화학책을 이렇게 만들다니!! 1. 뱃살의연금술사."
+        },
+        {
+          "title": "중2 때 2NE1으로 불리게 된 썰 과학 시간에 한 번쯤 보는 ...",
+          "link": "https://www.instagram.com/reel/Db2pLAulLic/",
+          "source": "Instagram · willbooks_jr",
           "published": "",
-          "snippet": "... 원소원정대 #원소 #화학 #주기율표 #우라늄 #장홍제 #항성 #과학 #안될과학."
+          "snippet": "... 원소 원정대』입니다. 참고 도서 : 원소 원정대 #원소원정대 #아게도리도리 #과학 #화학 #원소 #주기율표 #덕질 #원소주기율표공부법 #노벨과학상 #판타지\"."
         },
         {
-          "title": "청구기호 출력",
-          "link": "https://cle.cne.go.kr/api/srch/callNo.do?titleInfo=%EC%9B%90%EC%86%8C+%EC%9B%90%EC%A0%95%EB%8C%80+%3A+118%EA%B0%9C+%EC%BA%90%EB%A6%AD%ED%84%B0%EB%A1%9C+%EB%A7%88%EC%8A%A4%ED%84%B0%ED%95%98%EB%8A%94+%EC%A3%BC%EA%B8%B0%EC%9C%A8%ED%91%9C+%EA%B3%B5%EB%9E%B5%EC%A7%91&callNo=%EC%95%84+431-%EC%95%84%EA%B2%8C%EB%8F%84%EC%9B%90&regNo=EMB000244637&author=%EC%95%84%EA%B2%8C%EB%8F%84%EB%A6%AC%EB%8F%84%EB%A6%AC+%EA%B8%80%C2%B7%EA%B7%B8%EB%A6%BC+%3B+%EB%B0%95%EC%9E%AC%ED%98%84+%EC%98%AE%EA%B9%80&shelfLocName=%5B%ED%8F%89%EC%83%9D%EA%B5%90%EC%9C%A1%5D%EC%8B%A0%EA%B0%84%EB%8F%84%EC%84%9C(%EC%95%84%EB%8F%99)",
-          "source": "충청남도교육청평생교육원",
-          "published": "4시간 전",
-          "snippet": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집. 청구기호, 아 431-아게도원. 등록번호, EMB000244637. 저자, 아게도리도리 글·그림 ; 박재현 옮김. 자료실, [ ..."
+          "title": "원소원정대 존나 웃기네 ㅋㅋㅋㅋㅋ - 명조 채널",
+          "link": "https://arca.live/b/wutheringwaves/179436510?p=1",
+          "source": "아카라이브",
+          "published": "15시간 전",
+          "snippet": "원소원정대 존나 웃기네 ㅋㅋㅋㅋㅋ. 띵조하자띵조. 추천 0 비추천 0 댓글 1 조회수 110 작성일 2026-08-09 06:41:58. https://arca.live/b/wutheringwaves/179436510."
         },
         {
-          "title": "기록 → EXP 획득 → 레벨업 → 탑 오르기 + 호칭 획득 책 한 ...",
-          "link": "https://www.instagram.com/reel/DbzKC3LzTkf/",
-          "source": "Instagram",
-          "published": "",
-          "snippet": "종류도 너무 많고, 성질도 복잡하니까요. 그렇다면 이 <원소 원정대> 한번 읽어보면 어떨까요? 마치 원소들이 사람이 되어 하나의 판타지 세상을 만든 것 같은 책! 판타지 ..."
-        },
-        {
-          "title": "자연과학",
-          "link": "https://m.yes24.com/category/display/001001002",
+          "title": "청소년",
+          "link": "https://m.yes24.com/category/display/001001005",
           "source": "예스24",
-          "published": "7시간 전",
+          "published": "15시간 전",
           "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
         },
         {
-          "title": "청초는 왜 데니아 재료냐 - 명조 채널",
-          "link": "https://arca.live/b/wutheringwaves/179436325",
-          "source": "아카라이브",
-          "published": "8시간 전",
-          "snippet": "... 나 데니아 좋아했네... [6]. ken 06:42 108 0. 3601670 원소원정대 존나 웃기네 ㅋㅋㅋㅋㅋ [1]. 띵조하자띵조 06:41 100 0. 3601669 더러운 페도새끼들 죽어 [8]. 페도 06 ..."
+          "title": "일본식 주기율표 - 자유게시판 | 다모앙 종합 커뮤니티 damoang",
+          "link": "https://damoang.net/free/6961467",
+          "source": "damoang.net",
+          "published": "16시간 전",
+          "snippet": "조회 807 공감 4 댓글 12. - 작게 보통 크게 +. 원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집 900. 황님이 많이 어여쁘시군요 ㅋㅋㅋㅋㅋ. 4. 공유. 신고 ..."
         },
         {
-          "title": "우주의 언어를 듣는 순간 | 오정근 | 책과바람",
-          "link": "https://www.yes24.com/product/goods/194923277",
-          "source": "예스24",
-          "published": "10시간 전",
-          "snippet": "17,820원 (10% 할인). 더보기이동. 이 분야 베스트셀러. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수. 17,820원 ..."
+          "title": "원소 주기율표 음이온 양이온",
+          "link": "https://www.tiktok.com/discover/%EC%9B%90%EC%86%8C-%EC%A3%BC%EA%B8%B0%EC%9C%A8%ED%91%9C-%EC%9D%8C%EC%9D%B4%EC%98%A8-%EC%96%91%EC%9D%B4%EC%98%A8",
+          "source": "TikTok",
+          "published": "11시간 전",
+          "snippet": "덕질이 세상을 구한다 #원소원정대 · 오리지널 사운드 - 웅성웅성. 112좋아요. 0댓글. 5공유. 76 Likes, 4 Comments. TikTok video from 옆집주부 (@yeopjip_jubu): 39931 ..."
         },
         {
-          "title": "에린모가 쓰는맛은 좋더라 - 명조 채널",
-          "link": "https://arca.live/b/wutheringwaves/179436635",
-          "source": "아카라이브",
-          "published": "8시간 전",
-          "snippet": "... 나 데니아 좋아했네... [6]. ken 06:42 116 0. 3601668 원소원정대 존나 웃기네 ㅋㅋㅋㅋㅋ [1]. 띵조하자띵조 06:41 104 0. 3601667 더러운 페도새끼들 죽어 [8]. 페도 06 ..."
-        },
-        {
-          "title": "난 데니아에 대한 인식 오염당함 - 명조 채널",
-          "link": "https://arca.live/b/wutheringwaves/179436823",
-          "source": "아카라이브",
-          "published": "8시간 전",
-          "snippet": "... 나 데니아 좋아했네... [6]. ken 06:42 104 0. 3601672 원소원정대 존나 웃기네 ㅋㅋㅋㅋㅋ [1]. 띵조하자띵조 06:41 98 0. 3601671 더러운 페도새끼들 죽어 [8]. 페도 06 ..."
+          "title": "동아대학교 도서관",
+          "link": "https://library.donga.ac.kr/",
+          "source": "동아대학교 도서관",
+          "published": "6시간 전",
+          "snippet": "원소 원정대 :118개 캐릭터로 마스터하는 주기율표 공략집. 민사법 사례연습 Ⅱ.1~2 :기출 회차별 요약형. (|공단기 | 2027 대비|) Basic 형법 각론. 형사소송법 기출 ..."
         }
       ],
       "item_count": 8,
@@ -74,91 +74,67 @@
     {
       "title": "내면 근력",
       "author": "짐 머피",
-      "publisher": "윌북",
+      "publisher": "윌북(willbook)",
       "brand": "윌북",
       "items": [
         {
-          "title": "내면 근력",
-          "link": "https://sarak.yes24.com/review/22333774",
-          "source": "사락",
-          "published": "21시간 전",
-          "snippet": "작가는 삶이 뜻대로 되지 않을 때 마음의 중심을 잡고 흔들린 후에도 자신에게 돌아오는 힘이 내면 근력에서 비롯된다고 설명합니다.• 세계적인 전문가 짐 머피는 ..."
+          "title": "내면 근력 - 독서노트",
+          "link": "https://brunch.co.kr/@@iJMf/note/54?entry=readingclub_home_notes",
+          "source": "브런치",
+          "published": "11시간 전",
+          "snippet": "... 내면 근력'에 대한 독서 ... 내면 근력. by신동파. 2시간전. 스토아 수업. 1. 편안힌게 ..."
         },
         {
-          "title": "제358차 지구인독서회-불확실성의 시대, 내면 근력을 키우는 ...",
-          "link": "https://www.uri.or.kr:41688/discussion/102",
-          "source": "산학연구원",
-          "published": "16시간 전",
-          "snippet": "『내면 근력』 역시 성공을 위한 기술을 소개하는 책이 아니라, '어떻게 성공할 것인가'보다 '어떤 상태로 살아갈 것인가'를 묻는 책이다. 결과보다 과정, 경쟁보다 자기 ..."
-        },
-        {
-          "title": "인생은 결국 멘탈 싸움이다. 각 서점에서 도서 #내면근력 을 ...",
-          "link": "https://www.instagram.com/p/Db0J675oOq2/",
-          "source": "Instagram · doing_people",
+          "title": "내면근력 키운 인간은 패배를 모른다 #짐머피 #뉴욕타임스 ...",
+          "link": "https://www.youtube.com/shorts/RhbyN0NkvzI",
+          "source": "YouTube · 시사디테일",
           "published": "",
-          "snippet": "탁월한 성취를 이룬 사람들은 '내면 근력'을 갖고 있다. 그래서 결정적인 순간에 불안과 압박감을 다스릴 줄 안다. 그리고 그거는 실제로 훈련을 통해서 키울 수 있다."
+          "snippet": "내면근력 키운 인간은 패배를 모른다 #짐머피 #뉴욕타임스 #자기계발1위 #멘탈코치 · 당신은 이미 도파민 중독...알아야 탈출한다 #도파민의함정 #쇼츠 #SNS #쇼핑중독 ..."
         },
         {
-          "title": "청구기호 출력",
-          "link": "https://chsl.cne.go.kr/api/srch/callNo.do?titleInfo=%EB%82%B4%EB%A9%B4+%EA%B7%BC%EB%A0%A5+%3A+%EA%B2%B0%EA%B5%AD+%EB%A9%98%ED%83%88+%EA%B2%8C%EC%9E%84%EC%9D%B4%EB%8B%A4&callNo=199.1-%EB%A8%B8849%E3%84%B4%3D2&regNo=EMU000105013&author=%EC%A7%90+%EB%A8%B8%ED%94%BC+%EC%A7%80%EC%9D%8C+%3B+%EC%A7%80%EC%97%AC%EC%9A%B8+%EC%98%AE%EA%B9%80&shelfLocName=%5B%ED%83%9C%EC%95%88%5D%EC%9D%BC%EB%B0%98%EC%97%B4%EB%9E%8C%EC%8B%A4",
-          "source": "충청남도교육청학생교육문화원",
-          "published": "15시간 전",
-          "snippet": "내면 근력 : 결국 멘탈 게임이다. 청구기호, 199&#46;1-머849ㄴ=2. 등록번호, EMU000105013. 저자, 짐 머피 지음 ; 지여울 옮김. 자료실, [태안]일반열람실. 출력하기"
+          "title": "내면 근력 | 도서 | 당근 중고거래",
+          "link": "https://www.daangn.com/kr/buy-sell/%EB%82%B4%EB%A9%B4-%EA%B7%BC%EB%A0%A5-ckb56t9mmqti/",
+          "source": "당근",
+          "published": "19시간 전",
+          "snippet": "내면 근력. 도서 · 3시간 후. 15,000원. 새책처럼 읽을 볼 수 있어요 이번에 저렴 ... 잡초정신의 판매 물품 · thumbnail. 내면 근력15,000원. 홍북읍· 3시간 후."
         },
         {
-          "title": "최근에 읽고 있는 책, '내면 근력' 목표의 시각화에 대해서 ...",
-          "link": "https://www.threads.com/@sportsboojang/post/Db0qX6CE7bI/%EC%B5%9C%EA%B7%BC%EC%97%90-%EC%9D%BD%EA%B3%A0-%EC%9E%88%EB%8A%94-%EC%B1%85-%EB%82%B4%EB%A9%B4-%EA%B7%BC%EB%A0%A5%EB%AA%A9%ED%91%9C%EC%9D%98-%EC%8B%9C%EA%B0%81%ED%99%94%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EB%82%98%EC%98%A8%EB%8B%A4-%EB%A9%B0%EC%B9%A0-%EC%A0%84-%EB%B6%80%ED%84%B0-%EC%9E%90%EA%B8%B0-%EC%A0%84-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%95%84%EC%B9%A8%EC%97%90-%EC%9D%BC%EC%96%B4%EB%82%98%EB%A9%B4-%EB%82%B4%EA%B0%80-%EB%B0%94%EB%9D%BC%EB%8A%94-%EB%AA%A9%ED%91%9C%EB%A5%BC-%EA%B5%AC%EC%B2%B4%EC%A0%81%EC%9C%BC%EB%A1%9C-%EB%96%A0-%EC%98%AC",
+          "title": "단단한 내면은 훈련으로 만들어진다. #마음온글 #글하나 ...",
+          "link": "https://www.instagram.com/p/Db2Hon_IINL/",
+          "source": "Instagram · maum_on_gle",
+          "published": "",
+          "snippet": "점차 내면 근력이 자라게 됩니다. View all 11 comments · mdsls1751. 고맙습니다. atomic.hacker. 혼자 시간을 보내며 스스로를 마주하고, 다듬어 나가다 보면 마음이 ..."
+        },
+        {
+          "title": "국내도서",
+          "link": "https://m.yes24.com/home/books",
+          "source": "예스24",
+          "published": "9시간 전",
+          "snippet": "내면 근력. 짐 머피 저/지여울 역. 리뷰 총점 9.2 회원리뷰(162). 내면 근력 이동. 4 우리는 어쩌다 과학을 믿게 되었을까 12위 상승. 우리는 어쩌다 과학을 믿게 ..."
+        },
+        {
+          "title": "간다마사노리 책 읽고 있는데.",
+          "link": "https://www.threads.com/@being.grow.coach/post/Db2SlYuARCQ/%EA%B0%84%EB%8B%A4%EB%A7%88%EC%82%AC%EB%85%B8%EB%A6%AC-%EC%B1%85-%EC%9D%BD%EA%B3%A0-%EC%9E%88%EB%8A%94%EB%8D%B0%EB%82%B4%EB%A9%B4%EC%97%90-%EC%93%B0%EC%97%AC%EC%A7%84-%EC%9D%B4%EC%95%BC%EA%B8%B0%EB%A5%BC-%EB%B0%94%EA%BF%94%EC%95%BC%ED%95%9C%EB%8B%A4-%EC%9D%B4-%EB%B6%80%EB%B6%84%EC%9D%B4-%EC%A0%95%EB%A7%90-%EB%8F%99%EC%9D%98%EA%B0%80-%EB%8F%BC%EB%AC%B4%EC%9D%98%EC%8B%9D%EC%9D%84-%EC%9D%98%EB%AF%B8%ED%95%98%EB%8A%94-%EB%B6%80%EB%B6%84%EC%9D%B4%EC%9E%96%EC%95%84%EB%82%B4%EA%B0%80-%EC%BD%94%EC%B9%AD%ED%95%98%EB%A9%B4%EC%84%9C-%EC%84%B1%EA%B3%BC-%EB%A7%8E%EC%9D%B4-%EB%82%B8-",
           "source": "Threads",
-          "published": "7시간 전",
-          "snippet": "최근에 읽고 있는 책, '내면 근력'. 목표의 시각화에 대해서 나온다. 며칠 전 부터, 자기 전 그리고 아침에 일어나면 내가 바라는 목표를 구체적으로 ..."
+          "published": "16시간 전",
+          "snippet": "[내면근력] 중. 사업을 하면서 내리는 크고 작은 결정들의 무게가 무겁기에 끊임없이 되짚어보며 가혹하게 스스로를 몰아세웠던 것 같다 ... 내면근력을 키우자! 7."
         },
         {
-          "title": "은퇴 후 1년의 기록#시니어오디오북 #내면근력 #자기계발 ...",
-          "link": "https://www.youtube.com/watch?v=bUtq1RBbcU4",
-          "source": "YouTube · Enjoy all the Stories in the World",
+          "title": "카네기 인간관계론 - 국내도서 - 교보문고",
+          "link": "https://product.kyobobook.co.kr/detail/S000001927425?rccode=PC_detail_with_203",
+          "source": "국내도서",
+          "published": "23시간 전",
+          "snippet": "내면 근력. 국내도서. 내면 근력. 짐 머피. 지여울. 19,800원. 최소한의 습관. 국내도서. 최소한의 습관. 로버트 마우어. 장원철. 17,820원. 브랜드를 찍는 ..."
+        },
+        {
+          "title": "휘슬 매거진",
+          "link": "https://www.instagram.com/p/Db2yEDkj1xO/",
+          "source": "Instagram · whistle_magazine",
           "published": "",
-          "snippet": "... 내면 근력 (Inner Excellence) 저자: 짐 머피 정년퇴직 후 찾아온 공허함, 그리고 그 마음을 다스려가는 한 남자의 1년. 2025년 NFL 선수가 읽어 화제가 된 책에서 ..."
-        },
-        {
-          "title": "바카라 전략슈 커뮤니티 반응 모음 모음",
-          "link": "https://www.sep-sa.com/catalogue/results,2641-2650?GameID=2026-08-10/975.html",
-          "source": "sep-sa.com",
-          "published": "5시간 전",
-          "snippet": "내면 근력(짐 머피·윌북) 10.안녕이라 그랬어(김애란·문학동네) 에볼루션 홀덤 조작,다만 대화가 실제로 성사될지는 미지수다. More Similar Apps. See All · 포커 ..."
-        },
-        {
-          "title": "성경적 결혼의 훌륭한 가이드",
-          "link": "https://cbooknews.com/?c=25/36&uid=14672",
-          "source": "크리스찬북뉴스",
-          "published": "20시간 전",
-          "snippet": "짐 머피의 『내면 근력』은 성공을 말하는 책처럼 보인다. 책을 둘러싼 소개 ... 『내면 근력』은 “어떻게 성공할 것인가”보다 “성공을 감당할 수 있는 사람은 ..."
+          "snippet": "바로 '멘탈케어'! 순간의 압박감과 두려움은 아무리 건강한 사람이라도 쉽게 견디지 못하기 때문이죠. 그런 선수들에게 추천한다는 책이 바로 '내면 근력' 이미 해외에서 ..."
         }
       ],
       "item_count": 8,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
-      "author": "아게도리도리",
-      "publisher": "윌북주니어",
-      "brand": "윌북주니어",
-      "items": [
-        {
-          "title": "자연과학",
-          "link": "https://m.yes24.com/category/display/001001002",
-          "source": "예스24",
-          "published": "7시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
-        },
-        {
-          "title": "우주의 언어를 듣는 순간 | 오정근 | 책과바람",
-          "link": "https://www.yes24.com/product/goods/194923277",
-          "source": "예스24",
-          "published": "10시간 전",
-          "snippet": "17,820원 (10% 할인). 더보기이동. 이 분야 베스트셀러. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수. 17,820원 ..."
-        }
-      ],
-      "item_count": 2,
       "time_range": "qdr:d"
     }
   ]
