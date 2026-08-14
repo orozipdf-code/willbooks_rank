@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-13T21:50:43.902480+00:00",
+  "generated_at": "2026-08-14T21:28:34.434966+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 2,
-  "searches_used": 2,
+  "book_count": 3,
+  "searches_used": 3,
   "books": [
     {
       "title": "원소 원정대",
@@ -12,94 +12,111 @@
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "원소 원정대 | 아게도리도리 | 윌북주니어 - 교보eBook BL",
-          "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013419861",
-          "source": "교보문고",
-          "published": "14시간 전",
-          "snippet": "『원소 원정대』는 원소 주기율표와 각 원소들의 특성, 상호 작용 등을 게임 공략집처럼 재미있고 자연스럽게 익힐 수 있는 과학책이다. 어릴 적 공룡 이름을 달달 외던 ..."
+          "title": "\"이렇게 배웠으면 화학 포기 안 했을 텐데\" 화제의 역주행 ...",
+          "link": "https://www.instagram.com/p/DcAwbGGlNf9/",
+          "source": "Instagram · willbooks_pub",
+          "published": "",
+          "snippet": "\"이렇게 배웠으면 화학 포기 안 했을 텐데\" 화제의 역주행 베스트셀러 <원소 원정대> 대체 이 책에 왜 모두가 열광하는 것인가? 한 번 확인해보세요!"
         },
         {
-          "title": "은평구공공도서관",
-          "link": "https://www.eplib.or.kr/intro/menu/10007/program/30012/alpasq/accessionBookList.do",
-          "source": "은평구립도서관",
-          "published": "15시간 전",
-          "snippet": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 지음 ; 박재현 옮김. 윌북주니어"
+          "title": "자연과학",
+          "link": "https://m.yes24.com/category/display/001001002",
+          "source": "예스24",
+          "published": "7시간 전",
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
+        }
+      ],
+      "item_count": 2,
+      "time_range": "qdr:d"
+    },
+    {
+      "title": "내면 근력",
+      "author": "짐 머피",
+      "publisher": "윌북",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "통권 제422호-내면근력 > 북트렌드",
+          "link": "https://www.uri.or.kr:42314/book/72?page=1",
+          "source": "산학연구원",
+          "published": "20시간 전",
+          "snippet": "책에서 말하는 내면 근력은 무조건 참고 견디는 강인함과는 다르다. 두려움과 불안을 외면하지 않으면서도 그것에 끌려가지 않는 힘이며, 실패를 자신에 대한 부정적인 ..."
         },
         {
-          "title": "'오디세이' 극장 흥행에 서점가도 들썩…원작 판매 최대 390% ...",
-          "link": "https://www.slist.kr/news/articleView.html?idxno=758516",
-          "source": "싱글리스트",
-          "published": "19시간 전",
-          "snippet": "뒤를 이어 호메로스의 '오디세이아'가 2위에 올랐으며, 아게도리도리 작가의 '원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집'이 3위를 기록했다. 히가시노 ..."
-        },
-        {
-          "title": "인정인정",
-          "link": "https://www.threads.com/@eunji.lee.75248/post/Db-N00ZD9x6/%EC%9D%B8%EC%A0%95%EC%9D%B8%EC%A0%95/",
+          "title": "'내면 근력'이란 책은 표지 디자인만 보고 그저 그런 가벼운 ...",
+          "link": "https://www.threads.com/@million.library/post/Db_014AEvW1/%EB%82%B4%EB%A9%B4-%EA%B7%BC%EB%A0%A5%EC%9D%B4%EB%9E%80-%EC%B1%85%EC%9D%80-%ED%91%9C%EC%A7%80-%EB%94%94%EC%9E%90%EC%9D%B8%EB%A7%8C-%EB%B3%B4%EA%B3%A0-%EA%B7%B8%EC%A0%80-%EA%B7%B8%EB%9F%B0-%EA%B0%80%EB%B2%BC%EC%9A%B4-%EC%B1%85%EC%9D%B8%EC%A4%84-%EC%97%AC%EA%B2%BC%EB%8B%A4%EC%88%A0%EC%88%A0-%EC%9D%BD%ED%9E%88%EB%8A%94-%EA%B7%B8%EB%9F%B0-%EC%97%AC%ED%83%80-%EC%9E%90%EA%B8%B0%EA%B3%84%EB%B0%9C%EC%84%9C-%EC%A0%95%EB%8F%84%EB%A1%9C%EB%B6%84%EB%AA%85-%EB%8C%80%EB%86%93%EA%B3%A0-%EC%9E%90%EA%B8%B0%EA%B3%84%EB%B0%9C-%EC%84%9C%EC%A0%81%EC%9D%B8%EB%8D%B0-%ED%95%9C-",
           "source": "Threads",
-          "published": "14시간 전",
-          "snippet": "최근 아들이 사달라고 해서 사준 원소원정대 만화책인데 원소관련 내용이라~ 꽤 볼만합니다 . 11. 4. hssweetpotato's profile picture · gtw (@hssweetpotato)."
+          "published": "23시간 전",
+          "snippet": "'내면 근력'이란 책은 표지 디자인만 보고 그저 그런 가벼운 책인줄 여겼다. 술술 읽히는 그런 여타 자기계발서 정도로. 분명 대놓고 자기계발 서적인데 한 장 한 장 ..."
         },
         {
-          "title": "꽝 없는 룰렛 적립금 최대 2천원",
-          "link": "https://www.aladin.co.kr/events/wevent.aspx?EventId=313528&srsltid=AfmBOorBEmtCRdqqXcmJRXIUsxP-bduFyCmAsP8jZ7-tO2h05y94R47_",
-          "source": "알라딘",
-          "published": "21시간 전",
-          "snippet": "원소 원정대 아게도리도리 지음, 박재현 옮김, 장홍제 감수 17,820원(10%). 찌니주의보 정지아 지음 15,120원(10%) ..."
+          "title": "아무리 노력해도 제자리라면 '이것'부터 바꾸세요",
+          "link": "https://www.youtube.com/watch?v=4S4Ul-MU9U4",
+          "source": "YouTube",
+          "published": "",
+          "snippet": "아무리 노력해도 제자리라면 '이것'부터 바꾸세요 | 멘탈이 강한 1%의 숨겨진 비밀 《내면 근력》 #내면근력 #멘탈관리 #동기부여 #자기계발 · Comments."
         },
         {
-          "title": "영화 흥행에 책까지 '대박'…베스트셀러 판도 뒤흔든 '오디세이'",
-          "link": "http://www.ikoreadaily.co.kr/news/articleView.html?idxno=838702",
-          "source": "ikoreadaily.co.kr",
-          "published": "18시간 전",
-          "snippet": "2위에는 호메로스의 『오디세이아』가 올랐으며, 3위는 아게도리도리의 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』이 차지했다. 4위는 히가시노 ..."
-        },
-        {
-          "title": "신문/증권 크롤링 및 맛집/사전 검색",
-          "link": "https://news.lemuel.co.kr/",
-          "source": "lemuel.co.kr",
-          "published": "21시간 전",
-          "snippet": "책. 1, 세네카, 오늘을 빼앗기고 있는 당신에게. 2, 오디세이아. 3, 투명한 나선. 4, 오뒷세이아. 5, 싯다르타. 6, 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 ..."
-        },
-        {
-          "title": "이상 검색결과",
-          "link": "https://search.kyobobook.co.kr/search?keyword=%EC%9D%B4%EC%83%81&chrcCode=1000021701",
-          "source": "교보문고",
+          "title": "대치노인복지관 > 복지관이야기 > 자료마당 > 정보마당",
+          "link": "https://www.gangnam.go.kr/office/gndcsenior/board/gndcsenior_info/3909/view.do",
+          "source": "강남구청",
           "published": "15시간 전",
-          "snippet": "교보ONLY 『원소 원정대』 캐릭터 렌티큘러 키링 사은품 이벤트. 2026.08.12~2027.09.30."
+          "snippet": "다음글 다음글이 없습니다. 이전글 [권장도서] 내면 근력. 관련사이트 바로가기. 잠시후 다시 시도해주세요. 대치노인복지관CI. 오시는 길 · 사이트맵. 06196 서울특별시 ..."
+        },
+        {
+          "title": "손동원박사의 코멘터리-지금 나를 증명하라",
+          "link": "https://www.facebook.com/groups/again2017/posts/5197559040471753/",
+          "source": "Facebook",
+          "published": "",
+          "snippet": "... 내면 근력은 선택이 아니라 필수적인 토대이다. 외부의 거센 바람에 쉽게 흔들리지 않고 자기만의 고유한 길을 묵묵히 걸어가기 위해서는 마음의 근육을 키워야 한다 ..."
+        },
+        {
+          "title": "자기계발",
+          "link": "https://m.yes24.com/category/display/001001026",
+          "source": "예스24",
+          "published": "15시간 전",
+          "snippet": "내면 근력. 짐 머피 저/지여울 역 윌북(willbook). 10% 19,800원. 리뷰 총점 9.3 회원리뷰(171). 상품명 이동. 3. 세이노의 가르침. 세이노(SayNo) ..."
+        },
+        {
+          "title": "#주간빅피시 1. 퇴근하고 운동하는 갓생러(는 뻥) 취준 ...",
+          "link": "https://www.instagram.com/p/DcAmDDAk_0q/",
+          "source": "Instagram · bigfish_book",
+          "published": "",
+          "snippet": "한 주간 멤버들은 각자 내면 근력을 키우기 위한 목표를 설정합니다. 그리고 ... 내면 근력 INNER EXCELLENCE 결국 멘탈 게임이다 짐 머피 지음 | 지여울 옮김 ..."
+        },
+        {
+          "title": "'내면 근력'이란 책은 표지 디자인만 보고 그저 그런 가벼운 ...",
+          "link": "https://www.threads.com/@million.library/post/DcACzkJEjTu/",
+          "source": "Threads",
+          "published": "21시간 전",
+          "snippet": "'내면 근력'이란 책은 표지 디자인만 보고 그저 그런 가벼운 책인줄 여겼다. 술술 읽히는 그런 여타 자기계발서 정도로. 분명 대놓고 자기계발 서적인데 한 장 한 장 ..."
         }
       ],
       "item_count": 8,
       "time_range": "qdr:d"
     },
     {
-      "title": "스토리 설계자",
-      "author": "짐 에드워즈",
-      "publisher": "윌북(willbook)",
-      "brand": "윌북",
+      "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
+      "author": "아게도리도리",
+      "publisher": "윌북주니어",
+      "brand": "윌북주니어",
       "items": [
         {
-          "title": "오래전 기억이라 가물가물 ㅠ 넘 좋은 분으로 ...",
-          "link": "https://www.threads.com/@cinema.sero/post/Db9gYxaD-AW/%EC%98%A4%EB%9E%98%EC%A0%84-%EA%B8%B0%EC%96%B5%EC%9D%B4%EB%9D%BC-%EA%B0%80%EB%AC%BC%EA%B0%80%EB%AC%BC-%E3%85%A0-%EB%84%98-%EC%A2%8B%EC%9D%80-%EB%B6%84%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EC%96%B5%ED%95%98%EA%B3%A0-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4-%E3%85%A0%E3%85%A0/",
-          "source": "Threads",
+          "title": "자연과학",
+          "link": "https://m.yes24.com/category/display/001001002",
+          "source": "예스24",
+          "published": "7시간 전",
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
+        },
+        {
+          "title": "신문/증권 크롤링 및 맛집/사전 검색",
+          "link": "https://news.lemuel.co.kr/",
+          "source": "lemuel.co.kr",
           "published": "21시간 전",
-          "snippet": "세로 | 스토리 설계자 | 20년차 영화인 (@cinema.sero) · July 7, 2024 at 3:05 AM. <졸업> 안판석 감독님의 추억. 난 안판석 감독님의 영화감독 데뷔작 <국경의 남쪽>의 ..."
-        },
-        {
-          "title": "스토리 후기) 왜 욕먹었는지 알거 같은데 - 리버스 1999 채널",
-          "link": "https://arca.live/b/arcalivebreverse/179847028?p=1",
-          "source": "아카라이브",
-          "published": "4시간 전",
-          "snippet": "... 스토리 설계자 아니었음 좋겠다. 한챕터에 빌드업을 이렇게 해놓고 장치처럼 바로 써서 버려버리는 새키가 캐릭터에 애정이 있을리가 없다. 딱 그 한장면을 위해 등장 ..."
-        },
-        {
-          "title": "#전자책 내가 만약 책을 낸다면 강점 또는 코칭 관련한 ...",
-          "link": "https://www.instagram.com/p/Db-Bvw8kc6a/",
-          "source": "Instagram · healercoach",
-          "published": "",
-          "snippet": "COPYWRITING SECRETS 스토리 설계자 고객의 욕망을 꿰뚫는 31가지 카피라이팅 과학 카피 한 줄이 사업을 구원한다. 고객은 당신에게 관심이 없다 사람들은 당신에게 ..."
+          "snippet": "책. 1, 세네카, 오늘을 빼앗기고 있는 당신에게. 2, 오디세이아. 3, 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 4, 오뒷세이아. 5, 싯다르타. 6, 투명한 ..."
         }
       ],
-      "item_count": 3,
+      "item_count": 2,
       "time_range": "qdr:d"
     }
   ]
