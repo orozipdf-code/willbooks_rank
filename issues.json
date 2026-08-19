@@ -1,164 +1,74 @@
 {
-  "generated_at": "2026-08-18T21:28:02.244311+00:00",
+  "generated_at": "2026-08-19T21:28:10.777498+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 3,
-  "searches_used": 3,
+  "book_count": 1,
+  "searches_used": 1,
   "books": [
     {
       "title": "원소 원정대",
-      "author": "아게도리도리, 박재현, 장홍제",
-      "publisher": "윌북주니어",
-      "brand": "윌북주니어",
-      "items": [
-        {
-          "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
-          "link": "https://m.yes24.com/goods/detail/195218696",
-          "source": "예스24",
-          "published": "19시간 전",
-          "snippet": "『원소 원정대』는 원소 주기율표와 각 원소들의 특성, 상호 작용 등을 게임 공략집처럼 재미있고 자연스럽게 익힐 수 있는 과학책이다. 어릴 적 공룡 이름을 달달 외던 ..."
-        },
-        {
-          "title": "구립응암도서관",
-          "link": "https://www.eplib.or.kr/ealib",
-          "source": "은평구립도서관",
-          "published": "8시간 전",
-          "snippet": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 지음 ; 박재현 옮김."
-        },
-        {
-          "title": "[전자책] 오늘도 늦게 자는 최고의 방법 | 황글라라 | 부크크",
-          "link": "https://www.yes24.com/product/goods/195093321?ReviewYn=Y",
-          "source": "예스24",
-          "published": "2시간 전",
-          "snippet": "최대 할인&쿠폰 증정 원소 원정대이동 · 원소 원정대. 이전 YES NOW 배너보기. 다음 YES NOW 배너보기. 1/4. 오늘도 늦게 자는 최고의 방법. 도서정보; 리뷰/한줄평 (0/0) ..."
-        },
-        {
-          "title": "이벤트세상 - 예스24",
-          "link": "https://event.yes24.com/main?mainCateId=017",
-          "source": "예스24",
-          "published": "6시간 전",
-          "snippet": "[단독]《슈퍼개미 이정윤의 성장주 집중 투자》기대평 이벤트 2026.08.18. ~ 2026.09.09. [BEST] 원소 원정대 2026.08.18."
-        },
-        {
-          "title": "청소년",
-          "link": "https://m.yes24.com/category/display/001001005",
-          "source": "예스24",
-          "published": "4시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
-        },
-        {
-          "title": "[중고샵] 제국의수호자 1-5 | 폭풍시대 | 익스드림",
-          "link": "https://m.yes24.com/goods/detail/195199771",
-          "source": "예스24",
-          "published": "21시간 전",
-          "snippet": "10% 15,210원. 니체의 초월자 이동. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 10% 17,820원."
-        }
-      ],
-      "item_count": 6,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "내면 근력",
-      "author": "짐 머피",
-      "publisher": "윌북(willbook)",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "삶에서 중요하다고 느끼는 것 1. 넉넉한 돈 2. 주 3~4회 정도 ...",
-          "link": "https://www.threads.com/@super_writer12/post/DcKD3nlDOvs/%EC%82%B6%EC%97%90%EC%84%9C-%EC%A4%91%EC%9A%94%ED%95%98%EB%8B%A4%EA%B3%A0-%EB%8A%90%EB%81%BC%EB%8A%94-%EA%B2%831-%EB%84%89%EB%84%89%ED%95%9C-%EB%8F%882-%EC%A3%BC-34%ED%9A%8C-%EC%A0%95%EB%8F%84%EC%9D%98-%EA%B7%BC%EB%A0%A5%EA%B3%BC-%EC%9C%A0%EC%82%B0%EC%86%8C-%EC%9A%B4%EB%8F%993-%EA%B3%A0%EC%A7%91%EA%B3%BC-%EC%95%84%EC%A7%91-%EB%82%B4%EB%A0%A4%EB%86%93%EA%B8%B04-%EB%8F%85%EC%84%9C%EC%99%80-%EC%82%AC%EC%83%895-%EA%B0%90%EC%A0%95%EA%B3%BC-%EC%83%9D%EA%B0%81%EC%9D%84-%EC%A0%95%EB%A6%AC%ED%95%98%EB%8A%94-/",
-          "source": "Threads",
-          "published": "23시간 전",
-          "snippet": "내면 근력을 키우려면 하나라도 해보세요. 1. 하루 30분 이상 움직이고 땀 흘리세요 2. 잠들기 전 6분 정도 독서를 하세요 3. 기분이 가라앉으면 바로 산책하세요 4 ..."
-        },
-        {
-          "title": "책으로 성장할 분 모집 북터치 클럽 9월 신규 멤버 🌱 ─ ...",
-          "link": "https://www.instagram.com/coach_miseon/p/DcK1pfXTrJq/",
-          "source": "Instagram · coach_miseon",
-          "published": "",
-          "snippet": "... 내면 근력 — 짐 머피 ─────────────── 북터치 클럽 멤버에게만 드립니다. 코치가 직접 만든 책으로 삶을 세우는 북코칭 노트 BOOK GROUNDING NOTE ..."
-        },
-        {
-          "title": "내면근력 읽은거 같은데 왜 읽은 기억이 없지(?) 싶었는데 이 ...",
-          "link": "https://x.com/2saram2ddo/status/2089680026539274690",
-          "source": "X",
-          "published": "",
-          "snippet": "김대쪽 (@2saram2ddo). 9 views. 내면근력 읽은거 같은데 왜 읽은 기억이 없지(?) 싶었는데 이 책에 대해서 롱블랙에거 읽었음…"
-        },
-        {
-          "title": "Cringe-worthy situations you face in professional life",
-          "link": "https://www.youtube.com/shorts/JAyTsTG-i6Y",
-          "source": "YouTube · 책과삶 출판사",
-          "published": "",
-          "snippet": "... play this video. Learn more. (베스트셀러) 김미경의 플러스 휴먼 + 내면 근력 (전2권),. 1 product. Auto-dubbed. @booksnlife25. Subscribe. Cringe-worthy situations ..."
-        },
-        {
-          "title": "Jungwoo Lee (@jungwooday)",
-          "link": "https://www.facebook.com/jungwooday/?locale=uk_UA",
-          "source": "Facebook · Jungwoo Lee",
-          "published": "",
-          "snippet": "#내면근력 도 그 중 하나~ 세세한 내면근력 강화를 위한 지침들이 많지만, 책을 덮고도 마음에 남는 질문은 “나는 무엇을 사랑하는가?” 였다. 무엇을 꿈꾸고? 무엇을 ..."
-        },
-        {
-          "title": "기분이 태도가 되지 말자 | 김수현(훈글)",
-          "link": "https://www.millie.co.kr/v4/book/f043acfe34564a1b",
-          "source": "밀리의서재",
-          "published": "16시간 전",
-          "snippet": "내면 근력/짐 머피 지음 / 지여울 옮김 썸네일. 오디오북. 이규창. 내면 근력. 짐 머피 지음 / 지여울 옮김 · 오디오북 리더. 완독. 싯다르타/헤르만 헤세 ..."
-        },
-        {
-          "title": "14일입니다. 최근 문학을 좀 읽기 시작했는데 꾸준히 길게 ...",
-          "link": "https://www.instagram.com/p/DcKKAunS7A5/",
-          "source": "Instagram",
-          "published": "",
-          "snippet": "내면 근력 INNER EXCELLENCE 결국 멘탈 게임이다 짐 머피 지음 지여울 옮김 미국 ... 내면 근력 INNER EXCELLENCE 결국 멘탈 게임이다 짐 머피 지음 지여울 옮김 ..."
-        },
-        {
-          "title": "실험하는 고고학자",
-          "link": "https://bookstore12.com/products/book-9791164053674?srsltid=AfmBOoqv_9RzYyTqNNvbsWpIkqisc2-ukl8mzKp80VT9_b-8RVb1qqiq",
-          "source": "Bookstore 12",
-          "published": "23시간 전",
-          "snippet": "내면 근력. 짐 머피. Regular price $24.72. Sale price Regular price. Unit price ... 내면 근력. 짐 머피. Regular price $24.72. Sale price Regular ..."
-        }
-      ],
-      "item_count": 8,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
       "author": "아게도리도리",
       "publisher": "윌북주니어",
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
-          "link": "https://m.yes24.com/goods/detail/195218696",
-          "source": "예스24",
-          "published": "19시간 전",
-          "snippet": "원소 주기율표 속 원소들을 생동감 넘치는 캐릭터와 웅장한 세계관으로 만날 수 있는 신개념 화학책 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』이 윌북 ..."
+          "title": "사당역점 매장안내",
+          "link": "https://www.ypbooks.co.kr/shopInfo/guide/3080?srsltid=AfmBOooNDBkOqBWwp9zwo6Pa0XkLHwXqOdmEjo0RuV2Xsyklz03aopYc",
+          "source": "영풍문고",
+          "published": "11시간 전",
+          "snippet": "원소 원정대; 당신은 사건현장에; 먼슬리클래식. 오디세이아; 안녕 피터팬; 히가시노게이고; 테오; 세네카. 먼작귀 종이접기; 그리스인 조르바; 원소 원정대; 당신은 사건 ..."
         },
         {
-          "title": "구립응암도서관",
-          "link": "https://www.eplib.or.kr/ealib",
-          "source": "은평구립도서관",
-          "published": "8시간 전",
-          "snippet": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 지음 ; 박재현 옮김."
+          "title": "바로보네 BAROVONE",
+          "link": "https://www.youtube.com/@BAROVONE",
+          "source": "YouTube · 북센남 BooxenNam",
+          "published": "",
+          "snippet": "403 views. 원소 원정대 | 주기율표 공략집 | 궤도 추천 도서 | 바로보네. 596 views · 찌니주의보 | 정지아 신간 소설 | 아버지의 해방일지 | 바로보네. 310 views ..."
         },
         {
-          "title": "청소년",
-          "link": "https://m.yes24.com/category/display/001001005",
-          "source": "예스24",
-          "published": "4시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
+          "title": "천안점 매장안내",
+          "link": "https://www.ypbooks.co.kr/shopInfo/select-info/8250?srsltid=AfmBOoqlZD1Uz-bgnO98St7iPJLKDyUIm0lsaACk1fK_y6OlGV6jUgP1",
+          "source": "영풍문고",
+          "published": "14시간 전",
+          "snippet": "원소 원정대; 당신은 사건현장에; 먼슬리클래식. 오디세이아; 안녕 피터팬; 히가시노게이고; 테오; 세네카. 먼작귀 종이접기; 그리스인 조르바; 원소 원정대; 당신은 사건 ..."
         },
         {
-          "title": "[중고샵] 제국의수호자 1-5 | 폭풍시대 | 익스드림",
-          "link": "https://m.yes24.com/goods/detail/195199771",
-          "source": "예스24",
-          "published": "21시간 전",
-          "snippet": "10% 15,210원. 니체의 초월자 이동. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 10% 17,820원."
+          "title": "군산롯데아울렛점 매장안내",
+          "link": "https://www.ypbooks.co.kr/shopInfo/select-info/6760?srsltid=AfmBOorO1i9odupmtQxW9U5ohLYavt9L7D0M59KHbgbE1432M1e1TXyO",
+          "source": "영풍문고",
+          "published": "14시간 전",
+          "snippet": "원소 원정대; 당신은 사건현장에; 먼슬리클래식. 오디세이아; 안녕 피터팬; 히가시노게이고; 테오; 세네카. 먼작귀 종이접기; 그리스인 조르바; 원소 원정대; 당신은 사건 ..."
+        },
+        {
+          "title": "광복롯데점 매장안내",
+          "link": "https://www.ypbooks.co.kr/shopInfo/select-info/5400?srsltid=AfmBOorN3VVymoLOyrjPQdbgBWsf4Vyb7ghsvq4AvM_KYuPh3wnSryjn",
+          "source": "영풍문고",
+          "published": "12시간 전",
+          "snippet": "원소 원정대; 당신은 사건현장에; 먼슬리클래식. 오디세이아; 안녕 피터팬; 히가시노게이고; 테오; 세네카. 먼작귀 종이접기; 그리스인 조르바; 원소 원정대; 당신은 사건 ..."
+        },
+        {
+          "title": "홍대점 매장안내",
+          "link": "https://www.ypbooks.co.kr/shopInfo/select-info/4700?srsltid=AfmBOooszdSOuyMdwPOD8-mFWr_9amzZTb7KAyK_lJLCseBFzqCMpHzx",
+          "source": "영풍문고",
+          "published": "12시간 전",
+          "snippet": "원소 원정대; 당신은 사건현장에; 먼슬리클래식. 오디세이아; 안녕 피터팬; 히가시노게이고; 테오; 세네카. 먼작귀 종이접기; 그리스인 조르바; 원소 원정대; 당신은 사건 ..."
+        },
+        {
+          "title": "위스퍼맨-개정판",
+          "link": "https://www.ypbooks.co.kr/books/202608146857638957?srsltid=AfmBOor32PtU9QlvvlCJZZRNmty9lmMy3I8OCx5NhDJBe1-JFl_YCEts",
+          "source": "영풍문고",
+          "published": "17시간 전",
+          "snippet": "원소 원정대; 당신은 사건현장에; 먼슬리클래식. 오디세이아; 안녕 피터팬; 히가시노 ... 원소 원정대; 당신은 사건현장에; 먼슬리클래식. 유럽 도시 기행3풍성한 서사와 ..."
+        },
+        {
+          "title": "내신콘서트 중학영어 기출문제집 2학기 기말고사 중2 천재 ...",
+          "link": "https://www.ypbooks.co.kr/books/202608142851808050?srsltid=AfmBOoo37VEdJ3T13e2wxfcoPydxxH277qiAa-jPpqOiMpPBM1AYoAsk",
+          "source": "영풍문고",
+          "published": "16시간 전",
+          "snippet": "원소 원정대; 당신은 사건현장에; 먼슬리클래식. 오디세이아; 안녕 피터팬; 히가시노 ... 원소 원정대; 당신은 사건현장에; 먼슬리클래식. 유럽 도시 기행3풍성한 서사와 ..."
         }
       ],
-      "item_count": 4,
+      "item_count": 8,
       "time_range": "qdr:d"
     }
   ]
