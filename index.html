@@ -486,37 +486,59 @@ async function handleRefresh(btn) {
   await loadLatest();
 }
 
-// 🏷️ 출판사명 정규화: 괄호와 그 안(영문 등) 제거 → 윌북 계열 통일
-// "윌북(willbook)" · "윌북 (Willbook)"  → 모두 "윌북" 으로 취급.
-// 한글 브랜드명은 살리므로 "윌북주니어(willbook junior)"는 "윌북주니어"로 구분 유지.
+// 🏷️ 출판사명 정규화: 괄호 제거 + 윌북 계열 통합 규칙
+// - "윌북(willbook)" · "윌북 (Willbook)" → "윌북"
+// - "윌북아트" → "윌북" 으로 통합 (같은 임프린트로 취급)
+// - "윌북주니어" 는 별도로 유지 (아동 브랜드라 구분)
 function normPublisher(pub) {
   let p = (pub || '').trim();
-  p = p.replace(/\s*[\(（].*?[\)）]\s*/g, '');   // 괄호와 그 안 내용 제거
-  return p.replace(/\s+/g, '').toLowerCase();
+  p = p.replace(/\s*[\(（].*?[\)）]\s*/g, '');   // 괄호와 그 안(영문 등) 제거
+  p = p.replace(/\s+/g, '').toLowerCase();
+  if (p === '윌북아트') p = '윌북';              // 윌북아트 → 윌북 통합
+  return p;
 }
 
-// 🔗 통합 차트 병합 키: (부제 제거한) 제목 + (정규화한) 출판사
+// 🔗 통합 차트 병합 키: (부제·편수 제거한) 제목 + (정규화한) 출판사
 // 저자 표기가 서점마다 달라도, 부제까지 다르게 적혀 있어도 같은 책으로 묶기 위함.
 // 예) "원소 원정대"  =  "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집"
-//    "윌북"  =  "윌북(willbook)"
+//    "윌북"  =  "윌북(willbook)"  =  "윌북아트"
 //
-// ⚠️ 시리즈물 오병합 방지: 부제를 떼기 전에 "1권 / 2권 / 3부 / 시즌2" 같은
-//    편수 표기가 있으면 그 숫자를 보존해 키에 붙인다. (1권과 2권은 안 묶이게)
+// ⚠️ 시리즈물 오병합 방지: 제목 끝의 "1권 / 2권 / II / 시즌2" 같은 편수 표기를
+//    숫자로 정규화해 키에 붙인다. (1권과 2권은 안 묶이되, "II"와 "2"는 같게)
+const ROMAN_NUM = { i:1, ii:2, iii:3, iv:4, v:5, vi:6, vii:7, viii:8, ix:9, x:10 };
+
 function stripSubtitle(rawTitle) {
   let t = (rawTitle || '').trim();
-
   let volume = '';
-  const volPatterns = [
-    /(\d+)\s*권/, /(\d+)\s*부/, /시즌\s*(\d+)/i, /vol\.?\s*(\d+)/i,
-    /\b([0-9]{1,2})\b\s*$/, /\b(상|하|중)\b\s*$/, /\b(Ⅰ|Ⅱ|Ⅲ|Ⅳ|Ⅴ)\b/,
-  ];
-  for (const re of volPatterns) {
-    const m = t.match(re);
-    if (m) { volume = m[1]; break; }
+
+  // 1) 제목 끝의 로마자 편수(II, III …)를 숫자로 변환
+  const roman = t.match(/\s(i{1,3}|iv|v|vi{0,3}|ix|x)\s*$/i);
+  if (roman) volume = String(ROMAN_NUM[roman[1].toLowerCase()] || '');
+
+  // 2) 로마자가 없으면 아라비아 숫자/권차 표기 확인
+  if (!volume) {
+    const volPatterns = [
+      /(\d+)\s*권/, /(\d+)\s*부/, /시즌\s*(\d+)/i, /vol\.?\s*(\d+)/i,
+      /\b([0-9]{1,2})\b\s*$/, /\b(상|하|중)\b\s*$/,
+    ];
+    for (const re of volPatterns) {
+      const m = t.match(re);
+      if (m) { volume = m[1]; break; }
+    }
   }
 
-  let base = t.split(/\s*[:：]\s*/)[0];       // 콜론 앞부분
-  base = base.split(/\s+[-–—~]\s+/)[0];        // 공백 둘러싼 대시/물결 앞부분
+  // 3) 부제 분리 (콜론 / 공백으로 둘러싼 대시·물결 앞부분)
+  let base = t.split(/\s*[:：]\s*/)[0];
+  base = base.split(/\s+[-–—~]\s+/)[0];
+  base = base.trim();
+
+  // 4) base 끝의 편수 표기 제거 → 제목 본체만 남김
+  base = base.replace(/\s*\d+\s*(권|부)\s*$/, '');
+  base = base.replace(/\s*시즌\s*\d+\s*$/i, '');
+  base = base.replace(/\s*vol\.?\s*\d+\s*$/i, '');
+  base = base.replace(/\s+(i{1,3}|iv|v|vi{0,3}|ix|x)\s*$/i, '');
+  base = base.replace(/\s+\d{1,2}\s*$/, '');
+  base = base.replace(/\s+(상|하|중)\s*$/, '');
   base = base.trim();
 
   let key = base.replace(/\s+/g, '').toLowerCase();
