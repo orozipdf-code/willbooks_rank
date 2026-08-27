@@ -281,6 +281,7 @@ let trendView = 'chart';     // 📈 추이 모달: 'chart' / 'list' / 'issues'
 let trendChart = null;       // 📈 Chart.js 인스턴스 보관
 let modalBookTitle = '';     // 📈 현재 모달에 띄운 책 제목
 let modalBookAuthor = '';    // 🔥 현재 모달 책의 저자 (구글 검색 링크용)
+let modalBookPublisher = ''; // 📈 현재 모달 책의 출판사 (추이 매칭용 병합키)
 let modalBookIsOurs = false; // 🔥 현재 모달 책이 윌북 계열인지
 
 // 🔥 최근 이슈: GitHub Actions가 생성하는 issues.json (윌북 계열만 수집)
@@ -552,6 +553,13 @@ function mergeKey(book) {
   return title + '|' + pub;
 }
 
+// 📈 추이 매칭용: 특정 서점 목록에서 (모달에 띄운) 책과 같은 책을 병합키로 찾는다.
+// II/2, 부제, 윌북·윌북아트 표기 차이를 통합 차트와 동일하게 흡수한다.
+function findByMergeKey(list, title, publisher) {
+  const target = mergeKey({ '제목': title, '출판사': publisher });
+  return (list || []).find(x => mergeKey(x) === target);
+}
+
 function calculateTotal(kData, aData, yData) {
   const bookMap = {};
   const process = (data, sName) => {
@@ -654,7 +662,7 @@ function getTrendSeries(title) {
     ordered.forEach(entry => {
       labels.push(toShortTime(entry['수집시각']));
       ['kyobo', 'aladin', 'yes24'].forEach(s => {
-        const b = (entry['데이터']?.[s] || []).find(x => x['제목'] === title);
+        const b = findByMergeKey(entry['데이터']?.[s], title, modalBookPublisher);
         series[s].push(b ? parseInt(b['순위']) : null);
       });
     });
@@ -663,7 +671,7 @@ function getTrendSeries(title) {
     const arr = [];
     ordered.forEach(entry => {
       labels.push(toShortTime(entry['수집시각']));
-      const b = (entry['데이터']?.[currentStore] || []).find(x => x['제목'] === title);
+      const b = findByMergeKey(entry['데이터']?.[currentStore], title, modalBookPublisher);
       arr.push(b ? parseInt(b['순위']) : null);
     });
     return { labels, series: { [currentStore]: arr }, isTotal: false };
@@ -754,6 +762,7 @@ function openTrendModal(el) {
   const author = el.dataset.author;
   modalBookTitle = title;
   modalBookAuthor = author;
+  modalBookPublisher = el.dataset.publisher || '';
   modalBookIsOurs = isOurPublisher(el.dataset.publisher || '');
   document.getElementById('trendBtnIssues').style.display = modalBookIsOurs ? '' : 'none';
   document.getElementById('modalTitle').textContent = title;
@@ -768,7 +777,7 @@ function openTrendModal(el) {
     let isTop = false;
 
     if (currentStore === 'total') {
-      const getR = (s) => { const b = (entry['데이터'][s]||[]).find(x => x['제목'] === title); return b ? parseInt(b['순위']) : null; };
+      const getR = (s) => { const b = findByMergeKey(entry['데이터'][s], title, modalBookPublisher); return b ? parseInt(b['순위']) : null; };
       const kr = getR('kyobo'), ar = getR('aladin'), yr = getR('yes24');
       if (kr || ar || yr) {
         rankText = `<div class="trend-stores">
@@ -779,7 +788,7 @@ function openTrendModal(el) {
         if(kr<=10 || ar<=10 || yr<=10) isTop = true;
       }
     } else {
-      const b = (entry['데이터'][currentStore]||[]).find(x => x['제목'] === title);
+      const b = findByMergeKey(entry['데이터'][currentStore], title, modalBookPublisher);
       if (b) {
         const r = parseInt(b['순위']);
         rankText = `<span class="trend-rank">${r}위</span>`;
