@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-27T00:34:01.236137+00:00",
+  "generated_at": "2026-08-28T05:09:59.421975+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 6,
-  "searches_used": 6,
+  "book_count": 3,
+  "searches_used": 5,
   "books": [
     {
       "title": "원소 원정대",
@@ -12,310 +12,196 @@
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "행복한 모루도서관 - 강릉시",
-          "link": "https://www.gnslib.or.kr/moru",
-          "source": "강릉시립도서관",
-          "published": "22시간 전",
-          "snippet": "원소 원정대 표지. 단행본. 원소 원정대. 아게도리도리 글·그림 ; 박재현 옮김윌북주니어2026모루도서관. 관심도서 담기. 자세히 보기. 오디세이아 표지. 단행본."
+          "title": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집",
+          "link": "https://lib.cne.go.kr/api/srch/bookDetail.do?regNo\\u003dEMS000147090\\u0026retType\\u003dnewBookList\\u0026pageIndex\\u003d1360\\u0026menuId\\u003dMNU_0000000000000517",
+          "source": "충청남도교육청통합도서관",
+          "published": "6일 전",
+          "snippet": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집 ; 발생처: 윌북주니어 / 발행일자 : 2026 ; 저자: 아게도리도리 지음 ; 박재현 옮김 ; 도서관명: 충청남도홍성교육 ..."
         },
         {
-          "title": "공지사항",
-          "link": "https://www.angelbook.or.kr/?mnuidx\\u003d15\\u0026brdid\\u003dB15\\u0026gno\\u003d188921",
-          "source": "부산점자도서관",
-          "published": "14시간 전",
-          "snippet": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집 / 아게도리도리(박재현) 윌북주니어 2026. -기존 순위 리스트 도서, 제작 불가(주 구성이 만화로 이루어진 ..."
+          "title": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집",
+          "link": "https://kmall09.com.au/products/book-9791155819326?srsltid\\u003dAfmBOopiFz7kX3_QY2Qvaf2NlhKAl6hMMYcKpI4OpYG2gm14AOX8PMvS",
+          "source": "KMALL09",
+          "published": "5일 전",
+          "snippet": "원소 주기율표를 바탕으로 만들어진 거대한 대륙을 탐험하며 우리 주변에서 활약하고 있는 주요 원소들을 만나고, 화학의 세계를 깊게 이해할 수 있다. 『원소 원정대』를 ..."
         },
         {
-          "title": "똑똑한 학교생활 도감 - 국내도서 - 교보문고",
-          "link": "https://product.kyobobook.co.kr/detail/S000220923338",
+          "title": "자료검색이용 > 대출베스트 > 기간별 인기도서",
+          "link": "https://lib.namgu.gwangju.kr/main/giganPopular/2341?queryType\\u003d2026\\u0026queryType2\\u003d08\\u0026queryType4\\u003d%27%2B%27%090%090%090%09128%09%09FRD%3A25%2CS%3A0%2CJL%3A5937%2CBLPR%3A%E2%88%9E%2CSR%3A31%09Redirect-Info%3DMinRedirect%3D0",
+          "source": "광주광역시 남구청",
+          "published": "3일 전",
+          "snippet": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글·그림 ; 박재현 옮김 · 35103."
+        },
+        {
+          "title": "원소 원정대 #책",
+          "link": "https://www.youtube.com/shorts/lN9_ri_Hba0",
+          "source": "YouTube · 아찡",
+          "published": "",
+          "snippet": "Tap to unmute. Your browser can't play this video. Learn more. Blue NeeDoh Ice Cube. Effect · 107K Shorts. @아찡_ajjing. Subscribe. #원소 원정대 #책. 6. 0."
+        },
+        {
+          "title": "한강의 시간, 노벨문학상 1주년",
+          "link": "https://www.ypbooks.co.kr/recommend/theme/THEME/281?srsltid\\u003dAfmBOoqO1Fog_5bFv3mNFvoTLMlbw-8Tk3fq9OqwEqdopEBWfjeB4STC",
+          "source": "영풍문고",
+          "published": "19시간 전",
+          "snippet": "원소 원정대; 당신은 사건현장에; 먼슬리클래식. 오디세이아; 안녕 피터팬; 히가시노게이고; 테오; 세네카. 먼작귀 종이접기; 그리스인 조르바; 원소 원정대; 당신은 사건 ..."
+        },
+        {
+          "title": "상상 금지!",
+          "link": "https://www.millie.co.kr/v3/post/1354221",
+          "source": "밀리의서재",
+          "published": "7일 전",
+          "snippet": "연결도서. PDF. 도서 썸네일. 상상 금지! 이경국 지음 / 아이들 그림. 컨트리볼ㅋㅋㅋㅋㅋㅋㅋ의 서재 · 팔로잉94 팔로워23 · 이전글. 원소 원정대. 다음 포스트가 ..."
+        },
+        {
+          "title": "장홍제 교수님이 강력 추천한 화학책 \"심지어 제 책보다 ...",
+          "link": "https://www.facebook.com/61558534859856/videos/%EC%9E%A5%ED%99%8D%EC%A0%9C-%EA%B5%90%EC%88%98%EB%8B%98%EC%9D%B4-%EA%B0%95%EB%A0%A5-%EC%B6%94%EC%B2%9C%ED%95%9C-%ED%99%94%ED%95%99%EC%B1%85%EC%8B%AC%EC%A7%80%EC%96%B4-%EC%A0%9C-%EC%B1%85%EB%B3%B4%EB%8B%A4-%EC%9E%AC%EB%B0%8C%EC%96%B4%EC%9A%94%EB%AD%98-%EC%95%84%EB%8A%94-%EC%82%AC%EB%9E%8C%EC%9D%80-%EC%95%88%EB%8B%A4%EB%8A%94-%EC%9D%B4-%EC%B1%853%EC%82%AC-%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%85%80%EB%9F%AC-%EC%97%AD%EC%A3%BC%ED%96%89-%ED%99%94%EC%A0%9C%EC%9E%91%EC%9B%90%EC%86%8C-%EC%9B%90%EC%A0%95%EB%8C%80%EB%A7%8C%EB%82%98%EB%B3%B4%EC%84%B8%EC%9A%94/2053738988577036/",
+          "source": "Facebook",
+          "published": "",
+          "snippet": "장홍제 교수님이 강력 추천한 화학책 \"심지어 제 책보다 재밌어요\" 뭘 아는 사람은 안다는 이 책, 3사 베스트셀러 역주행 화제작! <원소 원정대> 만나보세요!"
+        },
+        {
+          "title": "예스24 vs 교보문고 8월 주간 종합베스트셀러순위, 세네카 ...",
+          "link": "https://blog.naver.com/ahava96/224385359953",
+          "source": "Naver Blog",
+          "published": "6일 전",
+          "snippet": "원소 원정대 · 아게도리도리. 투명한 나선 · 히가시노 게이고. 4. 니체의 초월자 ... 원소 원정대. 아게도리도리, 윌북 주니어. 예스 24 3위 로 118개 캐릭터로 ..."
+        }
+      ],
+      "item_count": 8,
+      "time_range": "qdr:w"
+    },
+    {
+      "title": "내면 근력",
+      "author": "짐 머피",
+      "publisher": "윌북",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "Day238. #자기수양 이란 #성장 하고 끊임없이 자신을 갈고 ...",
+          "link": "https://www.instagram.com/p/DciBcULDw6U/",
+          "source": "Instagram · 36.5_run",
+          "published": "",
+          "snippet": "19 likes, 0 comments - 36.5_run on August 26, 2026: \"Day238. #자기수양 이란 #성장 하고 끊임없이 자신을 갈고닦는 #여정 #짐머피 #내면근력\"."
+        },
+        {
+          "title": "예스24 베스트셀러를 크레마클럽에서!",
+          "link": "https://cremaclub.yes24.com/bookclub/recommthemegoods?dispno\\u003d017005\\u0026elemseq\\u003d233",
+          "source": "크레마클럽",
+          "published": "23시간 전",
+          "snippet": "내면 근력. 짐 머피 저/지여울 역. 내면 근력. 내서재에 추가 삭제. 니체의 초월자. 프리드리히 니체 저/김철 편역. 니체의 초월자. 내서재에 추가 ..."
+        },
+        {
+          "title": "이렇게 최소 10년 반복하면 결국 잘 풀린다",
+          "link": "https://www.threads.com/@thinker_kim/post/DciPCARmeKC/%EC%9D%B4%EB%A0%87%EA%B2%8C-%EC%B5%9C%EC%86%8C-10%EB%85%84-%EB%B0%98%EB%B3%B5%ED%95%98%EB%A9%B4-%EA%B2%B0%EA%B5%AD-%EC%9E%98-%ED%92%80%EB%A6%B0%EB%8B%A41-%EB%82%98%EC%95%84%EC%A7%80%EB%8A%94-%EB%8A%90%EB%82%8C%EC%9D%B4-%EC%A0%84%ED%98%80-%EB%93%A4%EC%A7%80-%EC%95%8A%EC%95%84%EB%8F%84-%EA%B7%B8%EB%83%A5-%ED%95%98%EB%9D%BC2-%EB%A7%A4%EC%9D%BC-1%EC%8B%9C%EA%B0%84-%EC%9D%B4%EC%83%81-%EA%BE%B8%EC%A4%80%ED%9E%88-%EC%9A%B4%EB%8F%99%ED%95%B4%EC%95%BC-%EB%B2%84%ED%8B%B8-%EC%88%98-%EC%9E%88%EB%8B%A43-",
+          "source": "Threads · thinker_kim",
+          "published": "",
+          "snippet": "내면 근력을 키우려면 하나라도 해보세요. 1. 하루 30분 이상 움직이고 땀 흘리세요 2. 잠들기 전 6분 정도 독서를 하세요 3. 기분이 가라앉으면 바로 산책하세요 4 ..."
+        },
+        {
+          "title": "영통아이파크캐슬1단지 이야기 | 어떤가요",
+          "link": "https://hogangnono.com/community/apts/apts-4021551?referer\\u003dpost",
+          "source": "호갱노노",
+          "published": "24시간 전",
+          "snippet": "내면근력MGC2095. 입주예정이예요. 84A타입 분양 때 옵션으로 설치 한 시스템에어컨 제품명 알려주시면 감사하겠습니다. 별도 인테리어 없이 기존 에어컨자리에 교체 할 ..."
+        },
+        {
+          "title": "나름 진리라고 생각하는 것 행복을 결정짓는 요소 낙관적 ...",
+          "link": "https://www.facebook.com/61584793081645/posts/%EB%82%98%EB%A6%84-%EC%A7%84%EB%A6%AC%EB%9D%BC%EA%B3%A0-%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%EA%B2%83%ED%96%89%EB%B3%B5%EC%9D%84-%EA%B2%B0%EC%A0%95%EC%A7%93%EB%8A%94-%EC%9A%94%EC%86%8C%EB%82%99%EA%B4%80%EC%A0%81-%ED%97%88%EB%AC%B4%EC%A3%BC%EC%9D%98%EB%A1%9C-%EC%82%B4%EB%9D%BC%EA%B0%81%EC%9E%90%EC%9D%98-%EB%95%8C%EA%B0%80-%EC%9E%88%EC%96%B4%EC%9A%94/122141885109159769/",
+          "source": "Facebook · 억만장자 메신저",
+          "published": "",
+          "snippet": "자기혐오 해소법 · 자기혐오 해소법 · 입이 무거운 편이 좋습니다. · 내면 근력을 키우자 · 내면 근력을 키우자."
+        },
+        {
+          "title": "브레인악셀 - 국내도서 - 교보문고",
+          "link": "https://product.kyobobook.co.kr/detail/S000220930689",
           "source": "국내도서",
-          "published": "9시간 전",
-          "snippet": "원소 원정대17,820원. AD. 똑똑한 학교생활 도감 대표 이미지. 똑똑한 학교생활 도감 부가 이미지1. 똑똑한 학교생활 도감 부가 이미지2. 미리보기 크기비교."
+          "published": "3시간 전",
+          "snippet": "AI 연관 추천. 정보 아이콘 툴팁 열기 버튼. 내면 근력. 국내도서. 내면 근력. 짐 머피. 지여울. 19,800원. 지지 않는 인생 설계의 기술. 국내도서."
+        },
+        {
+          "title": "2026.08.26 스케치 없이 하는 거 완성햣더.. 너무 텁텁라고, ...",
+          "link": "https://www.instagram.com/p/DcjSunAv1h3/",
+          "source": "Instagram",
+          "published": "",
+          "snippet": "#내면근력 배운듯요수채화 이 그림 그릴때 참 인내 하고 또 인내심 기르눈데 . ..고생 많이 했어요 ㅎㅎ 특히 그림에 재능이..딱히 그당신엔 없어 보여 붓을 자주 ..."
+        },
+        {
+          "title": "영통아이파크캐슬3단지 이야기 | 당첨이 되도 문제네요ㅠㅠ",
+          "link": "https://hogangnono.com/community/apts/apts-1547525",
+          "source": "호갱노노",
+          "published": "24시간 전",
+          "snippet": "5 0 · 힐스테이트영통. 내면근력MGC2095. 입주예정이예요. 84A타입 분양 때 옵션으로 설치 한 시스템에어컨 제품명 알려주시면 감사하겠습니다. 별도 인테리어 없이 ..."
+        }
+      ],
+      "item_count": 8,
+      "time_range": "qdr:d"
+    },
+    {
+      "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
+      "author": "아게도리도리",
+      "publisher": "윌북주니어",
+      "brand": "윌북주니어",
+      "items": [
+        {
+          "title": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집",
+          "link": "https://hslib.cne.go.kr/api/srch/bookDetail.do?regNo\\u003dEMS000147090\\u0026retType\\u003dbookLoanBest\\u0026menuId\\u003dMNU_0000000000000242%2C\\u0026manageCode\\u003dMS",
+          "source": "충청남도홍성교육지원청홍성도서관",
+          "published": "4일 전",
+          "snippet": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집 ; 발생처: 윌북주니어 / 발행일자 : 2026 ; 저자: 아게도리도리 지음 ; 박재현 옮김 ; 도서관명: 충청남도홍성교육 ..."
+        },
+        {
+          "title": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집",
+          "link": "https://kmall09.com.au/products/book-9791155819326?srsltid\\u003dAfmBOooFw4FazdmSInxgCTWv5IDDrzYopnSGmXfwOBSCGR_9eOvdWlik",
+          "source": "KMALL09",
+          "published": "5일 전",
+          "snippet": "시험이 끝나면 금방 까먹을 힘겨운 단순 암기에 질렸다면 이 책 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』을 만나 보자. 『원소 원정대』는 단순히 ..."
+        },
+        {
+          "title": "자료검색이용 > 대출베스트 > 기간별 인기도서",
+          "link": "https://lib.namgu.gwangju.kr/main/giganPopular/2341?queryType\\u003d2026\\u0026queryType2\\u003d08\\u0026queryType4\\u003d%27%2B%27%090%090%090%09128%09%09FRD%3A25%2CS%3A0%2CJL%3A5937%2CBLPR%3A%E2%88%9E%2CSR%3A31%09Redirect-Info%3DMinRedirect%3D0",
+          "source": "광주광역시 남구청",
+          "published": "3일 전",
+          "snippet": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글·그림 ; 박재현 옮김 · 35103."
         },
         {
           "title": "자연과학",
           "link": "https://m.yes24.com/category/display/001001002",
           "source": "예스24",
-          "published": "10시간 전",
-          "snippet": "1. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 ; 2. 세상이 그대를 속일지라도. 김상욱 저 ; 3. 수학의 쓸모. 닉 ..."
+          "published": "4시간 전",
+          "snippet": "1. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 ; 2. 히스토리아 비테이. 최재천 저 ; 3. 물고기는 존재하지 ..."
         },
         {
-          "title": "히피를 위한 양자물리학",
-          "link": "https://www.ypbooks.co.kr/books/202608250865957206?srsltid\\u003dAfmBOootKLs9agOa-3SnhZXE-cHkZYDzkopFeo15eC3i-ky0vH4gbavY",
-          "source": "영풍문고",
-          "published": "14시간 전",
-          "snippet": "원소 원정대; 당신은 사건현장에; 먼슬리클래식. 오디세이아; 안녕 피터팬; 히가시노 ... 원소 원정대; 당신은 사건현장에; 먼슬리클래식. 유럽 도시 기행3풍성한 서사와 ..."
+          "title": "주간 도서 베스트셀러",
+          "link": "https://buan.dongacc.com/cyber/week/Week_A.htm?w_cd\\u003dA\\u0026w_no\\u003d7770\\u0026Page\\u003d1",
+          "source": "라임사이버문화센터",
+          "published": "2일 전",
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집; ㆍ저자: 아게도리도리 글그림/박재현 역/장홍제 감수; ㆍ분야: 청소년 수학/과학. 순위. 니체의 초월자; ㆍ저자 ..."
         },
-        {
-          "title": "멜로우TV 5: 멜당탕탕 빌런의 등장 박스 패키지 - 교보문고",
-          "link": "https://product.kyobobook.co.kr/detail/S000220923128",
-          "source": "국내도서",
-          "published": "18시간 전",
-          "snippet": "원소 원정대17,820원. AD. 멜로우TV 5: 멜당탕탕 빌런의 등장 박스 패키지 대표 이미지. 미리보기 크기비교. MD의 선택; 한정판매. 아이콘 ..."
-        },
-        {
-          "title": "청소년",
-          "link": "https://m.yes24.com/category/display/001001005",
-          "source": "예스24",
-          "published": "15시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
-        },
-        {
-          "title": "파괴된 남자",
-          "link": "https://www.ypbooks.co.kr/books/202608250766342257?srsltid\\u003dAfmBOopKrxzYiPX6pj03y20L5t1IUx1q9j3Xqi7b24LUirt-A1qt0sLy",
-          "source": "영풍문고",
-          "published": "14시간 전",
-          "snippet": "원소 원정대; 당신은 사건현장에; 먼슬리클래식. 오디세이아; 안녕 피터팬; 히가시노 ... 원소 원정대; 당신은 사건현장에; 먼슬리클래식. 유럽 도시 기행3풍성한 서사와 ..."
-        }
-      ],
-      "item_count": 8,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "미술관 여행자를 위한 도슨트 북 2",
-      "author": "카미유 주노",
-      "publisher": "윌북아트",
-      "brand": "윌북아트",
-      "items": [
-        {
-          "title": "도슨트와 함께 오디세이 그림 여행 어때요?",
-          "link": "https://www.google.com/goto?url=CAESYwHrOzAVwdLrNpVmWMPMumLuHsykjY2sTV-8GRRD46c9ARbk02u2ex22TNLi5lTc86abrgAcuxx1uddwMYMHZk9bsmXThSkA7c3Oixa_M6eCrKECuzipjjXGuSED97V2yWYHcQ",
-          "source": "YouTube · 장르만 여의도",
-          "published": "",
-          "snippet": "오디세이 #도슨트 #미술관 미술관 여행자를 위한 '도슨트북2' 교보문고 : https://buly.kr/9MT906w 예스24: https://buly.kr/2UlakIW 알라딘 ..."
-        }
-      ],
-      "item_count": 1,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "미술관 여행자를 위한 도슨트 북",
-      "author": "카미유 주노",
-      "publisher": "윌북아트",
-      "brand": "윌북아트",
-      "items": [
-        {
-          "title": "도슨트와 함께 오디세이 그림 여행 어때요?",
-          "link": "https://www.google.com/goto?url=CAESYwHrOzAVyljhyO-s36n1-_Wf2eXwK6G0CPLyEgGD_AXyu4gmhl4bXCENJb-einYrvsQmN_1IxjhyBn_1nhxQ1X_nIfYivyoJ0WsoWgblUhq_xQeLDFPPFLnbnpQXqd0hCKTSug",
-          "source": "YouTube · 장르만 여의도",
-          "published": "",
-          "snippet": "오디세이 #도슨트 #미술관 미술관 여행자를 위한 '도슨트북2' 교보문고 : https://buly.kr/9MT906w 예스24: https://buly.kr/2UlakIW 알라딘 ..."
-        },
-        {
-          "title": "[중고] 쥬디 할머니 | 박완서",
-          "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId\\u003d400860716\\u0026start\\u003dmain\\u0026srsltid\\u003dAfmBOoo4S1uQsV7yid3hx-Vin-loL1lKFKSVnfqgGfe3r2Brk8YPuiap",
-          "source": "알라딘",
-          "published": "20시간 전",
-          "snippet": "... 미술관 여행자를 위한 도슨트 북』 - 카미유 주노예술 작품은 아는 만큼 보인다고들 말합니다.『미술관 여행자를 위한 도슨트 북』은 미술관을 찾는 사람들이 작품을 ..."
-        },
-        {
-          "title": "살바도르 달리, 페데리코 가르시아 로르카, 루이스 부뉴엘 ...",
-          "link": "https://www.threads.com/@dayfly333/post/DcgYR0AgaHN/%EB%8B%AC%EB%A6%AC-%ED%8E%98%EB%8D%B0%EB%A6%AC%EC%BD%94-%EA%B0%80%EB%A5%B4%EC%8B%9C%EC%95%84-%EB%A1%9C%EB%A5%B4%EC%B9%B4-%EB%A3%A8%EC%9D%B4%EC%8A%A4-%EB%B6%80%EB%89%B4%EC%97%98-%EC%9D%B4%EC%95%BC%EA%B8%B0%EB%A5%BC-%EB%8B%B4%EC%9D%80-%EC%98%81%ED%99%94%EB%9D%BC%EA%B3%A0-%ED%95%B4%EC%84%9C-%EB%A6%AC%ED%8B%80-%EC%95%A0%EC%89%AC-%EB%8B%AC%EB%A6%AC%EA%B0%80-%EC%82%AC%EB%9E%91%ED%95%9C-%EA%B7%B8%EB%A6%BC%EC%9D%84-%EB%B4%A4%EB%8B%A4-%EB%8B%AC%EB%A6%AC-%EC%97%AD%EC%9D%84-%EB%A7%A1%EC%9D%80-%EB%A1%9C%EB%B2%84%ED%8A%B8-%ED%8C%A8%ED%8B%B4%EC%8A%A8%EC%9D%98-/",
-          "source": "Threads",
-          "published": "11시간 전",
-          "snippet": "... 4개월이나 걸림 2편도 최근에 나왔네 . . . 2026년8월 독서 책 #미술관여행자를위한도슨트북 #카미유주노 #이세진 #Art #musium readingabook reading book."
-        }
-      ],
-      "item_count": 3,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "미술관 여행자를 위한 도슨트 북 II",
-      "author": "카미유 주노, 이세진",
-      "publisher": "윌북아트",
-      "brand": "윌북아트",
-      "items": [
-        {
-          "title": "도슨트와 함께 오디세이 그림 여행 어때요?",
-          "link": "https://www.google.com/goto?url=CAESYwHrOzAVw9RcaNvqkcHdVOD5EQMncJUtXklD0YHkU7CCJyOLRiXmd4VhVRuUEXeV498He1TaApreqiUVroR2VcpwG7g1cR7MjfU5jXY1iZpYhRD2ect1DYHNFRAI_2nfHBM_Fg",
-          "source": "YouTube · 장르만 여의도",
-          "published": "",
-          "snippet": "오디세이 #도슨트 #미술관 미술관 여행자를 위한 '도슨트북2' 교보문고 : https://buly.kr/9MT906w 예스24: https://buly.kr/2UlakIW 알라딘 ..."
-        },
-        {
-          "title": "미국 보스턴 미술관은 다른 미술관들과는 다른 특별한 점이 ...",
-          "link": "https://www.instagram.com/p/Dcfa5B3E7QJ/",
-          "source": "Instagram · hyohyungbook",
-          "published": "",
-          "snippet": "#미술관여행자를위한도슨트북 · #윌북 · #딱내스타일 아주 혹시나 구매를 원하시는분은 디엠 주셔용 꽃갈피와 함께 배송합니다.ㅎㅎㅎ. View all 2 comments."
-        },
-        {
-          "title": "살바도르 달리, 페데리코 가르시아 로르카, 루이스 부뉴엘 ...",
-          "link": "https://www.threads.com/@dayfly333/post/DcgYR0AgaHN/%EB%8B%AC%EB%A6%AC-%ED%8E%98%EB%8D%B0%EB%A6%AC%EC%BD%94-%EA%B0%80%EB%A5%B4%EC%8B%9C%EC%95%84-%EB%A1%9C%EB%A5%B4%EC%B9%B4-%EB%A3%A8%EC%9D%B4%EC%8A%A4-%EB%B6%80%EB%89%B4%EC%97%98-%EC%9D%B4%EC%95%BC%EA%B8%B0%EB%A5%BC-%EB%8B%B4%EC%9D%80-%EC%98%81%ED%99%94%EB%9D%BC%EA%B3%A0-%ED%95%B4%EC%84%9C-%EB%A6%AC%ED%8B%80-%EC%95%A0%EC%89%AC-%EB%8B%AC%EB%A6%AC%EA%B0%80-%EC%82%AC%EB%9E%91%ED%95%9C-%EA%B7%B8%EB%A6%BC%EC%9D%84-%EB%B4%A4%EB%8B%A4-%EB%8B%AC%EB%A6%AC-%EC%97%AD%EC%9D%84-%EB%A7%A1%EC%9D%80-%EB%A1%9C%EB%B2%84%ED%8A%B8-%ED%8C%A8%ED%8B%B4%EC%8A%A8%EC%9D%98-/",
-          "source": "Threads",
-          "published": "11시간 전",
-          "snippet": "이 소설은 마치 탐정소설 같은 물건이다. 예술과 광기라는 주제는 오래된 주제인데, 이 소설의 영리한 접근으로 예술의 광기를 잘 표현해 낸다. 탐정소설의 기법. 나레이터 ..."
-        },
-        {
-          "title": "체크인하니 데이미언 허스트가…400점 품은 조선 팰리스 ...",
-          "link": "https://www.ddaily.co.kr/page/view/2026082614515411401",
-          "source": "디지털데일리",
-          "published": "17시간 전",
-          "snippet": "투숙객이 체크인을 위해 엘리베이터를 타고 25층으로 올라가면 데이미언 허스트의 작품을 마주한다. 어두운 벽에 설치된 거대한 원형 작품이 천천히 자전하는 형식으로."
-        },
-        {
-          "title": "[중고] 쥬디 할머니 | 박완서",
-          "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId\\u003d400860716\\u0026start\\u003dmain\\u0026srsltid\\u003dAfmBOoq9BPjIOvMve5peU04_ZPGI_c4ZdcaaShwWaEZh8WnvSdHzm41N",
-          "source": "알라딘",
-          "published": "20시간 전",
-          "snippet": "... 미술관 여행자를 위한 도슨트 북』 - 카미유 주노예술 작품은 아는 만큼 보인다고들 말합니다.『미술관 여행자를 위한 도슨트 북』은 미술관을 찾는 사람들이 작품을 ..."
-        },
-        {
-          "title": "F1963도서관 | 장-미셸 오토니엘《사랑 안의 미로 ...",
-          "link": "https://www.instagram.com/p/DcfB8h8CRe4/",
-          "source": "Instagram · f1963library",
-          "published": "",
-          "snippet": "푸르른 자연 속에서 한 권의 책을 매개로, 잃어가던 감각과 새로운 시선을 발견하는 시간으로 여러분을 초대합니다 독서모임 [숲 속의 미술관] 함께 읽을 책: 알랭 드 ..."
-        },
-        {
-          "title": "[공간사회학] “16년 전 마오쩌둥 풍자 조각에 징역 3년”…중국 ...",
-          "link": "https://newsspace.kr/news/article.html?no\\u003d15407",
-          "source": "뉴스스페이스",
-          "published": "22시간 전",
-          "snippet": "유엔 인권최고대표사무소(OHCHR)는 4월 성명에서 이 사건이 형사법의 소급 적용, 예술 표현을 처벌하기 위한 형사제재 활용, 죄형법정주의 훼손 우려를 제기한다고 밝혔다."
-        },
-        {
-          "title": "경주, 천년 고분, 빛으로 깨어난다",
-          "link": "https://traveli.net/news/view.php?no\\u003d14727",
-          "source": "트래블아이",
-          "published": "11시간 전",
-          "snippet": "신라 복식을 입고 해설사와 대릉원을 걷는 스토리텔링형 도슨트 투어를 비롯해 빛의 소망볼에 메시지 남기기, LED 금관 만들기, 천마총 발굴 체험, 스탬프 투어가 이어진다 ..."
-        }
-      ],
-      "item_count": 8,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "마케팅 설계자",
-      "author": "러셀 브런슨, 이경식",
-      "publisher": "윌북",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "마케팅 퍼널 : 고객이 현재 접하고 있는 구매 단계에 맞춰",
-          "link": "https://jaunter.com.tw/jaunter/%EB%A7%88%EC%BC%80%ED%8C%85-%ED%8D%BC%EB%84%90-87376",
-          "source": "jaunter.com.tw",
-          "published": "1시간 전",
-          "snippet": "... 마케팅 설계자 이해하기 부자스터디맥도날드가 드라이브스루를 광고하는데 191달러를. Sir Keir Starmer should appoint Andy Burnham to his cabinet, as he has ..."
-        },
-        {
-          "title": "상담 전환이 떨어졌을 때 상담 직원의 역량만 문제로 보면 ...",
-          "link": "https://www.instagram.com/p/DcfaHoiEUpr/",
-          "source": "Instagram · 12motioncom",
-          "published": "",
-          "snippet": "상담 전환이 떨어졌을 때 상담 직원의 역량만 문제로 보면 정확한 원인을 찾기 어렵습니다. 다음 5가지를 함께 확인해보세요. ① 문의 후 최초 응대 시간"
-        },
-        {
-          "title": "양종수",
-          "link": "https://www.facebook.com/100001768732832/?locale\\u003dzh_HK",
-          "source": "Facebook · 양종수",
-          "published": "",
-          "snippet": "마케팅 설계자 | 책 요약 통합본 | 무료 퍼널 설계 워크북도 받아가세요! [ 무료 워크북 첫 퍼널 챌린지 : 고객을 모으는 14일의 ."
-        },
-        {
-          "title": "Case3) 뷰티 SEO프로젝트 진행 중인데 오늘 검색어에 대표 ...",
-          "link": "https://www.threads.com/@avcd.eee/post/DcftCIbkayE",
-          "source": "Threads",
-          "published": "17시간 전",
-          "snippet": "병원마케팅 설계자 | 김경태 (@iamkke) · August 22, 2026 at 10:01 PM. 광고 소재를 며칠 만에 바로 바꾸는 원장님들이 계세요. 근데 며칠 성과만 보고 판단하기엔."
-        },
-        {
-          "title": "[영남이공대학교] 학사 운영팀 계약직원 채용 | 공모전 대외활동",
-          "link": "https://linkareer.com/activity/190020",
-          "source": "링커리어",
-          "published": "17시간 전",
-          "snippet": "플랫폼 비즈니스의 퍼널 중심 마케팅 개념이 생소하여 '마케팅 설계자' 책을 읽으며 업무 이해도를 높였습니다. 또한 퍼포먼스 마케팅을 경험해보고자 사수에게 먼저 ..."
-        },
-        {
-          "title": "대표1명_AI직원13명 - 컴퓨터/IT - 전자책",
-          "link": "https://ridibooks.com/books/5273015223?srsltid\\u003dAfmBOor1Vh13o-EhwjwTSmf_7dA-Xr8wBJzjWCYsdy9rkf4lCykgqHAY",
-          "source": "리디",
-          "published": "15시간 전",
-          "snippet": "IT 비즈니스 베스트더보기 · 마케팅 설계자 · 러셀 브런슨, 이경식."
-        },
-        {
-          "title": "살짝 오른쪽으로 틀어지는거 같은데... chat gpt그림 잘 그리네!",
-          "link": "https://www.threads.com/@radiologee/post/DcfuROiiRZ2/%EC%82%B4%EC%A7%9D-%EC%98%A4%EB%A5%B8%EC%AA%BD%EC%9C%BC%EB%A1%9C-%ED%8B%80%EC%96%B4%EC%A7%80%EB%8A%94%EA%B1%B0-%EA%B0%99%EC%9D%80%EB%8D%B0-chat-gpt%EA%B7%B8%EB%A6%BC-%EC%9E%98-%EA%B7%B8%EB%A6%AC%EB%84%A4/",
-          "source": "Threads",
-          "published": "17시간 전",
-          "snippet": "병원마케팅 설계자 | 김경태 (@iamkke) · August 1, 2026 at 10:00 PM. 이게ㅡ가능함?? OCR km/h 260 200 150 120 SDOE 값출고후 1.9 90 0 km/h 60 ο) 30 AUTO ..."
-        },
-        {
-          "title": "작은 브랜드를 위한, 매출스위치",
-          "link": "https://www.youtube.com/channel/UCTdVsp5NcVmhzhKGEzbtFyQ/about",
-          "source": "YouTube",
-          "published": "21시간 전",
-          "snippet": "소상공인 마케팅 설계자 디렉터문이 전하는 실전 전략. Switch On Your Small Business. 당신의 매출, 다시 작동하게 하세요. 디렉터문 소개 - 외식업 마케팅·기획 월 ..."
-        }
-      ],
-      "item_count": 8,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "내면 근력",
-      "author": "짐 머피",
-      "publisher": "윌북(willbook)",
-      "brand": "윌북",
-      "items": [
         {
           "title": "자료검색이용 > 대출베스트 > 기간별 인기도서",
-          "link": "https://lib.namgu.gwangju.kr/main/giganPopular/2332?queryType\\u003d2026\\u0026queryType2\\u003d08\\u0026queryType4\\u003dwTF52ZZ1%27",
+          "link": "https://lib.namgu.gwangju.kr/main/giganPopular/2335?queryType\\u003d2026\\u0026queryType2\\u003d08\\u0026queryType4\\u003dzak%22zak",
           "source": "광주광역시 남구청",
-          "published": "17시간 전",
-          "snippet": "내면 근력 : 결국 멘탈 게임이다. 짐 머피 지음 ; 지여울 옮김 · 34968."
+          "published": "3일 전",
+          "snippet": "35018. 원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글·그림 ; 박재현 옮김 · 35019."
         },
         {
-          "title": "(사)행복한 출생 든든한 미래, 경북행복재단과 업무협약",
-          "link": "https://www.christiantoday.co.kr/news/377004",
-          "source": "크리스천투데이",
-          "published": "20시간 전",
-          "snippet": "내면 근력, 의식 리셋? 기독교 관점에서 필요한 분별 · 다음 세대 참석자들 모습. cGCMC. '2026 그레이트 커미션 선교대회' GCMC, 열방 향한 복음 행진 · 김정우 ..."
+          "title": "어떤 경우에도 통하는 협상의 공식과 AI 활용",
+          "link": "https://m.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no\\u003d3333052677",
+          "source": "롯데홈쇼핑",
+          "published": "4일 전",
+          "snippet": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집. 할인가17,820원. 찜하기. 17,820 3324502919 원소 ..."
         },
         {
-          "title": "책 한 권이라도 읽으면 상위 38.5%다.",
-          "link": "https://www.threads.com/@super_writer12/post/DcfjSK2mAqi/%EC%B1%85-%ED%95%9C-%EA%B6%8C%EC%9D%B4%EB%9D%BC%EB%8F%84-%EC%9D%BD%EC%9C%BC%EB%A9%B4%EC%83%81%EC%9C%84-385%EB%8B%A4%EC%97%AC%EA%B8%B0%EC%97%90-%EA%B8%80%EC%93%B0%EA%B8%B0%EA%B9%8C%EC%A7%80-%ED%95%9C%EB%8B%A4%EB%A9%B4%EC%83%81%EC%9C%84-01%EB%8B%A4%EA%B2%8C%EB%8B%A4%EA%B0%80-%EC%9A%B4%EB%8F%99%EA%B9%8C%EC%A7%80-%ED%95%9C%EB%8B%A4%EB%A9%B4%EC%83%81%EC%9C%84-0001%EB%8B%A4%EC%9D%B8%EC%83%9D%EC%9D%84-%EB%B0%94%EA%BE%B8%EB%A0%A4%EB%A9%B4-%EB%8F%85%EA%B8%80%EC%9A%B4-%EB%B0%96%EC%97%90-%EC%97%86%EB%8B%A4",
+          "title": "8월 25일에 꼭! 읽어야 하는 #추천도서",
+          "link": "https://www.threads.com/@jamom1315/video/DcadM4kDVz5/video-8%EC%9B%94-25%EC%9D%BC%EC%97%90-%EA%BC%AD-%EC%9D%BD%EC%96%B4%EC%95%BC-%ED%95%98%EB%8A%94-%EC%B6%94%EC%B2%9C%EB%8F%84%EC%84%9C1609%EB%85%84-8%EC%9B%94-25%EC%9D%BC-%EA%B0%88%EB%A6%B4%EB%A0%88%EC%9D%B4%EA%B0%80%EC%B2%9C%EC%B2%B4-%EB%A7%9D%EC%9B%90%EA%B2%BD%EC%9C%BC%EB%A1%9C-%EC%9A%B0%EC%A3%BC%EB%A5%BC-%EC%B2%98%EC%9D%8C-%EA%B4%80%EC%B8%A1%ED%95%9C-%EB%82%A0%EB%AC%B4%EB%A0%A4-400%EB%85%84-%EC%A0%84-%EB%A7%9D%EC%9B%90%EA%B2%BD%EC%9C%BC%EB%A1%9C%EC%9A%B0%EC%A3%BC%EB%A5%BC-%EB%AC%B4/",
           "source": "Threads",
-          "published": "18시간 전",
-          "snippet": "책을 읽고 (생각의 근력을 키우고) 3. 글을 쓴다. (내면 근력을 키운다.) 내 인생에서 가장 강한건 나를 만든다. 그럼 자연스레 우리는 상위에 있다. 21. 4."
-        },
-        {
-          "title": "영통아이파크캐슬1단지 이야기 | 여기 거주 했을때 지하철 ...",
-          "link": "https://hogangnono.com/community/apts/apts-4114729?referer\\u003dpost",
-          "source": "호갱노노",
-          "published": "7시간 전",
-          "snippet": "내면근력MGC2095. 입주예정이예요. 84A타입 분양 때 옵션으로 설치 한 시스템에어컨 제품명 알려주시면 감사하겠습니다. 별도 인테리어 없이 기존 에어컨자리에 교체 할 ..."
-        },
-        {
-          "title": "와 퇴근하고 보는데 | SNXX",
-          "link": "https://www-aws.tossinvest.com/community/posts/315843844",
-          "source": "토스증권",
-          "published": "14시간 전",
-          "snippet": "내면근력 · 1시간 전. 와 거의 7일 연속 떨어졋다. 이전 엔비디아 실발로 추세전환 안되면 7/29 가격 리태스트 다시 간다고 본다 · 로켓단냐옹 · 1시간 전. 흐어7주석까지 ..."
-        },
-        {
-          "title": "감정을 읽는 사람은 다르게 말한다 | 비치키 | 교보문고",
-          "link": "https://m.yes24.com/goods/detail/195429331",
-          "source": "예스24",
-          "published": "17시간 전",
-          "snippet": "10% 17,820원. 무례한 세상에서 나를 지키는 법 이동. 내면 근력. 10% 19,800원. 내면 근력 이동. 어떻게 살아낼 것인가. 10% 26,820원."
-        },
-        {
-          "title": "이태희 목사 “2027년, 한국교회 하나 되는 민족복음화 불길을”",
-          "link": "https://www.christiantoday.co.kr/news/376996",
-          "source": "크리스천투데이",
-          "published": "23시간 전",
-          "snippet": "내면 근력, 의식 리셋? 기독교 관점에서 필요한 분별 · 다음 세대 참석자들 모습. cGCMC. '2026 그레이트 커미션 선교대회' GCMC, 열방 향한 복음 행진."
-        },
-        {
-          "title": "제미나이 유료를 결제했다. 이제 세상 중요하고 심도깊은 ...",
-          "link": "https://www.threads.com/@play_branding/post/DcfOmZXEVzz/%EC%A0%9C%EB%AF%B8%EB%82%98%EC%9D%B4-%EC%9C%A0%EB%A3%8C%EB%A5%BC-%EA%B2%B0%EC%A0%9C%ED%96%88%EB%8B%A4-%EC%9D%B4%EC%A0%9C-%EC%84%B8%EC%83%81-%EC%A4%91%EC%9A%94%ED%95%98%EA%B3%A0-%EC%8B%AC%EB%8F%84%EA%B9%8A%EC%9D%80-%ED%86%A0%EB%A1%A0%EC%9D%84-%ED%95%A0-%EC%B0%A8%EB%A1%80%EB%8B%A4/",
-          "source": "Threads",
-          "published": "21시간 전",
-          "snippet": "삶의 순간들을 있는 그대로 받아들일 때만이 용기를 낼 수 있으며, 지금 여기에 깃든 아름다움을 제대로 발견할 수 있다. · <내면 근력> · -------- · 중요한 걸 뭔지 아는 ..."
+          "published": "4일 전",
+          "snippet": "OCR 원소 원정대 118개 캐릭터로 마스터하는 주기율표 공략집 과학 커뮤니케이터 궤도 강력 추천 인간과 함께해 온 원소들 73 Ta Tantalum 21 Sc Scandium. 4. 4."
         }
       ],
       "item_count": 8,
-      "time_range": "qdr:d"
+      "time_range": "qdr:w"
     }
   ]
 }
