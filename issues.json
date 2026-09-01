@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-30T23:17:51.842358+00:00",
+  "generated_at": "2026-09-01T00:27:33.618135+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 1,
-  "searches_used": 1,
+  "book_count": 2,
+  "searches_used": 2,
   "books": [
     {
-      "title": "원소 원정대",
+      "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
       "author": "아게도리도리",
       "publisher": "윌북주니어",
       "brand": "윌북주니어",
@@ -15,32 +15,84 @@
           "title": "청소년",
           "link": "https://m.yes24.com/category/display/001001005",
           "source": "예스24",
-          "published": "7시간 전",
+          "published": "11시간 전",
           "snippet": "청소년 베스트 ; 1. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 ; 2. 공부가 결국 너를 지켜줄 거야. 임민찬 저 ..."
-        },
-        {
-          "title": "건식으로 쓰고있는데 다들 깔끔하다고 해주셔😊👐🏻",
-          "link": "https://www.threads.com/@warm._.table/post/DcppeL7HXfV/%EA%B1%B4%EC%8B%9D%EC%9C%BC%EB%A1%9C-%EC%93%B0%EA%B3%A0%EC%9E%88%EB%8A%94%EB%8D%B0-%EB%8B%A4%EB%93%A4-%EA%B9%94%EB%81%94%ED%95%98%EB%8B%A4%EA%B3%A0-%ED%95%B4%EC%A3%BC%EC%85%94/",
-          "source": "Threads · warm._.table",
-          "published": "",
-          "snippet": "이번에 원소원정대 보고 그냥 싼맛에 아무 생각 없이 해봤다가 퀄리티 보고 진짜 소름 돋음;; ㅋㅋㅋ. 이거 진짜 요즘 대세라길래 선 넘었다는 소문 듣고 직접 써봤는데 ..."
-        },
-        {
-          "title": "소싱 인사이트 - 마켓콕",
-          "link": "https://marketkok.co.kr/sourcing-insight",
-          "source": "marketkok.co.kr",
-          "published": "8시간 전",
-          "snippet": "원소원정대. 분야. 패션의류, 패션잡화, 화장품/미용, 디지털/가전, 가구/인테리어, 출산/육아, 식품, 스포츠/레저, 생활/건강, 여가/생활편의, 면세점, 도서. 전체 ..."
         },
         {
           "title": "자연과학",
           "link": "https://m.yes24.com/category/display/001001002",
           "source": "예스24",
-          "published": "4시간 전",
+          "published": "1시간 전",
           "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
         }
       ],
-      "item_count": 4,
+      "item_count": 2,
+      "time_range": "qdr:d"
+    },
+    {
+      "title": "내면 근력",
+      "author": "짐 머피",
+      "publisher": "윌북(willbook)",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "03화 아무 일도 일어나지 않은 날",
+          "link": "https://brunch.co.kr/@lifewithpanda/49",
+          "source": "브런치",
+          "published": "20시간 전",
+          "snippet": "어제 '내면 근력'에서 읽은 부분이 감명적이었는데, 인간은 원래 불안한 존재이기 때문에 우리가 원하는 성공, 재물과 외모를 가져도 어차피 불안한 건 마찬가지라고 한다."
+        },
+        {
+          "title": "통권 제423- 시간은 어떻게 삶의 무기가 되는가 > 북트렌드",
+          "link": "https://www.uri.or.kr:45045/book/73?sst\\u003dwr_good\\u0026sod\\u003ddesc\\u0026sop\\u003dand\\u0026page\\u003d4",
+          "source": "산학연구원",
+          "published": "11시간 전",
+          "snippet": "결국 이 책은 얼마나 많은 일을 했는가보다, 내 시간을 무엇과 바꾸며 살아가고 있는가​를 생각하게 한다. 추천0. 목록 · 다음글 통권 제422호-내면근력 ..."
+        },
+        {
+          "title": "(깨지지 않는 멘탈) 셔터프루프 - 국회부산도서관",
+          "link": "https://busan.nanet.go.kr/bookStory/librarianBookDetail.do?bkId\\u003d3925",
+          "source": "국회부산도서관",
+          "published": "12시간 전",
+          "snippet": "내면 근력 · 멘탈 회복력의 기술 · 마음챙김 · 목록 · 개인정보처리방침. 관련사이트. 대한민국 국회, 국회사무처, 국회예산정책처, 국회입법조사처, 국회미래연구원, 헌법 ..."
+        },
+        {
+          "title": "오싹오싹! 여름특집 공포동화 - 거울속에 나 | 플레이앤조이",
+          "link": "https://www.millie.co.kr/v4/book/01f938fdc05d4dcc",
+          "source": "밀리의서재",
+          "published": "7시간 전",
+          "snippet": "내면 근력/짐 머피 지음 / 지여울 옮김 썸네일. 오디오북. 이규창. 내면 근력. 짐 머피 지음 / 지여울 옮김 · 오디오북 리더. 완독. 죽은 왕녀를 위한 ..."
+        },
+        {
+          "title": "Day243.",
+          "link": "https://www.instagram.com/p/Dcs7q60jxwu/",
+          "source": "Instagram · 36.5_run",
+          "published": "",
+          "snippet": "#내면근력 · View 1 comment · ttwinda94. 수고하셨습니다! 좋은 밤 되시고 내일도 행복한 하루 되세요 . August 18 · 36.5_run's profile picture. 36.5_run. •."
+        },
+        {
+          "title": "\"내 인생은 회사보다 크다\" Roles are not given. 역할은 주어 ...",
+          "link": "https://www.threads.com/@indiepub_official/post/DcsCI0cGUva/%EB%82%B4-%EC%9D%B8%EC%83%9D%EC%9D%80-%ED%9A%8C%EC%82%AC%EB%B3%B4%EB%8B%A4-%ED%81%AC%EB%8B%A4-roles-are-not-given-%EC%97%AD%ED%95%A0%EC%9D%80-%EC%A3%BC%EC%96%B4%EC%A7%80%EC%A7%80-%EC%95%8A%EB%8A%94%EB%8B%A4-%EC%9B%80%EC%A7%81%EC%9D%B8%EB%8A%90-%EC%82%AC%EB%9E%8C%EC%9D%B4-%EB%81%9D%EB%82%B4-%EB%A7%8C%EB%93%A4%EC%96%B4%EA%B0%80%EB%8A%94-%EA%B2%83%EC%9D%B4%EB%8B%A4-%EC%A0%9C%EB%AA%A9%EC%97%AD%ED%95%A0%EC%9D%80-%EC%A3%BC%EC%96%B4%EC%A7%80%EC%A7%80-/",
+          "source": "Threads",
+          "published": "",
+          "snippet": "그래서 다음 책은 내면 근력이다!!! ㅋㅋㅋ. #자기신뢰 #내면근력. 내 인생을 주인답게 살 수 있도록! Keepgoing. OCR 현대지성 클래식 36 인생의 모든 답은 내 안에 있다 ..."
+        },
+        {
+          "title": "한국 중학생이 미식축구 배우법",
+          "link": "https://www.tiktok.com/discover/%ED%95%9C%EA%B5%AD-%EC%A4%91%ED%95%99%EC%83%9D%EC%9D%B4-%EB%AF%B8%EC%8B%9D%EC%B6%95%EA%B5%AC-%EB%B0%B0%EC%9A%B0%EB%B2%95",
+          "source": "TikTok",
+          "published": "10시간 전",
+          "snippet": "A.J. 브라운의 멘탈 관리 비결, '내면 근력'. NFL 스타 A.J. 브라운이 읽는 책 '내면 근력'. 경기 준비를 위한 멘탈 관리의 중요성을 알아보세요! 22.2K Likes, 603 ..."
+        },
+        {
+          "title": "축구토토승무패5회차 - 업계 전문가들의 조언 - FITPA",
+          "link": "https://www.fitpa.co.za/?Slot\\u003d2026-08-31/uongsp.html",
+          "source": "fitpa.co.za",
+          "published": "18시간 전",
+          "snippet": "짐 머피의 '내면 근력'은 4계단 오르며 9위에 진입해 눈길을 끌었다.또한 스즈키 유이의 장편소설 '괴테는 모든 것을 말했다'는 10위에 이름을 올렸다. The 100 ..."
+        }
+      ],
+      "item_count": 8,
       "time_range": "qdr:d"
     }
   ]
