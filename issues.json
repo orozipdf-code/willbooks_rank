@@ -1,95 +1,137 @@
 {
-  "generated_at": "2026-09-01T00:27:33.618135+00:00",
+  "generated_at": "2026-09-01T23:08:41.522706+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
   "book_count": 2,
   "searches_used": 2,
   "books": [
     {
-      "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
+      "title": "원소 원정대",
       "author": "아게도리도리",
       "publisher": "윌북주니어",
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "청소년",
-          "link": "https://m.yes24.com/category/display/001001005",
-          "source": "예스24",
+          "title": "사당역점 매장안내",
+          "link": "https://www.ypbooks.co.kr/shopInfo/guide/3080?srsltid\\u003dAfmBOooqzn3-tUEcarBtahMtrXW2uYdU93wfY3N8JgMdsGflpC1O3zoC",
+          "source": "영풍문고",
+          "published": "12시간 전",
+          "snippet": "원소 원정대; 당신은 사건현장에; 안녕 피터팬. 오디세이아; 세네카; 히가시노게이고; 김애란; 그리스인조르바. 한국사 이상현상; 그리스로마신화; 원소 원정대; 당신은 ..."
+        },
+        {
+          "title": "책 읽는 도시 - 구미시",
+          "link": "https://lib.gumi.go.kr/page.do?mid\\u003d154\\u0026ArticleId\\u003d1944\\u0026Category\\u003d%EC%82%B0%EB%8F%99",
+          "source": "구미시립도서관",
           "published": "11시간 전",
-          "snippet": "청소년 베스트 ; 1. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 ; 2. 공부가 결국 너를 지켜줄 거야. 임민찬 저 ..."
+          "snippet": "다음 추천도서가 존재하지 않습니다. ▽ 이전 추천도서; 원소원정대. 홈페이지 서비스 향상을 위해 만족도 조사를 실시하고 있습니다. 현재 페이지의 내용과 편의성에 ..."
+        },
+        {
+          "title": "평온한 명랑함 유의어 - 뜻과 관련 표현",
+          "link": "https://wordsisters.com/search/%ED%8F%89%EC%98%A8%ED%95%9C%20%EB%AA%85%EB%9E%91%ED%95%A8",
+          "source": "유의어 사전",
+          "published": "19시간 전",
+          "snippet": "자유민주주의에 무슨 일이 일어났는가? 원소 원정대 사피엔스. 이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공 ..."
         },
         {
           "title": "자연과학",
           "link": "https://m.yes24.com/category/display/001001002",
           "source": "예스24",
-          "published": "1시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
+          "published": "10시간 전",
+          "snippet": "1. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북주니어 ; 2. 코스모스. 칼 세이건 저/홍승수 역 사이언스 ..."
+        },
+        {
+          "title": "설민석의 한국사 대모험 38 lms",
+          "link": "https://www.aladin.co.kr/shop/wbrowse.aspx?CID\\u003d277735\\u0026srsltid\\u003dAfmBOoppmampHkBwh-OsDQhMdSxj9QmTkxjuJ4Yux3xoWUDNkxHV7VFD",
+          "source": "알라딘",
+          "published": "16시간 전",
+          "snippet": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집; 아게도리도리 (지은이), 박재현 (옮긴이), 장홍제 (감수); 윌북주니어 | 2026년 05월 | 2026년 05월; 17,820 ..."
+        },
+        {
+          "title": "부산대점 매장안내",
+          "link": "https://www.ypbooks.co.kr/shopInfo/select-info/3000?srsltid\\u003dAfmBOor2qhyucGSsF9FwvE2QuQ_xEpQ9e89HL-FoB_Xz7Qipn9AV34e4",
+          "source": "영풍문고",
+          "published": "5시간 전",
+          "snippet": "원소 원정대; 당신은 사건현장에; 안녕 피터팬. 오디세이아; 세네카; 히가시노게이고; 김애란; 그리스인조르바. 한국사 이상현상; 그리스로마신화; 원소 원정대; 당신은 ..."
+        },
+        {
+          "title": "광복롯데점 매장안내",
+          "link": "https://www.ypbooks.co.kr/shopInfo/select-info/5400?srsltid\\u003dAfmBOoqRgdy-GPfFZQMKxTrLsBLwm_8OQvPvICplMZMg-pyWhXlZaLQ-",
+          "source": "영풍문고",
+          "published": "14시간 전",
+          "snippet": "원소 원정대; 당신은 사건현장에; 안녕 피터팬. 오디세이아; 세네카; 히가시노게이고; 김애란; 그리스인조르바. 한국사 이상현상; 그리스로마신화; 원소 원정대; 당신은 ..."
+        },
+        {
+          "title": "왜 좋은 일자리는 늘 부족한가 최저가·가격추이 - 소빛",
+          "link": "https://www.sovit.app/products/cmssvv4es013cjr04rmf2k9if",
+          "source": "sovit.app",
+          "published": "21시간 전",
+          "snippet": "원소 원정대. 로켓배송. 원소 원정대. 17,820원. 마더텅 수능기출 모의고사 30회 영어영역(2026)(2027 수능대비. 로켓배송. 마더텅 수능기출 모의고사 30회 영어영역(2026)( ..."
         }
       ],
-      "item_count": 2,
+      "item_count": 8,
       "time_range": "qdr:d"
     },
     {
       "title": "내면 근력",
       "author": "짐 머피",
-      "publisher": "윌북(willbook)",
+      "publisher": "윌북",
       "brand": "윌북",
       "items": [
         {
-          "title": "03화 아무 일도 일어나지 않은 날",
-          "link": "https://brunch.co.kr/@lifewithpanda/49",
-          "source": "브런치",
-          "published": "20시간 전",
-          "snippet": "어제 '내면 근력'에서 읽은 부분이 감명적이었는데, 인간은 원래 불안한 존재이기 때문에 우리가 원하는 성공, 재물과 외모를 가져도 어차피 불안한 건 마찬가지라고 한다."
+          "title": "억만장자 메신저 | 내면근력을 키워보는 겁니다. 가장 쉬운 법 ...",
+          "link": "https://www.instagram.com/p/DcvhIXnB9V6/",
+          "source": "Instagram · super_writer12",
+          "published": "",
+          "snippet": "내면근력을 키워보는 겁니다. 가장 쉬운 법은 통제할 수 없는 건 잊는거지요. View all 3 comments."
         },
         {
-          "title": "통권 제423- 시간은 어떻게 삶의 무기가 되는가 > 북트렌드",
-          "link": "https://www.uri.or.kr:45045/book/73?sst\\u003dwr_good\\u0026sod\\u003ddesc\\u0026sop\\u003dand\\u0026page\\u003d4",
+          "title": "[신간] 불안 없는 아이…하버드 의대 임상심리학자가 전하는 ...",
+          "link": "https://www.ksw-news.com/news/articleView.html?idxno\\u003d3029214",
+          "source": "한국사회복지저널",
+          "published": "22시간 전",
+          "snippet": "메러디스 엘킨스가 저술하고 고연수가 옮긴 『불안 없는 아이: 하버드 의대 임상심리학자의 내면 근력 수업』이 2026년 8월 31일 교양인을 통해 출간되었다."
+        },
+        {
+          "title": "서울시평생학습포털 9월 도서증정 이벤트 안내 | 공지사항 | 새소식",
+          "link": "https://sll.seoul.go.kr/lms/front/boardItem/doViewBoardItem.do?board_no\\u003d14\\u0026boarditem_no\\u003d775811\\u0026page\\u003d1\\u0026mnid\\u003d202601418221",
+          "source": "서울시 평생학습포털",
+          "published": "23시간 전",
+          "snippet": "이전글이 없습니다. 다음글: [당첨안내] 내면근력 도서증정 이벤트 당첨자 안내 . 서울특별시. 서울 중구 서소문로 124 서울시청 서소문2청사 찾아오시는 길. 학습지원 ..."
+        },
+        {
+          "title": "내일 죽을 사람처럼 오늘을 살고 영원히 살 것처럼 미래를 ...",
+          "link": "https://www.threads.com/@million.library/post/DcvmRpmEqcK/%EB%82%B4%EC%9D%BC-%EC%A3%BD%EC%9D%84-%EC%82%AC%EB%9E%8C%EC%B2%98%EB%9F%BC-%EC%98%A4%EB%8A%98%EC%9D%84-%EC%82%B4%EA%B3%A0%EC%98%81%EC%9B%90%ED%9E%88-%EC%82%B4-%EA%B2%83%EC%B2%98%EB%9F%BC-%EB%AF%B8%EB%9E%98%EB%A5%BC-%EC%A4%80%EB%B9%84%ED%95%98%EB%9D%BC-%EC%B1%85-%EB%82%B4%EB%A9%B4-%EA%B7%BC%EB%A0%A5/",
+          "source": "Threads · million.library",
+          "published": "",
+          "snippet": "고통에서 인내가 키워지며, 인내에서 인격이 빚어진다. 이 인격이야말로 희망을 틔우는 비옥한 토양이다. - 책 <내면 근력>."
+        },
+        {
+          "title": "포천시도서관 독서3종경기",
+          "link": "https://lib.pocheon.go.kr/reading/index.do",
+          "source": "포천시도서관",
+          "published": "24시간 전",
+          "snippet": "내면근력(짐 머피, 윌븍, 2026) 47쪽 승리란 해결책이기도 하지만 문제 자체이기도 하다. 독서릴레이 더 보기. 독서프로필. 성공패턴(홍인기, Deep&wide, 2025). 성공 ..."
+        },
+        {
+          "title": "골드브루의 톡",
+          "link": "https://www.valley.town/space/@goldbrew/talks/6a962de1179c8797305cab3f",
+          "source": "Valley AI",
+          "published": "22시간 전",
+          "snippet": "2026년 9월 #독서계획. 1. 생각에 관한 생각 #뉴로진스. 2. 내면 근력 #시냅스. 첨부 이미지 1. 첨부 이미지 2. 좋아요. 4. 4. 0. 댓글 0개."
+        },
+        {
+          "title": "서울시평생학습포털 added a new photo.",
+          "link": "https://www.facebook.com/sll.go.kr/photos/1532236392283579/",
+          "source": "Facebook",
+          "published": "",
+          "snippet": "추천강의를 수강 완료하시면 추첨을 통해 화제의 신간 '내면 근력'을 선물로 드립니다. ... 내면 근력' 실물도서 (추첨 50명) · May be an image of text that says ..."
+        },
+        {
+          "title": "제359차 지구인독서회-시간은 어떻게 삶의 무기가 되는가 ...",
+          "link": "https://www.uri.or.kr:45045/discussion/103",
           "source": "산학연구원",
-          "published": "11시간 전",
-          "snippet": "결국 이 책은 얼마나 많은 일을 했는가보다, 내 시간을 무엇과 바꾸며 살아가고 있는가​를 생각하게 한다. 추천0. 목록 · 다음글 통권 제422호-내면근력 ..."
-        },
-        {
-          "title": "(깨지지 않는 멘탈) 셔터프루프 - 국회부산도서관",
-          "link": "https://busan.nanet.go.kr/bookStory/librarianBookDetail.do?bkId\\u003d3925",
-          "source": "국회부산도서관",
-          "published": "12시간 전",
-          "snippet": "내면 근력 · 멘탈 회복력의 기술 · 마음챙김 · 목록 · 개인정보처리방침. 관련사이트. 대한민국 국회, 국회사무처, 국회예산정책처, 국회입법조사처, 국회미래연구원, 헌법 ..."
-        },
-        {
-          "title": "오싹오싹! 여름특집 공포동화 - 거울속에 나 | 플레이앤조이",
-          "link": "https://www.millie.co.kr/v4/book/01f938fdc05d4dcc",
-          "source": "밀리의서재",
-          "published": "7시간 전",
-          "snippet": "내면 근력/짐 머피 지음 / 지여울 옮김 썸네일. 오디오북. 이규창. 내면 근력. 짐 머피 지음 / 지여울 옮김 · 오디오북 리더. 완독. 죽은 왕녀를 위한 ..."
-        },
-        {
-          "title": "Day243.",
-          "link": "https://www.instagram.com/p/Dcs7q60jxwu/",
-          "source": "Instagram · 36.5_run",
-          "published": "",
-          "snippet": "#내면근력 · View 1 comment · ttwinda94. 수고하셨습니다! 좋은 밤 되시고 내일도 행복한 하루 되세요 . August 18 · 36.5_run's profile picture. 36.5_run. •."
-        },
-        {
-          "title": "\"내 인생은 회사보다 크다\" Roles are not given. 역할은 주어 ...",
-          "link": "https://www.threads.com/@indiepub_official/post/DcsCI0cGUva/%EB%82%B4-%EC%9D%B8%EC%83%9D%EC%9D%80-%ED%9A%8C%EC%82%AC%EB%B3%B4%EB%8B%A4-%ED%81%AC%EB%8B%A4-roles-are-not-given-%EC%97%AD%ED%95%A0%EC%9D%80-%EC%A3%BC%EC%96%B4%EC%A7%80%EC%A7%80-%EC%95%8A%EB%8A%94%EB%8B%A4-%EC%9B%80%EC%A7%81%EC%9D%B8%EB%8A%90-%EC%82%AC%EB%9E%8C%EC%9D%B4-%EB%81%9D%EB%82%B4-%EB%A7%8C%EB%93%A4%EC%96%B4%EA%B0%80%EB%8A%94-%EA%B2%83%EC%9D%B4%EB%8B%A4-%EC%A0%9C%EB%AA%A9%EC%97%AD%ED%95%A0%EC%9D%80-%EC%A3%BC%EC%96%B4%EC%A7%80%EC%A7%80-/",
-          "source": "Threads",
-          "published": "",
-          "snippet": "그래서 다음 책은 내면 근력이다!!! ㅋㅋㅋ. #자기신뢰 #내면근력. 내 인생을 주인답게 살 수 있도록! Keepgoing. OCR 현대지성 클래식 36 인생의 모든 답은 내 안에 있다 ..."
-        },
-        {
-          "title": "한국 중학생이 미식축구 배우법",
-          "link": "https://www.tiktok.com/discover/%ED%95%9C%EA%B5%AD-%EC%A4%91%ED%95%99%EC%83%9D%EC%9D%B4-%EB%AF%B8%EC%8B%9D%EC%B6%95%EA%B5%AC-%EB%B0%B0%EC%9A%B0%EB%B2%95",
-          "source": "TikTok",
-          "published": "10시간 전",
-          "snippet": "A.J. 브라운의 멘탈 관리 비결, '내면 근력'. NFL 스타 A.J. 브라운이 읽는 책 '내면 근력'. 경기 준비를 위한 멘탈 관리의 중요성을 알아보세요! 22.2K Likes, 603 ..."
-        },
-        {
-          "title": "축구토토승무패5회차 - 업계 전문가들의 조언 - FITPA",
-          "link": "https://www.fitpa.co.za/?Slot\\u003d2026-08-31/uongsp.html",
-          "source": "fitpa.co.za",
-          "published": "18시간 전",
-          "snippet": "짐 머피의 '내면 근력'은 4계단 오르며 9위에 진입해 눈길을 끌었다.또한 스즈키 유이의 장편소설 '괴테는 모든 것을 말했다'는 10위에 이름을 올렸다. The 100 ..."
+          "published": "23시간 전",
+          "snippet": "... 내면 근력을 키우는 법. 댓글목록. 댓글목록. 등록된 댓글이 없습니다. 댓글쓰기. 내용. 비밀글사용. 이름 필수 비밀번호 필수. 자동등록방지. 새로고침 자동등록방지 숫자 ..."
         }
       ],
       "item_count": 8,
