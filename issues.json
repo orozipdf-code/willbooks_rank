@@ -1,17 +1,74 @@
 {
-  "generated_at": "2026-09-04T22:52:34.440032+00:00",
+  "generated_at": "2026-09-05T22:42:54.419950+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
   "book_count": 1,
-  "searches_used": 2,
+  "searches_used": 1,
   "books": [
     {
       "title": "원소 원정대",
       "author": "아게도리도리",
       "publisher": "윌북주니어",
       "brand": "윌북주니어",
-      "items": [],
-      "item_count": 0,
+      "items": [
+        {
+          "title": "디아블로2 인벤 자유 게시판 - 디아블로2: 레저렉션 인벤",
+          "link": "https://www.inven.co.kr/board/diablo2/5735?category\\u003d_%EC%8B%9C%EC%84%B8%EC%A7%88%EB%AC%B8\\u0026stype\\u003dnicname\\u0026svalue\\u003d%EB%B4%89%ED%99%A9\\u0026sterm\\u003d8002685\\u0026vtype\\u003dpc",
+          "source": "인벤",
+          "published": "22시간 전",
+          "snippet": "원소술사 · 드루이드 · 악마술사. 미디어 게시판. 득템 · 자랑 갤러리 · 스크린샷 갤러리 ... 시즈쿤 님께서 클레르 옵스퀴르 33 원정대 (스팀코드)를 교환. Onyxno1 님께 ..."
+        },
+        {
+          "title": "붉은사막 인벤 팁과 노하우 게시판",
+          "link": "https://www.inven.co.kr/board/crimson/6511?stype\\u003dsubjcont\\u0026svalue\\u003d%EA%B7%A0%ED%98%95\\u0026p\\u003d7\\u0026vtype\\u003dpc",
+          "source": "인벤",
+          "published": "21시간 전",
+          "snippet": "... (원소 바람, 먹구름 획득). [1] 비디오. 레벨 아이콘 매지, 03-29, 10,275, 1. 522. [짧팁] ... 시즈쿤 님께서 클레르 옵스퀴르 33 원정대 (스팀코드)를 교환. Onyxno1 ..."
+        },
+        {
+          "title": "오픈이슈갤러리 - 웹진 인벤",
+          "link": "https://www.inven.co.kr/board/webzine/2097?iskin\\u003dwebzine\\u0026category\\u003d_%EC%97%B0%EC%98%88\\u0026stype\\u003dnickname\\u0026svalue\\u003d%EC%84%B8%ED%94%84%EB%9D%BC%EB%94%98\\u0026sterm\\u003d7309316\\u0026vtype\\u003dpc",
+          "source": "인벤",
+          "published": "23시간 전",
+          "snippet": "어느 일본 여고생의 신박한 원소 주기율표 덕질. [계층] 어느 일본 여고생의 신 ... 시즈쿤 님께서 클레르 옵스퀴르 33 원정대 (스팀코드)를 교환. Onyxno1 님께서 ..."
+        },
+        {
+          "title": "아이온2 인벤 정령성 게시판",
+          "link": "https://www.inven.co.kr/board/aion2/6454?stype\\u003dnickname\\u0026svalue\\u003d%EC%A0%84%EC%84%A4%EC%9D%98%ED%85%8C%EB%A6%AC\\u0026p\\u003d1\\u0026vtype\\u003dpc",
+          "source": "인벤",
+          "published": "23시간 전",
+          "snippet": "원소융합 차징으로쓰면 2번발동되는 버그.. [4]. N. H · 일반. 900정령성 풀도핑기준 ... 시즈쿤 님께서 클레르 옵스퀴르 33 원정대 (스팀코드)를 교환. Onyxno1 님께 ..."
+        },
+        {
+          "title": "디아블로2 인벤 득템 · 자랑 갤러리 - 디아블로2: 레저렉션 인벤",
+          "link": "https://www.inven.co.kr/board/diablo2/5743?stype\\u003dnickname\\u0026svalue\\u003d%EB%94%B8%EA%B8%B0%EC%9A%B0%EC%9C%A0%EC%9C%A0%EC%9A%B0\\u0026vtype\\u003dpc",
+          "source": "인벤",
+          "published": "12시간 전",
+          "snippet": "원소술사 · 드루이드 · 악마술사. 미디어 게시판. 득템 · 자랑 갤러리 · 스크린샷 갤러리 ... 시즈쿤 님께서 클레르 옵스퀴르 33 원정대 (스팀코드)를 교환. Onyxno1 님께 ..."
+        },
+        {
+          "title": "디아블로2: 레저렉션 인벤 - 강령술사 게시판",
+          "link": "https://www.inven.co.kr/board/diablo2/5827?stype\\u003dnickname\\u0026svalue\\u003d%EC%95%BC%EB%A7%8C%ED%8F%B4%EC%B9%B4\\u0026p\\u003d1\\u0026vtype\\u003dpc",
+          "source": "인벤",
+          "published": "2시간 전",
+          "snippet": "원소술사 · 드루이드 · 악마술사. 미디어 게시판. 득템 · 자랑 갤러리 · 스크린샷 갤러리 ... 시즈쿤 님께서 클레르 옵스퀴르 33 원정대 (스팀코드)를 교환. Onyxno1 님께 ..."
+        },
+        {
+          "title": "우버 디아블로 현황 게시판",
+          "link": "https://www.inven.co.kr/board/diablo2/5900?stype\\u003dnickname\\u0026svalue\\u003d%EB%91%90%EB%9E%AD%EC%9D%B4\\u0026p\\u003d1\\u0026vtype\\u003dpc",
+          "source": "인벤",
+          "published": "22시간 전",
+          "snippet": "원소술사 · 드루이드 · 악마술사. 미디어 게시판. 득템 · 자랑 갤러리 · 스크린샷 갤러리 ... 시즈쿤 님께서 클레르 옵스퀴르 33 원정대 (스팀코드)를 교환. Onyxno1 님께 ..."
+        },
+        {
+          "title": "붉은사막 인벤 자유 게시판",
+          "link": "https://www.inven.co.kr/board/crimson/6246?stype\\u003dnickname\\u0026svalue\\u003dSlaoal\\u0026sterm\\u003d10000000\\u0026vtype\\u003dpc",
+          "source": "인벤",
+          "published": "23시간 전",
+          "snippet": "[질문] 데미안 일점사격할 때 원소강화 적용되나요???? [1]. 레벨 아이콘 호도동 ... 시즈쿤 님께서 클레르 옵스퀴르 33 원정대 (스팀코드)를 교환. Onyxno1 님께 ..."
+        }
+      ],
+      "item_count": 8,
       "time_range": "qdr:d"
     }
   ]
