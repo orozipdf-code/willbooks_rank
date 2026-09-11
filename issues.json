@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-10T23:00:57.543762+00:00",
+  "generated_at": "2026-09-11T23:05:20.242789+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
   "book_count": 3,
-  "searches_used": 3,
+  "searches_used": 6,
   "books": [
     {
       "title": "원소 원정대",
@@ -12,119 +12,168 @@
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "\"なぜ韓国語版タイトルが｢元素遠征隊｣になっ ...",
-          "link": "https://x.com/i/status/2097900004304408958",
-          "source": "X · agedoridori",
+          "title": "원소 원정대",
+          "link": "https://namu.wiki/w/%EC%9B%90%EC%86%8C%20%EC%9B%90%EC%A0%95%EB%8C%80",
+          "source": "나무위키",
+          "published": "7일 전",
+          "snippet": "원소 원정대 ; 저자. 아게도리도리 ; 번역. 박재현 ; 출판사. 윌북주니어 ; 분류. 청소년 과학 ; 발매일. 2026년 5월 26일 (발매일로부터 +108일, 0주년)."
+        },
+        {
+          "title": "원소 원정대 책 (윌북주니어 초등 어린이 고학년 중학생 과학 ...",
+          "link": "https://www.coupang.com/vp/products/9715040003?itemId=29069400125&vendorItemId=95921706717&sourceType=CATEGORY&categoryId=329884",
+          "source": "쿠팡",
+          "published": "19시간 전",
+          "snippet": "원소 원정대 책 (윌북주니어 초등 어린이 고학년 중학생 과학 화학 주기율표 공부) ... 선택 가능한 수량은 9개입니다. 장바구니 담기 바로구매."
+        },
+        {
+          "title": "원소를 의인화한 일본 여고생의 책 — 원소원정대 이야기",
+          "link": "https://www.tiktok.com/@indieshop_kr/video/7681881180374928661",
+          "source": "TikTok · 인디붘📖",
           "published": "",
-          "snippet": "... 원소 원정대고 일본어론 원소 악장이란게 신기... 韓国語論の元素遠征隊と日本語論の 元素楽章 というのは不思議です··· #元素楽章 #元素楽章fa 한국[韓国] 일본[日本]."
+          "snippet": "... '의 원소 의인화 프로젝트와 책 출간 배경을 소개합니다. #책 #원소원정대 #과학\"."
         },
         {
-          "title": "자연과학",
-          "link": "https://m.yes24.com/category/display/001001002",
-          "source": "예스24",
-          "published": "4시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
+          "title": "[추천 talk_청소년·부모] 주기율표는 왜 외우기 싫을까… '원소 ...",
+          "link": "https://www.seoulmedianews.com/news/articleView.html?idxno=65162",
+          "source": "서울미디어뉴스",
+          "published": "1일 전",
+          "snippet": "『원소 원정대』의 가장 큰 장점은 118개의 원소를 얼마나 많이 외우게 하느냐에 있지 않다. 과학에도 성격과 관계, 이야기가 존재한다는 사실을 보여준다는 데 있다. 과학 ..."
         },
         {
-          "title": "揚げ鶏々🐓元素擬人化ゲーム制作中",
-          "link": "https://x.com/agedoridori/all?lang=cs",
-          "source": "X",
-          "published": "6시간 전",
-          "snippet": "9. 9. 원소 악장 책 디자인元素楽章の本デザイン한국어론 원소 원정대고 일본어론 원소 악장이란게 신기..."
+          "title": "신착자료검색",
+          "link": "https://lib.gwe.go.kr/yglib/menu/3803/book/view/VJU000086627?booktype=",
+          "source": "강원특별자치도교육청",
+          "published": "6일 전",
+          "snippet": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집 ; 저자: 아게도리도리 쓰고 그림 ; 박재현 옮김 ; 출판사: 윌북주니어 ; 발행년: 2026 ; ISBN: 9791155819326 ..."
         },
         {
-          "title": "ReLe814 - 리레전드",
-          "link": "https://x.com/ReLe814",
-          "source": "X",
-          "published": "18시간 전",
-          "snippet": "14h. 원소 악장 책 디자인元素楽章の本デザイン한국어론 원소 원정대고 일본어론 원소 악장이란게 신기... 韓国語論の元素遠征隊と日本語論の 元素楽章 というのは ..."
-        }
-      ],
-      "item_count": 4,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "어떻게 경제학을 사랑하지 않을 수 있을까",
-      "author": "에릭 앵그너",
-      "publisher": "윌북(willbook)",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "[200자 읽기] 어떻게 경제학을 사랑하지 않을 수 있을까",
-          "link": "https://www.kmib.co.kr/article/view_amp.asp?arcid=9000011035",
-          "source": "국민일보",
-          "published": "8시간 전",
-          "snippet": "[200자 읽기] 어떻게 경제학을 사랑하지 않을 수 있을까 ... 경제학을 복잡한 세상을 해석하는 명료한 사고의 도구임을 증명한다. 저자는 기후위기와 빈곤 등 현안을 풀려면 ..."
+          "title": "[입수시기 30일] 검색결과",
+          "link": "https://www.u-library.kr/newarrival?st=SUBJ&sNo=0&newDate=30&sq=TOTAL&pn=21&briefType=G",
+          "source": "대전공공도서관",
+          "published": "4일 전",
+          "snippet": "원소 원정대 :118개 캐릭터로 마스터하는 주기율표 공략집; 표지이미지: 원소 원정대 :118개 캐릭터로 마스터하는 주기율표 공략집. 미리보기. 한밭도서관대출중. 선택"
         },
         {
-          "title": "[200자 읽기] 어떻게 경제학을 사랑하지 않을 수 있을까",
-          "link": "https://v.daum.net/v/20260911000436579",
-          "source": "Daum",
-          "published": "8시간 전",
-          "snippet": "[200자 읽기] 어떻게 경제학을 사랑하지 않을 수 있을까. 2026. 9. 11. 00:04. 요약보기. 자동요약 기사 제목과 주요 문장을 기반으로 자동요약한 결과입니다. 전체 맥락 ..."
+          "title": "2026년 8월 어린이 인기도서 순위",
+          "link": "https://ilovecharacter.com/news/newsview.php?ncode=1065591583932641&dt=m",
+          "source": "아이러브캐릭터",
+          "published": "2일 전",
+          "snippet": "2026년 8월 어린이 인기도서 순위 · 01. 원소 원정대 · 02. 고양이는 고양이가 알려드림 · 03. 오디세이아 · 04. 오잉? 오잉! · 05. 백앤아×고고프렌즈 국어별동대 1 · 06. Go Go ..."
         },
         {
-          "title": "[새책]불평등의 지리 外 - 경향신문 AMP",
-          "link": "https://www.khan.co.kr/article/202609102043005/amp",
-          "source": "경향신문",
-          "published": "11시간 전",
-          "snippet": "어떻게 경제학을 사랑하지 않을 수 있을까? 경제학은 복잡한 세상을 해석하는 명료한 사고의 언어다. 기후위기·빈곤·자원 고갈·양극화 등 선의와 분노만으로는 풀리지 ..."
-        },
-        {
-          "title": "경제학 작가의 효능감 자랑 ㅋ 『경제학이 필요한 순간』을 낸 ...",
-          "link": "https://www.facebook.com/hyuncheol.kim.3344/posts/%EA%B2%BD%EC%A0%9C%ED%95%99-%EC%9E%91%EA%B0%80%EC%9D%98-%ED%9A%A8%EB%8A%A5%EA%B0%90-%EC%9E%90%EB%9E%91-%E3%85%8B%EA%B2%BD%EC%A0%9C%ED%95%99%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EC%88%9C%EA%B0%84%EC%9D%84-%EB%82%B8-%EC%A7%80-%EC%82%BC-%EB%85%84%EC%9D%B4-%EB%90%98%EC%96%B4%EA%B0%91%EB%8B%88%EB%8B%A4-%EA%B7%B8%EB%8F%99%EC%95%88-%EB%A7%8E%EC%9D%80-%EB%B6%84%EB%93%A4%EC%9D%B4-%EC%B1%85%EC%9D%84-%EC%A2%8B%EC%95%84%ED%95%B4-%EC%A3%BC%EC%85%A8%EC%A7%80%EB%A7%8C-%ED%8A%B9%ED%9E%88-%EC%A0%95%EC%B9%98%EC%99%80-%EC%A0%95%EC%B1%85%EC%9D%84-%EB%8B%A4%EB%A3%A8/1598584298946946/",
-          "source": "Facebook · 김현철",
-          "published": "",
-          "snippet": "[책소개: 어떻게 경제학을 사랑하지 않을 수 있을까?] 영어원제 <How Economics Can Save the World> 제가 전공하는 응용미시 경제학을 잘 소개하는 책이 나왔습니다. 다음 ..."
-        },
-        {
-          "title": "[새책]불평등의 지리 外",
-          "link": "https://www.khan.co.kr/article/202609102043005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "source": "경향신문",
-          "published": "11시간 전",
-          "snippet": "어떻게 경제학을 사랑하지 않을 수 있을까? 경제학은 복잡한 세상을 해석하는 명료한 사고의 언어다. 기후위기·빈곤·자원 고갈·양극화 등 선의와 분노만으로는 풀리지 ..."
-        },
-        {
-          "title": "부의 영혼 | 대니얼 크로스비 | 알레",
-          "link": "https://www.yes24.com/product/goods/196261543",
-          "source": "예스24",
-          "published": "24시간 전",
-          "snippet": "어떻게 경제학을 사랑하지 않을 수 있을까. 에릭 앵그너 저/윤종은 역. 19,800원 (10% 할인). 존 갤브레이스 돈을 말하다. 존 케네스 갤브레이스 저/이강국 역. 25,200원 ..."
-        },
-        {
-          "title": "[200자 읽기] 도구가 바꾼 세계",
-          "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000011038&code=13150000&sid1=pol%EF%BF%BD",
-          "source": "국민일보",
-          "published": "8시간 전",
-          "snippet": "... 어떻게 경제학을 사랑하지 않을 수 있을까. 3. [200자 읽기] 인간은 왜 슬플까. 4. [200자 읽기] 기후위기가 부를 가혹한 미래. 5. [200자 읽기] 도구가 바꾼 세계. 국민 ..."
-        },
-        {
-          "title": "[200자 읽기] 인간은 왜 슬플까",
-          "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000011036&code=13150000&sid1=lif&stg=ws_rank",
-          "source": "국민일보",
-          "published": "8시간 전",
-          "snippet": "... 어떻게 경제학을 사랑하지 않을 수 있을까. 3. [200자 읽기] 인간은 왜 슬플까. 4. [200자 읽기] 기후위기가 부를 가혹한 미래. 5. [200자 읽기] 도구가 바꾼 세계. 국민 ..."
+          "title": "원소 주기율표",
+          "link": "https://www.tiktok.com/discover/%EC%9B%90%EC%86%8C-%EC%A3%BC%EA%B8%B0%EC%9C%A8%ED%91%9C",
+          "source": "TikTok",
+          "published": "5일 전",
+          "snippet": "원소를 의인화한 일본 여고생의 책 — 원소원정대 이야기. 홋카이도 대학 발표로 ... 원소 원정대 | 주기율표 공략집 | 궤도 추천 도서 | 바로보네. 오리지널 ..."
         }
       ],
       "item_count": 8,
-      "time_range": "qdr:d"
+      "time_range": "qdr:w"
     },
     {
-      "title": "바빌론 부자들의 지혜",
-      "author": "조지 S. 클래이슨",
+      "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
+      "author": "아게도리도리",
+      "publisher": "윌북주니어",
+      "brand": "윌북주니어",
+      "items": [
+        {
+          "title": "신착자료검색",
+          "link": "https://lib.gwe.go.kr/yglib/menu/3803/book/view/VJU000086627?booktype=",
+          "source": "강원특별자치도교육청",
+          "published": "6일 전",
+          "snippet": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집 ; 저자: 아게도리도리 쓰고 그림 ; 박재현 옮김 ; 출판사: 윌북주니어 ; 발행년: 2026 ; ISBN: 9791155819326 ..."
+        },
+        {
+          "title": "[입수시기 30일] 검색결과",
+          "link": "https://www.u-library.kr/newarrival?st=SUBJ&sNo=0&newDate=30&sq=TOTAL&pn=21&briefType=G",
+          "source": "대전공공도서관",
+          "published": "4일 전",
+          "snippet": "원소 원정대 :118개 캐릭터로 마스터하는 주기율표 공략집; 표지이미지: 원소 원정대 :118개 캐릭터로 마스터하는 주기율표 공략집. 미리보기. 한밭도서관대출중. 선택"
+        },
+        {
+          "title": "원소 원정대 책 (윌북주니어 초등 어린이 고학년 중학생 과학 ...",
+          "link": "https://www.coupang.com/vp/products/9715040003?itemId=29069400125&vendorItemId=95921706717&sourceType=CATEGORY&categoryId=329884",
+          "source": "쿠팡",
+          "published": "19시간 전",
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집 [쁘띠수첩+스티커]. 17,820원."
+        },
+        {
+          "title": "세계5대 유학강국 | 신미경 | 대한기획인쇄",
+          "link": "https://m.yes24.com/goods/detail/196272856",
+          "source": "예스24",
+          "published": "1일 전",
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 10% 17,820원. 원소 원정대: 118개 캐릭터로 ..."
+        }
+      ],
+      "item_count": 4,
+      "time_range": "qdr:w"
+    },
+    {
+      "title": "묘사의 힘",
+      "author": "샌드라 거스",
       "publisher": "윌북(willbook)",
       "brand": "윌북",
       "items": [
         {
-          "title": "미래는 고르게 배분되지 않았다. - 자유 게시판 - 漢詩 속으로",
-          "link": "https://cafe.daum.net/heartwings/79Q7/17049",
-          "source": "Daum 카페",
-          "published": "12시간 전",
-          "snippet": "답글 바빌론 부자들의 지혜댓글(6). 답글 이순신의 위대한 경영-2nd댓글(4); 답글 이순신의 위대한 경영댓글(4); 답글 부채의 종말댓글(6); 답글 AI버블이 만드는 부채의 ..."
+          "title": "시점의 힘 | 내 글이 작품이 되는 법 | 샌드라 거스",
+          "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=291771536&srsltid=AfmBOooYwolBllLU9ddTuTgXwiL0KVCR9CRG2Ig6KzPKhfVIZX8WFnIS",
+          "source": "알라딘",
+          "published": "3일 전",
+          "snippet": "아마존 베스트셀러 1위 작가이자 편집자가 쓴 글쓰기 분야 스테디셀러 베스트셀러 『묘사의 힘』 후속작! 어떤 작가가 마지막까지 독자의 시선을 빼앗는가? '내 글이 작품 ..."
+        },
+        {
+          "title": "1745th Day of Morning Affirmations! September Book Club ...",
+          "link": "https://www.youtube.com/watch?v=-WqHajOyYUw",
+          "source": "YouTube · 고명환tv",
+          "published": "",
+          "snippet": "바로 <묘사의 힘>입니다...말하지 말고 보여주라!!! 모든 집단에는 반드시 5%는 소설가가 탄생합니다.. 이 책은 반드시 읽겠습니다...소설가 안되어도 좋습니다 ..."
+        },
+        {
+          "title": "진천 - 베스트대출도서 검색",
+          "link": "https://lib.jincheon.go.kr/lib/front/index.php?g_page=search&m_page=search04&act=marc.view&species_key=75797090",
+          "source": "진천군립도서관",
+          "published": "3일 전",
+          "snippet": "묘사의 힘 말하지 말고 보여주라/ 샌드라 거스 지음; 지여울 옮김. 246, 19, Show, don't tell: how to write vivid descriptions, handle backstory, and describe your ..."
+        },
+        {
+          "title": "04화 독자가 지금 어디에 서 있는지 모르고 있었다",
+          "link": "https://brunch.co.kr/@waffletrigger/222",
+          "source": "브런치",
+          "published": "7일 전",
+          "snippet": "묘사의 힘은 양이 아니라 선택에서 나온다. 선택의 기준은 하나다. 그 인물만 가진 것, 그 순간에만 보이는 것을 고른다. 2. 시각 말고 다른 감각을 하나씩. 묘사가 ..."
+        },
+        {
+          "title": "말하지 말고 보여줘라! 9월 고독이 책《묘사의 힘》 고명환 tv ...",
+          "link": "https://www.youtube.com/shorts/D7hHPmCi9BA",
+          "source": "YouTube",
+          "published": "",
+          "snippet": "말하지 말고 보여줘라! 9월 고독이 책《묘사의 힘》 고명환 tv 모든것이 감사합니다 아침긍정확언 D+528=1745 260910 목 음력 7.29."
+        },
+        {
+          "title": "\"헐 대박~~ 윌북에서 연락주셨다❗️ 지금 이 트윗 알티한 ...",
+          "link": "https://x.com/i/status/2098331591735202054",
+          "source": "X · dshsh007_",
+          "published": "",
+          "snippet": "헐 대박~~ 윌북에서 연락주셨다❗️ 지금 이 트윗 알티한 사람 중에서 '다섯 명 추첨'해서 <묘사의 힘> 증정해준다고 하니까, 관심 있던 분들이나 소설 지망생들 꼭 ..."
+        },
+        {
+          "title": "전 세개다 사놓고.,사놨는데... 자루간직하고 있어요",
+          "link": "https://www.threads.com/@sj_toon/post/DdAY_SDAeCF/%EC%A0%84-%EC%84%B8%EA%B0%9C%EB%8B%A4-%EC%82%AC%EB%86%93%EA%B3%A0%EC%82%AC%EB%86%A8%EB%8A%94%EB%8D%B0-%EC%9E%90%EB%A3%A8%EA%B0%84%EC%A7%81%ED%95%98%EA%B3%A0-%EC%9E%88%EC%96%B4%EC%9A%94/",
+          "source": "Threads",
+          "published": "",
+          "snippet": "웹소설쓰기 · September 7, 2026 at 2:37 PM. 퇴고의 힘 묘사의 힘 시점의 힘. 도서관 자료검색해보니 세 권 다 있는데 대출중이네.. 대출가능뜨면 이것도 읽어봐야겠다. 5."
+        },
+        {
+          "title": "26.9.10 목 오전 9시반 긍정확언85일차 고독이 책 발표!! 말하지 ...",
+          "link": "https://www.threads.com/@ssaltongdak_sangnam/post/DdG9yMQj1Ge/video-26910-%EB%AA%A9-%EC%98%A4%EC%A0%84-9%EC%8B%9C%EB%B0%98%EA%B8%8D%EC%A0%95%ED%99%95%EC%96%B885%EC%9D%BC%EC%B0%A8%EA%B3%A0%EB%8F%85%EC%9D%B4-%EC%B1%85-%EB%B0%9C%ED%91%9C%EB%A7%90%ED%95%98%EC%A7%80%EB%A7%90%EA%B3%A0-%EB%B3%B4%EC%97%AC%EC%A3%BC%EB%9D%BC%EA%B3%A0%EB%8F%85%EC%9D%B4-%EC%B1%85-%EB%AC%98%EC%82%AC%EC%9D%98-%ED%9E%98%EC%9D%84-%EC%9D%BD%EA%B3%A0-%EC%86%8C%EC%84%A4%EA%B0%80%EA%B0%80-%EB%90%98%EC%96%B4%EB%B3%B4%EC%9E%90%EB%82%98%EB%8A%94-%EC%95%84%EB%AC%B4%EA%B2%83%EB%8F%84-%EB%B0%94%EB%80%8C%EC%A7%80-%EC%95%8A%EB%8A%94%EB%8B%A4/",
+          "source": "Threads · ssaltongdak_sangnam",
+          "published": "",
+          "snippet": "묘사의 힘을 읽고 연습해보면서 어느 순간 내가 소설가가 되어 있는 놀라운 체험을 할 수 있다. 과정을 즐기고 몰입하는 방법을 깨달아보자! 묘사의 책은 소설을 쓸 수 ..."
         }
       ],
-      "item_count": 1,
-      "time_range": "qdr:d"
+      "item_count": 8,
+      "time_range": "qdr:w"
     }
   ]
 }
