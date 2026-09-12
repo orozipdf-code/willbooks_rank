@@ -83975,13 +83975,1103 @@
     }
   },
   {
-    "수집시각": "2026-09-13 05:01",
+    "수집시각": "2026-09-13 05:31",
     "데이터": {
       "kyobo": [],
-      "aladin": [],
+      "aladin": [
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "1",
+          "제목": "혁오 - 22 [180g LP]",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=383272436",
+          "이미지URL": "https://image.aladin.co.kr/product/38327/24/cover500/c912939792_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "2",
+          "제목": "세네카, 오늘을 빼앗기고 있는 당신에게",
+          "저자": "루키우스 안나이우스 세네카, 하와이 대저택",
+          "출판사": "논픽션",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=396404956",
+          "이미지URL": "https://image.aladin.co.kr/product/39640/49/cover500/k872130175_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "3",
+          "제목": "한국사 이상현상 연구원",
+          "저자": "최인서",
+          "출판사": "다이브",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400909759",
+          "이미지URL": "https://image.aladin.co.kr/product/40090/97/cover500/k962130440_3.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "4",
+          "제목": "혁오 - 20 [180g LP]",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=383272401",
+          "이미지URL": "https://image.aladin.co.kr/product/38327/24/cover500/c902939792_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "5",
+          "제목": "멜로우TV 팀나빠 추리 탐정단 1",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400983593",
+          "이미지URL": "https://image.aladin.co.kr/product/40098/35/cover500/k812130256_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "6",
+          "제목": "흔한남매 23",
+          "저자": "흔한남매, 백난도, 유난희, 흔한컴퍼니",
+          "출판사": "미래엔아이세움",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401810677",
+          "이미지URL": "https://image.aladin.co.kr/product/40181/6/cover500/k252131871_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "7",
+          "제목": "혁오 - 24: How to find true love [180g Transparent Red Color LP]",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=383272482",
+          "이미지URL": "https://image.aladin.co.kr/product/38327/24/cover500/c932939792_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "8",
+          "제목": "싯다르타",
+          "저자": "헤르만 헤세, 박병덕",
+          "출판사": "민음사",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=329596",
+          "이미지URL": "https://image.aladin.co.kr/product/32/95/cover500/s062934786_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "9",
+          "제목": "홍마관의 숙녀들 1 (한정판)",
+          "저자": "risui, 정혜원",
+          "출판사": "AK(에이케이)커뮤니케이션즈",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=402016495",
+          "이미지URL": "https://image.aladin.co.kr/product/40201/64/cover500/k182131374_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "10",
+          "제목": "서리꽃 세트 - 전2권 (초판 한정 케이스 + 조정래 작가노트)",
+          "저자": "조정래",
+          "출판사": "해냄",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400649153",
+          "이미지URL": "https://image.aladin.co.kr/product/40064/91/cover500/k352130041_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "11",
+          "제목": "그랬다고 적었다",
+          "저자": "김애란",
+          "출판사": "문학동네",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400193697",
+          "이미지URL": "https://image.aladin.co.kr/product/40019/36/cover500/k742130236_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "12",
+          "제목": "리더는 언제 차이를 만들어내는가",
+          "저자": "재레드 다이아몬드, 강주헌",
+          "출판사": "김영사",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401294662",
+          "이미지URL": "https://image.aladin.co.kr/product/40129/46/cover500/k432131862_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "13",
+          "제목": "샘트리 맛병아리콩 오리지널  32g",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=398903795",
+          "이미지URL": "https://image.aladin.co.kr/product/39890/37/cover500/g402432312_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "14",
+          "제목": "모순",
+          "저자": "양귀자",
+          "출판사": "쓰다",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=25843736",
+          "이미지URL": "https://image.aladin.co.kr/product/2584/37/cover500/s392131969_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "15",
+          "제목": "은둔",
+          "저자": "조현",
+          "출판사": "불광출판사",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401824384",
+          "이미지URL": "https://image.aladin.co.kr/product/40182/43/cover500/k332131877_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "16",
+          "제목": "눈 내리는 삼일포",
+          "저자": "김연수",
+          "출판사": "문학동네",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401727813",
+          "이미지URL": "https://image.aladin.co.kr/product/40172/78/cover500/k892131770_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "17",
+          "제목": "빵충 사육 준수 사항",
+          "저자": "김혜영",
+          "출판사": "안전가옥",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=398726639",
+          "이미지URL": "https://image.aladin.co.kr/product/39872/66/cover500/k242130313_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "18",
+          "제목": "감쪽같은 수정 테이프 무소음 (총3m)",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=393513013",
+          "이미지URL": "https://image.aladin.co.kr/product/39351/30/cover500/g272432602_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "19",
+          "제목": "클래식 뮤지컬 차이콥스키의 발레곡 호두까기 인형 사운드북",
+          "저자": "피오나 와트, 올가 데미도바",
+          "출판사": "어스본코리아",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=255076408",
+          "이미지URL": "https://image.aladin.co.kr/product/25507/64/cover500/k322633121_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "20",
+          "제목": "악뮤 (AKMU) - 정규 4집 개화 [LP]",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=394435465",
+          "이미지URL": "https://image.aladin.co.kr/product/39443/54/cover500/c572939313_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "21",
+          "제목": "2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 하",
+          "저자": "최태성",
+          "출판사": "이투스북",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378969617",
+          "이미지URL": "https://image.aladin.co.kr/product/37896/96/cover500/k082033624_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "22",
+          "제목": "칵테일을 마시는 철학자들",
+          "저자": "세라 베이크웰, 조영",
+          "출판사": "다산초당",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399460405",
+          "이미지URL": "https://image.aladin.co.kr/product/39946/4/cover500/k832130322_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "23",
+          "제목": "유희왕 애장판 22",
+          "저자": "다카하시 카즈키",
+          "출판사": "대원씨아이(만화)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401974787",
+          "이미지URL": "https://image.aladin.co.kr/product/40197/47/cover500/k502131279_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "24",
+          "제목": "흑무경담 3",
+          "저자": "토가와 요난, 김지혜",
+          "출판사": "㈜소미미디어",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401950754",
+          "이미지URL": "https://image.aladin.co.kr/product/40195/7/cover500/k772131177_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "25",
+          "제목": "찌니주의보",
+          "저자": "정지아",
+          "출판사": "창비",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400137507",
+          "이미지URL": "https://image.aladin.co.kr/product/40013/75/cover500/8936439995_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "26",
+          "제목": "카구라바치 11 (더블특전판)",
+          "저자": "호카조노 타케루",
+          "출판사": "대원씨아이(만화)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401460099",
+          "이미지URL": "https://image.aladin.co.kr/product/40146/0/cover500/k672131467_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "27",
+          "제목": "박완서의 낱말들",
+          "저자": "박완서, 호원숙",
+          "출판사": "웅진지식하우스",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401813692",
+          "이미지URL": "https://image.aladin.co.kr/product/40181/36/cover500/8901300702_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "28",
+          "제목": "우리 아기 오감발달 동물농장 사운드북",
+          "저자": "샘 태플린, 페데리카 아이오사",
+          "출판사": "어스본코리아",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=142232791",
+          "이미지URL": "https://image.aladin.co.kr/product/14223/27/cover500/k162532536_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "29",
+          "제목": "수족관",
+          "저자": "유래혁",
+          "출판사": "포스터샵",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=330811810",
+          "이미지URL": "https://image.aladin.co.kr/product/33081/18/cover500/k582937507_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "30",
+          "제목": "2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 상",
+          "저자": "최태성",
+          "출판사": "이투스북",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378969369",
+          "이미지URL": "https://image.aladin.co.kr/product/37896/93/cover500/k062033624_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "31",
+          "제목": "단다단 22",
+          "저자": "타츠 유키노부",
+          "출판사": "대원씨아이(만화)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401974781",
+          "이미지URL": "https://image.aladin.co.kr/product/40197/47/cover500/k592131279_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "32",
+          "제목": "데뷔 못 하면 죽는 병 걸림 5부 초판 한정 굿즈박스 세트 - 전4권",
+          "저자": "백덕수",
+          "출판사": "위시북스(KW북스)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401048539",
+          "이미지URL": "https://image.aladin.co.kr/product/40104/85/cover500/k292130450_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "33",
+          "제목": "처음 읽는 그리스 로마 신화 15",
+          "저자": "최설희, 한현동, 정수영",
+          "출판사": "미래엔아이세움",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400559601",
+          "이미지URL": "https://image.aladin.co.kr/product/40055/96/cover500/k022130844_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "34",
+          "제목": "테오",
+          "저자": "앨런 레비, 노지양",
+          "출판사": "오팬하우스",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=396397936",
+          "이미지URL": "https://image.aladin.co.kr/product/39639/79/cover500/k992130174_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "35",
+          "제목": "시대예보: 수고인류의 시간",
+          "저자": "",
+          "출판사": "시대예보 양장 노트 & 송길영 저자 메시지와 사인 인쇄본",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401291284",
+          "이미지URL": "https://image.aladin.co.kr/product/40129/12/cover500/k772131860_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "36",
+          "제목": "녹색 절벽의 신자들",
+          "저자": "조예은",
+          "출판사": "오리지널스",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401291520",
+          "이미지URL": "https://image.aladin.co.kr/product/40129/15/cover500/k242131861_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "37",
+          "제목": "백야 (먼슬리 클래식)",
+          "저자": "표도르 도스토옙스키, 박은정",
+          "출판사": "문학동네",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401398426",
+          "이미지URL": "https://image.aladin.co.kr/product/40139/84/cover500/k262131367_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "38",
+          "제목": "2026 큰별쌤 최태성의 별★별한국사 기출 500제 한국사능력검정시험 심화 (1, 2, 3급)",
+          "저자": "최태성",
+          "출판사": "이투스북",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379922349",
+          "이미지URL": "https://image.aladin.co.kr/product/37992/23/cover500/k692034674_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "39",
+          "제목": "2027 김민철 경찰학 핵심요약집",
+          "저자": "김민철",
+          "출판사": "미래가치",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401511925",
+          "이미지URL": "https://image.aladin.co.kr/product/40151/19/cover500/k682131668_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "40",
+          "제목": "니체의 초월자",
+          "저자": "프리드리히 니체, 김철",
+          "출판사": "히읏",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=375395519",
+          "이미지URL": "https://image.aladin.co.kr/product/37539/55/cover500/k392032120_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "41",
+          "제목": "노무현 평전",
+          "저자": "윤태영, 사람사는세상 노무현재단",
+          "출판사": "위즈덤하우스",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400248429",
+          "이미지URL": "https://image.aladin.co.kr/product/40024/84/cover500/k732130439_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "42",
+          "제목": "2027 해커스경찰 김민철 경찰학 기출1000제",
+          "저자": "김민철",
+          "출판사": "해커스경찰(공무원)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401459455",
+          "이미지URL": "https://image.aladin.co.kr/product/40145/94/cover500/k342131467_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "43",
+          "제목": "2027 해커스경찰 갓대환 형사법 기출총정리 세트 (경찰공무원) - 전3권",
+          "저자": "김대환",
+          "출판사": "해커스경찰(공무원)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401810385",
+          "이미지URL": "https://image.aladin.co.kr/product/40181/3/cover500/k912131871_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "44",
+          "제목": "리도어 - 미니 4집 Memory",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=402001273",
+          "이미지URL": "https://image.aladin.co.kr/product/40200/12/cover500/c692939335_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "45",
+          "제목": "문해내공",
+          "저자": "신종호, 김윤정",
+          "출판사": "상상스퀘어",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=398761872",
+          "이미지URL": "https://image.aladin.co.kr/product/39876/18/cover500/k752130413_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "46",
+          "제목": "클래식 뮤지컬 차이콥스키의 발레곡 백조의 호수 사운드북",
+          "저자": "미카엘라 탭셀, 올가 데미도바",
+          "출판사": "어스본코리아",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401348141",
+          "이미지URL": "https://image.aladin.co.kr/product/40134/81/cover500/k622131160_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "47",
+          "제목": "오뒷세이아 (알라딘 리커버 특별판)",
+          "저자": "호메로스, 천병희",
+          "출판사": "도서출판 숲",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400990175",
+          "이미지URL": "https://image.aladin.co.kr/product/40099/1/cover500/k492130359_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "48",
+          "제목": "오뒷세이아",
+          "저자": "",
+          "출판사": "오뒷세이아",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399401298",
+          "이미지URL": "https://image.aladin.co.kr/product/39940/12/cover500/8932476462_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "49",
+          "제목": "마음의 어휘력",
+          "저자": "조아란, 권희, 이정윤",
+          "출판사": "페이지2(page2)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400143853",
+          "이미지URL": "https://image.aladin.co.kr/product/40014/38/cover500/k842130135_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "50",
+          "제목": "Casa BRUTUS(カ-サ ブル-タス) 2026年 10月號 - Seoul Lifestyle Guide",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=398869684",
+          "이미지URL": "https://image.aladin.co.kr/product/39886/96/cover500/f252130729_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "51",
+          "제목": "수원에서의 나날",
+          "저자": "고영표, 전영민",
+          "출판사": "브레인스토어",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401907582",
+          "이미지URL": "https://image.aladin.co.kr/product/40190/75/cover500/k472131178_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "52",
+          "제목": "빅터 프랭클의 죽음의 수용소에서",
+          "저자": "빅터 프랭클, 이시형",
+          "출판사": "청아출판사",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382243812",
+          "이미지URL": "https://image.aladin.co.kr/product/38224/38/cover500/8936812629_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "53",
+          "제목": "혁오 - 사랑으로 [180g Opaque White Color LP]",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=383272517",
+          "이미지URL": "https://image.aladin.co.kr/product/38327/25/cover500/c942939792_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "54",
+          "제목": "브람스를 좋아하세요...",
+          "저자": "프랑수아즈 사강, 김남주",
+          "출판사": "민음사",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=2156605",
+          "이미지URL": "https://image.aladin.co.kr/product/215/66/cover500/s252137206_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "55",
+          "제목": "스튜디오 카바나 1",
+          "저자": "우마 아구리, 나민형",
+          "출판사": "YNK MEDIA(만화)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401754889",
+          "이미지URL": "https://image.aladin.co.kr/product/40175/48/cover500/k392131878_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "56",
+          "제목": "옥스브리지의 철학 수업",
+          "저자": "고요엘",
+          "출판사": "상상스퀘어",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400561491",
+          "이미지URL": "https://image.aladin.co.kr/product/40056/14/cover500/k712130844_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "57",
+          "제목": "[수입] Aimyon (아이묭, あいみょん) - AIMYON BEST ALBUM - Chase the Lips! [First Press Limited Edition] 아이묭 베스트 앨범 [4CD/일본 수입반/초회한정반]",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400623561",
+          "이미지URL": "https://image.aladin.co.kr/product/40062/35/cover500/c842939932_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "58",
+          "제목": "이방인",
+          "저자": "알베르 카뮈, 김화영",
+          "출판사": "민음사",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=212246612",
+          "이미지URL": "https://image.aladin.co.kr/product/21224/66/cover500/8937443848_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "59",
+          "제목": "에티의 여름",
+          "저자": "루시 스티즈, 노진선",
+          "출판사": "다산책방",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399815841",
+          "이미지URL": "https://image.aladin.co.kr/product/39981/58/cover500/k962130733_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "60",
+          "제목": "ETS 토익 정기시험 기출문제집 1000 Vol. 5 Reading (리딩)",
+          "저자": "ETS",
+          "출판사": "(주)YBM(와이비엠)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=380347281",
+          "이미지URL": "https://image.aladin.co.kr/product/38034/72/cover500/8917243800_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "61",
+          "제목": "우리 아기 오감발달 시끌벅적 정글 사운드북",
+          "저자": "샘 태플린, 페데리카 아이오사",
+          "출판사": "어스본코리아",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=105141243",
+          "이미지URL": "https://image.aladin.co.kr/product/10514/12/cover500/k812530039_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "62",
+          "제목": "한 페이지를 고르게 비추는 북라이트",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388375390",
+          "이미지URL": "https://image.aladin.co.kr/product/38837/53/cover500/g382432201_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "63",
+          "제목": "본투리드 책 펼침 고정 집게",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=362493903",
+          "이미지URL": "https://image.aladin.co.kr/product/36249/39/cover500/g992432172_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "64",
+          "제목": "트렌드 코리아 2027",
+          "저자": "김난도, 전미영, 최지혜, 권정윤, 한다혜, 이혜원, 이수진, 전다현, 서유현, 이준영, 이향은, 김나은, 문지수",
+          "출판사": "미래의창",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401344136",
+          "이미지URL": "https://image.aladin.co.kr/product/40134/41/cover500/k642131067_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "65",
+          "제목": "독성 인간",
+          "저자": "리앤 텐 브링크, 김효정",
+          "출판사": "웅진지식하우스",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=398876871",
+          "이미지URL": "https://image.aladin.co.kr/product/39887/68/cover500/8901300281_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "66",
+          "제목": "바른 자세를 위한 인형",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=398827902",
+          "이미지URL": "https://image.aladin.co.kr/product/39882/79/cover500/g492432312_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "67",
+          "제목": "내면 근력",
+          "저자": "짐 머피, 지여울",
+          "출판사": "윌북",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388955379",
+          "이미지URL": "https://image.aladin.co.kr/product/38895/53/cover500/k602137608_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "68",
+          "제목": "드립백 에티오피아 예가체프 G1 게뎁 첼첼레",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392439833",
+          "이미지URL": "https://image.aladin.co.kr/product/39243/98/cover230/p442939814_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "69",
+          "제목": "JR東日本版 みどりの驛時計BOOK2 暗闇で光る! 螢光色Ver.",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397950390",
+          "이미지URL": "https://image.aladin.co.kr/product/39795/3/cover500/4299078187g_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "70",
+          "제목": "일 마키아벨리",
+          "저자": "니콜로 마키아벨리, 어나니머스",
+          "출판사": "RISE(떠오름)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397754859",
+          "이미지URL": "https://image.aladin.co.kr/product/39775/48/cover500/k932130107_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "71",
+          "제목": "스튜디오 카바나 2",
+          "저자": "우마 아구리, 나민형",
+          "출판사": "YNK MEDIA(만화)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401755194",
+          "이미지URL": "https://image.aladin.co.kr/product/40175/51/cover500/k472131878_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "72",
+          "제목": "프로미스나인 - 정규 2집 Glow ME [컬러 LP Ver.]",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401683638",
+          "이미지URL": "https://image.aladin.co.kr/product/40168/36/cover500/c722939338_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "73",
+          "제목": "이효석의 21세기 투자법",
+          "저자": "이효석",
+          "출판사": "상상스퀘어",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400879299",
+          "이미지URL": "https://image.aladin.co.kr/product/40087/92/cover500/k122130346_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "74",
+          "제목": "미니 무선 클립 독서등",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=393770887",
+          "이미지URL": "https://image.aladin.co.kr/product/39377/8/cover500/g612432604_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "75",
+          "제목": "절창 (20만 부 기념 화이트 에디션)",
+          "저자": "구병모",
+          "출판사": "문학동네",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401104412",
+          "이미지URL": "https://image.aladin.co.kr/product/40110/44/cover500/k712130552_3.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "76",
+          "제목": "안녕, 피터팬",
+          "저자": "전경철",
+          "출판사": "이야기장수",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=396458047",
+          "이미지URL": "https://image.aladin.co.kr/product/39645/80/cover500/k092130273_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "77",
+          "제목": "독하게 돈 공부",
+          "저자": "박소연",
+          "출판사": "메이븐",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397270202",
+          "이미지URL": "https://image.aladin.co.kr/product/39727/2/cover500/k042130706_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "78",
+          "제목": "행복의 기원",
+          "저자": "서은국",
+          "출판사": "21세기북스",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=339904279",
+          "이미지URL": "https://image.aladin.co.kr/product/33990/42/cover500/k012930648_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "79",
+          "제목": "이기적 유전자 (50주년 기념판)",
+          "저자": "리처드 도킨스, 이한음",
+          "출판사": "을유문화사",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401291344",
+          "이미지URL": "https://image.aladin.co.kr/product/40129/13/cover500/8932476500_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "80",
+          "제목": "찰리 멍거 바이블 완결판",
+          "저자": "김재현, 이건",
+          "출판사": "에프엔미디어",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400324044",
+          "이미지URL": "https://image.aladin.co.kr/product/40032/40/cover500/k082130631_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "81",
+          "제목": "천국대마경",
+          "저자": "이시구로 마사카즈, 천선필",
+          "출판사": "S코믹스",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401967448",
+          "이미지URL": "https://image.aladin.co.kr/product/40196/74/cover500/e512639919_6712.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "82",
+          "제목": "해커스 토익 기출 VOCA (보카)",
+          "저자": "David Cho",
+          "출판사": "해커스어학연구소(Hackers)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=176021392",
+          "이미지URL": "https://image.aladin.co.kr/product/17602/13/cover500/s632030676_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "83",
+          "제목": "처음 읽는 삼국지 5",
+          "저자": "이문열, 한현동, 윤종문",
+          "출판사": "미래엔아이세움",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400560161",
+          "이미지URL": "https://image.aladin.co.kr/product/40056/1/cover500/k282130844_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "84",
+          "제목": "데미안",
+          "저자": "헤르만 헤세, 전영애",
+          "출판사": "민음사",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=260084",
+          "이미지URL": "https://image.aladin.co.kr/product/26/0/cover500/s452139198_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "85",
+          "제목": "ETS 토익 정기시험 기출문제집 1000 Vol. 5 Listening (리스닝)",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=380347074",
+          "이미지URL": "https://image.aladin.co.kr/product/38034/70/cover500/8917243797_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "86",
+          "제목": "당신과 내가 대화할 수 있을까",
+          "저자": "정희진",
+          "출판사": "창비",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400657186",
+          "이미지URL": "https://image.aladin.co.kr/product/40065/71/cover500/8936481657_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "87",
+          "제목": "위버멘쉬",
+          "저자": "프리드리히 니체, 어나니머스",
+          "출판사": "RISE(떠오름)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=394085175",
+          "이미지URL": "https://image.aladin.co.kr/product/39408/51/cover500/k922139090_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "88",
+          "제목": "이향인",
+          "저자": "라미 카민스키, 최지숙",
+          "출판사": "21세기북스",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387930371",
+          "이미지URL": "https://image.aladin.co.kr/product/38793/3/cover500/k292137262_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "89",
+          "제목": "레베카",
+          "저자": "",
+          "출판사": "초판 한정: 패브릭 제본 + 작가 사인 인쇄 특별판 / <레베카> 바닥 그림 유리 머그(국내서 2만원 이상) / 저자 직접 문답 + 적립금 1천원(추첨)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401255771",
+          "이미지URL": "https://image.aladin.co.kr/product/40125/57/cover500/k522131763_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "90",
+          "제목": "ETS 토익 단기 공략 750+ (LC + RC)",
+          "저자": "ETS",
+          "출판사": "(주)YBM(와이비엠)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366829097",
+          "이미지URL": "https://image.aladin.co.kr/product/36682/90/cover500/8917243789_2.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "91",
+          "제목": "DAZED AND CONFUSED (계간) 2026년 Autumn : BTS 뷔",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401986362",
+          "이미지URL": "https://image.aladin.co.kr/product/40198/63/cover500/f112131277_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "92",
+          "제목": "단다단",
+          "저자": "타츠 유키노부",
+          "출판사": "대원씨아이/DCW",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401894646",
+          "이미지URL": "https://image.aladin.co.kr/product/40189/46/cover500/e482639819_22e6.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "93",
+          "제목": "데드 마운트 데스 플레이",
+          "저자": "나리타 료우고, 후지모토 신타",
+          "출판사": "대원씨아이(만화)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401894274",
+          "이미지URL": "https://image.aladin.co.kr/product/40189/42/cover500/e212639819_d547.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "94",
+          "제목": "문학동네 128호 - 2026.가을",
+          "저자": "문학동네 편집부",
+          "출판사": "문학동네",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401817976",
+          "이미지URL": "https://image.aladin.co.kr/product/40181/79/cover500/k812131874_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "95",
+          "제목": "에그박사 19",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401398169",
+          "이미지URL": "https://image.aladin.co.kr/product/40139/81/cover500/k182131367_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "96",
+          "제목": "단다단 22 (특별판)",
+          "저자": "타츠 유키노부",
+          "출판사": "대원씨아이(만화)",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401974679",
+          "이미지URL": "https://image.aladin.co.kr/product/40197/46/cover500/k402131279_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "97",
+          "제목": "[세트] 병미인화살저도 (총15권/완결)",
+          "저자": "",
+          "출판사": "<병미인화살저도> 반짝 특딜★베스트 리뷰",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401806925",
+          "이미지URL": "https://image.aladin.co.kr/img/shop/product/ebook_setcover500.png",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "98",
+          "제목": "빵, 공원, 농구하는 소녀",
+          "저자": "천선란, 이주향",
+          "출판사": "달",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=401302066",
+          "이미지URL": "https://image.aladin.co.kr/product/40130/20/cover500/k392131867_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        },
+        {
+          "수집시각": "2026-09-13 05:31",
+          "순위": "99",
+          "제목": "파란노을 - To See the Next Part of the Dream (180g 2LP 컬러, Reissue Ver.)",
+          "저자": "",
+          "출판사": "",
+          "링크": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=400923048",
+          "이미지URL": "https://image.aladin.co.kr/product/40092/30/cover500/c082939032_1.jpg",
+          "이전순위": "",
+          "순위변동": "NEW"
+        }
+      ],
       "yes24": [
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "1",
           "제목": "패배 히로인이 너무 많아! 8.5",
           "저자": "아마모리 타키비",
@@ -83992,7 +85082,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "2",
           "제목": "칵테일을 마시는 철학자들",
           "저자": "세라 베이크웰",
@@ -84003,7 +85093,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "3",
           "제목": "쇼펜하우어 인생수업 2 : 한 번뿐인 삶 이렇게 살아라",
           "저자": "쇼펜하우어",
@@ -84014,7 +85104,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "4",
           "제목": "초판본 젊은 베르테르의 슬픔",
           "저자": "요한 볼프강 폰 괴테",
@@ -84025,7 +85115,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "5",
           "제목": "마법소녀를 동경해서 8 더블특전판",
           "저자": "오노나카 아키히로",
@@ -84036,7 +85126,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "6",
           "제목": "사장과 술과 별 4",
           "저자": "즈리 키시",
@@ -84047,7 +85137,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "7",
           "제목": "1차원의 삽목",
           "저자": "마쓰시타 류노스케",
@@ -84058,7 +85148,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "8",
           "제목": "흔한남매 23",
           "저자": "흔한남매 원저",
@@ -84069,7 +85159,7 @@
           "순위변동": "↑3"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "9",
           "제목": "일본어 회화의 결정적 단어들",
           "저자": "최민경",
@@ -84080,7 +85170,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "10",
           "제목": "2027 공단기 심우철 하프 모의고사 Season 2: 80+",
           "저자": "심우철",
@@ -84091,7 +85181,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "11",
           "제목": "카구라바치 11 더블특전판",
           "저자": "호카조노 타케루",
@@ -84102,7 +85192,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "12",
           "제목": "전기회로실험 및 전기이론실험",
           "저자": "조선호 외",
@@ -84113,7 +85203,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "13",
           "제목": "패배히로인이 너무 많아! @comic 5",
           "저자": "아마모리 타키비 원저",
@@ -84124,7 +85214,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "14",
           "제목": "트와이스",
           "저자": "미치 앨봄",
@@ -84135,7 +85225,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "15",
           "제목": "크로셰 훅 아웃!",
           "저자": "몰라 밀스",
@@ -84146,7 +85236,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "16",
           "제목": "다행이야, 이 괴로움도 무상하다니",
           "저자": "염세철학가",
@@ -84157,7 +85247,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "17",
           "제목": "내일이 달라지는 수면 과학",
           "저자": "홍성민",
@@ -84168,7 +85258,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "18",
           "제목": "그리스 로마 신화",
           "저자": "러셀 펀터 외",
@@ -84179,7 +85269,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "19",
           "제목": "리볼버",
           "저자": "하라다 마하",
@@ -84190,7 +85280,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "20",
           "제목": "여우 우리군 1 특장판",
           "저자": "네아",
@@ -84201,7 +85291,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "21",
           "제목": "고요의 옷장",
           "저자": "박사랑",
@@ -84212,7 +85302,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "22",
           "제목": "2027 공단기 월간 이유진 국어 미니모고 (실전편)",
           "저자": "이유진",
@@ -84223,7 +85313,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "23",
           "제목": "봇치·더·록! 외전 히로이 키쿠리의 과음일기 6",
           "저자": "하마지 아키 원저",
@@ -84234,7 +85324,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "24",
           "제목": "원시인 수면법",
           "저자": "메레인 판더라르",
@@ -84245,7 +85335,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "25",
           "제목": "마법소녀를 동경해서 7 더블특전판",
           "저자": "오노나카 아키히로",
@@ -84256,7 +85346,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "26",
           "제목": "찰리 멍거 바이블 완결판",
           "저자": "김재현 외",
@@ -84267,7 +85357,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "27",
           "제목": "내 마음속의 노무현 (어록 키링북)",
           "저자": "사람사는세상 노무현재단",
@@ -84278,7 +85368,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "28",
           "제목": "노무현 평전",
           "저자": "윤태영",
@@ -84289,7 +85379,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "29",
           "제목": "사도행전 주석",
           "저자": "박형대",
@@ -84300,7 +85390,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "30",
           "제목": "황천의 츠가이 12 더블특전판",
           "저자": "아라카와 히로무",
@@ -84311,7 +85401,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "31",
           "제목": "사카모토 데이즈 27 더블특전판",
           "저자": "스즈키 유우토",
@@ -84322,7 +85412,7 @@
           "순위변동": "↑3"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "32",
           "제목": "마음의 어휘력",
           "저자": "조아란 외",
@@ -84333,7 +85423,7 @@
           "순위변동": "↑4"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "33",
           "제목": "중국고전 명문장 핸드북",
           "저자": "심희연",
@@ -84344,7 +85434,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "34",
           "제목": "손끝과 연연 13",
           "저자": "모리시타 수",
@@ -84355,7 +85445,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "35",
           "제목": "2027 선재국어 신유형 매일 국어 시즌 1",
           "저자": "이선재 외",
@@ -84366,7 +85456,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "36",
           "제목": "오디세이아",
           "저자": "호메로스 원저",
@@ -84377,7 +85467,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "37",
           "제목": "오디세이 각본집",
           "저자": "크리스토퍼 놀란",
@@ -84388,7 +85478,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "38",
           "제목": "그라시안의 사람을 읽는 눈",
           "저자": "발타자르 그라시안",
@@ -84399,7 +85489,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "39",
           "제목": "미네랄은 어떻게 내 몸을 고치는가",
           "저자": "제임스 디니콜란토니오 외",
@@ -84410,7 +85500,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "40",
           "제목": "문해내공",
           "저자": "신종호 외",
@@ -84421,7 +85511,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "41",
           "제목": "봇치·더·록! 앤솔러지 코믹 6",
           "저자": "하마지 아키",
@@ -84432,7 +85522,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "42",
           "제목": "자도 자도 피곤한 당신을 위한 수면 처방",
           "저자": "이준용",
@@ -84443,7 +85533,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "43",
           "제목": "황천의 츠가이 11 더블특전판",
           "저자": "아라카와 히로무",
@@ -84454,7 +85544,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "44",
           "제목": "주식 가치평가를 위한 작은 책",
           "저자": "어스워스 다모다란",
@@ -84465,7 +85555,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "45",
           "제목": "뷰티풀 군바리 12",
           "저자": "설이",
@@ -84476,7 +85566,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "46",
           "제목": "통증의 역설",
           "저자": "문동철",
@@ -84487,7 +85577,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "47",
           "제목": "2027 go來 컬러리스트기사 · 산업기사 필기",
           "저자": "조영우 외",
@@ -84498,7 +85588,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "48",
           "제목": "미안하지만 싫습니다",
           "저자": "정준화",
@@ -84509,7 +85599,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "49",
           "제목": "예수님이라면 어떻게 하실까?",
           "저자": "찰스 쉘던",
@@ -84520,7 +85610,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "50",
           "제목": "2027 공단기 심슨 독해",
           "저자": "심우철",
@@ -84531,7 +85621,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "51",
           "제목": "유럽 도시 기행 3",
           "저자": "유시민",
@@ -84542,7 +85632,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "52",
           "제목": "인생, 니체는 이렇게 말했다 필사책",
           "저자": "프리드리히 니체",
@@ -84553,7 +85643,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "53",
           "제목": "쇼타 형아 7",
           "저자": "나카야마 미유키",
@@ -84564,7 +85654,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "54",
           "제목": "사랑의 기술",
           "저자": "에리히 프롬",
@@ -84575,7 +85665,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "55",
           "제목": "한나 아렌트 : 사유하는 인간",
           "저자": "린지 스톤브리지",
@@ -84586,7 +85676,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "56",
           "제목": "세네카, 오늘을 빼앗기고 있는 당신에게",
           "저자": "루키우스 안나이우스 세네카",
@@ -84597,7 +85687,7 @@
           "순위변동": "↓50"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "57",
           "제목": "니체와 함께 지적 대화를",
           "저자": "양원근",
@@ -84608,7 +85698,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "58",
           "제목": "500명의 인물로 읽는 세계사",
           "저자": "찰스 필립스",
@@ -84619,7 +85709,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "59",
           "제목": "부의 갈림길",
           "저자": "오건영",
@@ -84630,7 +85720,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "60",
           "제목": "카구라바치 10 트리플 특전판",
           "저자": "호카조노 타케루",
@@ -84641,7 +85731,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "61",
           "제목": "아쿠아 소다 틸트",
           "저자": "류채서",
@@ -84652,7 +85742,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "62",
           "제목": "의식의 탄생",
           "저자": "오기 오거스 외",
@@ -84663,7 +85753,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "63",
           "제목": "생각하라 그리고 부자가 되어라",
           "저자": "나폴레온 힐",
@@ -84674,7 +85764,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "64",
           "제목": "태권, 도를 만나다",
           "저자": "이상기 외",
@@ -84685,7 +85775,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "65",
           "제목": "2026 시대에듀 한국전력공사(한전) 고졸채용 NCS 실전모의고사 7회분",
           "저자": "SDC",
@@ -84696,7 +85786,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "66",
           "제목": "폰더 씨의 위대한 하루",
           "저자": "앤디 앤드루스",
@@ -84707,7 +85797,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "67",
           "제목": "2027 해커스경찰 조현 경찰학 기본서",
           "저자": "조현",
@@ -84718,7 +85808,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "68",
           "제목": "부의 사다리에 올라타라",
           "저자": "닉 매기울리",
@@ -84729,7 +85819,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "69",
           "제목": "JLPT(일본어능력시험) 한권으로 끝내기 N3",
           "저자": "이치우 외",
@@ -84740,7 +85830,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "70",
           "제목": "내면 근력",
           "저자": "짐 머피",
@@ -84751,7 +85841,7 @@
           "순위변동": "↑6"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "71",
           "제목": "비밀의 종이 울리면",
           "저자": "이하람",
@@ -84762,7 +85852,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "72",
           "제목": "최신판 시나공 ITQ OA Master (엑셀&파워포인트 ver.2021+한글 ver.2022)",
           "저자": "길벗알앤디",
@@ -84773,7 +85863,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "73",
           "제목": "한 겨울의 서울",
           "저자": "정제로",
@@ -84784,7 +85874,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "74",
           "제목": "뷰티풀 군바리 11",
           "저자": "설이",
@@ -84795,7 +85885,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "75",
           "제목": "2026 해커스공기업 한국전력공사 KEPCO NCS+전공 봉투모의고사 6+5회",
           "저자": "해커스 NCS 취업교육연구소",
@@ -84806,7 +85896,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "76",
           "제목": "일본어뱅크 NEW 도모다찌 일본어 STEP 2",
           "저자": "강경자 외",
@@ -84817,7 +85907,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "77",
           "제목": "구원에게",
           "저자": "정영욱",
@@ -84828,7 +85918,7 @@
           "순위변동": "↑11"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "78",
           "제목": "시험 문해력 잡는 어휘 사전",
           "저자": "김주혜",
@@ -84839,7 +85929,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "79",
           "제목": "야마다 군과 Lv999의 사랑을 하다 5",
           "저자": "마시로",
@@ -84850,7 +85940,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "80",
           "제목": "면역 수업",
           "저자": "존 트라우즈데일",
@@ -84861,7 +85951,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "81",
           "제목": "탁구 연습 메뉴 200",
           "저자": "하리모토 유",
@@ -84872,7 +85962,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "82",
           "제목": "2026 해커스 무역영어 1급 4주 합격 이론+기출문제 19회분",
           "저자": "진민규 외",
@@ -84883,7 +85973,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "83",
           "제목": "돈의 심리학 (50만 부 기념 뉴 에디션)",
           "저자": "모건 하우절",
@@ -84894,7 +85984,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "84",
           "제목": "뜻대로 되지 않는 그",
           "저자": "나기라 유우",
@@ -84905,7 +85995,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "85",
           "제목": "2026 큰별쌤 최태성의 별별한국사 한국사능력검정시험 심화(1,2,3급) 하",
           "저자": "최태성",
@@ -84916,7 +86006,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "86",
           "제목": "2026 하늘양식 : 가정예배서",
           "저자": "김정석 등저",
@@ -84927,7 +86017,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "87",
           "제목": "우리가 봄을 건너는 법",
           "저자": "정은주",
@@ -84938,7 +86028,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "88",
           "제목": "스트레스 받는 사람들을 위한 니체",
           "저자": "프리드리히 니체",
@@ -84949,7 +86039,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "89",
           "제목": "스트레스 받는 사람들을 위한 쇼펜하우어",
           "저자": "아르투어 쇼펜하우어",
@@ -84960,7 +86050,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "90",
           "제목": "절창 切創 (화이트 에디션)",
           "저자": "구병모",
@@ -84971,7 +86061,7 @@
           "순위변동": "↓83"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "91",
           "제목": "체감예보 1",
           "저자": "타이노 닛케",
@@ -84982,7 +86072,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "92",
           "제목": "어른의 관계를 가꾸는 100일 필사 노트",
           "저자": "김종원",
@@ -84993,7 +86083,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "93",
           "제목": "건축구조의 이해",
           "저자": "대한건축학회",
@@ -85004,7 +86094,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "94",
           "제목": "법륜 스님의 금강경 강의 필사 공책",
           "저자": "법륜",
@@ -85015,7 +86105,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "95",
           "제목": "자몽살구클럽",
           "저자": "한로로",
@@ -85026,7 +86116,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "96",
           "제목": "뇌가 멈추기 전에",
           "저자": "이승훈",
@@ -85037,7 +86127,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "97",
           "제목": "반딧불이의 혼례 7 한정판",
           "저자": "타치바나 오레코",
@@ -85048,7 +86138,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "98",
           "제목": "천원돌파 그렌라간 BOX세트",
           "저자": "GAINAX 원저",
@@ -85059,7 +86149,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "99",
           "제목": "0~2세 수면 습관의 힘",
           "저자": "김주하",
@@ -85070,7 +86160,7 @@
           "순위변동": "NEW"
         },
         {
-          "수집시각": "2026-09-13 05:01",
+          "수집시각": "2026-09-13 05:31",
           "순위": "100",
           "제목": "2025 해커스 LH 한국토지주택공사 NCS+전공 봉투모의고사",
           "저자": "해커스 NCS 취업교육연구소",
