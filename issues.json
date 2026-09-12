@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-11T23:05:20.242789+00:00",
+  "generated_at": "2026-09-12T22:54:55.927414+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
   "book_count": 3,
-  "searches_used": 6,
+  "searches_used": 3,
   "books": [
     {
       "title": "원소 원정대",
@@ -12,64 +12,88 @@
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "원소 원정대",
-          "link": "https://namu.wiki/w/%EC%9B%90%EC%86%8C%20%EC%9B%90%EC%A0%95%EB%8C%80",
-          "source": "나무위키",
-          "published": "7일 전",
-          "snippet": "원소 원정대 ; 저자. 아게도리도리 ; 번역. 박재현 ; 출판사. 윌북주니어 ; 분류. 청소년 과학 ; 발매일. 2026년 5월 26일 (발매일로부터 +108일, 0주년)."
-        },
-        {
-          "title": "원소 원정대 책 (윌북주니어 초등 어린이 고학년 중학생 과학 ...",
-          "link": "https://www.coupang.com/vp/products/9715040003?itemId=29069400125&vendorItemId=95921706717&sourceType=CATEGORY&categoryId=329884",
-          "source": "쿠팡",
-          "published": "19시간 전",
-          "snippet": "원소 원정대 책 (윌북주니어 초등 어린이 고학년 중학생 과학 화학 주기율표 공부) ... 선택 가능한 수량은 9개입니다. 장바구니 담기 바로구매."
-        },
-        {
-          "title": "원소를 의인화한 일본 여고생의 책 — 원소원정대 이야기",
-          "link": "https://www.tiktok.com/@indieshop_kr/video/7681881180374928661",
-          "source": "TikTok · 인디붘📖",
-          "published": "",
-          "snippet": "... '의 원소 의인화 프로젝트와 책 출간 배경을 소개합니다. #책 #원소원정대 #과학\"."
-        },
-        {
-          "title": "[추천 talk_청소년·부모] 주기율표는 왜 외우기 싫을까… '원소 ...",
-          "link": "https://www.seoulmedianews.com/news/articleView.html?idxno=65162",
-          "source": "서울미디어뉴스",
-          "published": "1일 전",
-          "snippet": "『원소 원정대』의 가장 큰 장점은 118개의 원소를 얼마나 많이 외우게 하느냐에 있지 않다. 과학에도 성격과 관계, 이야기가 존재한다는 사실을 보여준다는 데 있다. 과학 ..."
-        },
-        {
-          "title": "신착자료검색",
-          "link": "https://lib.gwe.go.kr/yglib/menu/3803/book/view/VJU000086627?booktype=",
-          "source": "강원특별자치도교육청",
-          "published": "6일 전",
-          "snippet": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집 ; 저자: 아게도리도리 쓰고 그림 ; 박재현 옮김 ; 출판사: 윌북주니어 ; 발행년: 2026 ; ISBN: 9791155819326 ..."
-        },
-        {
-          "title": "[입수시기 30일] 검색결과",
-          "link": "https://www.u-library.kr/newarrival?st=SUBJ&sNo=0&newDate=30&sq=TOTAL&pn=21&briefType=G",
+          "title": "[입수시기 30일]and[소장처: 진잠도서관] 검색결과",
+          "link": "https://www.u-library.kr/newarrival?st=SUBJ&bk_0=jttjmjttj&sNo=0&newDate=30&sq=H0000018&pn=1&briefType=L",
           "source": "대전공공도서관",
-          "published": "4일 전",
-          "snippet": "원소 원정대 :118개 캐릭터로 마스터하는 주기율표 공략집; 표지이미지: 원소 원정대 :118개 캐릭터로 마스터하는 주기율표 공략집. 미리보기. 한밭도서관대출중. 선택"
+          "published": "23시간 전",
+          "snippet": "9. 표지이미지: 원소 원정대 :118개 캐릭터로 마스터하는 주기율표 공략집. 서명: 원소 원정대 :118개 캐릭터로 마스터하는 주기율표 공략집 상세보기; 저자: 아게도리도리 ..."
         },
         {
-          "title": "2026년 8월 어린이 인기도서 순위",
-          "link": "https://ilovecharacter.com/news/newsview.php?ncode=1065591583932641&dt=m",
-          "source": "아이러브캐릭터",
-          "published": "2일 전",
-          "snippet": "2026년 8월 어린이 인기도서 순위 · 01. 원소 원정대 · 02. 고양이는 고양이가 알려드림 · 03. 오디세이아 · 04. 오잉? 오잉! · 05. 백앤아×고고프렌즈 국어별동대 1 · 06. Go Go ..."
+          "title": "揚げ鶏々🐓元素擬人化ゲーム制作中",
+          "link": "https://x.com/agedoridori/all?lang=cs",
+          "source": "X",
+          "published": "11시간 전",
+          "snippet": "9. 9. 원소 악장 책 디자인元素楽章の本デザイン한국어론 원소 원정대고 일본어론 원소 악장이란게 신기..."
+        }
+      ],
+      "item_count": 2,
+      "time_range": "qdr:d"
+    },
+    {
+      "title": "내면 근력",
+      "author": "짐 머피",
+      "publisher": "윌북",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "[입수시기 30일]and[소장처: 진잠도서관] 검색결과",
+          "link": "https://www.u-library.kr/newarrival?st=SUBJ&bk_0=jttjmjttj&sNo=0&newDate=30&sq=H0000018&bk_6=300&bk_4=Murphy%2C+Jim",
+          "source": "대전공공도서관",
+          "published": "21시간 전",
+          "snippet": "1. 표지이미지: 내면 근력 :결국 멘탈 게임이다. 서명: 내면 근력 :결국 멘탈 게임이다 상세보기; 저자: 머피, 짐; 출판사: 윌북; 청구기호: 325.211 머349ㄴ; 출판년 ..."
         },
         {
-          "title": "원소 주기율표",
-          "link": "https://www.tiktok.com/discover/%EC%9B%90%EC%86%8C-%EC%A3%BC%EA%B8%B0%EC%9C%A8%ED%91%9C",
-          "source": "TikTok",
-          "published": "5일 전",
-          "snippet": "원소를 의인화한 일본 여고생의 책 — 원소원정대 이야기. 홋카이도 대학 발표로 ... 원소 원정대 | 주기율표 공략집 | 궤도 추천 도서 | 바로보네. 오리지널 ..."
+          "title": "01화 나는 지금 무엇을 가장 사랑하고 있을까?",
+          "link": "https://brunch.co.kr/@@iT9Q/22",
+          "source": "브런치",
+          "published": "24시간 전",
+          "snippet": "오늘의 필사 짐 머피, 『내면 근력』41쪽, 지여울 옮김, 윌북. 실천하기 : 세 질문에 대한 답을 적어보기 1. 나는 무엇을 꿈꾸는가? - 가족들이 건강하게 각자의 하루 ..."
+        },
+        {
+          "title": "당신에게는 롤 모델이 있나요?",
+          "link": "https://www.instagram.com/p/DdL3lkexnuN/",
+          "source": "Instagram · hong.h.tae",
+          "published": "",
+          "snippet": "자존감 올리는데 내면근력 책 아주 좋습니다. August 11 · alphamans_official's profile picture · alphamans_official. •. Follow. Photo by 알파맨즈 ❙ ALPha ..."
+        },
+        {
+          "title": "Free Luck - 티스토리",
+          "link": "https://free00life.tistory.com/",
+          "source": "티스토리",
+          "published": "20시간 전",
+          "snippet": "아마존 종합 베스트셀러 1위, 베스트셀러 1위 작가이자 마인드셋, 행동 변화 분야에서 가장 주목받는 전문가다. 저자가 구축한 '내면 근력(Inner Excellence)' 훈련은 ..."
+        },
+        {
+          "title": "진짜 생각만해도 소소한 행복에 미소가 😊",
+          "link": "https://www.threads.com/@5_daily_miracle_/post/DdLh6KQE44y/%EC%A7%84%EC%A7%9C-%EC%83%9D%EA%B0%81%EB%A7%8C%ED%95%B4%EB%8F%84-%EC%86%8C%EC%86%8C%ED%95%9C-%ED%96%89%EB%B3%B5%EC%97%90-%EB%AF%B8%EC%86%8C%EA%B0%80/",
+          "source": "Threads",
+          "published": "",
+          "snippet": "... 내면근력' 소유자. 8️⃣ 과거의 후회 대신 감사로, 현재를 기적으로 만드는 루티너. 9️⃣ 나를 사랑하고 존중하며 믿는 '버티는 힘'의 가치를 실천하는 삶. 오늘도 ..."
+        },
+        {
+          "title": ".read() | William Y. Kang",
+          "link": "https://yuseokkang.com/books/",
+          "source": "yuseokkang.com",
+          "published": "21시간 전",
+          "snippet": "내면 근력 cover FINISHED · 술취한 코끼리 길들이기 cover READING · 비상식적 성공법칙 cover READING · 2025 · 에고에서 스승으로 cover READING 명상록 cover FINISHED ..."
+        },
+        {
+          "title": "[연재 브런치북] 필사한 대로 살아봤습니다",
+          "link": "https://brunch.co.kr/brunchbook/write-and-live",
+          "source": "브런치",
+          "published": "14시간 전",
+          "snippet": "나는 지금 무엇을 가장 사랑하고 있을까? 글뷰 썸네일. 오늘의 필사 짐 머피, 『내면 근력』41쪽, 지여울 옮김, 윌북. 실천하기 : 세 질문에 대한 답을 적어보기 1 ..."
+        },
+        {
+          "title": "신간 나왔습니다 공저자 참여 및 책쓰기 코칭 원하시면 개톡 ...",
+          "link": "https://www.instagram.com/p/DdKxsGYS12a/",
+          "source": "Instagram",
+          "published": "",
+          "snippet": "<내면 근력> 디자인 작업 #어나더페이퍼 4월 출간 . . . . . . . . . #내면근력#북디자인#북디자이너#bookdesign · View all 3 comments · yangseunghye7. 이 책 저 구입 ..."
         }
       ],
       "item_count": 8,
-      "time_range": "qdr:w"
+      "time_range": "qdr:d"
     },
     {
       "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
@@ -78,102 +102,15 @@
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "신착자료검색",
-          "link": "https://lib.gwe.go.kr/yglib/menu/3803/book/view/VJU000086627?booktype=",
-          "source": "강원특별자치도교육청",
-          "published": "6일 전",
-          "snippet": "원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집 ; 저자: 아게도리도리 쓰고 그림 ; 박재현 옮김 ; 출판사: 윌북주니어 ; 발행년: 2026 ; ISBN: 9791155819326 ..."
-        },
-        {
-          "title": "[입수시기 30일] 검색결과",
-          "link": "https://www.u-library.kr/newarrival?st=SUBJ&sNo=0&newDate=30&sq=TOTAL&pn=21&briefType=G",
+          "title": "[입수시기 30일]and[소장처: 진잠도서관] 검색결과",
+          "link": "https://www.u-library.kr/newarrival?st=SUBJ&bk_0=jttjmjttj&sNo=0&newDate=30&sq=H0000018&pn=1&briefType=L",
           "source": "대전공공도서관",
-          "published": "4일 전",
-          "snippet": "원소 원정대 :118개 캐릭터로 마스터하는 주기율표 공략집; 표지이미지: 원소 원정대 :118개 캐릭터로 마스터하는 주기율표 공략집. 미리보기. 한밭도서관대출중. 선택"
-        },
-        {
-          "title": "원소 원정대 책 (윌북주니어 초등 어린이 고학년 중학생 과학 ...",
-          "link": "https://www.coupang.com/vp/products/9715040003?itemId=29069400125&vendorItemId=95921706717&sourceType=CATEGORY&categoryId=329884",
-          "source": "쿠팡",
-          "published": "19시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집 [쁘띠수첩+스티커]. 17,820원."
-        },
-        {
-          "title": "세계5대 유학강국 | 신미경 | 대한기획인쇄",
-          "link": "https://m.yes24.com/goods/detail/196272856",
-          "source": "예스24",
-          "published": "1일 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 10% 17,820원. 원소 원정대: 118개 캐릭터로 ..."
+          "published": "23시간 전",
+          "snippet": "9. 표지이미지: 원소 원정대 :118개 캐릭터로 마스터하는 주기율표 공략집. 서명: 원소 원정대 :118개 캐릭터로 마스터하는 주기율표 공략집 상세보기; 저자: 아게도리도리 ..."
         }
       ],
-      "item_count": 4,
-      "time_range": "qdr:w"
-    },
-    {
-      "title": "묘사의 힘",
-      "author": "샌드라 거스",
-      "publisher": "윌북(willbook)",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "시점의 힘 | 내 글이 작품이 되는 법 | 샌드라 거스",
-          "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=291771536&srsltid=AfmBOooYwolBllLU9ddTuTgXwiL0KVCR9CRG2Ig6KzPKhfVIZX8WFnIS",
-          "source": "알라딘",
-          "published": "3일 전",
-          "snippet": "아마존 베스트셀러 1위 작가이자 편집자가 쓴 글쓰기 분야 스테디셀러 베스트셀러 『묘사의 힘』 후속작! 어떤 작가가 마지막까지 독자의 시선을 빼앗는가? '내 글이 작품 ..."
-        },
-        {
-          "title": "1745th Day of Morning Affirmations! September Book Club ...",
-          "link": "https://www.youtube.com/watch?v=-WqHajOyYUw",
-          "source": "YouTube · 고명환tv",
-          "published": "",
-          "snippet": "바로 <묘사의 힘>입니다...말하지 말고 보여주라!!! 모든 집단에는 반드시 5%는 소설가가 탄생합니다.. 이 책은 반드시 읽겠습니다...소설가 안되어도 좋습니다 ..."
-        },
-        {
-          "title": "진천 - 베스트대출도서 검색",
-          "link": "https://lib.jincheon.go.kr/lib/front/index.php?g_page=search&m_page=search04&act=marc.view&species_key=75797090",
-          "source": "진천군립도서관",
-          "published": "3일 전",
-          "snippet": "묘사의 힘 말하지 말고 보여주라/ 샌드라 거스 지음; 지여울 옮김. 246, 19, Show, don't tell: how to write vivid descriptions, handle backstory, and describe your ..."
-        },
-        {
-          "title": "04화 독자가 지금 어디에 서 있는지 모르고 있었다",
-          "link": "https://brunch.co.kr/@waffletrigger/222",
-          "source": "브런치",
-          "published": "7일 전",
-          "snippet": "묘사의 힘은 양이 아니라 선택에서 나온다. 선택의 기준은 하나다. 그 인물만 가진 것, 그 순간에만 보이는 것을 고른다. 2. 시각 말고 다른 감각을 하나씩. 묘사가 ..."
-        },
-        {
-          "title": "말하지 말고 보여줘라! 9월 고독이 책《묘사의 힘》 고명환 tv ...",
-          "link": "https://www.youtube.com/shorts/D7hHPmCi9BA",
-          "source": "YouTube",
-          "published": "",
-          "snippet": "말하지 말고 보여줘라! 9월 고독이 책《묘사의 힘》 고명환 tv 모든것이 감사합니다 아침긍정확언 D+528=1745 260910 목 음력 7.29."
-        },
-        {
-          "title": "\"헐 대박~~ 윌북에서 연락주셨다❗️ 지금 이 트윗 알티한 ...",
-          "link": "https://x.com/i/status/2098331591735202054",
-          "source": "X · dshsh007_",
-          "published": "",
-          "snippet": "헐 대박~~ 윌북에서 연락주셨다❗️ 지금 이 트윗 알티한 사람 중에서 '다섯 명 추첨'해서 <묘사의 힘> 증정해준다고 하니까, 관심 있던 분들이나 소설 지망생들 꼭 ..."
-        },
-        {
-          "title": "전 세개다 사놓고.,사놨는데... 자루간직하고 있어요",
-          "link": "https://www.threads.com/@sj_toon/post/DdAY_SDAeCF/%EC%A0%84-%EC%84%B8%EA%B0%9C%EB%8B%A4-%EC%82%AC%EB%86%93%EA%B3%A0%EC%82%AC%EB%86%A8%EB%8A%94%EB%8D%B0-%EC%9E%90%EB%A3%A8%EA%B0%84%EC%A7%81%ED%95%98%EA%B3%A0-%EC%9E%88%EC%96%B4%EC%9A%94/",
-          "source": "Threads",
-          "published": "",
-          "snippet": "웹소설쓰기 · September 7, 2026 at 2:37 PM. 퇴고의 힘 묘사의 힘 시점의 힘. 도서관 자료검색해보니 세 권 다 있는데 대출중이네.. 대출가능뜨면 이것도 읽어봐야겠다. 5."
-        },
-        {
-          "title": "26.9.10 목 오전 9시반 긍정확언85일차 고독이 책 발표!! 말하지 ...",
-          "link": "https://www.threads.com/@ssaltongdak_sangnam/post/DdG9yMQj1Ge/video-26910-%EB%AA%A9-%EC%98%A4%EC%A0%84-9%EC%8B%9C%EB%B0%98%EA%B8%8D%EC%A0%95%ED%99%95%EC%96%B885%EC%9D%BC%EC%B0%A8%EA%B3%A0%EB%8F%85%EC%9D%B4-%EC%B1%85-%EB%B0%9C%ED%91%9C%EB%A7%90%ED%95%98%EC%A7%80%EB%A7%90%EA%B3%A0-%EB%B3%B4%EC%97%AC%EC%A3%BC%EB%9D%BC%EA%B3%A0%EB%8F%85%EC%9D%B4-%EC%B1%85-%EB%AC%98%EC%82%AC%EC%9D%98-%ED%9E%98%EC%9D%84-%EC%9D%BD%EA%B3%A0-%EC%86%8C%EC%84%A4%EA%B0%80%EA%B0%80-%EB%90%98%EC%96%B4%EB%B3%B4%EC%9E%90%EB%82%98%EB%8A%94-%EC%95%84%EB%AC%B4%EA%B2%83%EB%8F%84-%EB%B0%94%EB%80%8C%EC%A7%80-%EC%95%8A%EB%8A%94%EB%8B%A4/",
-          "source": "Threads · ssaltongdak_sangnam",
-          "published": "",
-          "snippet": "묘사의 힘을 읽고 연습해보면서 어느 순간 내가 소설가가 되어 있는 놀라운 체험을 할 수 있다. 과정을 즐기고 몰입하는 방법을 깨달아보자! 묘사의 책은 소설을 쓸 수 ..."
-        }
-      ],
-      "item_count": 8,
-      "time_range": "qdr:w"
+      "item_count": 1,
+      "time_range": "qdr:d"
     }
   ]
 }
