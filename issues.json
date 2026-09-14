@@ -1,115 +1,41 @@
 {
-  "generated_at": "2026-09-13T23:00:51.272897+00:00",
+  "generated_at": "2026-09-14T23:45:12.872131+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 3,
-  "searches_used": 3,
+  "book_count": 2,
+  "searches_used": 1,
   "books": [
     {
       "title": "내면 근력",
-      "author": "짐 머피",
+      "author": "짐 머피, 지여울",
       "publisher": "윌북",
+      "brand": "윌북",
+      "items": [],
+      "item_count": 0,
+      "time_range": "qdr:d"
+    },
+    {
+      "title": "어떻게 경제학을 사랑하지 않을 수 있을까",
+      "author": "에릭 앵그너",
+      "publisher": "윌북(willbook)",
       "brand": "윌북",
       "items": [
         {
-          "title": "베러맘 프로젝트 3기 📕내면근력 p31",
-          "link": "https://www.threads.com/@reachon.story/post/DdOX2q0IE3Q/%EB%B2%A0%EB%9F%AC%EB%A7%98-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-3%EA%B8%B0-%EB%82%B4%EB%A9%B4%EA%B7%BC%EB%A0%A5-p31/",
-          "source": "Threads · reachon.story",
+          "title": "윌북 on X: \"무시무시한 '씨밤(CBAM)'이 시작됐다! “유럽 ...",
+          "link": "https://x.com/i/status/2099396396709495175",
+          "source": "X · onwillbooks",
           "published": "",
-          "snippet": "OCR 아이의 내면 근력을 키우는 생각 전환 사회 통념 '내면 근력' 마인드셋 이기는 것이 전부다. 당장의 승리보다 자신을 믿고 성장하는 일이 중요하다."
+          "snippet": "과연 탄소세로 기후위기를 어떻게 해결할 수 있을까? 판을 읽는 경제적 사고의 힘 『어떻게 경제학을 사랑하지 않을 수 있을까?』 aladin.co.kr/shop/wproduct."
         },
         {
-          "title": "그리고 꾸준히 하고 있지만 앞이 흐리게 안보이는 일도 그냥 ...",
-          "link": "https://www.instagram.com/p/DdNehnqASSS/",
-          "source": "Instagram · jo2_today",
-          "published": "",
-          "snippet": "조금 더 견고한 내면을 가진, 내면 근력을 키우는 사람이 될 수 있고 풍요로운 경험을 쌓아가는 삶을 살아갈 수 있을 거란걸 알려준다 . 읽는 동안 이전에 읽었던 세 ..."
-        },
-        {
-          "title": "역경을 극복하고 승리하는 인생 <로마서 8장 28절> “우리가 ...",
-          "link": "https://www.facebook.com/groups/3330758717176661/posts/4443013345951187/",
-          "source": "Facebook",
-          "published": "",
-          "snippet": "... 내면 근력」이라는 책의 저자 '짐 머피'는 이러게 말합니다. 미국 프로 골프선수 카일라 이나바는 한 골프 대회에서 전혀 예상치 못한 힘겨운 기상 조건에서 경기를 ..."
-        },
-        {
-          "title": "안다랑의 브런치",
-          "link": "https://brunch.co.kr/@andarang",
-          "source": "브런치",
-          "published": "5시간 전",
-          "snippet": "나는 지금 무엇을 가장 사랑하고 있을까? 이미지정보. 오늘의 필사 짐 머피, 『내면 근력』41쪽, 지여울 옮김, 윌북. 실천하기 : 세 질문에 대한 답을 적어보기 1. 나는 ..."
-        },
-        {
-          "title": "Photo by seed_treesu · September 13, 2026",
-          "link": "https://www.instagram.com/p/DdOzbjExBwI/",
-          "source": "Instagram",
-          "published": "",
-          "snippet": "계발서적은 지속적으로 읽어야 자신을 몰아부칠 수 있기에 아니 볼 수도 없다. #북커버챌린지 · #북스타그램 · #내면근력 · #INNEREXCELLENCE · #JIMMURPHY 혼자일수없다면 ..."
-        },
-        {
-          "title": "함께 갑시다 - Let us go together",
-          "link": "https://www.facebook.com/groups/3330758717176661/posts/4443040872615101/",
-          "source": "Facebook · 함께 갑시다 - Let us go together",
-          "published": "",
-          "snippet": "「내면 근력」이라는 책의 저자 '짐 머피'는 이러게 말합니다. 미국 프로 골프선수 카일라 이나바는 한 골프 대회에서 전혀 예상치 못한 힘겨운 기상 조건에서 경기를 ..."
-        },
-        {
-          "title": "김상진",
-          "link": "https://www.idaegu.com/reporter/viewList.html?page=1&total=1482&id=sjkim&view_type=sm&box_idxno=0",
-          "source": "대구일보",
-          "published": "20시간 전",
-          "snippet": "... 내면 근력(Inner Excellence)』이라. 오피니언 김상진 기자 2026.09.03 10:10. [양기태의 글로벌 경제 읽기] 모두가 한 방향을 볼 때 · 미국의 물가는 아직 연방준비제도 ..."
-        },
-        {
-          "title": "الردود بواسطة 🛳🛳배배 (@bae_bb_bb) / ...",
-          "link": "https://x.com/bae_bb_bb/with_replies?lang=ar",
-          "source": "X · bae_bb_bb",
-          "published": "",
-          "snippet": "... 제가 일하는곳이 책파는곳인데 오디세이, 유럽도시기행,세네카 오늘을 빼앗 어쩌구,투명한 나선, 니체의 초월자, 내면근력,수족관 요런애들이 요즘 잘 나갑니당. 1 · 163."
-        }
-      ],
-      "item_count": 8,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "원소 원정대",
-      "author": "아게도리도리",
-      "publisher": "윌북주니어",
-      "brand": "윌북주니어",
-      "items": [
-        {
-          "title": "자연과학",
-          "link": "https://m.yes24.com/category/display/001001002",
-          "source": "예스24",
-          "published": "4시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
-        },
-        {
-          "title": "揚げ鶏々🐓元素擬人化ゲーム制作中",
-          "link": "https://x.com/agedoridori/all?lang=cs",
-          "source": "X",
-          "published": "9시간 전",
-          "snippet": "... 원소 원정대고 일본어론 원소 악장이란게 신기... 韓国語論の元素遠征隊と日本語論の 元素楽章 というのは不思議です··· #元素楽章 #元素楽章fa 한국[韓国] 일본[日本]."
+          "title": "문화 | 책",
+          "link": "https://www.khan.co.kr/culture/book/articles",
+          "source": "경향신문",
+          "published": "22시간 전",
+          "snippet": "1만9000원어떻게 경제학을 사랑하지 않을 수 있을까?경제학은 복잡한 세상을 해석하는 명료한 사고의 언어다. 기후위기·빈곤·자원 고갈·양극화 등 선의와 분노만으로는 ..."
         }
       ],
       "item_count": 2,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
-      "author": "아게도리도리",
-      "publisher": "윌북주니어",
-      "brand": "윌북주니어",
-      "items": [
-        {
-          "title": "자연과학",
-          "link": "https://m.yes24.com/category/display/001001002",
-          "source": "예스24",
-          "published": "4시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
-        }
-      ],
-      "item_count": 1,
       "time_range": "qdr:d"
     }
   ]
