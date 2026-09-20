@@ -1,76 +1,10 @@
 {
-  "generated_at": "2026-09-19T22:46:04.622017+00:00",
+  "generated_at": "2026-09-20T23:04:39.280194+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
   "book_count": 3,
-  "searches_used": 4,
+  "searches_used": 3,
   "books": [
-    {
-      "title": "원소 원정대",
-      "author": "아게도리도리",
-      "publisher": "윌북주니어",
-      "brand": "윌북주니어",
-      "items": [
-        {
-          "title": "Convexity - 컨벡시티",
-          "link": "https://namu.wiki/w/Convexity",
-          "source": "나무위키",
-          "published": "18시간 전",
-          "snippet": "원소 원정대 방금 전 · 흐비차 크바라츠헬리아/클럽 경력/2026-27 시즌 방금 전 · 마을주민보호구간 방금 전 · 충장로(전남광주) 방금 전 · Ability Wars/업데이트 내역 ..."
-        },
-        {
-          "title": "자연과학",
-          "link": "https://m.yes24.com/category/display/001001002",
-          "source": "예스24",
-          "published": "7시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
-        },
-        {
-          "title": "우물가의 아이들 | 전춘화 지음 / 강소연 그림",
-          "link": "https://www.millie.co.kr/v4/book/bc4f2b61db4a42d2?nav_hidden=y",
-          "source": "밀리의서재",
-          "published": "16시간 전",
-          "snippet": "원소 원정대/아게도리도리 지음 / 박재현 옮김 / 장홍제 감수 썸네일 · 원소 원정대. 아게도리도리 지음 / 박재현 옮김 / 장홍제 감수 · 세계를 건너 너에게 갈게/이꽃님 ..."
-        },
-        {
-          "title": "사카이데 죽순 채집 여아 행방불명 사건",
-          "link": "https://namu.wiki/w/%EC%82%AC%EC%B9%B4%EC%9D%B4%EB%8D%B0%20%EC%A3%BD%EC%88%9C%20%EC%B1%84%EC%A7%91%20%EC%97%AC%EC%95%84%20%ED%96%89%EB%B0%A9%EB%B6%88%EB%AA%85%20%EC%82%AC%EA%B1%B4",
-          "source": "나무위키",
-          "published": "18시간 전",
-          "snippet": "원소 원정대 방금 전 · 흐비차 크바라츠헬리아/클럽 경력/2026-27 시즌 방금 전 · 마을주민보호구간 방금 전 · 충장로(전남광주) 방금 전 · Ability Wars/업데이트 내역 ..."
-        },
-        {
-          "title": "엑자일(킬러랭킹)",
-          "link": "https://namu.wiki/w/%EC%97%91%EC%9E%90%EC%9D%BC(%ED%82%AC%EB%9F%AC%EB%9E%AD%ED%82%B9)",
-          "source": "나무위키",
-          "published": "17시간 전",
-          "snippet": "원소 원정대 방금 전 · 흐비차 크바라츠헬리아/클럽 경력/2026-27 시즌 방금 전 · 마을주민보호구간 방금 전 · 충장로(전남광주) 방금 전 · Ability Wars/업데이트 내역 ..."
-        },
-        {
-          "title": "분류:신석게임사의 실질적 소유 회사 (토론)",
-          "link": "https://namu.wiki/discuss/%EB%B6%84%EB%A5%98:%EC%8B%A0%EC%84%9D%EA%B2%8C%EC%9E%84%EC%82%AC%EC%9D%98%20%EC%8B%A4%EC%A7%88%EC%A0%81%20%EC%86%8C%EC%9C%A0%20%ED%9A%8C%EC%82%AC",
-          "source": "나무위키",
-          "published": "18시간 전",
-          "snippet": "원소 원정대 방금 전 · 흐비차 크바라츠헬리아/클럽 경력/2026-27 시즌 방금 전 · 마을주민보호구간 방금 전 · 충장로(전남광주) 방금 전 · Ability Wars/업데이트 내역 ..."
-        },
-        {
-          "title": "公 (역링크)",
-          "link": "https://namu.wiki/backlink/%E5%85%AC?from=%EA%B0%9C%EC%84%B1%ED%8F%AC%EA%B3%B5&namespace=%EB%AC%B8%EC%84%9C&flag=0",
-          "source": "나무위키",
-          "published": "17시간 전",
-          "snippet": "원소 원정대 방금 전 · 흐비차 크바라츠헬리아/클럽 경력/2026-27 시즌 방금 전 · 마을주민보호구간 방금 전 · 충장로(전남광주) 방금 전 · Ability Wars/업데이트 내역 ..."
-        },
-        {
-          "title": "슬로건 (역링크)",
-          "link": "https://namu.wiki/backlink/%EC%8A%AC%EB%A1%9C%EA%B1%B4?until=%EC%95%84%EC%9A%B0%EB%94%94%20%EC%8A%A4%ED%8F%AC%ED%8A%B8&namespace=%EB%AC%B8%EC%84%9C&flag=0",
-          "source": "나무위키",
-          "published": "17시간 전",
-          "snippet": "원소 원정대 방금 전 · 흐비차 크바라츠헬리아/클럽 경력/2026-27 시즌 방금 전 · 마을주민보호구간 방금 전 · 충장로(전남광주) 방금 전 · Ability Wars/업데이트 내역 ..."
-        }
-      ],
-      "item_count": 8,
-      "time_range": "qdr:d"
-    },
     {
       "title": "내면 근력",
       "author": "짐 머피",
@@ -78,63 +12,94 @@
       "brand": "윌북",
       "items": [
         {
-          "title": "짐 머피의 내면 근력을 최근 읽고 있는데..^^ 깊이 공감합니다. ...",
-          "link": "https://www.threads.com/@choi.director/post/Ddcz07iCSg6/%EC%A7%90-%EB%A8%B8%ED%94%BC%EC%9D%98-%EB%82%B4%EB%A9%B4-%EA%B7%BC%EB%A0%A5%EC%9D%84-%EC%B5%9C%EA%B7%BC-%EC%9D%BD%EA%B3%A0-%EC%9E%88%EB%8A%94%EB%8D%B0-%EA%B9%8A%EC%9D%B4-%EA%B3%B5%EA%B0%90%ED%95%A9%EB%8B%88%EB%8B%A4-%EB%B0%95%EC%82%AC%EB%8B%98-%EC%B5%9C%EA%B3%A0/",
-          "source": "Threads · choi.director",
+          "title": "오래 나아가는 힘은 모든 일이 잘 풀리는 데서 오는 것이 ...",
+          "link": "https://www.instagram.com/p/Ddfke66ETZ0/",
+          "source": "Instagram · willbook.zip",
           "published": "",
-          "snippet": "짐 머피의 내면 근력을 최근 읽고 있는데..^^ 깊이 공감합니다. 박사님 최고 · 1. 배우자에게 작은 힘이라도 주려고 노력한다. · 2. 중심이 딱 잡혀 있어서 흔들리지 ..."
+          "snippet": "#내면근력 은 성공이나 성취 같은 외적인 기준보다 변화하는 상황 속에서도 나를 믿고 흔들리지 않는 내면을 만드는 방법을 이야기합니다. 잘되는 것보다 중요한 것,"
         },
         {
           "title": "송도국제기구도서관",
-          "link": "https://michuhollib.go.kr/sio/sch/bkdt/1558109/1558107/8989152089.do?mnidx=699",
+          "link": "https://michuhollib.go.kr/sio/sch/bkdt/1553960216/1553960214/9788954690485.do?mnidx=699",
           "source": "인천광역시대표도서관",
-          "published": "15시간 전",
-          "snippet": "5 내면근력; 6 머니트렌드; 7 수족관; 8 테오; 9 김애란; 10 모순. 홈 〉 자료검색 〉 인기/신착/추천도서 〉 인기도서. 인기도서. 아름다운 유산. 발행연도 - 2001 / 강인 ..."
+          "published": "24시간 전",
+          "snippet": "6 내면근력; 7 머니트렌드; 8 테오; 9 김애란; 10 모순. 홈 〉 자료검색 〉 인기/신착/추천도서 〉 인기도서. 인기도서. 무어의 마지막 한숨. 발행연도 - 2023 / 지음: ..."
         },
         {
-          "title": "송예슬 | 번역가",
-          "link": "https://www.yes24.com/product/author/250554",
-          "source": "예스24",
-          "published": "20시간 전",
-          "snippet": "작가의 전체작품 ; 모두가 눈부신 파랑 모두가 눈부신 파랑 새창이동 ; 내가 만든 두려움과 싸우지 말 것 내가 만든 두려움과 싸우지 말 것 새창이동 ; 내면 근력 + 내가 만든 ..."
+          "title": "목원대학교 전자책도서관",
+          "link": "https://ebook.mokwon.ac.kr:446/elibrary-front/content/contentList.ink?cttsDvsnCode=001",
+          "source": "목원대학교 전자책도서관",
+          "published": "17시간 전",
+          "snippet": "내면 근력; 짐 머피윌북. 교보문고 전자책. [ 대출 : 1/2 예약 : 0 ]. 미리보기 찜. 하버드의 특별한 시간관리 수업; 쉬셴장지니의 ..."
         },
         {
-          "title": "#1등학부모 명상 #조한수감독",
-          "link": "https://www.instagram.com/p/Ddc0y6PSN1h/",
-          "source": "Instagram · cho_han_su_u15",
+          "title": "남자가 큰 일 하려면 욕과 비난에 익숙해져야 한다.",
+          "link": "https://www.threads.com/@million.library/post/DdftleCklgB/%EB%82%A8%EC%9E%90%EA%B0%80-%ED%81%B0-%EC%9D%BC-%ED%95%98%EB%A0%A4%EB%A9%B4%EC%9A%95%EA%B3%BC-%EB%B9%84%EB%82%9C%EC%97%90-%EC%9D%B5%EC%88%99%ED%95%B4%EC%A0%B8%EC%95%BC-%ED%95%9C%EB%8B%A4%EC%95%84%EB%AC%B4%EB%A6%AC-%EB%82%A0%EA%B3%A0-%EA%B8%B0%EB%8A%94-%EB%B6%84%EB%93%A4%EB%8F%84%EC%8B%AC%EC%A7%80%EC%96%B4-%EB%B0%95%EC%A7%80%EC%84%B1-%EC%86%90%ED%9D%A5%EB%AF%BC-%EC%84%A0%EC%88%98%EB%8F%84%EC%9A%95%EC%9D%84-%EB%A8%B9%EB%8A%94-%EA%B2%83%EC%9D%84-%EB%B3%B4%EB%A9%B4-%EC%84%B8%EC%83%81%EC%9D%80-%EC%B0%B8-%EC%8B%A0%EA%B8%B0%ED%95%98%EA%B5%AC%EB%82%98-%EC%8B%B6%EB%8B%A4/",
+          "source": "Threads · million.library",
           "published": "",
-          "snippet": "우리가 할 수 있는 것은 지금 이 순간, 내 영역에 속한 태도와 과정에 최선을 다하는 것뿐이다.\" __내면근력 중 ​아이가 경기에 뛰지 못하더라도, 그 시간은 아이가 ..."
-        },
-        {
-          "title": "리더는 하루 아침에 만들어지지 않는다 [김영헌의 마중물]",
-          "link": "https://www.hankyung.com/article/202609172240Q",
-          "source": "한국경제",
-          "published": "22시간 전",
-          "snippet": "위대한 리더는 흔들리지 않는 '내면 근력'에서 탄생한다 [김영헌의 마중물]. 2026.07.17 17:59. 위대한 리더는 흔들리지 않는 '내면 근력'에서 탄생한다 [김영헌의 마중물."
+          "snippet": "... 내면근력이고 SNS에서 꾸준히 글 ... 멘탈관리고 내면근력이고 SNS에서 꾸준히 글쓰면 무료로 욕을 먹으니 얼마나 좋은가. 스레드는 순한맛, 인스타그램은 ..."
         },
         {
           "title": "송도국제기구도서관",
-          "link": "https://michuhollib.go.kr/sio/sch/bkdt/1597544779/1597544777/9788937464102.do?mnidx=699",
+          "link": "https://michuhollib.go.kr/sio/sch/bkdt/74456535/74456533/8990794439.do?mnidx=699",
           "source": "인천광역시대표도서관",
-          "published": "16시간 전",
-          "snippet": "5 내면근력; 6 머니트렌드; 7 수족관; 8 테오; 9 김애란; 10 모순. 홈 〉 자료검색 〉 인기/신착/추천도서 〉 인기도서. 인기도서. 사기 열전. 4. 발행연도 - 2022 / 지음 ..."
+          "published": "21시간 전",
+          "snippet": "5 내면근력; 6 머니트렌드; 7 수족관; 8 테오; 9 김애란; 10 모순. 홈 〉 자료검색 〉 인기/신착/추천도서 〉 인기도서. 인기도서. 대출인기. 작가는 어떻게 책을 쓸까?"
         },
         {
-          "title": "마인드셋 - 교보문고 - 국내도서",
-          "link": "https://product.kyobobook.co.kr/detail/S000200427918",
-          "source": "국내도서",
-          "published": "22시간 전",
-          "snippet": "17,820원. 내면 근력. 국내도서. 내면 근력. 짐 머피. 지여울. 19,800원. 생각하라 그리고 부자가 되어라(한정판 스페셜 에디션). 국내도서. 생각하라 그리고 부자가 ..."
+          "title": "도서",
+          "link": "https://www.infomadang.co.kr/mall/list.html?ctg=book&subctg=&sort=new",
+          "source": "인포마당",
+          "published": "18시간 전",
+          "snippet": "내면 근력 (결국 멘탈 게임이다). 장바구니 내면 근력 (결국 멘탈 게임이다). 22,000원19,800원 · 딱 1년만 미쳐라. 장바구니 딱 1년만 미쳐라. 19,800원17,820원 · 인생의 ..."
         },
         {
-          "title": "Photo by Nonnon_ (@non.ntnx) · September 19, 2026",
-          "link": "https://www.instagram.com/p/DddQXRMpHOQ/",
-          "source": "Instagram · non.ntnx",
+          "title": "Photos by imreina2026 · September 20, 2026",
+          "link": "https://www.instagram.com/p/Ddgtgb0E2R2/",
+          "source": "Instagram",
           "published": "",
-          "snippet": "삶을 충만하게 누리고 싶다면 사랑의 우선순위를 올바르게 매겨야 한다. 즉, 변치 않는 것에 가장 많은 사랑을 쏟아부어야 한다는 뜻이다. 내면 근력 | 짐 머피 (지은이), ..."
+          "snippet": "나의스물다섯번째책 “내면근력” 내면 근력은 정상에 오르기 위한 기술이 아니라, 정상을 향해 나아가는 여정에서 진정한 자신의 길을 발견하는 삶의 방식이다."
+        },
+        {
+          "title": "제비꽃 책방",
+          "link": "https://www.youtube.com/channel/UCmb2qQYiAfCH1mJpg-gO2yA/about",
+          "source": "YouTube",
+          "published": "12시간 전",
+          "snippet": "잘 살아내는 사람들의 비밀 내면 근력 글귀 책리뷰 제비꽃 책방 · 다시 걸을 수 있는 힘을 얻고 싶다면 니체의 초월자 책리뷰 제비꽃 책방."
         }
       ],
       "item_count": 8,
+      "time_range": "qdr:d"
+    },
+    {
+      "title": "원소 원정대",
+      "author": "아게도리도리",
+      "publisher": "윌북주니어",
+      "brand": "윌북주니어",
+      "items": [
+        {
+          "title": "과학자들은 왜 아직 119번 원소를 만들지 못했을까?",
+          "link": "https://www.youtube.com/watch?v=bYNevR7Ttds",
+          "source": "YouTube · 세모과학",
+          "published": "",
+          "snippet": "... 원소 원정대 ▷ 이 영상은 (주) 윌북의 제작 지원을 받아 도서 『원소 원정대 ... 원소 원정대』를 바탕으로 제작되었습니다. ✔️ 세모과학 이메일 : semoscience23@gmail."
+        },
+        {
+          "title": "자연과학",
+          "link": "https://m.yes24.com/category/display/001001002",
+          "source": "예스24",
+          "published": "9시간 전",
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
+        },
+        {
+          "title": "루원 🍹🌙 | 료슈 인격은 못참지 #루원툰 #림버스컴퍼니 ...",
+          "link": "https://www.instagram.com/p/DdgYZYPE0XS/",
+          "source": "Instagram",
+          "published": "",
+          "snippet": "<원소 원정대>는 원소의 성질과 관계를 캐릭터의 설정과 세계관으로 풀어낸 주기율표 공략집입니다. 화학을 외워야만 했던 기억이 있거나, 캐릭터의 설정과 관계성을 ..."
+        }
+      ],
+      "item_count": 3,
       "time_range": "qdr:d"
     },
     {
@@ -144,64 +109,50 @@
       "brand": "윌북",
       "items": [
         {
-          "title": "오늘도 독서 완료! 마케팅 이메일을 보낼 때에도 전략이 필요 ...",
-          "link": "https://www.threads.com/@justdidit_lab/post/DdUsdSAE156/%EC%98%A4%EB%8A%98%EB%8F%84-%EB%8F%85%EC%84%9C-%EC%99%84%EB%A3%8C%EB%A7%88%EC%BC%80%ED%8C%85-%EC%9D%B4%EB%A9%94%EC%9D%BC%EC%9D%84-%EB%B3%B4%EB%82%BC-%EB%95%8C%EC%97%90%EB%8F%84-%EC%A0%84%EB%9E%B5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%98%EB%8B%A4-%EC%98%A4%EB%8A%98%EB%8F%84-%ED%96%89%EB%B3%B5%ED%95%9C-%ED%95%98%EB%A3%A8-%EB%90%98%EC%84%B8%EC%9A%94-%ED%99%94%EC%9D%B4%ED%8C%85/",
-          "source": "Threads · justdidit_lab",
-          "published": "",
-          "snippet": "마케팅을 처음 시작한다 -> \"마케팅 설계자\" (퍼널같은 기본 구조, 개념 쉽게 알려줌). 갑자기 울고싶다 -> \"오늘밤 세계에서 이 사랑이 사라진다 해도\" (진짜 보면서 ..."
-        },
-        {
-          "title": "eungsang.com 감사하게도 모여주시는 분들이 조금씩 늘고 ...",
-          "link": "https://www.instagram.com/p/DdT-2b4PFQX/",
-          "source": "Instagram · lee__eunsang",
-          "published": "",
-          "snippet": "Photo by 병원마케팅 ..."
-        },
-        {
-          "title": "수익화 — 만든 걸로 고객 만나기",
-          "link": "https://www.youtube.com/playlist?list=PLRaYQRTKUfhk",
-          "source": "YouTube · 시현의 모험 Sihyun Adventure",
-          "published": "",
-          "snippet": "경쟁사 대표가 안 봤으면 좋겠어요 | 마케팅 설계자. 시현의 모험 Sihyun ... 마케팅, 딱 한 권만 읽어야 한다면 고를 책 | 마케팅 설계자. 시현의 모험 Sihyun ..."
-        },
-        {
-          "title": "파워링크 광고가 자꾸 반려되시나요? 원인은 비즈채널 정보에 ...",
-          "link": "https://www.instagram.com/reel/DdTAwo5k784/",
+          "title": "이번 주 올린 내용, 5가지로 정리해드릴게요. AI 검색 준비도 ...",
+          "link": "https://www.instagram.com/p/DdgWauvjBU1/",
           "source": "Instagram",
           "published": "",
-          "snippet": "May be an. Photo by 병원마케팅 설계자 | 김경태 on August 26, 2026. May be a."
+          "snippet": "Photo by 병원마케팅 설계자 | 김경태 on September 20, 2026. May be an. Photo by 병원 ..."
         },
         {
-          "title": "마케팅부스터",
-          "link": "https://benefitonnon.com/?page=3",
-          "source": "benefitonnon.com",
-          "published": "5일 전",
-          "snippet": "미국의 마케팅 전문가 러셀 브런슨은 《마케팅 설계자》에서 손님의 발걸음을 멈추고 지갑을 열게 만드는 완벽한 3단계 공식으로 '후크(Hook), 스토리(Story), 오퍼(Offer)' ..."
-        },
-        {
-          "title": "마케팅의 거장 '세스 고딘'이 말하는, 유용함을 넘어선 '감정 ...",
-          "link": "https://note.com/supertoraneko/n/n00da9894aab7?hl=ko",
-          "source": "note · とらねこ_1957日目 │ひとりで頑張るnoteから、みんなで伸ばすnoteへ―",
+          "title": "흔들리는건 배우는 과정이다. 데이터를 쌓고, 실수 ...",
+          "link": "https://www.threads.com/@kamong_fit/post/DdfNkQVkzDU/%ED%9D%94%EB%93%A4%EB%A6%AC%EB%8A%94%EA%B1%B4-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EA%B3%BC%EC%A0%95%EC%9D%B4%EB%8B%A4%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%EC%8C%93%EA%B3%A0-%EC%8B%A4%EC%88%98%EB%A5%BC-%ED%95%98%EA%B3%A0%EC%8B%A4%EC%88%98%EC%97%90%EC%84%9C-%EA%B5%90%ED%9B%88%EC%9D%84-%ED%99%95%EB%B3%B4%ED%95%98%EA%B3%A0%EB%B0%98%EB%B3%B5%EC%9D%84-%ED%95%98%EC%A7%80-%EC%95%8A%EC%9C%BC%EB%A9%B4-%EB%90%9C%EB%8B%A4/",
+          "source": "Threads · kamong_fit",
           "published": "",
-          "snippet": "「세스 고딘이 저서('보랏빛 소가 온다'나 '마케팅 설계자' 등)에서 일관되게 말하는 것은, '비즈니스란 정답(유용한 것)을 파는 것이 아니라, 이야기(스토리)를 들려 ..."
+          "snippet": "<마케팅 설계자>의 가치 사다리. 그 개념도 서서히 끝났다고 본다. 그 이유와 대처법. 나름 고심해서 적어본다. 특히 고관여 서비스업 하시는 분들은 꼭 보셨으면 한다 ..."
         },
         {
-          "title": "장문정의 마케털이 \"마케털이\"가 아니고 \"장문정의 마케 ...",
-          "link": "https://www.instagram.com/p/DdYtwo9gSa1/",
-          "source": "Instagram · trust0203",
+          "title": "\"요즘 누가 블로그 보고 병원을 고르나요?\" 🤔 맞는 말 ...",
+          "link": "https://www.instagram.com/p/DdgMCUoI6u7/",
+          "source": "Instagram · docma___",
           "published": "",
-          "snippet": "... 마케팅 설계자』를 장착했다! ​책에서 말하는 핵심은 명확하다. 사람들을 내가 ... ​오늘 『마케팅 설계자』를 읽으며 꽤 신선한 충격을 받았다. 책은 단순히 내 ..."
+          "snippet": "Photo by 병원마케팅 설계자 | 김경태 on September 02, 2026. May be an. Photo by 병원 ..."
         },
         {
-          "title": "30대가 읽어야할책",
-          "link": "https://www.tiktok.com/discover/30%EB%8C%80%EA%B0%80-%EC%9D%BD%EC%96%B4%EC%95%BC%ED%95%A0%EC%B1%85",
-          "source": "TikTok",
-          "published": "6일 전",
-          "snippet": "투자 책 딱 한 권만 추천하라면 이거예요. 『마케팅 설계자』 — 한 번 보면 안 보이던 게 보입니다. 8점 — 확실히 값어치 하는 책들"
+          "title": "AI 커리어 실험실 - AI로 내 아이디어를 서비스로 만드는 실전 ...",
+          "link": "https://nfyg.co/meetups/11044",
+          "source": "동행클럽",
+          "published": "23시간 전",
+          "snippet": "마케팅 설계자들 - 스몰 데이터로 소비자 심리를 공략하는 전략적 방법론 (시즌 5). 앵콜 모임장. 10월 3일 · 토요일 · 강남 · 2자리 남음 · 콘텐츠 제작자 클럽 - 내 채널 ..."
+        },
+        {
+          "title": "마케터라면 한번은 알고있어야 할 내용을 집대성한 책",
+          "link": "https://www.instagram.com/p/DdhV8ZNhotN/",
+          "source": "Instagram",
+          "published": "",
+          "snippet": "​\"우리는 우리가 제공하는 어떤 것을 통해 누군가가 무언가를 성취하도록 돕는다.\" ​오늘 『마케팅 설계자』를 읽으며 꽤 신선한 충격을 받았다. 책은 단순히 내 상품을 ..."
+        },
+        {
+          "title": "전략의 핵심은 하지 말아야 할 것을 고르는 일이다.",
+          "link": "https://www.instagram.com/p/DdgfTLPgQmX/",
+          "source": "Instagram",
+          "published": "",
+          "snippet": "제가 실제 피트니스 현장에서 경험하고 적용해 온 고객 설정부터 콘텐츠, 후크, 스토리, 오퍼까지의 과정을 **《피트니스 마케팅 설계자》**에 정리했습니다. 7 PART · ..."
         }
       ],
-      "item_count": 8,
-      "time_range": "qdr:w"
+      "item_count": 6,
+      "time_range": "qdr:d"
     }
   ]
 }
