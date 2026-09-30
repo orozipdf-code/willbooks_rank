@@ -1,76 +1,10 @@
 {
-  "generated_at": "2026-09-29T00:52:42.925433+00:00",
+  "generated_at": "2026-09-30T00:09:31.368054+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 5,
-  "searches_used": 6,
+  "book_count": 4,
+  "searches_used": 4,
   "books": [
-    {
-      "title": "우리가 가진 슬프고 아름다운 것들 : 가족 이야기",
-      "author": "마이라 칼만",
-      "publisher": "윌북",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "[LIVE] KBS 1TV 일일드라마 '엄마가 미쳤어요' 제작발표회 ...",
-          "link": "https://www.youtube.com/watch?v=FIsRKJQHL1Y",
-          "source": "YouTube · KBS Drama",
-          "published": "",
-          "snippet": "9월 28일 저녁 8시 30분 1TV 첫 방송 매주 월~금 저녁 8시 30분 1TV 방송 평생 가족만을 위해 살아온 엄마와 자신만을 위해 살아온 엄마, 그리고 두 엄마의 자식들이 ..."
-        },
-        {
-          "title": "#민티07 국회의원에서 울산광역시장으로 100일! 이재명 정부가 ...",
-          "link": "https://www.youtube.com/watch?v=TySZOLJCmHs",
-          "source": "YouTube · 민주당티비 [더불어민주당]",
-          "published": "",
-          "snippet": "[민티07] 국회의원에서 울산광역시장으로 100일! 이재명 정부가 주목한 울산의 현안, 어디까지 왔나? | 김상욱·강수영 | 2026년 9월 29일(화) LIVE 오늘의 민주당 ..."
-        },
-        {
-          "title": "'북한 포로' 논란에 초치‥\"우크라이나 정부가 요구‥공식 해명",
-          "link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6854591_37004.html",
-          "source": "MBC 뉴스 · 정상빈",
-          "published": "",
-          "snippet": "북한군 포로의 한국 송환 관련한 우크라이나의 주장을, 우리 정부가 허위 공보로 규정하고 해명과 사과를 요구했습니다. 우크라이나가 협의 과정에서 비공개 송환을 ..."
-        },
-        {
-          "title": "계정 정지 해제(이의 제기 승인) 후 「시도 횟수가 너무 ...",
-          "link": "https://support.google.com/mail/thread/470292347/%EA%B3%84%EC%A0%95-%EC%A0%95%EC%A7%80-%ED%95%B4%EC%A0%9C-%EC%9D%B4%EC%9D%98-%EC%A0%9C%EA%B8%B0-%EC%8A%B9%EC%9D%B8-%ED%9B%84-%E3%80%8C%EC%8B%9C%EB%8F%84-%ED%9A%9F%EC%88%98%EA%B0%80-%EB%84%88%EB%AC%B4-%EB%A7%8E%EC%8A%B5%EB%8B%88%EB%8B%A4%E3%80%8D%EB%A1%9C-2%EC%9D%BC%EC%A7%B8-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EB%B6%88%EA%B0%80?hl=ko",
-          "source": "Google Help",
-          "published": "24시간 전",
-          "snippet": "제 개인 Gmail 계정이 오해로 정지되었다가, 이의 제기가 승인되어 정지가 해제되었습니다. 정지 메일은 지금 보내는 이 메일이 아니고 다른 메일입니다."
-        },
-        {
-          "title": "\"아들에 못 물려줘\"⋯'피터팬 아빠'가 고향에 남긴 유산",
-          "link": "https://v.daum.net/v/tDMrzcu5XN",
-          "source": "Daum · 대전MBC 뉴스",
-          "published": "",
-          "snippet": "의미가 있다고 보고 기증을 받아들였습니다. \"'아빠가 지켜온 의미 있는 재산이 우리 집에, 고향 사람들에게 보여지고 있다.' 그렇게 기억됐으면 좋겠습니다. 제 아들의 ..."
-        },
-        {
-          "title": "[월요편지124] 당신은 좋은 친구가 있나요? ㅣ현장법사의 구법 ...",
-          "link": "https://www.youtube.com/watch?v=PziXJdCSBJM",
-          "source": "YouTube · 정목스님의 유나방송",
-          "published": "",
-          "snippet": "한 주의 시작을 여는 힐링타임~ 편안하고 아름다운 음악을 들으며 정목스님이 전하는 지혜의 메시지를 들어보세요 00:00 [오프닝] 당신은 좋은 우정을 쌓고 있나요?"
-        },
-        {
-          "title": "청렴포털_부패공익신고",
-          "link": "https://www.clean.go.kr/",
-          "source": "청렴포털_부패공익신고",
-          "published": "3시간 전",
-          "snippet": "국민권익위원회가 운영하는 부패·공익 신고창구, 이해충돌방지법위반, 청탁금지법위반, 행동강령위반, 공공재정 부정청구등 신고, 신고관련상담, 보호 및 보상신청."
-        },
-        {
-          "title": "길고양이가 어떻게 올라왔는지 옥상에 올라와서 저를 저리 쳐다 ...",
-          "link": "https://www.instagram.com/reel/Dd0X_gvB2PY/",
-          "source": "Instagram · sarangkim.love",
-          "published": "",
-          "snippet": "털에 윤기도 그렇고 영양상태가 좋아보이는걸로 봐선 누군가 케어중인 녀석입니다 고놈 참 이쁘게생겼다 ㅋ. hariikang. 예쁜냥이가 예쁜언니집찾아왔당ㅎ. czairin4541."
-        }
-      ],
-      "item_count": 8,
-      "time_range": "qdr:d"
-    },
     {
       "title": "원소 원정대",
       "author": "아게도리도리",
@@ -78,101 +12,31 @@
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "원소화살 | 일로아 - 캐릭터 정보",
-          "link": "https://prod.iloa.gg/character/%EC%9B%90%EC%86%8C%ED%99%94%EC%82%B4",
-          "source": "일로아",
-          "published": "24시간 전",
-          "snippet": "원소화살 ; 운명의 업화 모자. 머리 +20 · 30 ; 운명의 업화 견갑. 어깨 +20 · 30 ; 운명의 업화 상의. 상의 +20 · +20 ; 운명의 업화 하의. 하의 +20 · +20 ; 운명의 업화 장갑."
-        },
-        {
-          "title": "비비원소 | 일로아 - 캐릭터 정보",
-          "link": "https://prod.iloa.gg/character/%EB%B9%84%EB%B9%84%EC%9B%90%EC%86%8C",
-          "source": "일로아",
-          "published": "9시간 전",
-          "snippet": "비비원소. 세계수의 축복 받은 자. 길드. 영지고대좀제발Lv.70. 아이템. 1722.5. 전투력. 1759.6. 전투. Lv.70. 원정대. Lv.387. 랭킹. Diamond. Diamond. # 341,088. 뱃지."
-        },
-        {
-          "title": "원소술사내꺼야 | 일로아 - 캐릭터 정보",
-          "link": "https://prod.iloa.gg/character/%EC%9B%90%EC%86%8C%EC%88%A0%EC%82%AC%EB%82%B4%EA%BA%BC%EC%95%BC",
-          "source": "일로아",
-          "published": "17시간 전",
-          "snippet": "원소술사내꺼야. 길드. 영지BarbourLv.70. 아이템. 1250.0. 전투력. 전투. Lv.50. 원정대. Lv.321. 랭킹. Silver. Silver. # 2,700,017. 뱃지. 길드. -. 영지. Barbour."
-        },
-        {
-          "title": "허니펀치퀸 | 일로아 - 캐릭터 정보",
-          "link": "https://prod.iloa.gg/character/%ED%97%88%EB%8B%88%ED%8E%80%EC%B9%98%ED%80%B8/characters",
-          "source": "일로아",
-          "published": "22시간 전",
-          "snippet": "원정대. Lv.215. 랭킹. Gold. Gold. # 1,182,030. 뱃지. 길드. 고양이의노예. 영지. 마이 ... 원소분해학1310.0 · 직업 북두의욍50.0. 카제로스. T31. 직업 아카시아피던그길 ..."
-        },
-        {
-          "title": "Frostborn | 일로아 - 캐릭터 정보",
-          "link": "https://prod.iloa.gg/character/Frostborn",
-          "source": "일로아",
-          "published": "12시간 전",
-          "snippet": "원소의 지배자. 길드GLOOMHAVEN 길드장. 영지위대한 떡갈나무 성지Lv.70. 아이템. 1460.0. 전투력. 64.56. 전투. Lv.69. 원정대 ... 30각성. 원정대 카드 기록. 성세구빛30각."
+          "title": "이책 너무 좋아ㅋㅋ 고민했던게 후회될만큼 만족중이야. 아이 ...",
+          "link": "https://www.threads.com/@lala_bookdiary/post/Dd3_7DZE039/%EC%9D%B4%EC%B1%85-%EB%84%88%EB%AC%B4-%EC%A2%8B%EC%95%84%E3%85%8B%E3%85%8B%EA%B3%A0%EB%AF%BC%ED%96%88%EB%8D%98%EA%B2%8C-%ED%9B%84%ED%9A%8C%EB%90%A0%EB%A7%8C%ED%81%BC-%EB%A7%8C%EC%A1%B1%EC%A4%91%EC%9D%B4%EC%95%BC%EC%95%84%EC%9D%B4%EA%B0%80-%EC%88%98%ED%95%99%EC%97%AC%ED%96%89%EB%95%8C-%EA%B0%80%EC%A0%B8%EA%B0%88%EA%B1%B0%EB%9E%98%E3%85%8B%E3%85%8B/",
+          "source": "Threads",
+          "published": "",
+          "snippet": "이 책은 원소 원정대 라는 책인데, 과학을 좋아하는 아이도 게임캐릭터 좋아하는 아이들도 빠지기 좋은책. · 요즘 코스모스 읽다가 아이책 빌려와서 원소 이것저것 찾아 ..."
         }
       ],
-      "item_count": 5,
+      "item_count": 1,
       "time_range": "qdr:d"
     },
     {
-      "title": "내면 근력",
-      "author": "짐 머피",
-      "publisher": "윌북",
+      "title": "우리가 가진 슬프고 아름다운 것들",
+      "author": "마이라 칼만",
+      "publisher": "윌북(willbook)",
       "brand": "윌북",
       "items": [
         {
-          "title": "사람을 버티게 하는 건 강한 의지가 아니라 계속 살아갈 '이유 ...",
-          "link": "https://www.threads.com/@ajaegeul/post/Dd1H2zrkxQ3/%EC%82%AC%EB%9E%8C%EC%9D%84-%EB%B2%84%ED%8B%B0%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B1%B4%EA%B0%95%ED%95%9C-%EC%9D%98%EC%A7%80%EA%B0%80-%EC%95%84%EB%8B%88%EB%9D%BC%EA%B3%84%EC%86%8D-%EC%82%B4%EC%95%84%EA%B0%88-%EC%9D%B4%EC%9C%A0%EC%9D%B8%EC%A7%80%EB%8F%84-%EB%AA%A8%EB%A6%85%EB%8B%88%EB%8B%A4%EC%95%84%EB%AC%B4%EB%8F%84-%EC%82%B6%EC%9D%98-%EC%A0%95%EB%8B%B5%EC%9D%84%EB%8C%80%EC%8B%A0-%EC%95%8C%EB%A0%A4%EC%A3%BC%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%84%B8%EC%83%81%EC%97%90%EC%84%9C%EB%82%A8%EC%9D%B4-%EB%A7%8C%EB%93%A0-%EB%8B%B5%EC%9D%84-%EC%A2%87%EC%A7%80-%EC%95%8A%EA%B3%A0%EC%8A%A4%EC%8A%A4/",
-          "source": "Threads",
-          "published": "",
-          "snippet": "외부의 흔들림에 흔들리지 않는 내면근력 15가지 2. 결과에 대한 집착이 불안을 만든다. 승패나 타인의 평가처럼 제어할 수 없는 결과에 집착할수록 두려움이 커지므로, ..."
-        },
-        {
-          "title": "사람은생각하는대로된다#얼나이팅게일#Earl Nightingale ...",
-          "link": "https://www.instagram.com/p/Dd0CWK6MK9i/",
-          "source": "Instagram",
-          "published": "",
-          "snippet": "정리한 5가지 방법은 <내면근력> 책에 나오는 것들인데, 실제 사례랑 실천법이 자세하게 나와있어서 좋았어요. 저두 아침마다 직접 실천해보는 중… #광고 #내면근력"
-        },
-        {
-          "title": "사람을 버티게 하는 건 강한 의지가 아니라 계속 살아갈 '이유 ...",
-          "link": "https://www.threads.com/@ajaegeul/post/Dd1IBgSk2Tw/%EC%82%AC%EB%9E%8C%EC%9D%84-%EB%B2%84%ED%8B%B0%EA%B2%8C-%ED%95%98%EB%8A%94-%EA%B1%B4%EA%B0%95%ED%95%9C-%EC%9D%98%EC%A7%80%EA%B0%80-%EC%95%84%EB%8B%88%EB%9D%BC%EA%B3%84%EC%86%8D-%EC%82%B4%EC%95%84%EA%B0%88-%EC%9D%B4%EC%9C%A0%EC%9D%B8%EC%A7%80%EB%8F%84-%EB%AA%A8%EB%A6%85%EB%8B%88%EB%8B%A4%EC%95%84%EB%AC%B4%EB%8F%84-%EC%82%B6%EC%9D%98-%EC%A0%95%EB%8B%B5%EC%9D%84%EB%8C%80%EC%8B%A0-%EC%95%8C%EB%A0%A4%EC%A3%BC%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%84%B8%EC%83%81%EC%97%90%EC%84%9C%EB%82%A8%EC%9D%B4-%EB%A7%8C%EB%93%A0-%EB%8B%B5%EC%9D%84-%EC%A2%87%EC%A7%80-%EC%95%8A%EA%B3%A0%EC%8A%A4%EC%8A%A4/",
-          "source": "Threads",
-          "published": "",
-          "snippet": "외부의 흔들림에 흔들리지 않는 내면근력 15가지 3. 진정한 탁월함은 '존재'에서 나온다. 무언가를 행함(Doing) 이전에 어떤 사람이 될 것인가 하는 정체성(Being)을 ..."
-        },
-        {
-          "title": "Photo by 김종원 작가 (@thinkerkimjw) · September 28, 2026",
-          "link": "https://www.instagram.com/p/Dd1RBVtznOt/",
-          "source": "Instagram · thinkerkimjw",
-          "published": "",
-          "snippet": "스포츠 심리학자 짐 머피의 저서 《내면 근력》에는 올림픽 금메달리스트인 클라라 휴스(Clara Hughes)의 깊은 울림을 주는 이야기가 등장합니다. 모두가 부러워하는 ..."
-        },
-        {
-          "title": "궁전(제과)으로 갈 수도 있어",
-          "link": "https://www.instagram.com/p/Dd1UIvEiQQm/",
-          "source": "Instagram",
-          "published": "",
-          "snippet": "내면근력을 키워보는 겁니다. 가장 쉬운 법은 통제할 수 없는 건 잊는거지요. more. View all 33 comments. September 1 · super_writer1234's profile picture."
-        },
-        {
-          "title": "일론머스크를 키운 어머니가 강조한 독서와 배움. 철학, 사상 ...",
-          "link": "https://www.instagram.com/p/Dd0rzulAYu4/",
-          "source": "Instagram · icon.career",
-          "published": "",
-          "snippet": "《내면 근력》 — 외적 성공을 오래 지속시키는 힘은 결국 자기통제와 내면의 단단함이라는 책. 4.《할 수 있다! AI 주식 투자》 — AI를 투자에 ..."
-        },
-        {
-          "title": "망원나들이 #기글스망원#르메드카페#투떰즈업#OHU ...",
-          "link": "https://www.instagram.com/p/Dd0iHhgJUOm/",
-          "source": "Instagram",
-          "published": "",
-          "snippet": "그렇기 때문에 요로케 맛난 브런치를 자신있게 만들 수 있는 것 아니겠어요! 요즘 내면근력이라는 책을 읽고 있는데, 내가 원하는 삶을 위해서는 고통을 즐겨야 ..."
+          "title": "하루 한 장, 수북한 일력 2027 - 교보문고",
+          "link": "https://product.kyobobook.co.kr/detail/S000221328870",
+          "source": "국내도서",
+          "published": "6시간 전",
+          "snippet": "우리가 가진 슬프고 아름다운 것들 : 가족 이야기. 국내도서. 우리가 가진 슬프고 아름다운 것들 : 가족 이야기. 마이라 칼만. 한정원. 22,500원. 사랑은 원래 좀 유치한 ..."
         }
       ],
-      "item_count": 7,
+      "item_count": 1,
       "time_range": "qdr:d"
     },
     {
@@ -182,38 +46,101 @@
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "약 20억 년 전, 한 세균이 다른 세포 안으로 들어갔다. 잡아 ...",
-          "link": "https://www.instagram.com/p/DdvGOTAlLC3/",
-          "source": "Instagram",
+          "title": "[뉴스 '꾹'] '다시 출근하는' 日 에이스, \"한국타자 어땠나\" 묻자.. ...",
+          "link": "https://www.youtube.com/watch?v=IPJVT-ACqFU",
+          "source": "YouTube · MBCNEWS",
           "published": "",
-          "snippet": "118개 원소를 화려한 캐릭터로 마스터하는 주기율표 공략집 『원소 원정대』를 만나보세요! 어린이부터 성인까지, 온 가족이 함께 보는 입문용 과학 필독서 ..."
+          "snippet": "2026아시안게임 #히구치신 #일본야구 #한국대표팀 #인터뷰 #아이치나고야아시안게임 #야구 #결승 #금메달 #MBC #뉴스 #뉴스데스크 #MBC뉴스 #뉴스투데이 #뉴스ZIP ..."
+        },
+        {
+          "title": "한반도 충돌 강조하는 우크라이나‥북한군 참전 빌미로 한국 ...",
+          "link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6854818_37004.html",
+          "source": "MBC 뉴스 · 이지수",
+          "published": "",
+          "snippet": "한반도 충돌 강조하는 우크라이나‥북한군 참전 빌미로 한국 자극하려고? ... DMZ 폭발 현장에서 北 지뢰 추가 발견‥\"지뢰 4개 매설\"."
+        },
+        {
+          "title": "'암살자(들)'에 분노하는 자유우익 여러분께 드리는 고언",
+          "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003271025",
+          "source": "OhmyNews",
+          "published": "21시간 전",
+          "snippet": "귀찮아하실 분들을 위해 한 번 더 읽어 드리면 \"어떤 집단적 정체성을 이유로 사람들을 열등하거나 위험한 존재로 취급하고, 차별·적대·폭력을 조장\"하고 있잖아요. 반면 ..."
+        },
+        {
+          "title": "POV : 아시안게임 e스포츠 국대를 배웅하는 나 #shorts",
+          "link": "https://www.youtube.com/shorts/7J5r_w0VFHs",
+          "source": "YouTube · 한화생명",
+          "published": "",
+          "snippet": "아시안게임 e스포츠 LoL 경기 D-1‼️ 대한민국 LoL 국가대표 선수들의 출사표! #한화생명 #2026아이치나고야아시안게임 #대한민국e스포츠국가대표 #TeamKoreaofesports ..."
+        },
+        {
+          "title": "[뉴스핫픽] 액막이부터 일복 명당까지…행운을 '설계'하는 MZ",
+          "link": "https://www.yonhapnewstv.co.kr/news/MYH202609291436430BD",
+          "source": "연합뉴스TV",
+          "published": "",
+          "snippet": "액운을 막아준다는 '액막이 명태', 복과 장수를 상징하는 '달항아리'는 요즘 집들이 선물로 인기를 끈다고 하네요. 일상 속 가볍게 운을 소비하는 문화는 새로운 운세 ..."
+        },
+        {
+          "title": "깔끔하게 성공하는 김나현의 1차 시기 [다이빙 여자 10m 플랫폼 ...",
+          "link": "https://programs.sbs.co.kr/sports/ag2026/clip/90286/22000637219",
+          "source": "SBS · SBS 나고야 아시안게임",
+          "published": "",
+          "snippet": "깔끔하게 성공하는 김나현의 1차 시기 [다이빙 여자 10m 플랫폼 예선]. 방송일 2026.09.28(월) 조회수 4 댓글. 깔끔하게 성공하는 김나현의 1차 시기 [다이빙 여자 10m ..."
+        },
+        {
+          "title": "BTSコミュニティの投稿 - 여러분 잘 지내고 계신가요 한국은 ...",
+          "link": "https://weverse.io/bts/artist/3-241723599?hl=ja",
+          "source": "Weverse",
+          "published": "9시간 전",
+          "snippet": "오늘은 추석이라 간만에 가족들과 식사를 하며 즐거운 시간을 보내고 있답니다. 아버지 붙잡고 제가 하는 게임 강제로 교육하는 순간 - JIN. 2026 年 9 月 25 日. 여러분 ..."
+        },
+        {
+          "title": "시간이 멈췄으면 하는 순간이 부쩍 많아진 #F",
+          "link": "https://www.instagram.com/p/Dd35NW1GlTl/",
+          "source": "Instagram · siiiido",
+          "published": "",
+          "snippet": "983 likes, 7 comments - siiiido on September 29, 2026: \"시간이 멈췄으면 하는 순간이 부쩍 많아진 #F\"."
         }
       ],
-      "item_count": 1,
-      "time_range": "qdr:w"
+      "item_count": 8,
+      "time_range": "qdr:d"
     },
     {
-      "title": "마이라 칼만, 우리가 인생에서 가진 것들",
-      "author": "마이라 칼만",
+      "title": "마케팅 설계자",
+      "author": "러셀 브런슨",
       "publisher": "윌북(willbook)",
       "brand": "윌북",
       "items": [
         {
-          "title": "추석 연휴 동안 곁을 떠난 책들과 이서수작가 신간을 들였다. ...",
-          "link": "https://www.instagram.com/p/Dd0Nf0zvE_I/",
-          "source": "Instagram · bookdogbara",
+          "title": "인플루언서 마케팅이라는 게 간단해 보이지만",
+          "link": "https://www.threads.com/@jjeonggring/post/Dd2qJ8HgS9s/%EC%9D%B8%ED%94%8C%EB%A3%A8%EC%96%B8%EC%84%9C-%EB%A7%88%EC%BC%80%ED%8C%85%EC%9D%B4%EB%9D%BC%EB%8A%94-%EA%B2%8C%EA%B0%84%EB%8B%A8%ED%95%B4-%EB%B3%B4%EC%9D%B4%EC%A7%80%EB%A7%8C%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%97%85%EB%B6%80%ED%84%B0-%EC%BB%A8%ED%83%9D%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%9E%91%EC%84%B1-%EC%83%81%EC%84%B8-%EB%82%B4%EC%9A%A9-%EC%A1%B0%EC%9C%A8%EA%B3%84%EC%95%BD%EC%84%9C-%EC%9E%91%EC%84%B1%EC%97%AC%EB%9F%AC-%EB%B2%88%EC%9D%98-%EC%86%8C%ED%86%B5-%EA%B3%BC%EC%A0%95%EC%A0%95%EC%82%B0-%EB%B0%8F-%EC%84%B1%EA%B3%BC-%EA%B3%B5%EC%9C%A0%EA%B9%8C%EC%A7%80%EC%82%AC%EC%8B%A4%EC%9D%80-%EA%B5%89/",
+          "source": "Threads",
           "published": "",
-          "snippet": "우리가 나눈 긴 이야기는 나무와 바람이 들었으니 됐습니다. 너무 속상해하지 ... <우리가 가진 슬프고 아름다운 것들> | 마이라 칼만 & 한정원 옮김 @willbooks_pub"
+          "snippet": "병원마케팅 설계자 | 김경태 (@iamkke) · September 3, 2026 at 12:03 AM. \"팔로워 수보다 제가 먼저 확인하는 숫자가 있어요.\" 팔로워가 많으면 마케팅이 잘되고 있다고 ..."
         },
         {
-          "title": "26.9. 언제나 기억해. 찰리 맥커시 🫧 \"종종 가장 좋은 답은 ...",
-          "link": "https://www.instagram.com/p/Dd0cV9-y-rp/",
+          "title": "좋은 입지만으로 선택받는 시대는 끝났습니다. 환자는 병원 ...",
+          "link": "https://www.instagram.com/p/Dd2zqEHo_xp/",
+          "source": "Instagram · hertzlab_",
+          "published": "",
+          "snippet": "Photo by 병원마케팅 설계자 | 김경태 on ..."
+        },
+        {
+          "title": "고민에서 병원 선택까지, 환자의 검색은 이렇게 이어지기도 ...",
+          "link": "https://www.instagram.com/p/Dd-M0jOgZcW/",
           "source": "Instagram",
           "published": "",
-          "snippet": "오늘 소개드린 도서 <우리가 가진 슬프고 아름다운 것들>에는 게시물에서 소개한 아버지와의 기억 외에도 훨씬 많은 칼만의 가족사가 담겨 있습니다. 그리고 그 사이 ..."
+          "snippet": "Photo by 병원마케팅 설계자 | 김경태 on September 03, 2026. May be an. Photo by 병원마케팅 설계자 | 김경태 on ..."
+        },
+        {
+          "title": "PNA Company '유튜브 자동완성 생성' 진단은 이렇게 진행 ...",
+          "link": "https://www.instagram.com/p/DeAxn_-AWyD/",
+          "source": "Instagram",
+          "published": "",
+          "snippet": "Photo by 병원마케팅 설계자 | 김경태 on September 11, 2026. May be an. Photo by 병원 ..."
         }
       ],
-      "item_count": 2,
+      "item_count": 4,
       "time_range": "qdr:d"
     }
   ]
