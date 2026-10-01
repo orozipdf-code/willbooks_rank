@@ -5,219 +5,243 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>실시간 베스트셀러</title>
   <link rel="icon" href="logo.png">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-    <style>
+  <style>
+    :root {
+      --kyobo: #4DAC27; --aladin: #A2052C; --yes24: #020287; --total: #8e44ad;
+      --will: #E91E63; --will-jr: #FF9800; --will-art: #9C27B0;
+      --ink: #191F28; --sub: #4E5968; --mut: #8B95A1; --line: #F2F4F6;
+      --bg: #F9FAFB; --card: #fff; --up: #F04452; --down: #3182F6; --new: #FF9800;
+    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; background: #f8f8f8; color: #222; }
+    body {
+      font-family: 'Pretendard', -apple-system, 'Apple SD Gothic Neo', sans-serif;
+      background: var(--bg); color: var(--ink);
+      -webkit-font-smoothing: antialiased; letter-spacing: -0.02em;
+    }
 
-    .header { background: #fff; border-bottom: 2px solid var(--store-color); padding: 20px 0 0; transition: border-color 0.2s; }
-    .header-inner { max-width: 900px; margin: 0 auto; padding: 0 20px; }
-    .logo { font-size: 12px; color: var(--store-color); font-weight: 700; letter-spacing: 1px; margin-bottom: 4px; transition: color 0.2s; }
-    h1 { font-size: 24px; font-weight: 800; margin-bottom: 12px; }
+    /* ===== 헤더 ===== */
+    .header { background: var(--card); border-bottom: 1px solid var(--line); padding: 18px 0 0; }
+    .header-inner { max-width: 720px; margin: 0 auto; padding: 0 18px; }
+    .brand-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+    .logo { font-size: 11px; color: var(--store-color); font-weight: 600; letter-spacing: 0; }
+    h1 { font-size: 21px; font-weight: 700; letter-spacing: -0.03em; }
+    .live-tag { font-size: 12px; color: var(--mut); text-align: right; line-height: 1.5; }
+    .live-tag .dot { color: var(--kyobo); }
 
-    .tabs-row { display: flex; justify-content: space-between; align-items: flex-end; }
-    .tabs { display: flex; }
-    .tab { padding: 10px 16px; font-size: 14px; font-weight: 600; cursor: pointer; border-bottom: 3px solid transparent; color: #888; white-space: nowrap; }
-    .tab.active { color: var(--store-color); border-bottom-color: var(--store-color); transition: color 0.2s, border-color 0.2s; }
+    .main-tabs { display: flex; gap: 18px; }
+    .mtab { padding: 8px 0 12px; font-size: 15px; font-weight: 600; cursor: pointer; color: var(--mut); border-bottom: 2.5px solid transparent; }
+    .mtab.active { color: var(--ink); border-bottom-color: var(--ink); }
 
-    .store-tabs { display: flex; gap: 6px; padding-bottom: 10px; flex-wrap: wrap; }
-    .store-tab { padding: 5px 12px; font-size: 13px; font-weight: 600; border-radius: 20px; cursor: pointer; border: 1px solid #ddd; color: #666; background: #fff; transition: all 0.15s; }
-    .store-tab.active { color: #fff; }
-    .store-tab[data-store="kyobo"].active { background: #4DAC27; border-color: #4DAC27; }
-    .store-tab[data-store="aladin"].active { background: #A2052C; border-color: #A2052C; }
-    .store-tab[data-store="yes24"].active { background: #020287; border-color: #020287; }
-    .store-tab[data-store="total"].active { background: #8e44ad; border-color: #8e44ad; }
+    .container { max-width: 720px; margin: 0 auto; padding: 18px; }
 
-    .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+    /* ===== 요약 카드 ===== */
+    .summary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 20px; }
+    .sum-card { border-radius: 16px; padding: 14px 15px; }
+    .sum-card.pink { background: #FCEAF1; }
+    .sum-card.plain { background: var(--card); border: 1px solid var(--line); }
+    .sum-label { font-size: 12px; font-weight: 500; margin-bottom: 4px; }
+    .sum-value { font-size: 23px; font-weight: 700; letter-spacing: -0.04em; line-height: 1.1; }
+    .sum-unit { font-size: 13px; font-weight: 500; }
+    .sum-sub { font-size: 11px; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-    .chart-header { background: #fff; border-radius: 12px; padding: 14px 18px; margin-bottom: 12px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
-    .chart-header .time-value { font-size: 14px; font-weight: 700; }
+    /* ===== 서점 탭 (알약형, CI 컬러) ===== */
+    .store-tabs { display: flex; gap: 6px; margin-bottom: 14px; }
+    .store-tab { flex: 1; text-align: center; font-size: 14px; font-weight: 600; color: var(--sub); background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 0; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
+    .store-tab.active { color: #fff; border-color: transparent; }
+    .store-tab[data-store="kyobo"].active { background: var(--kyobo); }
+    .store-tab[data-store="aladin"].active { background: var(--aladin); }
+    .store-tab[data-store="yes24"].active { background: var(--yes24); }
+    .store-tab[data-store="total"].active { background: var(--total); }
 
-    .refresh-btn { background: none; border: none; font-size: 15px; cursor: pointer; padding: 4px; display: inline-flex; align-items: center; justify-content: center; color: #777; transition: color 0.2s; outline: none; margin-right: 4px; }
-    .refresh-btn:hover { color: var(--store-color); }
+    /* ===== 분야 하위 탭 (칩) ===== */
+    .cat-tabs { display: flex; gap: 7px; margin-bottom: 16px; overflow-x: auto; padding-bottom: 3px; -ms-overflow-style: none; scrollbar-width: none; }
+    .cat-tabs::-webkit-scrollbar { display: none; }
+    .cat-tab { font-size: 13px; font-weight: 500; color: var(--sub); background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 7px 14px; cursor: pointer; white-space: nowrap; transition: all 0.15s; }
+    .cat-tab.active { color: var(--store-color); background: var(--store-tint); border-color: transparent; font-weight: 600; }
+    .cat-tab.disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* ===== 툴바 ===== */
+    .toolbar { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; }
+    .time-value { font-size: 12px; color: var(--mut); font-weight: 500; }
+    .refresh-btn { background: none; border: none; font-size: 15px; cursor: pointer; color: var(--mut); padding: 2px; display: inline-flex; }
     .refresh-btn.spinning { animation: spin 0.8s linear infinite; pointer-events: none; }
-    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .search-wrap { flex: 1; display: flex; align-items: center; gap: 7px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 13px; }
+    .search-wrap:focus-within { border-color: var(--store-color); }
+    .search-wrap svg { flex-shrink: 0; }
+    .search-input { border: none; background: none; outline: none; font-family: inherit; font-size: 13px; width: 100%; color: var(--ink); letter-spacing: -0.02em; }
+    .filter-btn { font-size: 12px; font-weight: 600; color: var(--will); background: #FCEAF1; border: none; border-radius: 20px; padding: 8px 13px; cursor: pointer; white-space: nowrap; }
+    .filter-btn.active { background: var(--will); color: #fff; }
+    .view-toggle { display: flex; gap: 3px; background: var(--line); border-radius: 10px; padding: 3px; }
+    .view-btn { padding: 6px 9px; border-radius: 8px; border: none; background: none; cursor: pointer; font-size: 14px; color: var(--mut); line-height: 1; }
+    .view-btn.active { background: var(--card); color: var(--store-color); }
 
-    .search-input { padding: 6px 12px; font-size: 12px; border-radius: 20px; border: 1.5px solid #ddd; outline: none; width: 150px; transition: all 0.2s ease-in-out; font-family: inherit; }
-    .search-input:focus { border-color: var(--store-color); width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-
-    .filter-btn { padding: 5px 12px; font-size: 12px; font-weight: 700; border-radius: 20px; cursor: pointer; border: 1.5px solid var(--store-color); color: var(--store-color); background: #fff; transition: all 0.15s; white-space: nowrap; }
-    .filter-btn.active { background: var(--store-color); color: #fff; }
-
-    .book-item { background: #fff; border-radius: 12px; padding: 14px 18px; margin-bottom: 8px; display: flex; align-items: center; gap: 14px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); transition: all 0.15s; cursor: pointer; }
-    .book-item:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); transform: translateX(2px); border-left-color: var(--store-color); }
+    /* ===== 순위 리스트 ===== */
+    .book-item { display: flex; align-items: center; gap: 13px; background: var(--card); border-radius: 16px; padding: 13px 15px; margin-bottom: 7px; cursor: pointer; transition: all 0.12s; }
+    .book-item:active { transform: scale(0.99); }
+    .book-item.highlight { background: var(--will-tint); }
     .book-item.hidden { display: none !important; }
-    .book-item.highlight { border-left: 3px solid var(--store-color); }
-
-    .rank-col { min-width: 38px; text-align: center; flex-shrink: 0; }
-    .rank-num { font-size: 20px; font-weight: 800; line-height: 1; }
+    .rank-col { min-width: 32px; text-align: center; flex-shrink: 0; }
+    .rank-num { font-size: 18px; font-weight: 700; letter-spacing: -0.04em; line-height: 1; }
     .rank-num.top3 { color: var(--store-color); }
-    .change-badge { font-size: 11px; font-weight: 700; margin-top: 2px; }
-    .change-badge.up { color: #e60012; }
-    .change-badge.down { color: #4a90e2; }
-    .change-badge.new { color: #ff7f00; }
-    .change-badge.same { color: #bbb; }
-    .change-badge.pts { color: #8e44ad; font-size: 10px; background:#f4ebf9; padding: 2px 4px; border-radius: 4px;}
-
-    .divider { width: 1px; height: 36px; background: #eee; flex-shrink: 0; }
+    .change-badge { font-size: 12px; font-weight: 600; margin-top: 2px; display: inline-flex; align-items: center; gap: 1px; }
+    .change-badge.up { color: var(--up); }
+    .change-badge.down { color: var(--down); }
+    .change-badge.new { color: var(--new); }
+    .change-badge.same { color: var(--mut); }
+    .change-badge.pts { color: var(--total); font-size: 11px; }
     .book-info { flex: 1; min-width: 0; }
-    .book-title { font-size: 14px; font-weight: 700; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .book-meta { font-size: 12px; color: #999; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: flex; align-items: center; gap: 6px; }
-    .our-badge { font-size: 10px; font-weight: 700; color: #fff; border-radius: 4px; padding: 1px 5px; white-space: nowrap; flex-shrink: 0; }
-    .store-badge-mini { font-size: 9px; padding: 1px 4px; border-radius: 3px; color: #fff; font-weight: bold; }
+    .book-title { font-size: 14px; font-weight: 600; letter-spacing: -0.02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px; }
+    .book-meta { font-size: 12px; color: var(--sub); display: flex; align-items: center; gap: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .book-meta .txt { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .our-badge { font-size: 11px; font-weight: 600; color: #fff; border-radius: 5px; padding: 1px 6px; flex-shrink: 0; }
+    .store-badge-mini { font-size: 10px; padding: 1px 5px; border-radius: 5px; color: #fff; font-weight: 600; }
+    .chev { color: var(--mut); flex-shrink: 0; display: flex; }
+    .book-link { flex-shrink: 0; }
+    .book-link a { font-size: 11px; color: var(--store-color); text-decoration: none; border: 1px solid var(--store-color); border-radius: 8px; padding: 4px 9px; font-weight: 600; white-space: nowrap; }
 
-    .book-link a { font-size: 11px; color: var(--store-color); text-decoration: none; border: 1px solid var(--store-color); border-radius: 4px; padding: 3px 7px; white-space: nowrap; font-weight: 600; transition: all 0.15s; }
-    .book-link a:hover { background: var(--store-color); color: #fff; }
+    .loading, .error, .empty-msg { text-align: center; padding: 60px 20px; color: var(--mut); font-size: 14px; }
+    .error { color: var(--up); }
 
-    .loading { text-align: center; padding: 60px; color: #aaa; }
-    .error { text-align: center; padding: 40px; color: #e60012; font-size: 14px; }
-    .empty-msg { text-align: center; padding: 60px 20px; color: #aaa; font-size: 15px; width: 100%; }
-
-    .history-list { display: flex; flex-direction: column; gap: 8px; }
-    .history-item { background: #fff; border-radius: 10px; padding: 14px 18px; cursor: pointer; box-shadow: 0 1px 4px rgba(0,0,0,0.06); display: flex; justify-content: space-between; align-items: center; }
-    .history-item:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-    .history-item.has-ours { border-left: 3px solid var(--store-color); }
-    .history-time { font-weight: 700; font-size: 14px; }
-    .history-top { font-size: 12px; color: #999; margin-top: 2px; }
-    .history-our-badge { font-size: 10px; font-weight: 700; color: #fff; background: var(--store-color); border-radius: 4px; padding: 1px 5px; margin-top: 4px; display: inline-block; }
-    .back-btn { background: none; border: none; color: #888; font-size: 14px; cursor: pointer; margin-bottom: 14px; padding: 0; font-family: inherit; display: flex; align-items: center; gap: 4px; }
-    .back-btn:hover { color: #222; }
-
-    .chart-header { flex-wrap: wrap; gap: 8px; }
-    .chart-header-left { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-    .view-toggle { display: flex; gap: 4px; background: #f0f0f0; border-radius: 8px; padding: 3px; }
-    .view-btn { padding: 5px 11px; border-radius: 6px; border: none; background: none; cursor: pointer; font-size: 15px; color: #999; line-height: 1; transition: all 0.15s; }
-    .view-btn.active { background: #fff; color: var(--store-color); box-shadow: 0 1px 3px rgba(0,0,0,0.12); }
-
-    .gallery-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
-    @media (max-width: 720px) { .gallery-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; } }
-    @media (max-width: 480px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; } }
-
-    .gallery-card { background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.08); display: flex; flex-direction: column; border: 2px solid transparent; transition: all 0.15s; cursor: pointer; }
-    .gallery-card:hover { box-shadow: 0 6px 16px rgba(0,0,0,0.13); transform: translateY(-4px); border-color: var(--store-color); }
-    .gallery-card.highlight { border-color: var(--store-color); }
+    /* ===== 갤러리 뷰 ===== */
+    .gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+    @media (max-width: 600px) { .gallery-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; } }
+    @media (max-width: 420px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
+    .gallery-card { background: var(--card); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; cursor: pointer; border: 2px solid transparent; transition: all 0.12s; }
+    .gallery-card:active { transform: scale(0.98); }
+    .gallery-card.highlight { border-color: var(--will-tint-border); }
     .gallery-card.hidden { display: none !important; }
-
-    .card-img-wrap { position: relative; aspect-ratio: 3 / 4; background: #e8e8e8; overflow: hidden; flex-shrink: 0; }
+    .card-img-wrap { position: relative; aspect-ratio: 3/4; background: var(--line); overflow: hidden; flex-shrink: 0; }
     .card-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .card-img-wrap.skeleton { background: #f0f0f0; }
-    .card-img-wrap.skeleton::after { content: '이미지\A준비 중'; white-space: pre; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #bbb; line-height: 1.8; text-align: center; font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;}
-
-    .card-info { padding: 8px 9px 9px; display: flex; flex-direction: column; gap: 3px; flex: 1; }
+    .card-img-wrap.skeleton::after { content: '이미지\A준비 중'; white-space: pre; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: var(--mut); line-height: 1.8; text-align: center; }
+    .card-info { padding: 8px 9px 9px; display: flex; flex-direction: column; gap: 2px; flex: 1; }
     .card-rank-row { display: flex; align-items: baseline; gap: 5px; }
-    .card-rank { font-size: 18px; font-weight: 800; line-height: 1; color: #222; }
+    .card-rank { font-size: 17px; font-weight: 700; letter-spacing: -0.04em; }
     .card-rank.top3 { color: var(--store-color); }
-    .card-change { font-size: 11px; font-weight: 700; }
-    .card-change.up { color: #e60012; } .card-change.down { color: #4a90e2; } .card-change.new { color: #ff7f00; } .card-change.same { color: #ccc; }
-    .card-change.pts { color: #8e44ad; font-size: 10px; background:#f4ebf9; padding: 2px 4px; border-radius: 4px;}
-    .card-title { font-size: 11px; font-weight: 700; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .card-author { font-size: 10px; color: #888; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .card-pub-row { display: flex; align-items: center; gap: 4px; min-width: 0; flex-wrap: wrap;}
-    .card-publisher { font-size: 10px; color: #bbb; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; min-width: 0; }
-    .card-our-badge { font-size: 9px; font-weight: 700; color: #fff; border-radius: 3px; padding: 1px 4px; white-space: nowrap; flex-shrink: 0; }
+    .card-change { font-size: 11px; font-weight: 600; }
+    .card-change.up { color: var(--up); } .card-change.down { color: var(--down); } .card-change.new { color: var(--new); } .card-change.same { color: var(--mut); } .card-change.pts { color: var(--total); font-size: 10px; }
+    .card-title { font-size: 11px; font-weight: 600; line-height: 1.4; letter-spacing: -0.02em; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .card-author { font-size: 10px; color: var(--sub); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .card-pub-row { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+    .card-publisher { font-size: 10px; color: var(--mut); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; min-width: 0; }
+    .card-our-badge { font-size: 9px; font-weight: 600; color: #fff; border-radius: 4px; padding: 1px 4px; flex-shrink: 0; }
     .card-link { margin-top: auto; padding-top: 6px; }
-    .card-link a { display: block; text-align: center; font-size: 10px; font-weight: 600; color: var(--store-color); text-decoration: none; border: 1px solid var(--store-color); border-radius: 4px; padding: 3px 0; transition: all 0.15s; }
-    .card-link a:hover { background: var(--store-color); color: #fff; }
+    .card-link a { display: block; text-align: center; font-size: 10px; font-weight: 600; color: var(--store-color); text-decoration: none; border: 1px solid var(--store-color); border-radius: 8px; padding: 4px 0; }
 
-    /* 🔥 급상승 / 신규진입 하이라이트 섹션 */
-    .highlight-section { margin-bottom: 12px; }
-    .hl-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-    @media (max-width: 600px) { .hl-grid { grid-template-columns: 1fr; } }
-    .hl-box { background: #fff; border-radius: 12px; padding: 14px 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
-    .hl-box-title { font-size: 13px; font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 5px; }
-    .hl-box.up .hl-box-title { color: #e60012; }
-    .hl-box.new .hl-box-title { color: #ff7f00; }
-    .hl-row { display: flex; align-items: center; gap: 8px; padding: 6px 0; cursor: pointer; border-radius: 6px; transition: background 0.12s; min-width: 0; }
-    .hl-row:hover { background: #f7f7f7; }
-    .hl-row + .hl-row { border-top: 1px solid #f2f2f2; }
-    .hl-rank { font-size: 13px; font-weight: 800; min-width: 30px; text-align: center; color: #555; flex-shrink: 0; }
+    /* ===== 급상승/신규진입 하이라이트 ===== */
+    .highlight-section { margin-bottom: 16px; }
+    .hl-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    @media (max-width: 560px) { .hl-grid { grid-template-columns: 1fr; } }
+    .hl-box { background: var(--card); border-radius: 16px; padding: 14px 16px; }
+    .hl-box-title { font-size: 13px; font-weight: 700; margin-bottom: 8px; display: flex; align-items: center; gap: 5px; }
+    .hl-box.up .hl-box-title { color: var(--up); }
+    .hl-box.new .hl-box-title { color: var(--new); }
+    .hl-row { display: flex; align-items: center; gap: 8px; padding: 7px 0; cursor: pointer; min-width: 0; }
+    .hl-row + .hl-row { border-top: 1px solid var(--line); }
+    .hl-rank { font-size: 13px; font-weight: 700; min-width: 26px; text-align: center; color: var(--sub); flex-shrink: 0; letter-spacing: -0.03em; }
     .hl-info { flex: 1 1 0; min-width: 0; overflow: hidden; }
-    .hl-title { font-size: 12px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
-    .hl-sub { font-size: 10px; color: #aaa; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
-    .hl-badge { font-size: 11px; font-weight: 800; flex-shrink: 0; padding: 2px 7px; border-radius: 10px; }
-    .hl-badge.up { color: #e60012; background: #fdeaea; }
-    .hl-badge.new { color: #ff7f00; background: #fff3e0; }
-    .hl-empty { font-size: 12px; color: #bbb; padding: 8px 0; text-align: center; }
+    .hl-title { font-size: 12.5px; font-weight: 600; letter-spacing: -0.02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .hl-sub { font-size: 10.5px; color: var(--mut); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .hl-badge { font-size: 11px; font-weight: 700; flex-shrink: 0; padding: 2px 8px; border-radius: 20px; }
+    .hl-badge.up { color: var(--up); background: #FDECEE; }
+    .hl-badge.new { color: var(--new); background: #FFF3E0; }
+    .hl-empty { font-size: 12px; color: var(--mut); padding: 10px 0; text-align: center; }
 
-    /* 📈 추이 분석 팝업 (모달) 스타일 */
-    .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); display: none; align-items: center; justify-content: center; z-index: 1000; padding: 20px; opacity: 0; transition: opacity 0.2s; backdrop-filter: blur(2px); }
+    /* ===== 지난 차트 ===== */
+    .history-list { display: flex; flex-direction: column; gap: 7px; }
+    .history-item { background: var(--card); border-radius: 14px; padding: 14px 16px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+    .history-item.has-ours { background: var(--will-tint); }
+    .history-time { font-weight: 700; font-size: 14px; letter-spacing: -0.02em; }
+    .history-top { font-size: 12px; color: var(--sub); margin-top: 2px; }
+    .history-our-badge { font-size: 10px; font-weight: 600; color: #fff; background: var(--will); border-radius: 5px; padding: 1px 6px; margin-top: 4px; display: inline-block; }
+    .back-btn { background: none; border: none; color: var(--sub); font-size: 14px; cursor: pointer; margin-bottom: 14px; padding: 0; font-family: inherit; font-weight: 600; display: flex; align-items: center; gap: 4px; }
+
+    /* ===== 모달 ===== */
+    .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.45); display: none; align-items: flex-start; justify-content: center; z-index: 1000; padding: 6vh 16px; opacity: 0; transition: opacity 0.2s; }
     .modal-overlay.show { display: flex; opacity: 1; }
-    .modal-content { background: #fff; width: 100%; max-width: 440px; border-radius: 16px; padding: 24px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); position: relative; max-height: 85vh; display: flex; flex-direction: column; }
-    .modal-close { position: absolute; top: 16px; right: 16px; font-size: 24px; cursor: pointer; color: #999; background: none; border: none; line-height: 1; transition: color 0.2s; }
-    .modal-close:hover { color: #222; }
-    .modal-header { margin-bottom: 16px; padding-right: 20px; }
-    .modal-title { font-size: 18px; font-weight: 800; line-height: 1.3; margin-bottom: 4px; color: #222; }
-    .modal-author { font-size: 13px; color: var(--store-color); font-weight: 700; }
+    .modal-content { background: var(--card); width: 100%; max-width: 440px; border-radius: 22px; padding: 22px; position: relative; max-height: 88vh; display: flex; flex-direction: column; box-shadow: 0 12px 40px rgba(0,0,0,0.16); }
+    .modal-close { position: absolute; top: 18px; right: 18px; font-size: 22px; cursor: pointer; color: var(--mut); background: none; border: none; line-height: 1; }
+    .modal-header { margin-bottom: 16px; padding-right: 24px; }
+    .modal-badge-row { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
+    .modal-title { font-size: 18px; font-weight: 700; line-height: 1.3; letter-spacing: -0.03em; }
+    .modal-author { font-size: 13px; color: var(--sub); font-weight: 500; margin-top: 2px; }
 
-    /* 📈 그래프/리스트 전환 토글 */
-    .trend-view-toggle { display: flex; gap: 4px; background: #f0f0f0; border-radius: 8px; padding: 3px; margin-bottom: 14px; align-self: flex-start; }
-    .trend-view-btn { padding: 4px 12px; border-radius: 6px; border: none; background: none; cursor: pointer; font-size: 12px; font-weight: 700; color: #999; transition: all 0.15s; font-family: inherit; }
-    .trend-view-btn.active { background: #fff; color: var(--store-color); box-shadow: 0 1px 3px rgba(0,0,0,0.12); }
+    /* 세 서점 순위 카드 */
+    .store-rank-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 7px; margin-bottom: 16px; }
+    .srg-card { border-radius: 12px; padding: 10px 8px; text-align: center; }
+    .srg-card.kyobo { background: #E8F5E1; } .srg-label.kyobo { color: #2E7D14; }
+    .srg-card.aladin { background: #FBE7EB; } .srg-label.aladin { color: #A2052C; }
+    .srg-card.yes24 { background: #E5EAF7; } .srg-label.yes24 { color: #020287; }
+    .srg-label { font-size: 11px; font-weight: 600; }
+    .srg-value { font-size: 19px; font-weight: 700; letter-spacing: -0.04em; margin-top: 1px; }
+    .srg-value.none { color: var(--mut); font-size: 14px; font-weight: 500; }
+    .srg-unit { font-size: 11px; font-weight: 500; }
 
-    .trend-chart-wrap { position: relative; height: 280px; }
-    .trend-chart-empty { padding: 60px 20px; text-align: center; color: #bbb; font-size: 13px; }
+    .trend-view-toggle { display: flex; gap: 4px; background: var(--line); border-radius: 12px; padding: 4px; margin-bottom: 16px; }
+    .trend-view-btn { flex: 1; padding: 8px 0; border-radius: 9px; border: none; background: none; cursor: pointer; font-size: 13px; font-weight: 600; color: var(--sub); font-family: inherit; display: flex; align-items: center; justify-content: center; gap: 5px; }
+    .trend-view-btn.active { background: var(--card); color: var(--store-color); }
 
-    .trend-list { display: flex; flex-direction: column; gap: 8px; overflow-y: auto; padding-right: 4px; flex: 1 1 auto; min-height: 0; }
-    .trend-item { display: flex; justify-content: space-between; align-items: center; padding: 12px 16px; background: #f8f9fa; border-radius: 10px; font-size: 14px; border-left: 3px solid transparent; }
-    .trend-item.is-top { border-left-color: var(--store-color); background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-    .trend-time { color: #555; font-weight: 700; font-size: 13px; }
-    .trend-rank { font-weight: 800; font-size: 16px; color: var(--store-color); }
-    .trend-rank.none { color: #ccc; font-weight: 400; font-size: 13px; }
+    .trend-chart-wrap { position: relative; height: 260px; }
+    .trend-chart-empty { padding: 50px 20px; text-align: center; color: var(--mut); font-size: 13px; line-height: 1.7; }
+
+    #trendChartView { flex-shrink: 0; }
+    .trend-list { display: flex; flex-direction: column; gap: 7px; overflow-y: auto; padding-right: 4px; flex: 1 1 auto; min-height: 0; }
+    .trend-item { display: flex; justify-content: space-between; align-items: center; padding: 12px 15px; background: var(--bg); border-radius: 12px; font-size: 14px; }
+    .trend-item.is-top { background: var(--will-tint); }
+    .trend-time { color: var(--sub); font-weight: 600; font-size: 13px; }
+    .trend-rank { font-weight: 700; font-size: 16px; color: var(--store-color); letter-spacing: -0.03em; }
+    .trend-rank.none { color: var(--mut); font-weight: 500; font-size: 13px; }
     .trend-stores { display: flex; gap: 4px; }
 
-    /* 🔥 최근 이슈 탭 스타일 */
-    .issue-meta { font-size: 12px; color: #999; margin-bottom: 10px; display: flex; align-items: center; gap: 5px; }
-    .issue-list { display: flex; flex-direction: column; gap: 8px; padding-right: 4px; }
+    /* 최근 이슈 */
     #trendIssues { flex: 1 1 auto; min-height: 0; overflow-y: auto; }
-    #trendIssues::-webkit-scrollbar, .trend-list::-webkit-scrollbar { width: 6px; }
-    #trendIssues::-webkit-scrollbar-thumb, .trend-list::-webkit-scrollbar-thumb { background: #d5d5d5; border-radius: 3px; }
-    #trendIssues::-webkit-scrollbar-thumb:hover, .trend-list::-webkit-scrollbar-thumb:hover { background: #bbb; }
-    #trendChartView { flex-shrink: 0; }
-    .issue-card { display: block; text-decoration: none; color: #222; background: #f8f9fa; border-radius: 10px; padding: 12px 15px; border-left: 3px solid transparent; transition: all 0.15s; }
-    .issue-card:hover { background: #fff; border-left-color: var(--store-color); box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
-    .issue-title { font-size: 13.5px; font-weight: 700; line-height: 1.4; margin-bottom: 4px; }
-    .issue-snippet { font-size: 12px; color: #888; line-height: 1.45; margin-bottom: 6px; }
-    .issue-foot { display: flex; align-items: center; gap: 7px; font-size: 11px; }
-    .issue-source { color: var(--store-color); font-weight: 700; }
-    .issue-time { color: #aaa; }
-    .issue-foot .dot { width: 3px; height: 3px; border-radius: 50%; background: #ccc; }
-    .issue-empty { padding: 44px 20px; text-align: center; color: #bbb; font-size: 13px; line-height: 1.7; }
+    .trend-list::-webkit-scrollbar, #trendIssues::-webkit-scrollbar { width: 5px; }
+    .trend-list::-webkit-scrollbar-thumb, #trendIssues::-webkit-scrollbar-thumb { background: #D1D6DB; border-radius: 3px; }
+    .issue-meta { font-size: 12px; color: var(--mut); margin-bottom: 10px; display: flex; align-items: center; gap: 5px; font-weight: 500; }
+    .issue-list { display: flex; flex-direction: column; gap: 7px; padding-right: 4px; }
+    .issue-card { display: block; text-decoration: none; color: var(--ink); background: var(--bg); border-radius: 12px; padding: 12px 14px; transition: background 0.12s; }
+    .issue-card:active { background: var(--line); }
+    .issue-title { font-size: 13.5px; font-weight: 600; line-height: 1.4; letter-spacing: -0.02em; margin-bottom: 4px; }
+    .issue-snippet { font-size: 12px; color: var(--sub); line-height: 1.45; margin-bottom: 6px; }
+    .issue-foot { display: flex; align-items: center; gap: 6px; font-size: 11px; }
+    .issue-source { color: var(--store-color); font-weight: 600; }
+    .issue-time { color: var(--mut); }
+    .issue-foot .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--mut); }
+    .issue-empty { padding: 40px 20px; text-align: center; color: var(--mut); font-size: 13px; line-height: 1.7; }
+    .issue-empty small { color: var(--mut); }
     .issue-more { margin-top: 12px; text-align: center; }
     .issue-more a { font-size: 12px; color: var(--store-color); font-weight: 600; text-decoration: none; border-bottom: 1px solid var(--store-color); padding-bottom: 1px; }
 
-    .footer { text-align: center; padding: 40px 20px; font-size: 12px; color: #aaa; margin-top: 20px; }
-    .footer a { color: #888; text-decoration: none; border-bottom: 1px solid #ddd; transition: color 0.2s; }
-    .footer a:hover { color: var(--store-color); border-color: var(--store-color); }
-
-    /* 👑 통합 차트 점수 공식 툴팁 */
+    /* 통합 점수 툴팁 */
     .info-wrap { position: relative; display: inline-flex; align-items: center; }
-    .info-icon { display: inline-flex; align-items: center; justify-content: center; width: 15px; height: 15px; border-radius: 50%; border: 1px solid currentColor; font-size: 10px; font-weight: 700; margin-left: 5px; cursor: help; opacity: 0.75; font-style: italic; line-height: 1; }
-    .info-icon:hover { opacity: 1; }
-    .info-tip { position: absolute; top: calc(100% + 10px); right: 0; width: 260px; background: #2c2c2e; color: #fff; border-radius: 10px; padding: 12px 14px; font-size: 12px; font-weight: 400; line-height: 1.6; box-shadow: 0 6px 20px rgba(0,0,0,0.25); opacity: 0; visibility: hidden; transform: translateY(-4px); transition: opacity 0.15s, transform 0.15s; z-index: 100; white-space: normal; text-align: left; letter-spacing: 0; }
-    .info-tip::after { content: ''; position: absolute; bottom: 100%; right: 14px; border: 6px solid transparent; border-bottom-color: #2c2c2e; }
+    .info-icon { display: inline-flex; align-items: center; justify-content: center; width: 15px; height: 15px; border-radius: 50%; border: 1px solid currentColor; font-size: 10px; font-weight: 700; margin-left: 5px; cursor: help; opacity: 0.8; font-style: italic; line-height: 1; }
+    .info-tip { position: absolute; top: calc(100% + 10px); right: 0; width: 250px; background: #2C2C2E; color: #fff; border-radius: 12px; padding: 12px 14px; font-size: 12px; font-weight: 400; line-height: 1.6; opacity: 0; visibility: hidden; transform: translateY(-4px); transition: all 0.15s; z-index: 100; text-align: left; letter-spacing: -0.01em; }
+    .info-tip::after { content: ''; position: absolute; bottom: 100%; right: 14px; border: 6px solid transparent; border-bottom-color: #2C2C2E; }
     .info-wrap:hover .info-tip, .info-tip.show { opacity: 1; visibility: visible; transform: translateY(0); }
-    .info-tip b { color: #ffd479; font-weight: 700; }
-    .info-tip .tip-title { display: block; font-weight: 700; margin-bottom: 5px; color: #fff; font-size: 12.5px; }
-    .info-tip .tip-formula { display: block; background: rgba(255,255,255,0.1); border-radius: 5px; padding: 5px 8px; margin: 6px 0; font-size: 11.5px; }
-    @media (max-width: 560px) { .info-tip { right: -60px; width: 220px; } .info-tip::after { right: 74px; } }
+    .info-tip b { color: #FFD479; font-weight: 700; }
+    .info-tip .tip-title { display: block; font-weight: 700; margin-bottom: 5px; }
+    .info-tip .tip-formula { display: block; background: rgba(255,255,255,0.1); border-radius: 6px; padding: 5px 8px; margin: 6px 0; }
+    @media (max-width: 560px) { .info-tip { right: -80px; width: 210px; } .info-tip::after { right: 94px; } }
+
+    .footer { text-align: center; padding: 36px 20px; font-size: 12px; color: var(--mut); }
+    .footer a { color: var(--sub); text-decoration: none; border-bottom: 1px solid var(--line); }
   </style>
 </head>
 <body>
-<div class="header" id="header">
+<div class="header">
   <div class="header-inner">
-    <div class="logo" id="logo">REALTIME BESTSELLER by ahu(orozi) </div>
-    <h1>실시간 베스트셀러</h1>
-    <div class="tabs-row">
-      <div class="tabs">
-        <div class="tab active" onclick="showMainTab('latest')">최신 차트</div>
-        <div class="tab" onclick="showMainTab('history')">지난 차트</div>
+    <div class="brand-row">
+      <div>
+        <div class="logo" id="logo">REALTIME BESTSELLER by ahu(orozi)</div>
+        <h1>실시간 베스트셀러</h1>
       </div>
-      <div class="store-tabs">
-        <div class="store-tab active" data-store="kyobo" onclick="setStore('kyobo')">교보문고</div>
-        <div class="store-tab" data-store="aladin" onclick="setStore('aladin')">알라딘</div>
-        <div class="store-tab" data-store="yes24" onclick="setStore('yes24')">예스24</div>
-        <div class="store-tab" data-store="total" onclick="setStore('total')"><span class="info-wrap">👑 통합 차트<span class="info-icon" onclick="event.stopPropagation(); this.parentElement.querySelector('.info-tip').classList.toggle('show')">i</span><span class="info-tip" onclick="event.stopPropagation()"><span class="tip-title">👑 통합 점수 계산법</span>세 서점(교보·알라딘·예스24)의 순위를 점수로 바꿔 합산합니다.<span class="tip-formula">점수 = (101 − 순위) 를 서점별로 합산</span>예) 1위 = 100점, 2위 = 99점 … 100위 밖은 0점. 세 서점 모두 1위면 <b>300점 만점</b>. 한 곳에만 있으면 그 점수만 반영돼요.</span></span></div>
-      </div>
+      <div class="live-tag" id="liveTag"><span class="dot">●</span> LIVE</div>
+    </div>
+    <div class="main-tabs">
+      <div class="mtab active" onclick="showMainTab('latest')">최신 차트</div>
+      <div class="mtab" onclick="showMainTab('history')">지난 차트</div>
     </div>
   </div>
 </div>
@@ -229,15 +253,17 @@
 
 <div class="modal-overlay" id="trendModal" onclick="if(event.target===this) closeTrendModal()">
   <div class="modal-content">
-    <button class="modal-close" onclick="closeTrendModal()">×</button>
+    <button class="modal-close" onclick="closeTrendModal()">&times;</button>
     <div class="modal-header">
+      <div class="modal-badge-row" id="modalBadgeRow"></div>
       <div class="modal-title" id="modalTitle">책 제목</div>
       <div class="modal-author" id="modalAuthor">저자</div>
     </div>
+    <div class="store-rank-grid" id="storeRankGrid"></div>
     <div class="trend-view-toggle">
-      <button class="trend-view-btn active" id="trendBtnChart" onclick="setTrendView('chart')">📈 그래프</button>
-      <button class="trend-view-btn" id="trendBtnList" onclick="setTrendView('list')">☰ 목록</button>
-      <button class="trend-view-btn" id="trendBtnIssues" onclick="setTrendView('issues')" style="display:none">🔥 최근 이슈</button>
+      <button class="trend-view-btn active" id="trendBtnChart" onclick="setTrendView('chart')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m7 14 4-4 3 3 5-6"/></svg>추이</button>
+      <button class="trend-view-btn" id="trendBtnList" onclick="setTrendView('list')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>목록</button>
+      <button class="trend-view-btn" id="trendBtnIssues" onclick="setTrendView('issues')" style="display:none"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>최근 이슈</button>
     </div>
     <div id="trendChartView">
       <div class="trend-chart-wrap"><canvas id="trendChartCanvas"></canvas></div>
@@ -256,19 +282,12 @@
 const RAW = "https://raw.githubusercontent.com/orozipdf-code/orozi-test/master/";
 const CSV_FILES = { kyobo: "kyobo_bestseller.csv", aladin: "aladin_bestseller.csv", yes24: "yes24_bestseller.csv" };
 const STORE_COLORS = { kyobo: "#4DAC27", aladin: "#A2052C", yes24: "#020287", total: "#8e44ad" };
-const STORE_NAMES = { kyobo: "교보", aladin: "알라딘", yes24: "예스24" };
+const STORE_TINTS  = { kyobo: "#E8F5E1", aladin: "#FBE7EB", yes24: "#E5EAF7", total: "#F0E9F6" };
+const STORE_NAMES  = { kyobo: "교보", aladin: "알라딘", yes24: "예스24" };
 
-// 💡 글자 수가 긴 브랜드부터 배열에 배치해야 '윌북주니어'가 '윌북'으로 잘못 잡히지 않습니다.
-const OUR_PUBLISHERS = [
-  "윌북주니어", "윌북아트", "윌북"
-];
-
-// 🎨 출판사 브랜드별 맞춤 배지 컬러 설정
-const PUB_COLORS = {
-  "윌북": "#E91E63",       // 핑크/레드
-  "윌북주니어": "#FF9800", // 눈에 띄는 주황색
-  "윌북아트": "#9C27B0"    // 고급스러운 보라색
-};
+const OUR_PUBLISHERS = ["윌북주니어", "윌북아트", "윌북"];
+const PUB_COLORS = { "윌북": "#E91E63", "윌북주니어": "#FF9800", "윌북아트": "#9C27B0" };
+const PUB_TINTS  = { "윌북": "#FCEAF1", "윌북주니어": "#FFF3E0", "윌북아트": "#F5EBFA" };
 
 let currentMainTab = 'latest';
 let currentStore = 'kyobo';
@@ -277,28 +296,39 @@ let filterOn = false;
 let searchQuery = '';
 let currentView = 'list';
 let searchTimeout;
-let trendView = 'chart';     // 📈 추이 모달: 'chart' / 'list' / 'issues'
-let trendChart = null;       // 📈 Chart.js 인스턴스 보관
-let modalBookTitle = '';     // 📈 현재 모달에 띄운 책 제목
-let modalBookAuthor = '';    // 🔥 현재 모달 책의 저자 (구글 검색 링크용)
-let modalBookPublisher = ''; // 📈 현재 모달 책의 출판사 (추이 매칭용 병합키)
-let modalBookIsOurs = false; // 🔥 현재 모달 책이 윌북 계열인지
+let trendView = 'chart';
+let trendChart = null;
+let modalBookTitle = '';
+let modalBookAuthor = '';
+let modalBookPublisher = '';
+let modalBookIsOurs = false;
 
-// 🔥 최근 이슈: GitHub Actions가 생성하는 issues.json (윌북 계열만 수집)
 const ISSUES_FILE = 'issues.json';
-let issuesData = null;       // { generated_at, books:[{title, items:[...]}] }
-
+let issuesData = null;
 const normTitle = s => (s || '').replace(/\s+/g, '').toLowerCase();
 
-// 🔥 issues.json 로드 (최초 1회)
-async function loadIssues() {
-  try {
-    const res = await fetchWithRetry(RAW + ISSUES_FILE + '?t=' + Date.now());
-    issuesData = await res.json();
-  } catch { issuesData = { books: [] }; }
+// 📚 분야별 데이터 (categories.json)
+const CATEGORIES_FILE = 'categories.json';
+let categoriesData = null;
+let currentCat = 'all';   // 'all'=종합, 그 외=분야키
+// 분야 탭을 지원하는 서점 (교보·통합은 종합만)
+const CAT_STORES = ['aladin', 'yes24'];
+
+async function loadCategories() {
+  try { const res = await fetchWithRetry(RAW + CATEGORIES_FILE + '?t=' + Date.now()); categoriesData = await res.json(); }
+  catch { categoriesData = null; }
+}
+// 현재 서점·분야에 실제 데이터가 있는지
+function catHasData(store, key) {
+  if (key === 'all') return true;
+  return !!(categoriesData && categoriesData[store] && Array.isArray(categoriesData[store][key]) && categoriesData[store][key].length);
 }
 
-// 🔥 한 책의 상대 시각 (n시간 전)
+async function loadIssues() {
+  try { const res = await fetchWithRetry(RAW + ISSUES_FILE + '?t=' + Date.now()); issuesData = await res.json(); }
+  catch { issuesData = { books: [] }; }
+}
+
 function issueTimeAgo(pub) {
   if (!pub) return '';
   const d = new Date(pub); if (isNaN(d)) return '';
@@ -308,11 +338,9 @@ function issueTimeAgo(pub) {
   return `${Math.round(diff/86400)}일 전`;
 }
 
-// 🔥 최근 이슈 패널 렌더링
 function renderIssues() {
   const wrap = document.getElementById('trendIssues');
   const gLink = `https://www.google.com/search?q=${encodeURIComponent(modalBookTitle + ' ' + (modalBookAuthor||''))}&tbs=qdr:d`;
-
   if (!modalBookIsOurs) {
     wrap.innerHTML = `<div class="issue-empty">최근 이슈는 <b>윌북 계열 도서</b>에 한해 자동 수집됩니다.
       <div class="issue-more"><a href="${gLink}" target="_blank" rel="noopener">구글에서 최근 1일 직접 검색 →</a></div></div>`;
@@ -345,12 +373,16 @@ function renderIssues() {
 }
 
 function setStoreColor(store) {
-  document.documentElement.style.setProperty('--store-color', STORE_COLORS[store]);
+  const r = document.documentElement.style;
+  r.setProperty('--store-color', STORE_COLORS[store]);
+  r.setProperty('--store-tint', STORE_TINTS[store]);
+  r.setProperty('--will-tint', '#FCEAF1');
+  r.setProperty('--will-tint-border', '#F4C0D1');
 }
 
 function showMainTab(tab) {
   currentMainTab = tab;
-  document.querySelectorAll('.tab').forEach((t, i) => {
+  document.querySelectorAll('.mtab').forEach((t, i) => {
     t.classList.toggle('active', (i === 0 && tab === 'latest') || (i === 1 && tab === 'history'));
   });
   document.getElementById('latest-view').style.display = tab === 'latest' ? '' : 'none';
@@ -361,39 +393,37 @@ function showMainTab(tab) {
 function setStore(store) {
   currentStore = store;
   setStoreColor(store);
-  filterOn = false;
-  searchQuery = '';
-  document.querySelectorAll('.store-tab').forEach(t => {
-    t.classList.toggle('active', t.dataset.store === store);
-  });
+  filterOn = false; searchQuery = '';
+  currentCat = 'all';   // 서점 전환 시 분야는 종합으로 초기화
+  document.querySelectorAll('.store-tab').forEach(t => t.classList.toggle('active', t.dataset.store === store));
   if (currentMainTab === 'latest') loadLatest();
   else renderHistoryList(historyData);
 }
 
-function isOurPublisher(publisher) {
-  return OUR_PUBLISHERS.some(p => publisher && publisher.includes(p));
-}
+function isOurPublisher(publisher) { return OUR_PUBLISHERS.some(p => publisher && publisher.includes(p)); }
 
 function changeIcon(change, points = null) {
-  if (points !== null) return { icon: `${points}점`, cls: 'pts' };
+  if (points !== null) return { icon: `${points}점`, cls: 'pts', dir: 'pts' };
   const val = (change || '').toString().trim().toUpperCase();
-
-  if (!val || val === '-' || val === '0' || val === '유지') {
-    return { icon: '–', cls: 'same' };
-  }
-  if (val === 'NEW' || val === '진입') {
-    return { icon: 'NEW', cls: 'new' };
-  }
-  if (val.includes('↑') || val.includes('▲') || val.includes('상승')) {
-    return { icon: change, cls: 'up' };
-  }
-  if (val.includes('↓') || val.includes('▼') || val.includes('하락')) {
-    return { icon: change, cls: 'down' };
-  }
-  return { icon: change, cls: 'same' };
+  if (!val || val === '-' || val === '0' || val === '유지') return { icon: '–', cls: 'same', dir: 'same' };
+  if (val === 'NEW' || val === '진입') return { icon: 'NEW', cls: 'new', dir: 'new' };
+  if (val.includes('↑') || val.includes('▲') || val.includes('상승')) return { icon: val.replace(/[↑▲상승]/g,'').trim(), cls: 'up', dir: 'up' };
+  if (val.includes('↓') || val.includes('▼') || val.includes('하락')) return { icon: val.replace(/[↓▼하락]/g,'').trim(), cls: 'down', dir: 'down' };
+  return { icon: change, cls: 'same', dir: 'same' };
 }
 
-// 🔢 순위변동 문자열에서 상승/하락 칸수를 숫자로 추출 (↑5 → 5, ↓3 → -3)
+function changeBadgeHtml(change, points = null) {
+  const { icon, cls, dir } = changeIcon(change, points);
+  let arrow = '';
+  if (dir === 'up') arrow = '<svg width="9" height="9" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l8 12H4z"/></svg>';
+  if (dir === 'down') arrow = '<svg width="9" height="9" viewBox="0 0 24 24" fill="currentColor"><path d="M12 20L4 8h16z"/></svg>';
+  return `<span class="change-badge ${cls}">${arrow}${icon}</span>`;
+}
+function cardChangeHtml(change, points = null) {
+  const { icon, cls } = changeIcon(change, points);
+  return `<span class="card-change ${cls}">${icon}</span>`;
+}
+
 function parseChangeDelta(change) {
   const val = (change || '').toString().trim();
   const m = val.match(/(\d+)/);
@@ -405,19 +435,17 @@ function parseChangeDelta(change) {
 }
 
 function toOnTheHour(timeStr) {
-  const clean = timeStr.replace(/-/g, '.');
+  const clean = (timeStr||'').replace(/-/g, '.');
   const parts = clean.split(' ');
-  if (parts.length < 2) return clean + ' 기준';
+  if (parts.length < 2) return clean;
   const hour = parts[1].split(':')[0];
-  return parts[0] + ' ' + hour + ':00 기준';
+  return parts[0] + ' ' + hour + ':00';
 }
-
-// 📈 그래프 X축용 짧은 시각 라벨 (MM.DD HH시)
 function toShortTime(timeStr) {
   const clean = (timeStr || '').replace(/-/g, '.');
   const parts = clean.split(' ');
   if (parts.length < 2) return clean;
-  const md = parts[0].split('.').slice(1).join('.');  // MM.DD
+  const md = parts[0].split('.').slice(1).join('.');
   const hour = parts[1].split(':')[0];
   return `${md} ${hour}시`;
 }
@@ -425,10 +453,9 @@ function toShortTime(timeStr) {
 function setView(view) {
   currentView = view;
   document.querySelectorAll('.view-toggle').forEach(toggle => {
-    const listBtn = toggle.querySelector('.view-btn:nth-child(1)');
-    const galleryBtn = toggle.querySelector('.view-btn:nth-child(2)');
-    if (listBtn) listBtn.classList.toggle('active', view === 'list');
-    if (galleryBtn) galleryBtn.classList.toggle('active', view === 'gallery');
+    const b = toggle.querySelectorAll('.view-btn');
+    if (b[0]) b[0].classList.toggle('active', view === 'list');
+    if (b[1]) b[1].classList.toggle('active', view === 'gallery');
   });
   document.querySelectorAll('.books-list-view').forEach(el => el.style.display = view === 'list' ? '' : 'none');
   document.querySelectorAll('.books-gallery-view').forEach(el => el.style.display = view === 'gallery' ? '' : 'none');
@@ -438,7 +465,6 @@ function setView(view) {
 function applyFilters() {
   const items = document.querySelectorAll('.book-item, .gallery-card');
   let visibleCount = 0;
-
   items.forEach(el => {
     const isOurs = el.dataset.ours === 'true';
     const targets = el.querySelectorAll('.book-title, .card-title, .book-meta, .card-author, .card-publisher');
@@ -447,23 +473,16 @@ function applyFilters() {
     const matchesPub = !filterOn || isOurs;
     const matchesSearch = combinedText.includes(searchQuery);
     const isHidden = !(matchesPub && matchesSearch);
-
     el.classList.toggle('hidden', isHidden);
     if (!isHidden) visibleCount++;
   });
-
   const existingMsg = document.getElementById('empty-msg');
   if (visibleCount === 0) {
     if (!existingMsg) {
-      const msg = document.createElement('div');
-      msg.id = 'empty-msg';
-      msg.className = 'empty-msg';
-      msg.textContent = '조건에 맞는 책이 없어요 📭';
-      document.querySelector('.books-list-view').parentNode.appendChild(msg);
+      const listView = document.querySelector('.books-list-view');
+      if (listView) { const msg = document.createElement('div'); msg.id = 'empty-msg'; msg.className = 'empty-msg'; msg.textContent = '조건에 맞는 책이 없어요 📭'; listView.parentNode.appendChild(msg); }
     }
-  } else {
-    if (existingMsg) existingMsg.remove();
-  }
+  } else { if (existingMsg) existingMsg.remove(); }
 }
 
 function toggleFilter() {
@@ -475,10 +494,7 @@ function toggleFilter() {
 
 function handleSearch(e) {
   clearTimeout(searchTimeout);
-  searchTimeout = setTimeout(() => {
-    searchQuery = e.target.value.toLowerCase().trim();
-    applyFilters();
-  }, 200);
+  searchTimeout = setTimeout(() => { searchQuery = e.target.value.toLowerCase().trim(); applyFilters(); }, 200);
 }
 
 async function handleRefresh(btn) {
@@ -487,53 +503,27 @@ async function handleRefresh(btn) {
   await loadLatest();
 }
 
-// 🏷️ 출판사명 정규화: 괄호 제거 + 윌북 계열 통합 규칙
-// - "윌북(willbook)" · "윌북 (Willbook)" → "윌북"
-// - "윌북아트" → "윌북" 으로 통합 (같은 임프린트로 취급)
-// - "윌북주니어" 는 별도로 유지 (아동 브랜드라 구분)
+/* ===== 통합 병합 로직 (II/2, 부제, 윌북·윌북아트) ===== */
 function normPublisher(pub) {
   let p = (pub || '').trim();
-  p = p.replace(/\s*[\(（].*?[\)）]\s*/g, '');   // 괄호와 그 안(영문 등) 제거
+  p = p.replace(/\s*[\(（].*?[\)）]\s*/g, '');
   p = p.replace(/\s+/g, '').toLowerCase();
-  if (p === '윌북아트') p = '윌북';              // 윌북아트 → 윌북 통합
+  if (p === '윌북아트') p = '윌북';
   return p;
 }
-
-// 🔗 통합 차트 병합 키: (부제·편수 제거한) 제목 + (정규화한) 출판사
-// 저자 표기가 서점마다 달라도, 부제까지 다르게 적혀 있어도 같은 책으로 묶기 위함.
-// 예) "원소 원정대"  =  "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집"
-//    "윌북"  =  "윌북(willbook)"  =  "윌북아트"
-//
-// ⚠️ 시리즈물 오병합 방지: 제목 끝의 "1권 / 2권 / II / 시즌2" 같은 편수 표기를
-//    숫자로 정규화해 키에 붙인다. (1권과 2권은 안 묶이되, "II"와 "2"는 같게)
 const ROMAN_NUM = { i:1, ii:2, iii:3, iv:4, v:5, vi:6, vii:7, viii:8, ix:9, x:10 };
-
 function stripSubtitle(rawTitle) {
   let t = (rawTitle || '').trim();
   let volume = '';
-
-  // 1) 제목 끝의 로마자 편수(II, III …)를 숫자로 변환
   const roman = t.match(/\s(i{1,3}|iv|v|vi{0,3}|ix|x)\s*$/i);
   if (roman) volume = String(ROMAN_NUM[roman[1].toLowerCase()] || '');
-
-  // 2) 로마자가 없으면 아라비아 숫자/권차 표기 확인
   if (!volume) {
-    const volPatterns = [
-      /(\d+)\s*권/, /(\d+)\s*부/, /시즌\s*(\d+)/i, /vol\.?\s*(\d+)/i,
-      /\b([0-9]{1,2})\b\s*$/, /\b(상|하|중)\b\s*$/,
-    ];
-    for (const re of volPatterns) {
-      const m = t.match(re);
-      if (m) { volume = m[1]; break; }
-    }
+    const volPatterns = [/(\d+)\s*권/, /(\d+)\s*부/, /시즌\s*(\d+)/i, /vol\.?\s*(\d+)/i, /\b([0-9]{1,2})\b\s*$/, /\b(상|하|중)\b\s*$/];
+    for (const re of volPatterns) { const m = t.match(re); if (m) { volume = m[1]; break; } }
   }
-
-  // 3) 부제 분리 (콜론 / 공백으로 둘러싼 대시·물결 앞부분)
   let base = t.split(/\s*[:：]\s*/)[0];
   base = base.split(/\s+[-–—~]\s+/)[0];
   base = base.trim();
-
-  // 4) base 끝의 편수 표기 제거 → 제목 본체만 남김
   base = base.replace(/\s*\d+\s*(권|부)\s*$/, '');
   base = base.replace(/\s*시즌\s*\d+\s*$/i, '');
   base = base.replace(/\s*vol\.?\s*\d+\s*$/i, '');
@@ -541,20 +531,11 @@ function stripSubtitle(rawTitle) {
   base = base.replace(/\s+\d{1,2}\s*$/, '');
   base = base.replace(/\s+(상|하|중)\s*$/, '');
   base = base.trim();
-
   let key = base.replace(/\s+/g, '').toLowerCase();
   if (volume) key += '#' + volume;
   return key;
 }
-
-function mergeKey(book) {
-  const title = stripSubtitle(book['제목']);
-  const pub = normPublisher(book['출판사']);
-  return title + '|' + pub;
-}
-
-// 📈 추이 매칭용: 특정 서점 목록에서 (모달에 띄운) 책과 같은 책을 병합키로 찾는다.
-// II/2, 부제, 윌북·윌북아트 표기 차이를 통합 차트와 동일하게 흡수한다.
+function mergeKey(book) { return stripSubtitle(book['제목']) + '|' + normPublisher(book['출판사']); }
 function findByMergeKey(list, title, publisher) {
   const target = mergeKey({ '제목': title, '출판사': publisher });
   return (list || []).find(x => mergeKey(x) === target);
@@ -566,16 +547,12 @@ function calculateTotal(kData, aData, yData) {
     (data || []).forEach(b => {
       const t = (b['제목'] || '').trim();
       if (!t) return;
-      const k = mergeKey(b);   // (부제 제거)제목 + (정규화)출판사 기준 병합
+      const k = mergeKey(b);
       const r = parseInt(b['순위']) || 101;
-      const pts = Math.max(0, 101 - r);   // 1위=100점 … 100위 밖은 0점 (음수 방지)
-
-      if (!bookMap[k]) {
-        bookMap[k] = { ...b, points: 0, stores: [] };
-      } else {
-        // 대표 정보 보강: 저자 표기가 더 자세한 쪽(더 긴 문자열)을 채택
-        const curA = (bookMap[k]['저자'] || '');
-        const newA = (b['저자'] || '');
+      const pts = Math.max(0, 101 - r);
+      if (!bookMap[k]) { bookMap[k] = { ...b, points: 0, stores: [] }; }
+      else {
+        const curA = (bookMap[k]['저자'] || ''), newA = (b['저자'] || '');
         if (newA.length > curA.length) bookMap[k]['저자'] = newA;
         if (!bookMap[k]['이미지URL'] && b['이미지URL']) bookMap[k]['이미지URL'] = b['이미지URL'];
         if (!bookMap[k]['LINK'] && b['LINK']) bookMap[k]['LINK'] = b['LINK'];
@@ -585,75 +562,63 @@ function calculateTotal(kData, aData, yData) {
     });
   };
   process(kData, 'kyobo'); process(aData, 'aladin'); process(yData, 'yes24');
-
   const sorted = Object.values(bookMap).sort((a, b) => b.points - a.points);
   sorted.forEach((b, i) => { b['순위'] = i + 1; b['순위변동'] = '-'; });
   return sorted;
 }
 
-// 🔥 급상승 / 신규진입 하이라이트 박스 HTML 생성
-function buildHighlights(books, isTotal) {
-  if (isTotal || !books || books.length === 0) return '';
-
-  const risers = books
-    .map(b => ({ book: b, delta: parseChangeDelta(b['순위변동']) }))
-    .filter(x => x.delta > 0)
-    .sort((a, b) => b.delta - a.delta)
-    .slice(0, 5);
-
-  const newcomers = books
-    .filter(b => {
-      const v = (b['순위변동'] || '').toString().trim().toUpperCase();
-      return v === 'NEW' || v === '진입';
-    })
-    .sort((a, b) => (parseInt(a['순위']) || 99) - (parseInt(b['순위']) || 99))
-    .slice(0, 5);
-
-  const esc = s => (s || '').replace(/"/g, '&quot;');
-  const cut = (s, n) => {
-    s = (s || '').toString();
-    return s.length > n ? s.slice(0, n) + '…' : s;
-  };
-
-  const rowHtml = (b, badgeText, badgeCls) => {
-    const t = esc(b['제목']);
-    const a = esc(b['저자']);
-    const titleShort = cut(b['제목'], 24);
-    const subFull = `${b['저자']||''} · ${b['출판사']||''}`;
-    const subShort = cut(subFull, 28);
-    return `<div class="hl-row" data-title="${t}" data-author="${a}" data-publisher="${esc(b['출판사'])}" onclick="openTrendModal(this)">
-      <span class="hl-rank">${parseInt(b['순위'])||'-'}위</span>
-      <div class="hl-info">
-        <div class="hl-title" title="${esc(b['제목'])}">${titleShort}</div>
-        <div class="hl-sub">${subShort}</div>
-      </div>
-      <span class="hl-badge ${badgeCls}">${badgeText}</span>
-    </div>`;
-  };
-
-  const upRows = risers.length
-    ? risers.map(x => rowHtml(x.book, `▲ ${x.delta}`, 'up')).join('')
-    : '<div class="hl-empty">이번 시간엔 급상승 도서가 없어요</div>';
-
-  const newRows = newcomers.length
-    ? newcomers.map(b => rowHtml(b, 'NEW', 'new')).join('')
-    : '<div class="hl-empty">이번 시간엔 신규 진입 도서가 없어요</div>';
-
-  return `<div class="highlight-section">
-    <div class="hl-grid">
-      <div class="hl-box up">
-        <div class="hl-box-title">🔥 지금 급상승 TOP 5</div>
-        ${upRows}
-      </div>
-      <div class="hl-box new">
-        <div class="hl-box-title">✨ 신규 진입</div>
-        ${newRows}
-      </div>
+/* ===== 요약 카드 ===== */
+function buildSummary(books, isTotal) {
+  const ours = books.filter(b => isOurPublisher(b['출판사']));
+  const ourCount = ours.length;
+  let best = null;
+  ours.forEach(b => { const r = parseInt(b['순위']) || 999; if (!best || r < best.r) best = { r, title: b['제목'] }; });
+  let topRise = null;
+  if (!isTotal) {
+    ours.forEach(b => { const d = parseChangeDelta(b['순위변동']); if (d > 0 && (!topRise || d > topRise.d)) topRise = { d, title: b['제목'] }; });
+  }
+  const catName = currentCat === 'all' ? '' : (CATEGORIES.find(c => c[0]===currentCat)?.[1] || '');
+  const scopeLabel = isTotal ? '통합 300점 내'
+    : (currentCat !== 'all' ? `${STORE_NAMES[currentStore]} ${catName} 20위 내` : STORE_NAMES[currentStore] + ' 100위 내');
+  return `<div class="summary-grid">
+    <div class="sum-card pink">
+      <div class="sum-label" style="color:#C2185B">${isTotal?'통합 진입':'윌북 진입'}</div>
+      <div class="sum-value" style="color:#880E4F">${ourCount}<span class="sum-unit">권</span></div>
+      <div class="sum-sub" style="color:#C2185B">${scopeLabel}</div>
+    </div>
+    <div class="sum-card plain">
+      <div class="sum-label" style="color:var(--sub)">최고 순위</div>
+      <div class="sum-value">${best?best.r:'–'}<span class="sum-unit">${best?'위':''}</span></div>
+      <div class="sum-sub" style="color:var(--mut)">${best?best.title:'진입 없음'}</div>
+    </div>
+    <div class="sum-card plain">
+      <div class="sum-label" style="color:var(--sub)">${isTotal?'윌북 계열':'최대 상승'}</div>
+      <div class="sum-value" style="color:${topRise?'#2E7D14':'var(--ink)'}">${isTotal?ourCount:(topRise?'▲'+topRise.d:'–')}${isTotal?'<span class="sum-unit">권</span>':''}</div>
+      <div class="sum-sub" style="color:var(--mut)">${isTotal?'전체 통합 성적':(topRise?topRise.title:'상승 없음')}</div>
     </div>
   </div>`;
 }
 
-// 📈 추이 모달: 한 책의 시간대별 순위 시계열 추출
+/* ===== 급상승/신규 하이라이트 ===== */
+function buildHighlights(books, isTotal) {
+  if (isTotal || !books || books.length === 0) return '';
+  const risers = books.map(b => ({ book: b, delta: parseChangeDelta(b['순위변동']) })).filter(x => x.delta > 0).sort((a, b) => b.delta - a.delta).slice(0, 5);
+  const newcomers = books.filter(b => { const v = (b['순위변동'] || '').toString().trim().toUpperCase(); return v === 'NEW' || v === '진입'; }).sort((a, b) => (parseInt(a['순위']) || 99) - (parseInt(b['순위']) || 99)).slice(0, 5);
+  const esc = s => (s || '').replace(/"/g, '&quot;');
+  const cut = (s, n) => { s = (s || '').toString(); return s.length > n ? s.slice(0, n) + '…' : s; };
+  const rowHtml = (b, badgeText, badgeCls) => `<div class="hl-row" data-title="${esc(b['제목'])}" data-author="${esc(b['저자'])}" data-publisher="${esc(b['출판사'])}" onclick="openTrendModal(this)">
+      <span class="hl-rank">${parseInt(b['순위'])||'-'}위</span>
+      <div class="hl-info"><div class="hl-title" title="${esc(b['제목'])}">${cut(b['제목'],24)}</div><div class="hl-sub">${cut(`${b['저자']||''} · ${b['출판사']||''}`,28)}</div></div>
+      <span class="hl-badge ${badgeCls}">${badgeText}</span></div>`;
+  const upRows = risers.length ? risers.map(x => rowHtml(x.book, `▲ ${x.delta}`, 'up')).join('') : '<div class="hl-empty">이번 시간엔 급상승 도서가 없어요</div>';
+  const newRows = newcomers.length ? newcomers.map(b => rowHtml(b, 'NEW', 'new')).join('') : '<div class="hl-empty">이번 시간엔 신규 진입 도서가 없어요</div>';
+  return `<div class="highlight-section"><div class="hl-grid">
+    <div class="hl-box up"><div class="hl-box-title">🔥 지금 급상승 TOP 5</div>${upRows}</div>
+    <div class="hl-box new"><div class="hl-box-title">✨ 신규 진입</div>${newRows}</div>
+  </div></div>`;
+}
+
+/* ===== 추이 시계열 ===== */
 function getTrendSeries(title) {
   const ordered = [...historyData];
   const labels = [];
@@ -678,73 +643,41 @@ function getTrendSeries(title) {
   }
 }
 
-// 📈 Chart.js 꺾은선 그래프 렌더링
 function renderTrendChart(title) {
   const wrap = document.getElementById('trendChartView');
   const { labels, series, isTotal } = getTrendSeries(title);
-
   const hasAnyPoint = Object.values(series).some(arr => arr.some(v => v !== null));
   if (!hasAnyPoint || labels.length === 0) {
     wrap.innerHTML = '<div class="trend-chart-empty">아직 그래프를 그릴 만한<br>과거 데이터가 충분하지 않아요 📭</div>';
     return;
   }
   wrap.innerHTML = '<div class="trend-chart-wrap"><canvas id="trendChartCanvas"></canvas></div>';
-
   const datasets = Object.entries(series).map(([store, arr]) => ({
-    label: STORE_NAMES[store] || store,
-    data: arr,
-    borderColor: STORE_COLORS[store],
-    backgroundColor: STORE_COLORS[store] + '22',
-    borderWidth: 2.5,
-    pointRadius: 4,
-    pointHoverRadius: 6,
-    pointBackgroundColor: '#fff',
-    pointBorderColor: STORE_COLORS[store],
-    pointBorderWidth: 2,
-    tension: 0.3,
-    spanGaps: true,
+    label: STORE_NAMES[store] || store, data: arr,
+    borderColor: STORE_COLORS[store], backgroundColor: STORE_COLORS[store] + '18',
+    borderWidth: 2.5, pointRadius: 3.5, pointHoverRadius: 6, pointBackgroundColor: '#fff',
+    pointBorderColor: STORE_COLORS[store], pointBorderWidth: 2, tension: 0.35, spanGaps: true,
     fill: isTotal ? false : { value: 100 }
   }));
-
   if (trendChart) { trendChart.destroy(); trendChart = null; }
   const ctx = document.getElementById('trendChartCanvas').getContext('2d');
   trendChart = new Chart(ctx, {
-    type: 'line',
-    data: { labels, datasets },
+    type: 'line', data: { labels, datasets },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
+      responsive: true, maintainAspectRatio: false,
       interaction: { mode: 'index', intersect: false },
       plugins: {
-        legend: { display: isTotal, position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } },
-        tooltip: {
-          callbacks: {
-            label: c => c.parsed.y === null ? `${c.dataset.label}: 차트 아웃` : `${c.dataset.label}: ${c.parsed.y}위`
-          }
-        }
+        legend: { display: isTotal, position: 'bottom', labels: { boxWidth: 10, font: { size: 11, family: 'Pretendard' }, padding: 12 } },
+        tooltip: { titleFont: { family: 'Pretendard' }, bodyFont: { family: 'Pretendard' }, callbacks: { label: c => c.parsed.y === null ? `${c.dataset.label}: 차트 아웃` : `${c.dataset.label}: ${c.parsed.y}위` } }
       },
       scales: {
-        y: {
-          reverse: true,
-          min: 1,
-          max: 100,
-          ticks: {
-            precision: 0,
-            stepSize: 10,
-            font: { size: 11 },
-            callback: v => v + '위'
-          },
-          title: { display: true, text: '순위', font: { size: 11 } }
-        },
-        x: {
-          ticks: { font: { size: 10 }, maxRotation: 45, minRotation: 45, autoSkip: true, maxTicksLimit: 8 }
-        }
+        y: { reverse: true, min: 1, max: 100, ticks: { precision: 0, stepSize: 10, font: { size: 11, family: 'Pretendard' }, color: '#8B95A1', callback: v => v + '위' }, grid: { color: '#F2F4F6' } },
+        x: { ticks: { font: { size: 10, family: 'Pretendard' }, color: '#8B95A1', maxRotation: 45, minRotation: 45, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }
       }
     }
   });
 }
 
-// 📈 추이 모달: 그래프 ↔ 목록 ↔ 이슈 전환
 function setTrendView(view) {
   trendView = view;
   document.getElementById('trendBtnChart').classList.toggle('active', view === 'chart');
@@ -757,25 +690,47 @@ function setTrendView(view) {
   if (view === 'issues') renderIssues();
 }
 
+/* ===== 모달: 세 서점 현재 순위 카드 ===== */
+function buildStoreRankGrid(title, publisher) {
+  const latest = historyData.length ? historyData[historyData.length - 1] : null;
+  const getR = (s) => {
+    if (!latest) return null;
+    const b = findByMergeKey(latest['데이터']?.[s], title, publisher);
+    return b ? parseInt(b['순위']) : null;
+  };
+  const cards = ['kyobo','aladin','yes24'].map(s => {
+    const r = getR(s);
+    return `<div class="srg-card ${s}">
+      <div class="srg-label ${s}">${STORE_NAMES[s]}</div>
+      ${r ? `<div class="srg-value" style="color:${STORE_COLORS[s]}">${r}<span class="srg-unit">위</span></div>` : `<div class="srg-value none">–</div>`}
+    </div>`;
+  }).join('');
+  document.getElementById('storeRankGrid').innerHTML = cards;
+}
+
 function openTrendModal(el) {
   const title = el.dataset.title;
   const author = el.dataset.author;
-  modalBookTitle = title;
-  modalBookAuthor = author;
+  modalBookTitle = title; modalBookAuthor = author;
   modalBookPublisher = el.dataset.publisher || '';
-  modalBookIsOurs = isOurPublisher(el.dataset.publisher || '');
+  modalBookIsOurs = isOurPublisher(modalBookPublisher);
+
+  const brand = modalBookIsOurs ? OUR_PUBLISHERS.find(p => modalBookPublisher.includes(p)) : '';
+  const badgeRow = document.getElementById('modalBadgeRow');
+  badgeRow.innerHTML = brand ? `<span class="our-badge" style="background:${PUB_COLORS[brand]}">${brand}</span>` : `<span style="font-size:12px;color:var(--mut)">${modalBookPublisher||''}</span>`;
+
   document.getElementById('trendBtnIssues').style.display = modalBookIsOurs ? '' : 'none';
   document.getElementById('modalTitle').textContent = title;
   document.getElementById('modalAuthor').textContent = author;
 
+  buildStoreRankGrid(title, modalBookPublisher);
+
   let html = '';
   const limits = [...historyData].reverse().slice(0, 12);
-
   limits.forEach((entry, idx) => {
     const time = toOnTheHour(entry['수집시각']);
     let rankText = '<span class="trend-rank none">차트 아웃</span>';
     let isTop = false;
-
     if (currentStore === 'total') {
       const getR = (s) => { const b = findByMergeKey(entry['데이터'][s], title, modalBookPublisher); return b ? parseInt(b['순위']) : null; };
       const kr = getR('kyobo'), ar = getR('aladin'), yr = getR('yes24');
@@ -783,28 +738,17 @@ function openTrendModal(el) {
         rankText = `<div class="trend-stores">
           ${kr ? `<span class="store-badge-mini" style="background:#4DAC27">교 ${kr}위</span>` : ''}
           ${ar ? `<span class="store-badge-mini" style="background:#A2052C">알 ${ar}위</span>` : ''}
-          ${yr ? `<span class="store-badge-mini" style="background:#020287">예 ${yr}위</span>` : ''}
-        </div>`;
+          ${yr ? `<span class="store-badge-mini" style="background:#020287">예 ${yr}위</span>` : ''}</div>`;
         if(kr<=10 || ar<=10 || yr<=10) isTop = true;
       }
     } else {
       const b = findByMergeKey(entry['데이터'][currentStore], title, modalBookPublisher);
-      if (b) {
-        const r = parseInt(b['순위']);
-        rankText = `<span class="trend-rank">${r}위</span>`;
-        if(r <= 10) isTop = true;
-      }
+      if (b) { const r = parseInt(b['순위']); rankText = `<span class="trend-rank">${r}위</span>`; if(r <= 10) isTop = true; }
     }
-
-    html += `<div class="trend-item ${isTop ? 'is-top' : ''}">
-      <span class="trend-time">${idx === 0 ? '🕒 최신 (현재)' : time}</span>
-      ${rankText}
-    </div>`;
+    html += `<div class="trend-item ${isTop ? 'is-top' : ''}"><span class="trend-time">${idx === 0 ? '🕒 최신 (현재)' : time}</span>${rankText}</div>`;
   });
-
-  if(limits.length === 0) html = '<div style="padding:20px; text-align:center; color:#999;">과거 데이터가 아직 없습니다.</div>';
+  if(limits.length === 0) html = '<div style="padding:20px; text-align:center; color:var(--mut);">과거 데이터가 아직 없습니다.</div>';
   document.getElementById('trendList').innerHTML = html;
-
   document.getElementById('trendModal').classList.add('show');
   setTrendView('chart');
 }
@@ -814,18 +758,15 @@ function closeTrendModal() {
   if (trendChart) { trendChart.destroy(); trendChart = null; }
 }
 
+/* ===== 순위 리스트 렌더 ===== */
 function renderBooks(books, container) {
-  if (!books || books.length === 0) {
-    container.innerHTML = '<div class="error">데이터가 없어요.</div>';
-    return;
-  }
+  if (!books || books.length === 0) { container.innerHTML = '<div class="error">데이터가 없어요.</div>'; return; }
   const time = books[0]['수집시각'] || '';
   const isTotal = currentStore === 'total';
   let listHtml = ''; let galleryHtml = '';
 
   books.forEach(book => {
     const rank = parseInt(book['순위']) || 0;
-    const { icon, cls } = changeIcon(book['순위변동'] || '', isTotal ? book.points : null);
     const link = book['LINK'] || book['링크'] || '';
     const publisher = book['출판사'] || '';
     const author = book['저자'] || '';
@@ -833,36 +774,31 @@ function renderBooks(books, container) {
     const titleClean = (book['제목']||'').replace(/"/g, '&quot;');
     const authorClean = author.replace(/"/g, '&quot;');
     const isOurs = isOurPublisher(publisher);
-
     const ourPubName = isOurs ? OUR_PUBLISHERS.find(p => publisher.includes(p)) : '';
-    const pubBgColor = ourPubName ? (PUB_COLORS[ourPubName] || 'var(--store-color)') : '';
+    const pubColor = ourPubName ? PUB_COLORS[ourPubName] : '';
+    const pubTint = ourPubName ? PUB_TINTS[ourPubName] : '';
 
     let storeBadges = '';
-    if (isTotal && book.stores) {
-      storeBadges = book.stores.map(s => `<span class="store-badge-mini" style="background:${STORE_COLORS[s]}">${STORE_NAMES[s][0]}</span>`).join(' ');
-    }
+    if (isTotal && book.stores) storeBadges = book.stores.map(s => `<span class="store-badge-mini" style="background:${STORE_COLORS[s]}">${STORE_NAMES[s][0]}</span>`).join(' ');
 
-    listHtml += `<div class="book-item ${isOurs ? 'highlight' : ''}" data-ours="${isOurs}" data-title="${titleClean}" data-author="${authorClean}" data-publisher="${publisher.replace(/"/g,'&quot;')}" onclick="openTrendModal(this)">
-      <div class="rank-col">
-        <div class="rank-num ${rank<=3?'top3':''}">${rank}</div>
-        <div class="change-badge ${cls}">${icon}</div>
-      </div>
-      <div class="divider"></div>
+    const badgeHtml = changeBadgeHtml(book['순위변동'] || '', isTotal ? book.points : null);
+    listHtml += `<div class="book-item ${isOurs ? 'highlight' : ''}" data-ours="${isOurs}" data-title="${titleClean}" data-author="${authorClean}" data-publisher="${publisher.replace(/"/g,'&quot;')}" onclick="openTrendModal(this)" ${isOurs?`style="--will-tint:${pubTint}"`:''}>
+      <div class="rank-col"><div class="rank-num ${rank<=3?'top3':''}">${rank}</div>${badgeHtml}</div>
       <div class="book-info">
         <div class="book-title">${book['제목']||''}</div>
-        <div class="book-meta">${author} · ${publisher} ${isOurs ? `<span class="our-badge" style="background:${pubBgColor}">${ourPubName}</span>` : ''} ${storeBadges}</div>
+        <div class="book-meta">${isOurs ? `<span class="our-badge" style="background:${pubColor}">${ourPubName}</span>` : ''}<span class="txt">${author}${publisher?' · '+publisher:''}</span>${storeBadges}</div>
       </div>
-      ${link ? `<div class="book-link"><a href="${link}" target="_blank" onclick="event.stopPropagation()">도서 링크</a></div>` : ''}
+      ${link ? `<div class="book-link"><a href="${link}" target="_blank" onclick="event.stopPropagation()">링크</a></div>` : `<span class="chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg></span>`}
     </div>`;
 
     const imgContent = imgUrl ? `<img src="${imgUrl}" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentElement.classList.add('skeleton');this.style.display='none';" alt="${titleClean}">` : '';
     galleryHtml += `<div class="gallery-card ${isOurs ? 'highlight' : ''}" data-ours="${isOurs}" data-title="${titleClean}" data-author="${authorClean}" data-publisher="${publisher.replace(/"/g,'&quot;')}" onclick="openTrendModal(this)">
       <div class="card-img-wrap ${imgUrl ? '' : 'skeleton'}">${imgContent}</div>
       <div class="card-info">
-        <div class="card-rank-row"><span class="card-rank ${rank<=3?'top3':''}">${rank}</span><span class="card-change ${cls}">${icon}</span></div>
+        <div class="card-rank-row"><span class="card-rank ${rank<=3?'top3':''}">${rank}</span>${cardChangeHtml(book['순위변동']||'', isTotal?book.points:null)}</div>
         <div class="card-title">${book['제목']||''}</div>
         <div class="card-author">${author}</div>
-        <div class="card-pub-row"><span class="card-publisher">${publisher}</span>${isOurs ? `<span class="card-our-badge" style="background:${pubBgColor}">${ourPubName}</span>` : ''} ${storeBadges}</div>
+        <div class="card-pub-row"><span class="card-publisher">${publisher}</span>${isOurs ? `<span class="card-our-badge" style="background:${pubColor}">${ourPubName}</span>` : ''} ${storeBadges}</div>
         ${link ? `<div class="card-link"><a href="${link}" target="_blank" referrerpolicy="no-referrer" onclick="event.stopPropagation()">도서 링크</a></div>` : ''}
       </div>
     </div>`;
@@ -871,57 +807,81 @@ function renderBooks(books, container) {
   const existingMsg = document.getElementById('empty-msg');
   if (existingMsg) existingMsg.remove();
 
+  const catTabs = buildCatTabs();
   container.innerHTML = `
+    ${buildSummary(books, isTotal)}
+    ${buildStoreTabs()}
+    ${catTabs}
     ${buildHighlights(books, isTotal)}
-    <div class="chart-header">
-      <div class="chart-header-left">
-        <span class="time-value">📅 ${toOnTheHour(time)}</span>
-        <button class="refresh-btn" onclick="handleRefresh(this)" title="실시간 데이터 새로고침">🔄</button>
-        <input type="text" class="search-input" id="searchInput" placeholder="🔍 ${isTotal ? '통합차트 검색...' : '제목, 저자, 출판사 검색...'}" oninput="handleSearch(event)" value="${searchQuery}">
-        <button class="filter-btn ${filterOn ? 'active' : ''}" id="filterBtn" onclick="toggleFilter()">우리 출판사만 보기</button>
-      </div>
+    <div class="toolbar">
+      <span class="time-value">📅 ${toOnTheHour(time)} 기준</span>
+      <button class="refresh-btn" onclick="handleRefresh(this)" title="새로고침"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg></button>
+    </div>
+    <div class="toolbar">
+      <div class="search-wrap"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--mut)" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3-3"/></svg><input type="text" class="search-input" id="searchInput" placeholder="${isTotal ? '통합차트 검색' : '제목·저자·출판사 검색'}" oninput="handleSearch(event)" value="${searchQuery}"></div>
+      <button class="filter-btn ${filterOn ? 'active' : ''}" id="filterBtn" onclick="toggleFilter()">윌북만</button>
       <div class="view-toggle">
-        <button class="view-btn ${currentView==='list'?'active':''}" onclick="setView('list')" title="리스트 뷰">☰</button>
-        <button class="view-btn ${currentView==='gallery'?'active':''}" onclick="setView('gallery')" title="갤러리 뷰">⊞</button>
+        <button class="view-btn ${currentView==='list'?'active':''}" onclick="setView('list')" title="리스트"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg></button>
+        <button class="view-btn ${currentView==='gallery'?'active':''}" onclick="setView('gallery')" title="갤러리"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></button>
       </div>
     </div>
-    <div class="books-list-view" style="${currentView==='gallery'?'display:none':''}">\n${listHtml}\n</div>
-    <div class="books-gallery-view gallery-grid" style="${currentView==='list'?'display:none':''}">\n${galleryHtml}\n</div>`;
+    <div class="books-list-view" style="${currentView==='gallery'?'display:none':''}">${listHtml}</div>
+    <div class="books-gallery-view gallery-grid" style="${currentView==='list'?'display:none':''}">${galleryHtml}</div>`;
 
+  bindStoreTabs();
   applyFilters();
+}
+
+/* 서점 탭 + 분야 탭 (렌더 내부에 삽입) */
+function buildStoreTabs() {
+  const stores = [['kyobo','교보'],['aladin','알라딘'],['yes24','예스24'],['total','👑 통합']];
+  return `<div class="store-tabs">${stores.map(([k,n]) => `<div class="store-tab ${currentStore===k?'active':''}" data-store="${k}">${n}</div>`).join('')}</div>`;
+}
+const CATEGORIES = [['all','종합'],['humanities','인문'],['essay','에세이'],['economy','경제경영'],['selfhelp','자기계발'],['teen','청소년']];
+function buildCatTabs() {
+  // 교보·통합 탭에서는 분야 탭을 숨김 (종합 데이터만 존재)
+  if (!CAT_STORES.includes(currentStore)) return '';
+  return `<div class="cat-tabs">${CATEGORIES.map(([k,n]) => {
+    const has = catHasData(currentStore, k);
+    const active = currentCat === k;
+    const cls = active ? 'active' : (has ? '' : 'disabled');
+    const onclick = has ? `setCategory('${k}')` : `alert('${n} 분야는 아직 준비 중입니다')`;
+    return `<div class="cat-tab ${cls}" onclick="${onclick}">${n}</div>`;
+  }).join('')}</div>`;
+}
+
+// 분야 탭 클릭 → 해당 분야 탑20 렌더 (종합이면 원래 CSV 리스트)
+function setCategory(key) {
+  currentCat = key;
+  filterOn = false; searchQuery = '';
+  loadLatest();
+}
+function bindStoreTabs() {
+  document.querySelectorAll('.store-tab').forEach(t => t.onclick = () => setStore(t.dataset.store));
 }
 
 function renderHistoryList(history) {
   const container = document.getElementById('history-view');
   if (!history || history.length === 0) { container.innerHTML = '<div class="error">지난 차트가 아직 없어요.</div>'; return; }
-  let html = '<div class="history-list">';
-
+  let html = buildStoreTabs() + '<div class="history-list">';
   [...history].reverse().forEach((entry, i) => {
     const time = toOnTheHour(entry['수집시각'] || '');
-    let topTitle = '데이터 없음';
-    let hasOurs = false; let ourCount = 0;
-
+    let topTitle = '데이터 없음'; let hasOurs = false; let ourCount = 0;
     if (currentStore === 'total') {
-       const sorted = calculateTotal(entry['데이터']['kyobo'], entry['데이터']['aladin'], entry['데이터']['yes24']);
-       if(sorted[0]) topTitle = sorted[0]['제목'];
-       ourCount = sorted.filter(b => isOurPublisher(b['출판사'])).length;
-       hasOurs = ourCount > 0;
+      const sorted = calculateTotal(entry['데이터']['kyobo'], entry['데이터']['aladin'], entry['데이터']['yes24']);
+      if(sorted[0]) topTitle = sorted[0]['제목'];
+      ourCount = sorted.filter(b => isOurPublisher(b['출판사'])).length; hasOurs = ourCount > 0;
     } else {
-       const data = entry['데이터']?.[currentStore] || [];
-       if(data[0]) topTitle = data[0]['제목'];
-       ourCount = data.filter(b => isOurPublisher(b['출판사'])).length;
-       hasOurs = ourCount > 0;
+      const data = entry['데이터']?.[currentStore] || [];
+      if(data[0]) topTitle = data[0]['제목'];
+      ourCount = data.filter(b => isOurPublisher(b['출판사'])).length; hasOurs = ourCount > 0;
     }
-
     html += `<div class="history-item ${hasOurs ? 'has-ours' : ''}" onclick="showHistoryDetail(${history.length-1-i})">
-      <div>
-        <div class="history-time">${time}</div>
-        <div class="history-top">1위: ${topTitle}</div>
-        ${hasOurs ? `<span class="history-our-badge">윌북 계열 ${ourCount}권</span>` : ''}
-      </div><span style="color:#ccc;font-size:18px">›</span>
-    </div>`;
+      <div><div class="history-time">${time} 기준</div><div class="history-top">1위: ${topTitle}</div>${hasOurs ? `<span class="history-our-badge">윌북 계열 ${ourCount}권</span>` : ''}</div>
+      <span style="color:var(--mut);font-size:18px">›</span></div>`;
   });
   container.innerHTML = html + '</div>';
+  bindStoreTabs();
 }
 
 function showHistoryDetail(index) {
@@ -930,25 +890,16 @@ function showHistoryDetail(index) {
   const btn = document.createElement('button'); btn.className = 'back-btn'; btn.innerHTML = '← 목록으로';
   btn.onclick = () => renderHistoryList(historyData); container.appendChild(btn);
   const inner = document.createElement('div'); container.appendChild(inner);
-
-  if(currentStore === 'total') {
-     const d = entry['데이터'];
-     renderBooks(calculateTotal(d['kyobo'], d['aladin'], d['yes24']), inner);
-  } else {
-     renderBooks(entry['데이터'][currentStore] || [], inner);
-  }
+  if(currentStore === 'total') { const d = entry['데이터']; renderBooks(calculateTotal(d['kyobo'], d['aladin'], d['yes24']), inner); }
+  else { renderBooks(entry['데이터'][currentStore] || [], inner); }
 }
 
 function parseCSV(text) {
   const lines = text.trim().split('\n'); if (lines.length < 2) return [];
-  const headers = lines[0].replace(/^\uFEFF/, '').split(',');
+  const headers = lines[0].replace(/^﻿/, '').split(',');
   return lines.slice(1).map(line => {
     const values = []; let cur = '', inQ = false;
-    for (let c of line) {
-      if (c === '"') inQ = !inQ;
-      else if (c === ',' && !inQ) { values.push(cur.trim()); cur = ''; }
-      else cur += c;
-    }
+    for (let c of line) { if (c === '"') inQ = !inQ; else if (c === ',' && !inQ) { values.push(cur.trim()); cur = ''; } else cur += c; }
     values.push(cur.trim()); const obj = {};
     headers.forEach((h, i) => obj[h.trim()] = (values[i]||'').replace(/\r/g,''));
     return obj;
@@ -957,20 +908,21 @@ function parseCSV(text) {
 
 async function fetchWithRetry(url, retries = 3) {
   for (let i = 0; i < retries; i++) {
-    try {
-      const res = await fetch(url, { cache: 'no-store' });
-      if (!res.ok) throw new Error('서버 응답 오류');
-      return res;
-    } catch (err) {
-      if (i === retries - 1) throw err;
-      await new Promise(r => setTimeout(r, 1000));
-    }
+    try { const res = await fetch(url, { cache: 'no-store' }); if (!res.ok) throw new Error('서버 응답 오류'); return res; }
+    catch (err) { if (i === retries - 1) throw err; await new Promise(r => setTimeout(r, 1000)); }
   }
 }
 
 async function loadLatest() {
   const container = document.getElementById('latest-view');
   if (container.innerHTML.includes('loading')) container.innerHTML = '<div class="loading">불러오는 중...</div>';
+
+  // 📚 분야 선택 상태 (종합이 아니고, 분야 지원 서점) → categories.json 데이터 렌더
+  if (currentCat !== 'all' && CAT_STORES.includes(currentStore)) {
+    const list = (categoriesData && categoriesData[currentStore] && categoriesData[currentStore][currentCat]) || [];
+    renderBooks(list, container);
+    return;
+  }
 
   try {
     if (currentStore === 'total') {
@@ -985,17 +937,18 @@ async function loadLatest() {
       const res = await fetchWithRetry(RAW + CSV_FILES[currentStore] + '?t=' + Date.now());
       renderBooks(parseCSV(await res.text()), container);
     }
-  } catch { container.innerHTML = '<div class="error">데이터를 완벽하게 불러오지 못했어요. 잠시 후 🔄 버튼을 눌러보세요.</div>'; }
+  } catch { container.innerHTML = '<div class="error">데이터를 완벽하게 불러오지 못했어요. 잠시 후 다시 시도해 주세요.</div>'; }
 }
 
 async function loadHistory() {
-  try {
-    const res = await fetchWithRetry(RAW + 'history.json?t=' + Date.now());
-    historyData = await res.json(); renderHistoryList(historyData);
-  } catch { document.getElementById('history-view').innerHTML = '<div class="error">지난 차트가 아직 없어요.</div>'; }
+  try { const res = await fetchWithRetry(RAW + 'history.json?t=' + Date.now()); historyData = await res.json(); }
+  catch { historyData = []; }
 }
 
-setStoreColor('kyobo'); loadLatest(); loadHistory(); loadIssues();
+setStoreColor('kyobo');
+loadHistory().then(loadLatest);
+loadIssues();
+loadCategories();
 </script>
 <script data-goatcounter="https://orozi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
