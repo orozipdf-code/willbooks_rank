@@ -340,8 +340,8 @@ ALADIN_CATS = {
     "humanities": "656",
     "economy":    "170",
     "selfhelp":   "336",
-    "essay":      "",   # TODO: 알라딘 에세이 CID 확인되면 입력
-    "teen":       "",   # TODO: 알라딘 청소년 CID 확인되면 입력
+    "essay":      "55889",
+    "teen":       "1137",
 }
 
 CATEGORY_TOP_N = 20  # 분야당 상위 몇 권
@@ -356,9 +356,9 @@ def scrape_yes24_category(cat_no, now):
 
 
 def scrape_aladin_category(cid, now):
-    # 알라딘 분야 베스트셀러: CID + BestType=Bestseller
+    # 알라딘 분야 실시간 베스트셀러 (종합과 동일하게 NowBest 사용)
     url = (f"https://www.aladin.co.kr/shop/common/wbest.aspx"
-           f"?BestType=Bestseller&BranchType=1&CID={cid}&page=1&cnt=50&SortOrder=1")
+           f"?BestType=NowBest&BranchType=1&CID={cid}&page=1&cnt=50&SortOrder=1")
     html = fetch_html(url)
     books = parse_aladin_html(html, now, offset=0)
     for i, b in enumerate(books):
