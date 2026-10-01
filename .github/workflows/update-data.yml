@@ -52,7 +52,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          FILES="kyobo_bestseller.csv aladin_bestseller.csv yes24_bestseller.csv history.json"
+          FILES="kyobo_bestseller.csv aladin_bestseller.csv yes24_bestseller.csv history.json categories.json"
 
           if git diff --quiet -- $FILES; then
             echo "변경 사항 없음 — 종료"
