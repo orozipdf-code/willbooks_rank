@@ -309,6 +309,111 @@ def save_csv(store, books):
     print(f"  {path} 저장 ({len(books)}권)")
 
 
+# ==========================================================================
+# 📚 분야별 베스트셀러 수집 (각 서점 분야당 탑20)
+#   결과는 categories.json 하나로 저장:
+#   { "생성시각": ..., "yes24": {분야키: [...20]}, "aladin": {분야키: [...20]} }
+# ==========================================================================
+
+# 분야 키 → 화면 표시명 (프론트 탭 순서와 동일)
+CATEGORY_NAMES = {
+    "humanities": "인문",
+    "essay": "에세이",
+    "economy": "경제경영",
+    "selfhelp": "자기계발",
+    "teen": "청소년",
+}
+
+# 예스24: categoryNumber (orozi 확인 완료)
+YES24_CATS = {
+    "humanities": "001001019",
+    "economy":    "001001025",
+    "selfhelp":   "001001026",
+    "teen":       "001001005",
+    "essay":      "001001047",
+}
+
+# 알라딘: CID
+#   인문/경제경영/자기계발은 확인됨.
+#   에세이·청소년 CID는 미확인 → 값이 채워지면 자동으로 수집에 포함됨.
+ALADIN_CATS = {
+    "humanities": "656",
+    "economy":    "170",
+    "selfhelp":   "336",
+    "essay":      "",   # TODO: 알라딘 에세이 CID 확인되면 입력
+    "teen":       "",   # TODO: 알라딘 청소년 CID 확인되면 입력
+}
+
+CATEGORY_TOP_N = 20  # 분야당 상위 몇 권
+
+
+def scrape_yes24_category(cat_no, now):
+    url = (f"https://www.yes24.com/product/category/realtimebestseller"
+           f"?pageNumber=1&pageSize=24&categoryNumber={cat_no}")
+    html = fetch_html(url)
+    books = parse_yes24(html, now)
+    return books[:CATEGORY_TOP_N]
+
+
+def scrape_aladin_category(cid, now):
+    # 알라딘 분야 베스트셀러: CID + BestType=Bestseller
+    url = (f"https://www.aladin.co.kr/shop/common/wbest.aspx"
+           f"?BestType=Bestseller&BranchType=1&CID={cid}&page=1&cnt=50&SortOrder=1")
+    html = fetch_html(url)
+    books = parse_aladin_html(html, now, offset=0)
+    for i, b in enumerate(books):
+        b["순위"] = str(i + 1)
+    return books[:CATEGORY_TOP_N]
+
+
+def scrape_categories(now):
+    """예스24·알라딘 분야별 탑20 수집. CID가 빈 분야는 건너뜀."""
+    result = {"yes24": {}, "aladin": {}}
+
+    print("예스24 분야별 수집 중...")
+    for key, cat_no in YES24_CATS.items():
+        if not cat_no:
+            continue
+        try:
+            books = scrape_yes24_category(cat_no, now)
+            result["yes24"][key] = books
+            print(f"  예스24 {CATEGORY_NAMES[key]}: {len(books)}권")
+        except Exception as e:
+            print(f"  예스24 {CATEGORY_NAMES[key]} 실패: {e}")
+            result["yes24"][key] = []
+        time.sleep(1)
+
+    print("알라딘 분야별 수집 중...")
+    for key, cid in ALADIN_CATS.items():
+        if not cid:
+            print(f"  알라딘 {CATEGORY_NAMES[key]}: CID 미설정, 건너뜀")
+            continue
+        try:
+            books = scrape_aladin_category(cid, now)
+            result["aladin"][key] = books
+            print(f"  알라딘 {CATEGORY_NAMES[key]}: {len(books)}권")
+        except Exception as e:
+            print(f"  알라딘 {CATEGORY_NAMES[key]} 실패: {e}")
+            result["aladin"][key] = []
+        time.sleep(1)
+
+    return result
+
+
+def save_categories(cat_data, now):
+    payload = {
+        "생성시각": now,
+        "분야명": CATEGORY_NAMES,
+        "yes24": cat_data.get("yes24", {}),
+        "aladin": cat_data.get("aladin", {}),
+    }
+    with open("categories.json", "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    y = sum(len(v) for v in cat_data.get("yes24", {}).values())
+    a = sum(len(v) for v in cat_data.get("aladin", {}).values())
+    print(f"  categories.json 저장 (예스24 {y}권, 알라딘 {a}권)")
+
+
 def save_history(all_books, now):
     path = Path(HISTORY_FILE)
     history = []
@@ -361,6 +466,13 @@ def collect_once(is_scheduled=True):
     # ✅ 핵심 수정: CSV 저장 후 history.json 에도 반드시 누적 저장
     #    (이 호출이 없어서 '지난 차트'가 갱신되지 않던 버그를 수정)
     save_history(all_books, now)
+
+    # 📚 분야별 베스트셀러(탑20) 수집 → categories.json
+    try:
+        cat_data = scrape_categories(now)
+        save_categories(cat_data, now)
+    except Exception as e:
+        print(f"  분야별 수집 실패: {e}")
 
 
 def main():
