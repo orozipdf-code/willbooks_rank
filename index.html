@@ -79,24 +79,38 @@
     .view-btn.active { background: var(--card); color: var(--store-color); }
 
     /* ===== 순위 리스트 ===== */
-    .books-list-view { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 8px; }
-    @media (max-width: 760px) { .books-list-view { grid-template-columns: 1fr; } }
-    .book-item { display: flex; align-items: center; gap: 13px; background: var(--card); border-radius: 16px; padding: 13px 15px; cursor: pointer; transition: all 0.12s; }
+    .books-list-view { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: 8px; }
+    @media (max-width: 1000px) { .books-list-view { grid-template-columns: repeat(3, minmax(0,1fr)); } }
+    @media (max-width: 680px) { .books-list-view { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+    @media (max-width: 480px) { .books-list-view { grid-template-columns: 1fr; } }
+    /* 기본(넓은 화면): 세로형 카드 */
+    .book-item { display: flex; flex-direction: column; gap: 6px; background: var(--card); border-radius: 16px; padding: 13px 14px; cursor: pointer; transition: all 0.12s; }
     .book-item:active { transform: scale(0.99); }
     .book-item.highlight { background: var(--will-tint); }
     .book-item.hidden { display: none !important; }
-    .rank-col { min-width: 32px; text-align: center; flex-shrink: 0; }
+    .rank-col { display: flex; align-items: center; gap: 7px; flex-shrink: 0; }
     .rank-num { font-size: 18px; font-weight: 700; letter-spacing: -0.04em; line-height: 1; }
     .rank-num.top3 { color: var(--store-color); }
-    .change-badge { font-size: 12px; font-weight: 600; margin-top: 2px; display: inline-flex; align-items: center; gap: 1px; }
+    .change-badge { font-size: 12px; font-weight: 600; display: inline-flex; align-items: center; gap: 1px; }
     .change-badge.up { color: var(--up); }
     .change-badge.down { color: var(--down); }
     .change-badge.new { color: var(--new); }
     .change-badge.same { color: var(--mut); }
     .change-badge.pts { color: var(--total); font-size: 11px; }
-    .book-info { flex: 1; min-width: 0; }
-    .book-title { font-size: 14px; font-weight: 600; letter-spacing: -0.02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px; }
-    .book-meta { font-size: 12px; color: var(--sub); display: flex; align-items: center; gap: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .book-info { flex: 1; min-width: 0; width: 100%; }
+    .book-title { font-size: 13.5px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 3px; min-height: 2.7em; }
+    .book-meta { font-size: 11.5px; color: var(--sub); display: flex; align-items: center; gap: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .book-row-bottom { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 2px; }
+    .book-row-bottom .book-meta { flex: 1; min-width: 0; }
+    .book-row-bottom .book-link { flex-shrink: 0; }
+    .chev { display: none; }
+    /* 좁은 화면(1열): 기존 가로형으로 복귀 */
+    @media (max-width: 480px) {
+      .book-item { flex-direction: row; align-items: center; gap: 13px; }
+      .rank-col { flex-direction: column; gap: 2px; min-width: 32px; text-align: center; }
+      .book-title { -webkit-line-clamp: 1; min-height: 0; white-space: nowrap; margin-bottom: 2px; }
+      .book-row-bottom { margin-top: 0; }
+    }
     .book-meta .txt { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .our-badge { font-size: 11px; font-weight: 600; color: #fff; border-radius: 5px; padding: 1px 6px; flex-shrink: 0; }
     .store-badge-mini { font-size: 10px; padding: 1px 5px; border-radius: 5px; color: #fff; font-weight: 600; }
@@ -277,7 +291,8 @@
 </div>
 
 <div class="footer">
-  Data provided by orozi(ahu@willbookspub.com)
+  Data provided by orozi(ahu@willbookspub.com)<br>
+  Based on <a href="https://jangmee.github.io/kyobo-bestseller/" target="_blank" rel="noopener">jangmee.github.io/kyobo-bestseller</a>
 </div>
 
 <script>
@@ -788,9 +803,11 @@ function renderBooks(books, container) {
       <div class="rank-col"><div class="rank-num ${rank<=3?'top3':''}">${rank}</div>${badgeHtml}</div>
       <div class="book-info">
         <div class="book-title">${book['제목']||''}</div>
-        <div class="book-meta">${isOurs ? `<span class="our-badge" style="background:${pubColor}">${ourPubName}</span>` : ''}<span class="txt">${author}${publisher?' · '+publisher:''}</span>${storeBadges}</div>
+        <div class="book-row-bottom">
+          <div class="book-meta">${isOurs ? `<span class="our-badge" style="background:${pubColor}">${ourPubName}</span>` : ''}<span class="txt">${author}${publisher?' · '+publisher:''}</span>${storeBadges}</div>
+          ${link ? `<div class="book-link"><a href="${link}" target="_blank" onclick="event.stopPropagation()">링크</a></div>` : ''}
+        </div>
       </div>
-      ${link ? `<div class="book-link"><a href="${link}" target="_blank" onclick="event.stopPropagation()">링크</a></div>` : `<span class="chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg></span>`}
     </div>`;
 
     const imgContent = imgUrl ? `<img src="${imgUrl}" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentElement.classList.add('skeleton');this.style.display='none';" alt="${titleClean}">` : '';
