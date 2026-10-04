@@ -1,10 +1,76 @@
 {
-  "generated_at": "2026-10-03T23:36:43.619232+00:00",
+  "generated_at": "2026-10-04T23:52:34.450934+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 3,
-  "searches_used": 4,
+  "book_count": 2,
+  "searches_used": 2,
   "books": [
+    {
+      "title": "지도는 답을 알고 있다",
+      "author": "야마사키 게이이치",
+      "publisher": "윌북",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "박정희 편지 공개에, 박지만 인터뷰까지 이럴수록 ...",
+          "link": "https://www.facebook.com/jeonjiyun.90479/posts/%EB%B0%95%EC%A0%95%ED%9D%AC-%ED%8E%B8%EC%A7%80-%EA%B3%B5%EA%B0%9C%EC%97%90-%EB%B0%95%EC%A7%80%EB%A7%8C-%EC%9D%B8%ED%84%B0%EB%B7%B0%EA%B9%8C%EC%A7%80-%EC%9D%B4%EB%9F%B4%EC%88%98%EB%A1%9D-%EB%B0%95%EC%A0%95%ED%9D%AC%EA%B0%80-%EC%96%BC%EB%A7%88%EB%82%98-%EB%A7%8E%EC%9D%80-%EC%97%AC%EC%84%B1%EB%93%A4%EC%9D%84-%EC%9C%A0%EB%A6%B0%ED%96%88%EB%8A%94%EC%A7%80-%EB%B0%95%EC%A7%80%EB%A7%8C%EC%9D%80-%EC%99%9C-%EB%A7%88%EC%95%BD%EC%97%90-%EB%B9%A0%EC%A0%B8%EB%93%A4%EC%97%88%EA%B3%A0-%EC%96%B4%EB%96%A4-%EC%82%AC%EA%B3%A0%EB%A5%BC-%EC%B3%A4%EC%97%88%EB%8A%94%EC%A7%80-%EB%B0%95%EC%A0%95/28609469148694595/",
+          "source": "Facebook · 전지윤",
+          "published": "",
+          "snippet": "박정희 편지 공개에, 박지만 인터뷰까지 이럴수록 박정희가 얼마나 많은 여성들을 유린했는지 박지만은 왜 마약에 빠져들었고 어떤 사고를 쳤었는지 박정희 시대에 ..."
+        },
+        {
+          "title": "인간한테 있고 AI에게 없는게 하나 있었어요. 망설임이었는데요",
+          "link": "https://theqoo.net/square/4167087235?%3Bpage=2&m=1&listStyle=viewer",
+          "source": "더쿠",
+          "published": "24시간 전",
+          "snippet": "평소 파악한 나의 성향에 맞춰서 도움 될만한 대답이나 적절한 대답으로 맞춤형 대답을 준비하는 과정이라고 느껴졌거든. 내가 누군가의 이야기를 들을 때 프로세스랑 크게 ..."
+        },
+        {
+          "title": "나이가 어리다고 반드시 기회도 시간도 많다고 착각하지 ...",
+          "link": "https://www.threads.com/@law.yslee/post/DeDeKDSCVVH/media",
+          "source": "Threads · law.yslee",
+          "published": "",
+          "snippet": "누군가를 비방할 능력밖에 없어서 자료를 정리하고 객관화하여 설득하는 힘이 없으면 이 상태로 시간 낭비하여 나이 금새 먹고 늙어서 본인들이 경멸의 어조로 이야기 ..."
+        },
+        {
+          "title": "모발이식 후기 - 대다모 - Daedamo",
+          "link": "https://daedamo.com/photo2/655092",
+          "source": "daedamo.com",
+          "published": "16시간 전",
+          "snippet": "이제 암흑기와 발모 과정을 잘 보내는 것이 중요할 것 같습니다. 좋은 결과가 나오면 경과 사진도 함께 다시 후기 남겨보겠습니다. 다만 제가 대다모에 올라온 글을 늦게 ..."
+        },
+        {
+          "title": "Отговори от 복씨 (@apeachpit_) / ...",
+          "link": "https://x.com/apeachpit_/with_replies?lang=bg",
+          "source": "X · apeachpit_",
+          "published": "",
+          "snippet": "둘이 같이 여행가던 길에 박엉빈이 다른 커플 보다가 대뜸 궁금해져서 형은 나 뭐보고 만났어? 물음 근데 송왼석이 너가 먼저 나 좋다고 했었으니까 너부터 말해봐 하면 ..."
+        },
+        {
+          "title": "“누구를 위한 글인가.” 글을 쓰려고 하면 우리는 보통 '무엇 ...",
+          "link": "https://www.instagram.com/p/DeDcMvoAfQE/",
+          "source": "Instagram · hfk_official",
+          "published": "",
+          "snippet": "글을 쓰고, 누군가의 원고를 읽고, 글쓰기를 가르치는 일을 하고 있습니다. 그러다 보니 어느 순간 '나는 글쓰기를 어느 정도 알고 있다'고 생각했는지도 모르겠습니다."
+        },
+        {
+          "title": "행사 참여 상태가 표시되는지 보는 슬롯 실시간 방송",
+          "link": "https://www.aslpharm.tj/catalog/lekarstvennye_sredstva/nevrologiya_psikhiatriya/24726/?ID=%ED%8F%AC%EC%BC%93%EB%AA%AC%20%EB%B9%99%EA%B3%A0%EA%B2%8C%EC%9E%84.html",
+          "source": "aslpharm.tj",
+          "published": "24시간 전",
+          "snippet": "국가기본지질도는 우리 국토를 이루는 암석의 종류와 생성 시기,지층의 분포와 선후관계,단층·습곡 등 지질구조를 조사해 지도 위에 기록한 대한민국의 국가 표준 지질정보 ..."
+        },
+        {
+          "title": "07화 내게는 집이 너무 많다",
+          "link": "https://brunch.co.kr/@0428527ac7164a3/48",
+          "source": "브런치",
+          "published": "23시간 전",
+          "snippet": "우리 아이가 자기가 돌아갈 곳을 알고, 내가 매번 떠날 때마다 마음 한 조각씩을 두고 오지 않아도 되는 곳. 그런 집을 갖고 싶다는 생각을 한다. 그래도 바르셀로나를 ..."
+        }
+      ],
+      "item_count": 8,
+      "time_range": "qdr:d"
+    },
     {
       "title": "원소 원정대",
       "author": "아게도리도리",
@@ -12,83 +78,28 @@
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "원소 원정대 | 아게도리도리",
-          "link": "https://www.aladin.co.kr/m/mproduct.aspx?ItemId=393526281&ptid=23&srsltid=AU7gw4WWjVzeOQkeosn6jUeDipBNBM9h3W5NZ7u3hI5YjfIdvCGvFfqh",
-          "source": "알라딘",
-          "published": "4일 전",
-          "snippet": "『원소 원정대』는 원소 주기율표와 각 원소들의 특성, 상호 작용 등을 게임 공략집처럼 재미있고 자연스럽게 익힐 수 있는 과학책이다. 어릴 적 공룡 이름을 달달 외던 ..."
+          "title": "당해인 유의어 - 뜻과 관련 표현",
+          "link": "https://wordsisters.com/search/%EB%8B%B9%ED%95%B4%EC%9D%B8",
+          "source": "유의어 사전",
+          "published": "16시간 전",
+          "snippet": "원소 원정대. 이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. 위 링크는 제휴 링크로, 구매 시 일정액의 수수료 ..."
         },
         {
-          "title": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집",
-          "link": "https://aswwww.gsshop.com/prd/prd.gs?prdid=1122164527&bnclick=prd-ttab_prdTtabV_apiBytedance-relatedEx&iid=7qppYAccAlTD3&svcid=pc&dseq=0&mseq=404757&ispre=Y&rank=10",
-          "source": "GS-SHOP-홈쇼핑",
-          "published": "6일 전",
-          "snippet": "『원소 원정대』는 원소 주기율표와 각 원소들의 특성, 상호 작용 등을 게임 공략집처럼 재미있고 자연스럽게 익힐 수 있는 과학책이다. 어릴 적 공룡 이름을 달달 외던 ..."
+          "title": "고등학교 지리부도 비상교육 정성훈 교과서 22개정 2026",
+          "link": "https://per.auction.co.kr/recommend/recommendbridge.aspx?itemno=F494531136",
+          "source": "모바일 쇼핑은 옥션",
+          "published": "7시간 전",
+          "snippet": "남들은 뭘살까? 원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집. 17,820원 · 남들은 뭘살까 ..."
+        },
+        {
+          "title": "DogDrip.Net 개드립",
+          "link": "https://www.dogdrip.net/userdog?search_target=tag&m=0&division=-171423345&sort_index=readed_count&order_type=desc&cpage=2&page=72&last_division=-653332814",
+          "source": "DogDrip.Net 개드립",
+          "published": "23시간 전",
+          "snippet": "드디어 본색을 드러낸 침착맨 3. 3 2 일 전. 매드크라운. 원소원정대 2. 2 2 일 전. 단팥찐빵. 사실 저는 네크로필리아 입니다 4. 6 2 일 전. 과학상식키우기. 쿠폰발송은 ..."
         }
       ],
-      "item_count": 2,
-      "time_range": "qdr:w"
-    },
-    {
-      "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
-      "author": "아게도리도리",
-      "publisher": "윌북주니어",
-      "brand": "윌북주니어",
-      "items": [
-        {
-          "title": "최근순",
-          "link": "https://www.yes24.com/Product/communityModules/GoodsReviewList/189630591?goodsSetYn=N&Type=ALL&_=1778112000000&Sort=1&PageNumber=1",
-          "source": "예스24",
-          "published": "8시간 전",
-          "snippet": "종이책 구매 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 평점10점 | YES마니아 : 플래티넘 k****d | 2026.09.29. | 신고. 118개에 달하는 화학 원소들을 ..."
-        },
-        {
-          "title": "'너는 원래 괜찮은 사람이야 : 불안한 시간을 건너는 너에게 ...",
-          "link": "https://fallcent.com/product/JnACPtchxCSGuipfZDLYKz0894vsNRld/",
-          "source": "폴센트",
-          "published": "18시간 전",
-          "snippet": "비슷한 상품. 원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집. G마켓. 원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집. 17,820원. · 역대급최고가 ..."
-        }
-      ],
-      "item_count": 2,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "내면 근력",
-      "author": "짐 머피",
-      "publisher": "윌북(willbook)",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "모든 자수성가 부자에게 공통으로 적용된 '단 한 가지'의 법칙 ...",
-          "link": "https://www.threads.com/@play.with.jini/post/DeAvtwzATAg/%EB%AA%A8%EB%93%A0-%EC%9E%90%EC%88%98%EC%84%B1%EA%B0%80-%EB%B6%80%EC%9E%90%EC%97%90%EA%B2%8C-%EA%B3%B5%ED%86%B5%EC%9C%BC%EB%A1%9C-%EC%A0%81%EC%9A%A9%EB%90%9C-%EB%8B%A8-%ED%95%9C-%EA%B0%80%EC%A7%80%EC%9D%98-%EB%B2%95%EC%B9%99%EC%9D%B4-%EC%9E%88%EC%97%88%EB%8B%A4-%EB%B0%94%EB%A1%9C-%EB%8F%85%EC%84%9C%EB%8B%A4%ED%95%98%EB%A3%A8%ED%95%9C%EC%A4%84/",
-          "source": "Threads · play.with.jini",
-          "published": "",
-          "snippet": "... at 7:49 PM. 복리로 쌓이는 것. 1. 독서로 내면 근력 2. 신문으로 세상보는 시야 3. 턱걸이로 근지구력 4. 밝은 인사로 근사한 평판 5. 글쓰기로 영향력. 23. 4. 2."
-        },
-        {
-          "title": "이주애",
-          "link": "https://www.facebook.com/100008758187321/?locale=fy_NL",
-          "source": "Facebook · 이주애",
-          "published": "",
-          "snippet": "『내면 근력』은 그 힘을 훈련하는 법에 관한 책입니다. 이 이야기는 관련 보도와 ... 슬럼프에 빠진 수많은 선수들을 구한 내면 근력 트레이닝, 75만 독자가 인증한 <내면 ..."
-        },
-        {
-          "title": "2026년 10월의 책 추석연휴때도 쉴틈? 없었는데 이번 ...",
-          "link": "https://www.instagram.com/p/DeA6mBYTqbr/",
-          "source": "Instagram · diet_lightcoach",
-          "published": "",
-          "snippet": "#내면근력 ✍️짐 머피 신이시여, 제게 바꿀 수 없는 걸 받아들일 '평온'을 주소서. 바꿀 수 있는 걸 바꿀 '용기'를 주소서. 그리고 그 둘을 뷴별할 '지혜'를 주소서 ..."
-        },
-        {
-          "title": "갈수록 예쁜 사람 세련된 사람들이 넘쳐나는데! 꼭 그래서 그들이 ...",
-          "link": "https://www.instagram.com/reel/DeBQhqhxzox/",
-          "source": "Instagram · _jaeyoung.ko_",
-          "published": "",
-          "snippet": "조금 더 나은 사람이 되기 위해 배우고, 그 과정이 누군가에게도 도움이 되기를 바라면서. 오늘도, 내면 근력 키우는 중. #셀카놀이 #이태리 ..."
-        }
-      ],
-      "item_count": 4,
+      "item_count": 3,
       "time_range": "qdr:d"
     }
   ]
