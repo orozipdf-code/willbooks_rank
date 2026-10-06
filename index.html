@@ -74,78 +74,38 @@
     .search-input { border: none; background: none; outline: none; font-family: inherit; font-size: 13px; width: 100%; color: var(--ink); letter-spacing: -0.02em; }
     .filter-btn { font-size: 12px; font-weight: 600; color: var(--will); background: #FCEAF1; border: none; border-radius: 20px; padding: 8px 13px; cursor: pointer; white-space: nowrap; }
     .filter-btn.active { background: var(--will); color: #fff; }
-    .view-toggle { display: flex; gap: 3px; background: var(--line); border-radius: 10px; padding: 3px; }
-    .view-btn { padding: 6px 9px; border-radius: 8px; border: none; background: none; cursor: pointer; font-size: 14px; color: var(--mut); line-height: 1; }
-    .view-btn.active { background: var(--card); color: var(--store-color); }
 
     /* ===== 순위 리스트 ===== */
-    .books-list-view { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: 8px; }
-    @media (max-width: 1000px) { .books-list-view { grid-template-columns: repeat(3, minmax(0,1fr)); } }
-    @media (max-width: 680px) { .books-list-view { grid-template-columns: repeat(2, minmax(0,1fr)); } }
-    @media (max-width: 480px) { .books-list-view { grid-template-columns: 1fr; } }
-    /* 기본(넓은 화면): 세로형 카드 */
-    .book-item { display: flex; flex-direction: column; gap: 6px; background: var(--card); border-radius: 16px; padding: 13px 14px; cursor: pointer; transition: all 0.12s; }
+    /* ===== 통합 리스트: 표지 왼쪽 + 서지정보 오른쪽 ===== */
+    .books-list-view { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; }
+    @media (max-width: 760px) { .books-list-view { grid-template-columns: 1fr; } }
+    .book-item { display: flex; align-items: flex-start; gap: 13px; background: var(--card); border-radius: 16px; padding: 14px; cursor: pointer; transition: all 0.12s; }
     .book-item:active { transform: scale(0.99); }
     .book-item.highlight { background: var(--will-tint); }
     .book-item.hidden { display: none !important; }
-    .rank-col { display: flex; align-items: center; gap: 7px; flex-shrink: 0; }
-    .rank-num { font-size: 18px; font-weight: 700; letter-spacing: -0.04em; line-height: 1; }
-    .rank-num.top3 { color: var(--store-color); }
+    .cover { width: 62px; height: 88px; border-radius: 8px; overflow: hidden; flex-shrink: 0; background: var(--line); position: relative; box-shadow: 0 1px 4px rgba(0,0,0,0.12); }
+    .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .cover.skeleton::after { content: '준비중'; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 9px; color: var(--mut); }
+    .rank-badge { position: absolute; top: 0; left: 0; background: var(--store-color); color: #fff; font-size: 11px; font-weight: 700; padding: 2px 6px; border-bottom-right-radius: 7px; letter-spacing: -0.03em; }
+    .rank-badge.top3 { background: var(--will); }
+    .book-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; padding-top: 1px; }
+    .bi-top { display: flex; align-items: center; gap: 6px; }
     .change-badge { font-size: 12px; font-weight: 600; display: inline-flex; align-items: center; gap: 1px; }
     .change-badge.up { color: var(--up); }
     .change-badge.down { color: var(--down); }
     .change-badge.new { color: var(--new); }
     .change-badge.same { color: var(--mut); }
     .change-badge.pts { color: var(--total); font-size: 11px; }
-    .book-info { flex: 1; min-width: 0; width: 100%; }
-    .book-title { font-size: 13.5px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 3px; min-height: 2.7em; }
-    .book-meta { font-size: 11.5px; color: var(--sub); display: flex; align-items: center; gap: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .book-row-bottom { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 2px; }
-    .book-row-bottom .book-meta { flex: 1; min-width: 0; }
-    .book-row-bottom .book-link { flex-shrink: 0; }
-    .chev { display: none; }
-    /* 좁은 화면(1열): 기존 가로형으로 복귀 */
-    @media (max-width: 480px) {
-      .book-item { flex-direction: row; align-items: center; gap: 13px; }
-      .rank-col { flex-direction: column; gap: 2px; min-width: 32px; text-align: center; }
-      .book-title { -webkit-line-clamp: 1; min-height: 0; white-space: nowrap; margin-bottom: 2px; }
-      .book-row-bottom { margin-top: 0; }
-    }
-    .book-meta .txt { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .book-title { font-size: 14px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .book-author { font-size: 12px; color: var(--sub); line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+    .book-sub { font-size: 11.5px; color: var(--mut); display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
     .our-badge { font-size: 11px; font-weight: 600; color: #fff; border-radius: 5px; padding: 1px 6px; flex-shrink: 0; }
     .store-badge-mini { font-size: 10px; padding: 1px 5px; border-radius: 5px; color: #fff; font-weight: 600; }
-    .chev { color: var(--mut); flex-shrink: 0; display: flex; }
-    .book-link { flex-shrink: 0; }
-    .book-link a { font-size: 11px; color: var(--store-color); text-decoration: none; border: 1px solid var(--store-color); border-radius: 8px; padding: 4px 9px; font-weight: 600; white-space: nowrap; }
+    .book-link { margin-top: 3px; }
+    .book-link a { font-size: 11px; color: var(--store-color); text-decoration: none; border: 1px solid var(--store-color); border-radius: 8px; padding: 3px 9px; font-weight: 600; white-space: nowrap; display: inline-block; }
 
     .loading, .error, .empty-msg { text-align: center; padding: 60px 20px; color: var(--mut); font-size: 14px; }
     .error { color: var(--up); }
-
-    /* ===== 갤러리 뷰 ===== */
-    .gallery-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; }
-    @media (max-width: 900px) { .gallery-grid { grid-template-columns: repeat(4, 1fr); gap: 10px; } }
-    @media (max-width: 600px) { .gallery-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; } }
-    @media (max-width: 420px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
-    .gallery-card { background: var(--card); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; cursor: pointer; border: 2px solid transparent; transition: all 0.12s; }
-    .gallery-card:active { transform: scale(0.98); }
-    .gallery-card.highlight { border-color: var(--will-tint-border); }
-    .gallery-card.hidden { display: none !important; }
-    .card-img-wrap { position: relative; aspect-ratio: 3/4; background: var(--line); overflow: hidden; flex-shrink: 0; }
-    .card-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .card-img-wrap.skeleton::after { content: '이미지\A준비 중'; white-space: pre; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: var(--mut); line-height: 1.8; text-align: center; }
-    .card-info { padding: 8px 9px 9px; display: flex; flex-direction: column; gap: 2px; flex: 1; }
-    .card-rank-row { display: flex; align-items: baseline; gap: 5px; }
-    .card-rank { font-size: 17px; font-weight: 700; letter-spacing: -0.04em; }
-    .card-rank.top3 { color: var(--store-color); }
-    .card-change { font-size: 11px; font-weight: 600; }
-    .card-change.up { color: var(--up); } .card-change.down { color: var(--down); } .card-change.new { color: var(--new); } .card-change.same { color: var(--mut); } .card-change.pts { color: var(--total); font-size: 10px; }
-    .card-title { font-size: 11px; font-weight: 600; line-height: 1.4; letter-spacing: -0.02em; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .card-author { font-size: 10px; color: var(--sub); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .card-pub-row { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
-    .card-publisher { font-size: 10px; color: var(--mut); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; min-width: 0; }
-    .card-our-badge { font-size: 9px; font-weight: 600; color: #fff; border-radius: 4px; padding: 1px 4px; flex-shrink: 0; }
-    .card-link { margin-top: auto; padding-top: 6px; }
-    .card-link a { display: block; text-align: center; font-size: 10px; font-weight: 600; color: var(--store-color); text-decoration: none; border: 1px solid var(--store-color); border-radius: 8px; padding: 4px 0; }
 
     /* ===== 급상승/신규진입 하이라이트 ===== */
     .highlight-section { margin-bottom: 16px; }
@@ -292,7 +252,6 @@
 
 <div class="footer">
   Data provided by orozi(ahu@willbookspub.com)<br>
-  Based on <a href="https://jangmee.github.io/kyobo-bestseller/" target="_blank" rel="noopener">jangmee.github.io/kyobo-bestseller</a>
 </div>
 
 <script>
@@ -467,24 +426,12 @@ function toShortTime(timeStr) {
   return `${md} ${hour}시`;
 }
 
-function setView(view) {
-  currentView = view;
-  document.querySelectorAll('.view-toggle').forEach(toggle => {
-    const b = toggle.querySelectorAll('.view-btn');
-    if (b[0]) b[0].classList.toggle('active', view === 'list');
-    if (b[1]) b[1].classList.toggle('active', view === 'gallery');
-  });
-  document.querySelectorAll('.books-list-view').forEach(el => el.style.display = view === 'list' ? '' : 'none');
-  document.querySelectorAll('.books-gallery-view').forEach(el => el.style.display = view === 'gallery' ? '' : 'none');
-  applyFilters();
-}
-
 function applyFilters() {
-  const items = document.querySelectorAll('.book-item, .gallery-card');
+  const items = document.querySelectorAll('.book-item');
   let visibleCount = 0;
   items.forEach(el => {
     const isOurs = el.dataset.ours === 'true';
-    const targets = el.querySelectorAll('.book-title, .card-title, .book-meta, .card-author, .card-publisher');
+    const targets = el.querySelectorAll('.book-title, .book-author, .book-sub');
     let combinedText = '';
     targets.forEach(t => combinedText += t.textContent.toLowerCase() + ' ');
     const matchesPub = !filterOn || isOurs;
@@ -780,7 +727,7 @@ function renderBooks(books, container) {
   if (!books || books.length === 0) { container.innerHTML = '<div class="error">데이터가 없어요.</div>'; return; }
   const time = books[0]['수집시각'] || '';
   const isTotal = currentStore === 'total';
-  let listHtml = ''; let galleryHtml = '';
+  let listHtml = '';
 
   books.forEach(book => {
     const rank = parseInt(book['순위']) || 0;
@@ -788,6 +735,7 @@ function renderBooks(books, container) {
     const publisher = book['출판사'] || '';
     const author = book['저자'] || '';
     const imgUrl = book['이미지URL'] || '';
+    const pubDate = book['출간일'] || book['출간'] || book['발행일'] || book['출간년월'] || book['date'] || '';
     const titleClean = (book['제목']||'').replace(/"/g, '&quot;');
     const authorClean = author.replace(/"/g, '&quot;');
     const isOurs = isOurPublisher(publisher);
@@ -799,26 +747,21 @@ function renderBooks(books, container) {
     if (isTotal && book.stores) storeBadges = book.stores.map(s => `<span class="store-badge-mini" style="background:${STORE_COLORS[s]}">${STORE_NAMES[s][0]}</span>`).join(' ');
 
     const badgeHtml = changeBadgeHtml(book['순위변동'] || '', isTotal ? book.points : null);
-    listHtml += `<div class="book-item ${isOurs ? 'highlight' : ''}" data-ours="${isOurs}" data-title="${titleClean}" data-author="${authorClean}" data-publisher="${publisher.replace(/"/g,'&quot;')}" onclick="openTrendModal(this)" ${isOurs?`style="--will-tint:${pubTint}"`:''}>
-      <div class="rank-col"><div class="rank-num ${rank<=3?'top3':''}">${rank}</div>${badgeHtml}</div>
-      <div class="book-info">
-        <div class="book-title">${book['제목']||''}</div>
-        <div class="book-row-bottom">
-          <div class="book-meta">${isOurs ? `<span class="our-badge" style="background:${pubColor}">${ourPubName}</span>` : ''}<span class="txt">${author}${publisher?' · '+publisher:''}</span>${storeBadges}</div>
-          ${link ? `<div class="book-link"><a href="${link}" target="_blank" onclick="event.stopPropagation()">링크</a></div>` : ''}
-        </div>
-      </div>
-    </div>`;
-
     const imgContent = imgUrl ? `<img src="${imgUrl}" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentElement.classList.add('skeleton');this.style.display='none';" alt="${titleClean}">` : '';
-    galleryHtml += `<div class="gallery-card ${isOurs ? 'highlight' : ''}" data-ours="${isOurs}" data-title="${titleClean}" data-author="${authorClean}" data-publisher="${publisher.replace(/"/g,'&quot;')}" onclick="openTrendModal(this)">
-      <div class="card-img-wrap ${imgUrl ? '' : 'skeleton'}">${imgContent}</div>
-      <div class="card-info">
-        <div class="card-rank-row"><span class="card-rank ${rank<=3?'top3':''}">${rank}</span>${cardChangeHtml(book['순위변동']||'', isTotal?book.points:null)}</div>
-        <div class="card-title">${book['제목']||''}</div>
-        <div class="card-author">${author}</div>
-        <div class="card-pub-row"><span class="card-publisher">${publisher}</span>${isOurs ? `<span class="card-our-badge" style="background:${pubColor}">${ourPubName}</span>` : ''} ${storeBadges}</div>
-        ${link ? `<div class="card-link"><a href="${link}" target="_blank" referrerpolicy="no-referrer" onclick="event.stopPropagation()">도서 링크</a></div>` : ''}
+    // 서지정보 서브라인: 출판사 · 출간년월 (있는 것만)
+    const subParts = [publisher, pubDate].filter(Boolean).join(' · ');
+
+    listHtml += `<div class="book-item ${isOurs ? 'highlight' : ''}" data-ours="${isOurs}" data-title="${titleClean}" data-author="${authorClean}" data-publisher="${publisher.replace(/"/g,'&quot;')}" onclick="openTrendModal(this)" ${isOurs?`style="--will-tint:${pubTint}"`:''}>
+      <div class="cover ${imgUrl ? '' : 'skeleton'}">
+        ${imgContent}
+        <span class="rank-badge ${rank<=3?'top3':''}">${rank}</span>
+      </div>
+      <div class="book-info">
+        <div class="bi-top">${badgeHtml}${storeBadges}${isOurs ? `<span class="our-badge" style="background:${pubColor}">${ourPubName}</span>` : ''}</div>
+        <div class="book-title">${book['제목']||''}</div>
+        ${author ? `<div class="book-author">${author}</div>` : ''}
+        ${subParts ? `<div class="book-sub">${subParts}</div>` : ''}
+        ${link ? `<div class="book-link"><a href="${link}" target="_blank" onclick="event.stopPropagation()">도서 링크</a></div>` : ''}
       </div>
     </div>`;
   });
@@ -839,13 +782,8 @@ function renderBooks(books, container) {
     <div class="toolbar">
       <div class="search-wrap"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--mut)" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3-3"/></svg><input type="text" class="search-input" id="searchInput" placeholder="${isTotal ? '통합차트 검색' : '제목·저자·출판사 검색'}" oninput="handleSearch(event)" value="${searchQuery}"></div>
       <button class="filter-btn ${filterOn ? 'active' : ''}" id="filterBtn" onclick="toggleFilter()">윌북만</button>
-      <div class="view-toggle">
-        <button class="view-btn ${currentView==='list'?'active':''}" onclick="setView('list')" title="리스트"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg></button>
-        <button class="view-btn ${currentView==='gallery'?'active':''}" onclick="setView('gallery')" title="갤러리"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></button>
-      </div>
     </div>
-    <div class="books-list-view" style="${currentView==='gallery'?'display:none':''}">${listHtml}</div>
-    <div class="books-gallery-view gallery-grid" style="${currentView==='list'?'display:none':''}">${galleryHtml}</div>`;
+    <div class="books-list-view">${listHtml}</div>`;
 
   bindStoreTabs();
   applyFilters();
