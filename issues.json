@@ -1,57 +1,84 @@
 {
-  "generated_at": "2026-10-06T01:41:44.461522+00:00",
+  "generated_at": "2026-10-07T00:29:21.750004+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
   "book_count": 2,
   "searches_used": 3,
   "books": [
     {
-      "title": "원소 원정대",
-      "author": "아게도리도리, 박재현, 장홍제",
-      "publisher": "윌북주니어",
-      "brand": "윌북주니어",
+      "title": "우리가 가진 슬프고 아름다운 것들",
+      "author": "마이라 칼만",
+      "publisher": "윌북(willbook)",
+      "brand": "윌북",
       "items": [
         {
-          "title": "정식 복장 유의어 - 뜻과 관련 표현",
-          "link": "https://wordsisters.com/search/%EC%A0%95%EC%8B%9D%20%EB%B3%B5%EC%9E%A5",
-          "source": "유의어 사전",
-          "published": "11시간 전",
-          "snippet": "정식 복장 ; 오디세이아 ; 기분이 태도가 되지 말자 (30만 부 기념 최신 개정판) ; 코스모스 ; 원소 원정대."
+          "title": "[Review] 어른에게도 응원가는 필요하니까 - 2026 렛츠락 ...",
+          "link": "https://www.artinsight.co.kr/news/view.php?no=82726",
+          "source": "아트인사이트",
+          "published": "19시간 전",
+          "snippet": "[Review] 아름다움 뒤 슬픔, 그리고 슬픔 뒤 아름다움 - 우리가 가진 슬프고 아름다운 것들 [도서] by 박선주 에디터 · [Opinion] 이혼숙려캠프를 보며 느끼는 유해함과 ..."
         },
         {
-          "title": "DogDrip.Net 개드립",
-          "link": "https://www.dogdrip.net/userdog?search_target=tag&sort_index=comment_count&order_type=desc&division=-701130893&last_division=-652469798&cpage=3&page=96",
-          "source": "DogDrip.Net 개드립",
-          "published": "15시간 전",
-          "snippet": "... 드러낸 침착맨 3. 3 4 일 전. 매드크라운. 원소원정대 2. 2 4 일 전. 단팥찐빵. 사실 저는 네크로필리아 입니다 4. 6 4 일 전. 과학상식키우기. 168cm /53kg 아줌마..mp4 ..."
+          "title": "[Opinion] 한 사람만을 위해 쓰인 편지 [공연]",
+          "link": "https://www.artinsight.co.kr/news/view.php?no=82718",
+          "source": "아트인사이트",
+          "published": "19시간 전",
+          "snippet": "[Review] 아름다움 뒤 슬픔, 그리고 슬픔 뒤 아름다움 - 우리가 가진 슬프고 아름다운 것들 [도서] by 박선주 에디터 · [Opinion] 이혼숙려캠프를 보며 느끼는 유해함과 ..."
         },
         {
-          "title": "DogDrip.Net 개드립",
-          "link": "https://www.dogdrip.net/userdog?search_target=tag&search%3B_keyword=%28%EC%9B%90%EC%B6%9C%EC%B2%98%3A2ch&sort_index=comment_count&order_type=asc&cpage=1&page=94&division=-105960824&last_division=-660800792&list_type=table",
-          "source": "DogDrip.Net 개드립",
-          "published": "17시간 전",
-          "snippet": "... 드러낸 침착맨 3. 3 4 일 전. 매드크라운. 원소원정대 2. 2 4 일 전. 단팥찐빵. 사실 저는 네크로필리아 입니다 4. 6 4 일 전. 과학상식키우기. 168cm /53kg 아줌마..mp4 4."
+          "title": "10월 6일 ㅡ 나를 축복이 되게 하소서 (MAKE ME A ...",
+          "link": "https://www.facebook.com/groups/488110181257383/posts/28333781532930207/",
+          "source": "Facebook",
+          "published": "",
+          "snippet": "남의 슬픔을 우리가 가진 지식의 틀에 맞추어 잘라 버리는 것. 그것이 얼마나 폭력인지, 말하는 쪽은 모른다. 말은 언제나 자기가 위로하는 척하며 심판한다. 욥은 이 ..."
+        },
+        {
+          "title": "[더인터뷰] “이름보다 그림이 남았으면”… 박소현·송영미·박선영 ...",
+          "link": "https://www.ksdaily.co.kr/news/articleView.html?idxno=111033",
+          "source": "ksdaily.co.kr",
+          "published": "10시간 전",
+          "snippet": "행복하고 아름다운 장면이 오히려 슬픔을 주더라고요. 행복했던 기억이 있기 때문에 슬픈 것이고, 또 슬픔이 있기 때문에 그 행복했던 기억이 더 소중해지는 것 같아요. 첫 ..."
+        },
+        {
+          "title": "[인터뷰] 신현영 \"'육영수 여사 피살, 여전히 의문점…역사적 ...",
+          "link": "https://www.news1.kr/politics/general-politics/6311681",
+          "source": "뉴스1",
+          "published": "14시간 전",
+          "snippet": "▷신현영: 실제로 암살자들에서는 그 육영수 여사의 사망 사건, 물론 우리 역사적으로도 슬픈 일이겠죠. 그 사망 사건을 다뤘다는 것에 대해서 보수가 불편해할 수는 일부 ..."
+        },
+        {
+          "title": "온통 너의 이름들로 가득했던 나날들, 눈이 마주치던 찰나의 ...",
+          "link": "https://www.instagram.com/p/DeJF1c5hGxW/",
+          "source": "Instagram · music_n_new",
+          "published": "",
+          "snippet": "온통 너의 이름들로 가득했던 나날들, 눈이 마주치던 찰나의 순간마저 영원처럼 느껴지던 청춘의 첫사랑 ”오랜만이야 나의 첫사랑 잘 지내고 있지?“"
+        },
+        {
+          "title": "[강민혜 기자의 Face to Face] 김길수 영월군수 “역사 ...",
+          "link": "https://weekly.hankooki.com/news/articleViewAmp.html?idxno=7187104",
+          "source": "주간한국",
+          "published": "16시간 전",
+          "snippet": "기업을 유치해 먹고 살 기반을 만들고 의료·교육·주거를 갖춰야 사람이 머문다는 것이다. 영화 '왕과 사는 남자' 흥행으로 청령포와 장릉을 찾는 관광객이 크게 늘어난 ..."
+        },
+        {
+          "title": "[31st BIFF] 작고 소소한 세계, 결코 작지 않은 가치… '낮과 밤 ...",
+          "link": "https://www.sisaweek.com/news/articleView.html?idxno=238228",
+          "source": "시사위크",
+          "published": "16시간 전",
+          "snippet": "'최악의 하루' '더 테이블' '조제' 등을 통해 일상의 순간과 사람 사이의 감정을 자신만의 시선으로 그려온 김종관 감독의 신작으로, 제31회 부산국제영화제 개막작으로 ..."
         }
       ],
-      "item_count": 3,
+      "item_count": 8,
       "time_range": "qdr:d"
     },
     {
-      "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
-      "author": "아게도리도리",
-      "publisher": "윌북주니어",
-      "brand": "윌북주니어",
-      "items": [
-        {
-          "title": "(베스트) 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 ...",
-          "link": "https://www.pinterest.com/pin/727964727317481035/",
-          "source": "Pinterest",
-          "published": "4일 전",
-          "snippet": "2026-10-02 기준 - (베스트) 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집+오늘 급식은 과학입니다 (전2권), 아게도리도리, 윌북주니어 - 현재 가격 ..."
-        }
-      ],
-      "item_count": 1,
-      "time_range": "qdr:w"
+      "title": "내면 근력",
+      "author": "짐 머피",
+      "publisher": "윌북(willbook)",
+      "brand": "윌북",
+      "items": [],
+      "item_count": 0,
+      "time_range": "qdr:d"
     }
   ]
 }
