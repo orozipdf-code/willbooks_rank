@@ -1,75 +1,8 @@
 {
-  "generated_at": "2026-10-08T00:49:39.438803+00:00",
+  "generated_at": "2026-10-09T01:02:53.989225+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 1,
-  "searches_used": 1,
-  "books": [
-    {
-      "title": "미술관 여행자를 위한 도슨트 북",
-      "author": "카미유 주노",
-      "publisher": "윌북(willbook)",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "교원의 지위 향상 및 교육활동 보호를 위한 특별법",
-          "link": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=286085&efYd=20261120",
-          "source": "국가법령정보센터",
-          "published": "10시간 전",
-          "snippet": "제1조(목적) 이 법은 교원에 대한 예우와 처우를 개선하고 신분보장과 교육활동에 대한 보호를 강화함으로써 교원의 지위를 향상시키고 교육 발전을 도모하는 것을 ..."
-        },
-        {
-          "title": "박진영 \"패노메논, 4대 기획사 특혜 아닌 희생...대통령 위한 일 아냐\"",
-          "link": "https://www.ytn.co.kr/_ln/0106_202610071750314221",
-          "source": "YTN · YTN",
-          "published": "",
-          "snippet": "야당은 내년 12월 개최되는 글로벌 K팝 축제, '패노메논' 상표권을 박 위원장의 소속사인 JYP엔터테인먼트가 단독 명의로 낸 경위를 집중적으로 따져 물었습니다. 박 ..."
-        },
-        {
-          "title": "축구 야구를 위한 병역특례?...\"군대 안 갑니다\" PPT 띄우더니 ...",
-          "link": "https://www.youtube.com/watch?v=M1Hg8CuCvYc",
-          "source": "YouTube · JTV뉴스",
-          "published": "",
-          "snippet": "국정감사 #문체위 #문화체육관광위원회 #이재정위원장 #고민정 #최민희 #노종면 #김재원 #최휘영장관 #문체부장관 #배현진 #박진영 #조은희 #임오경 #병역특례 #축구 ..."
-        },
-        {
-          "title": "“백성을 위한 새 글자”…광화문서 만난 한글",
-          "link": "https://ichannela.com/news/detail/amp/000000553969.do",
-          "source": "채널A · 홍지혜",
-          "published": "",
-          "snippet": "홍지혜 기자가 현장을 다녀왔습니다. ... 광화문 광장에 설치된 무대에 붉은 곤룡포를 입은 왕이 등장합니다. 세종대왕의 한글 창제 이야기를 담은 뮤지컬 공연이 열린 ..."
-        },
-        {
-          "title": "민주사회를 위한 변호사모임",
-          "link": "https://www.minbyun.or.kr/",
-          "source": "민주사회를 위한 변호사모임",
-          "published": "9시간 전",
-          "snippet": "우리사회의 민주주의와 인권 증진을 위하여 설립한 진보적 법률가 단체입니다. 민변은 회원들의 회비로 운영되며, 민변의 회원은 변호사·법학교수·법학전문대학원에 재학 ..."
-        },
-        {
-          "title": "성매매문제해결을위한전국연대",
-          "link": "https://jkyd2004.org/",
-          "source": "성매매문제해결을위한전국연대",
-          "published": "16시간 전",
-          "snippet": "성매매문제해결을위한전국연대 홈페이지입니다. 전국연대의 다양한 반성매매 활동을 지지하고 연대해주세요!"
-        },
-        {
-          "title": "커미션 입문자를 위한 마감 스케줄 가이드",
-          "link": "https://www.youtube.com/shorts/QW8uLoziO90",
-          "source": "YouTube · 병우쌤의 다락방 BW's Darakbang",
-          "published": "",
-          "snippet": "커미션 입문자를 위한 마감 스케줄 가이드. [그림피드백 ]커미션 입문자를 위한 마감 지옥 탈출하는 법! 85."
-        },
-        {
-          "title": "경기뉴스광장 나를위한경기 - 경기도뉴스포털",
-          "link": "https://gnews.gg.go.kr/news/news_list.do?page=1&s_code=C400",
-          "source": "경기도뉴스포털",
-          "published": "16시간 전",
-          "snippet": "혁신 스타트업에게 날개를! '2026 경기 스타트업 서밋'에서 만나보세요!"
-        }
-      ],
-      "item_count": 8,
-      "time_range": "qdr:d"
-    }
-  ]
+  "book_count": 0,
+  "searches_used": 0,
+  "books": []
 }
