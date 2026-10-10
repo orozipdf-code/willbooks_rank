@@ -1,8 +1,168 @@
 {
-  "generated_at": "2026-10-09T01:02:53.989225+00:00",
+  "generated_at": "2026-10-10T00:35:46.119838+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 0,
-  "searches_used": 0,
-  "books": []
+  "book_count": 4,
+  "searches_used": 6,
+  "books": [
+    {
+      "title": "원소 원정대",
+      "author": "아게도리도리",
+      "publisher": "윌북주니어",
+      "brand": "윌북주니어",
+      "items": [
+        {
+          "title": "주간 원소",
+          "link": "https://www.youtube.com/playlist?list=PLa7hD9iXdFP0",
+          "source": "YouTube · 새빨간 화학",
+          "published": "",
+          "snippet": "지구보다 태양에서 먼저 발견된 원소? ☀️원소 이야기 #2 — 헬륨(He) #원소이야기 #헬륨 #주기율표 #화학 #과학 #shorts. 새빨간 화학. 734 views • 1 day ago."
+        },
+        {
+          "title": "중국과 유럽연합(EU)은 관세, 하이브리드 자동차, 희토류 ...",
+          "link": "https://www.vietnam.vn/ko/trung-quoc-eu-dat-nhieu-dong-thuan-ve-thue-quan-xe-hybrid-va-dat-hiem",
+          "source": "Vietnam.vn",
+          "published": "9시간 전",
+          "snippet": "중국과 유럽연합(EU)은 관세, 하이브리드 자동차, 희토류 원소 등 여러 사안에 대해 대체로 합의에 도달했다."
+        },
+        {
+          "title": "미세먼지 세부측정정보",
+          "link": "https://m.airkorea.or.kr/dustInfo/dustInfoMetalList",
+          "source": "에어코리아",
+          "published": "2시간 전",
+          "snippet": "미세먼지 (미량원소 성분) 선택 측정소명 측정소 주소 측정망 백령도 인천 옹진군 백령면 두무진로 362-69 대기환경연구소 수도권 서울 은평구 진흥로 215 대기환경연구소"
+        },
+        {
+          "title": "원소찬 @quietly.wsc 벌써 N번째 촬영하러 오신 ...",
+          "link": "https://www.instagram.com/p/DeQzXKyj-qH/",
+          "source": "Instagram · studio_hwang",
+          "published": "",
+          "snippet": "원소찬 @quietly.wsc 벌써 N번째 촬영하러 오신 원소찬 배우님 뮤지컬과 각종 공연 등 왕성하게 활동중이신데요 가성비 & 퀄리티 좋은 스튜디오황에서"
+        },
+        {
+          "title": "Middle schoolers, watch this. \"Midterms: So this is why I ...",
+          "link": "https://www.youtube.com/watch?v=DmGdFJ_5Mig",
+          "source": "YouTube · 조작가의 스몰빅클래스",
+          "published": "",
+          "snippet": "중학생들 보세요. \"중간고사, 내가 이래서 90점을 못 넘겼구나...!!\" ✏️ 조작가 인스타그램 https://www.instagram.com/insight_cho/ ✏️ 문의메일 ..."
+        },
+        {
+          "title": "Diablo 4 원소술사 최고의 빌드 – 시즌 15 티어 리스트",
+          "link": "https://d4guides.gg/ko/builds/sorcerer",
+          "source": "D4Guides.gg",
+          "published": "2시간 전",
+          "snippet": "원소술사는 Diablo 4의 원소 유리 대포로, 마나와 기술을 지속 효과로 바꾸는 마법부여 시스템을 활용합니다. 원소술사 빌드는 얼음 파편과 눈보라부터 연쇄 번개, 화염구 ..."
+        },
+        {
+          "title": "특히 니콜은 불 원소 오프필드 서포터로 실드와 공격력 버프를 ...",
+          "link": "https://dierrealluminio.it/%EC%82%B0%EB%93%9C%EB%A1%9C%EB%84%A4-%EC%9B%90%EC%86%8C/",
+          "source": "dierrealluminio.it",
+          "published": "13시간 전",
+          "snippet": "8 버전에는 산드로네와 시너지를 내는 새로운 메인 딜러가, 원신 산드로네의 원소 속성이 바위 원소에서 물 원소로 변경될 가능성, 무기 종류, 전투 스타일, 향후 스토리 ..."
+        },
+        {
+          "title": "스탠 예전에 소서가 쓰던건데 반년 넘게 안하다보니 쓸모 ...",
+          "link": "https://www.facebook.com/groups/579720466366621/posts/1837350400603615/",
+          "source": "Facebook · 디아블로2 레저렉션",
+          "published": "",
+          "snippet": "스탠 예전에 소서가 쓰던건데 반년 넘게 안하다보니 쓸모없어서 파려고 하는데 얼마나 할까요?"
+        }
+      ],
+      "item_count": 8,
+      "time_range": "qdr:d"
+    },
+    {
+      "title": "내면 근력",
+      "author": "짐 머피",
+      "publisher": "윌북(willbook)",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "내면 근력 - 결국 멘탈 게임이다",
+          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1112995707&bnclick=prd-b02_prdb02A_apiPrdBrand&iid=dYZ4u2eTmG_ka&mseq=437159",
+          "source": "GS-SHOP-홈쇼핑",
+          "published": "2일 전",
+          "snippet": "『내면 근력』은 바로 그 길을 안내하는 책이다. 자기 삶의 주인으로 살아가고 싶은 이에게 내면 근력은 반드시 필요한 토대다. 흔들림 없이 자기 길을 걸어가고 싶다면, ..."
+        }
+      ],
+      "item_count": 1,
+      "time_range": "qdr:w"
+    },
+    {
+      "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
+      "author": "아게도리도리",
+      "publisher": "윌북주니어",
+      "brand": "윌북주니어",
+      "items": [
+        {
+          "title": "신규",
+          "link": "https://cremaclub.yes24.com/bookclub/new",
+          "source": "크레마클럽",
+          "published": "13시간 전",
+          "snippet": "[연재] 10월의 어느 멋진 날에 5화. 조선희 저 ; 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 ; 일이 사라진 세상."
+        }
+      ],
+      "item_count": 1,
+      "time_range": "qdr:d"
+    },
+    {
+      "title": "마케팅 설계자",
+      "author": "러셀 브런슨",
+      "publisher": "윌북(willbook)",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "이 대통령 \"녹색시장 직접 판 짜는 설계자·선도자 돼야\"",
+          "link": "https://www.korea.kr/news/policyNewsView.do?newsId=148973145",
+          "source": "정책브리핑",
+          "published": "2일 전",
+          "snippet": "이재명 대통령은 7일 \"남을 뒤따르던 추격자 관행에서 벗어나 이제 우리가 직접 판을 짜는 녹색시장의 설계자, 선도자가 되어야 한다\"고 밝혔다."
+        },
+        {
+          "title": "양지마을 설계자 선정 입찰 '3파전'…분당 선도지구 이달 마무리",
+          "link": "https://m.dnews.co.kr/m_home/view.jsp?idxno=202610021447213540337",
+          "source": "대한경제",
+          "published": "4일 전",
+          "snippet": "가장 먼저 설계자 선정에 착수한 시범단지는 오는 17일 주민총회를 열어 최종 설계자를 결정한다. 입찰에는 △ANU건축 △삼하건축사사무소 △시아플랜건축 △원양건축사 ..."
+        },
+        {
+          "title": "[스카이 레이크 리뷰] 설계자님, 악마인가요? - 네이버 블로그",
+          "link": "https://m.blog.naver.com/PostView.naver?blogId=hosvn&logNo=224126518482",
+          "source": "블로그",
+          "published": "5일 전",
+          "snippet": "'설계자님 악마인가요?\" 하는 생각이 들었습니다. 페어웨이도 힘든데. 그린 난이도는 최고 수준입니다. 이쯤 되니 계속 드는 생각,. \"레이크 코스는 대체 어떤 지옥일까 ..."
+        },
+        {
+          "title": "李대통령 \"추격자 관행 벗어나 녹색대전환 설계자·선도자 돼야\"",
+          "link": "https://www.yna.co.kr/view/AKR20261007123100001",
+          "source": "연합뉴스",
+          "published": "3일 전",
+          "snippet": "남을 뒤따르던 추격자 관행에서 벗어나, 이제는 우리가 직접 판을 짜는 녹색시장의 설계자·선도자가 돼야 한다\"며 \"녹색대전환 과정에서도 대한민국의 혁신 DNA가 힘을 ..."
+        },
+        {
+          "title": "수능 설계자의 한탄…“도로 학력고사화, 폐지해야”",
+          "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8679045&ref=A",
+          "source": "KBS 뉴스",
+          "published": "4일 전",
+          "snippet": "내신 절대평가 전환, 서·논술형 확대 등 교육 현장에 큰 변화를 가져올 사안들이 거론되는데요. 왜 바꾸려는지, 우려되는 점은 무엇인지 차례로 짚어보겠습니다. 오늘(6일) ..."
+        },
+        {
+          "title": ". A3 빌딩을 만들 때 나는 건축주이지만 설계자이기도 했고 ...",
+          "link": "https://www.instagram.com/p/DeDdRfek142/",
+          "source": "Instagram · a3design_official",
+          "published": "",
+          "snippet": "나는 건축주이지만 설계자이기도 했고 시공관리자 였다가 디자이너, 때로는 민원 처리자이기도 했다. 처음 접해보는 고난이도 토목공사에서 큰 시행착오를 겪었고,"
+        },
+        {
+          "title": "내가 핵심 설계자인 줄 모르고 해고당함",
+          "link": "https://www.munpia.com/novel/detail/609200",
+          "source": "문피아",
+          "published": "15시간 전",
+          "snippet": "총 10화. 연재중. 현대판타지. 임부키 - 회사에서 해고당했다. 내가 핵심 설계자인데?"
+        }
+      ],
+      "item_count": 7,
+      "time_range": "qdr:w"
+    }
+  ]
 }
