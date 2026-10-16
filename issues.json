@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15T23:35:06.778311+00:00",
+  "generated_at": "2026-10-16T23:20:20.330074+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 1,
-  "searches_used": 1,
+  "book_count": 2,
+  "searches_used": 2,
   "books": [
     {
       "title": "원소 원정대",
@@ -12,18 +12,84 @@
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "증가된 정도 유의어 - 뜻과 관련 표현",
-          "link": "https://www.wordsisters.com/search/%EC%A6%9D%EA%B0%80%EB%90%9C%20%EC%A0%95%EB%8F%84",
-          "source": "유의어 사전",
-          "published": "24시간 전",
-          "snippet": "증가된 정도 ; 오디세이아 ; AI, 신의 탄생 인간의 종말 ; 미움받을 용기 ; 원소 원정대."
+          "title": "청소년 종합 베스트",
+          "link": "https://www.yes24.com/product/category/bestseller?categoryNumber=001001005",
+          "source": "예스24",
+          "published": "23시간 전",
+          "snippet": "청소년 종합 베스트 · 1. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 미리보기 · 2. 모모 MOMO. 미리보기 · 3. 공부가 결국 너를 지켜줄 거야. 미리보기 · 4."
         },
         {
-          "title": "초등 친구들 요거 추천.",
-          "link": "https://www.threads.com/@_ej_idun_/post/Deg3_97AaUB/%EC%B4%88%EB%93%B1-%EC%B9%9C%EA%B5%AC%EB%93%A4-%EC%9A%94%EA%B1%B0-%EC%B6%94%EC%B2%9C-%EB%8F%84%EC%84%9C%EA%B4%80-%ED%9D%AC%EB%A7%9D%EB%8F%84%EC%84%9C-%EC%8B%A0%EC%B2%AD%ED%95%98%EA%B3%A0%EB%B9%8C%EB%A0%A4%EC%84%9C-1%EA%B6%8C-%EC%95%9E%EC%AA%BD-%EC%9D%BD%EC%96%B4%EC%A3%BC%EB%8B%A4%EA%B0%80-%EC%82%B0%EC%B1%85%EB%A7%8C-%EA%B3%84%EC%86%8D-%EC%8B%9C%EC%BC%B0%EB%8A%94%EB%8D%B0-%EC%8B%A0%EA%B0%84-%EB%B3%B4%EB%8D%94%EB%8B%88-%EC%82%AC%EB%8B%AC%EB%9D%BC%EA%B3%A0-%ED%95%B4%EC%84%9C-%EC%83%9D%EC%9D%BC%EC%84%A0%EB%AC%BC%EB%A1%9C-%EC%82%AC%EC%A4%AC%EC%96%B4-%EC%9D%BD/",
-          "source": "Threads · _ej_idun_",
+          "title": "知샘터도서관 신착·희망도서 구입목록(2026. 9.)",
+          "link": "https://www.ksponco.or.kr/lib/boardDownload.es?bid=0030&list_no=85332&seq=1",
+          "source": "한국체육산업개발",
+          "published": "5시간 전",
+          "snippet": "원소 원정대. 아게도리도리 지음. 박재현 옮김. 장홍제 감수. 윌북주니어. 신간. 35. 아동. 읽으면서 바로 써먹는 어린이 낱말 퍼즐. 한날 지음. 파란정원. 신간. 36. 아동."
+        },
+        {
+          "title": "납입받다 유의어 - 뜻과 관련 표현",
+          "link": "https://wordsisters.com/search/%EB%82%A9%EC%9E%85%EB%B0%9B%EB%8B%A4",
+          "source": "유의어 사전",
+          "published": "20시간 전",
+          "snippet": "납입받다 ; 오디세이아 ; 슬픔을 방어하기엔 방어가 최고 ; 서늘한 대화 ; 원소 원정대."
+        },
+        {
+          "title": "꺄아앙~~~ 두근두근~~ 3D뮤지엄그리스로마신화 언박싱",
+          "link": "https://www.threads.com/@whdtbrl79/post/DeiY1Odnyv1/%EA%BA%84%EC%95%84%EC%95%99-%EB%91%90%EA%B7%BC%EB%91%90%EA%B7%BC3d%EB%AE%A4%EC%A7%80%EC%97%84%EA%B7%B8%EB%A6%AC%EC%8A%A4%EB%A1%9C%EB%A7%88%EC%8B%A0%ED%99%94-%EC%96%B8%EB%B0%95%EC%8B%B1%EC%98%81%ED%99%94%ED%8F%AC%EC%8A%A4%ED%84%B0-30%EA%B0%9C-%EB%AA%A8%EC%95%84%EB%91%94-%EA%B2%83-%EA%B0%99%EC%9D%80-%ED%91%9C%EC%A7%80%EA%B7%B8%EB%9E%98%ED%94%BD-%EC%98%81%EB%A1%B1%ED%95%9C-%EB%B9%9B%EC%9D%84-%EB%82%B4%EB%BF%9C%EB%8A%94%EB%93%AF%ED%95%9C-%EC%B1%85%EB%93%B1%EB%94%94%EC%9E%90%EC%9D%B8-%EC%A7%84%EC%A7%9C-%EB%AF%B8%EC%B9%98%EB%8F%84%EB%A1%9D-%EC%98%88%EC%81%98%EB%8B%A4-/",
+          "source": "Threads",
           "published": "",
-          "snippet": "스레드에서 원소원정대 책 소개시켜주신 분 누구시죠? 저도 추천하고 갑니다 원소원정대. 애가 엄청 열심히 읽네요 초저인데도 붙들고 놓치 않고 정독 중 어려울까 ..."
+          "snippet": "이 책은 원소 원정대 라는 책인데, 과학을 좋아하는 아이도 게임캐릭터 좋아하는 아이들도 빠지기 좋은책. 요즘 코스모스 읽다가 아이책 빌려와서 원소 ..."
+        },
+        {
+          "title": "귀여움은 진리지만, 이 책의 진리는 귀여움보다 무겁다!",
+          "link": "https://sarak.yes24.com/blog/seonull/review-view/22485135",
+          "source": "예스24",
+          "published": "7시간 전",
+          "snippet": "귀여움은 진리지만, 이 책의 진리는 귀여움보다 무겁다! 이미지 · seonull. 작성일: 47분 전. 도서명 표기 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집."
+        },
+        {
+          "title": "AI 시대, 십 대를 위한 도덕경 - 어린이/청소년 - 전자책",
+          "link": "https://ridibooks.com/books/5099000151?srsltid=AU7gw4XQiJaYfM8Xil_3ELZD9LCRRYGftJ7o8wGxFtVgdhAzTLE3ZcbP",
+          "source": "리디",
+          "published": "16시간 전",
+          "snippet": "청소년 베스트더보기 · 원소원정대 · 아게도리도리, 장홍제. 5.0(1). 가난한 아이들은 어떻게 어른이 되는가 · 강지나. 4.5(129)."
+        },
+        {
+          "title": "올해도 노벨화학상 받은 일본... #일본노벨상 ...",
+          "link": "https://www.instagram.com/reel/DejKZ4tAkLt/",
+          "source": "Instagram · ungseong_2",
+          "published": "",
+          "snippet": "원소 원정대란 책입니다. 살짝 부끄럽긴 한데… 약간 서브컬처 감성입니다. 원소에 대해 알고 싶은 노땅들이 있으려나? 내 청소년 시절에 이런 게 있었으면 주기율표 ..."
+        },
+        {
+          "title": "눈 내리는 삼일포",
+          "link": "https://gimssine.com/collections/bestseller/products/9791141619992?srsltid=AU7gw4WhS_aUfMLimOlLdDcoAPm7cSd-gjuNfiawI17wMD1GFuah-g60",
+          "source": "GIMSSINE",
+          "published": "14시간 전",
+          "snippet": "... 원소 원정대 (118개 캐릭터로 마스터하는 주기율표 공략집) Back to BEST SELLER 독서의 기술. 눈 내리는 삼일포. Sold outPre order. Click to enlarge. 눈 ..."
+        }
+      ],
+      "item_count": 8,
+      "time_range": "qdr:d"
+    },
+    {
+      "title": "지도는 답을 알고 있다",
+      "author": "야마사키 게이이치, 노경아",
+      "publisher": "윌북",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "이주의 새책",
+          "link": "https://www.mk.co.kr/news/culture/12177978",
+          "source": "매일경제",
+          "published": "16시간 전",
+          "snippet": "다산초당 펴냄. 지도는 답을 알고 있다 야마사키 게이이치 지음, 노경아 옮김, 1만9000원 역사의 배후에는 언제나 지리가 있었다. 중국 왕조는 왜 동서가 아닌 남북 ..."
+        },
+        {
+          "title": "\"감자 덕분에 미국 대통령이 될 수 있었던 남자\" 미국 최연소 ...",
+          "link": "https://www.instagram.com/p/DejKYPbDxuM/",
+          "source": "Instagram · willbook.zip",
+          "published": "",
+          "snippet": "... . \"역사와 지리는 같이 배워야 한다.\" 현재 그는 일본에서 '신의 수업'이라는 별명을 가지고 있다. 참고도서 : 『지도는 답을 알고 있다』\"."
         }
       ],
       "item_count": 2,
