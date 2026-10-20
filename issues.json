@@ -1,114 +1,10 @@
 {
-  "generated_at": "2026-10-18T22:52:35.693344+00:00",
+  "generated_at": "2026-10-20T00:09:14.833281+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 3,
+  "book_count": 2,
   "searches_used": 3,
   "books": [
-    {
-      "title": "원소 원정대",
-      "author": "아게도리도리",
-      "publisher": "윌북주니어",
-      "brand": "윌북주니어",
-      "items": [
-        {
-          "title": "#전국차량탁송 정신없었던 이번주 실컷자고 지난번 아들 ...",
-          "link": "https://www.threads.com/@transport_car_5168_5168/video/DeoPh7jDtJg/video-%EC%A0%84%EA%B5%AD%EC%B0%A8%EB%9F%89%ED%83%81%EC%86%A1-%EC%A0%95%EC%8B%A0%EC%97%86%EC%97%88%EB%8D%98%EC%9D%B4%EB%B2%88%EC%A3%BC-%EC%8B%A4%EC%BB%B7%EC%9E%90%EA%B3%A0-%EC%A7%80%EB%82%9C%EB%B2%88-%EC%95%84%EB%93%A4%EC%84%A0%EB%AC%BC%ED%95%B4-%EC%A3%BC%EC%97%88%EB%8D%98-%ED%92%88%EA%B2%A9%EC%9E%88%EB%8A%94%EB%8C%80%ED%99%94%EB%A5%BC%EC%9C%84%ED%95%9C%EC%A7%80%EC%8B%9D%EB%B8%8C%EB%A6%AC%ED%95%91-%EC%95%84%EB%93%A4%EC%B1%85%EC%83%81%EC%97%90%EC%84%9C-%EC%A7%80%EC%8B%9D%EC%B6%A9%EC%A0%84%EC%8A%A4%ED%85%94%EB%9D%BC%EC%9D%B4%EB%B8%8C-%EA%B5%BF%EC%AF%94-%EB%95%8C-%EB%AC%BB%EB%8A%94%EB%8B%A4%EA%B3%A0-%ED%95%99c-/",
-          "source": "Threads",
-          "published": "15시간 전",
-          "snippet": "스레드에서 원소원정대 책 소개시켜주신 분 누구시죠? 저도 추천하고 갑니다 원소원정대. 애가 엄청 열심히 읽네요 초저인데도 붙들고 놓치 않고 정독 중 어려울까 ..."
-        },
-        {
-          "title": "자연과학",
-          "link": "https://m.yes24.com/category/display/001001002",
-          "source": "예스24",
-          "published": "8시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
-        },
-        {
-          "title": "Reel by 이찬현 (@icanhyeon26) · October 18, 2026",
-          "link": "https://www.instagram.com/reel/DenyVXwvT0D/",
-          "source": "Instagram · icanhyeon26",
-          "published": "",
-          "snippet": "캐릭터만 보고 주기율표 원소 맞히기 #광고 #윌북 #원소원정대 · View all 3 comments · hellochild.official77. 『원소 원정대』 보러 가기 교보문고: https://buly.kr ..."
-        },
-        {
-          "title": "타키 포오 코믹 어드벤처 4권 세트 6 7 8 9",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1095325959&bnclick=prd-b02_prdb02A_apiPrdBrand&mseq=437159",
-          "source": "GS-SHOP-홈쇼핑",
-          "published": "13시간 전",
-          "snippet": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집. 판매가 17,820원. 무료배송. 상품이미지. 소년이 온다 - 한강 장편소설 (2024 노벨문학상 수상작가). 판매가 ..."
-        }
-      ],
-      "item_count": 4,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "유니콘 설계자",
-      "author": "콜린 C. 캠벨",
-      "publisher": "윌북",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "넥스트유니콘 | 스타트업 전문투자자 연결 플랫폼",
-          "link": "https://www.nextunicorn.kr/",
-          "source": "넥스트유니콘",
-          "published": "5시간 전",
-          "snippet": "넥스트유니콘에서 스타트업과 전문투자자 정보를 확인하고 네트워크를 확장해보세요."
-        },
-        {
-          "title": "우리에겐 유니콘 아빠 아니고 돌보는 사람들이 필요해. 그치 ...",
-          "link": "https://www.instagram.com/p/Denss9MoMtp/",
-          "source": "Instagram · mignon0111",
-          "published": "",
-          "snippet": "우리에겐 유니콘 아빠 아니고 돌보는 사람들이 필요해. 그치 지구야? 전쟁없는세상 여성 청년 평화활동가 에세이 시리즈, <평화를 살다>에 기고했습니다. 전문읽기 ..."
-        },
-        {
-          "title": "일본 도쿄 오다이바 가볼만한곳 다이버시티 가는법 유니콘 건담 ...",
-          "link": "https://m.blog.naver.com/goniduyoncouple/223454148734?targetKeyword=%EB%8F%84%EC%BF%84%EC%9C%A0%EB%8B%88%EC%BD%98%EA%B1%B4%EB%8B%B4",
-          "source": "블로그",
-          "published": "19시간 전",
-          "snippet": "안녕하세요 고니두욘몬입니다! ​. 오늘은 도쿄 오다이바에 가볼 만한 곳 중 하나인. 다이버시티 도쿄 플라자의 명물. 1:1사이즈 유니콘 건담이 있습니다."
-        },
-        {
-          "title": "프로그램",
-          "link": "https://www.nextunicorn.kr/support-programs",
-          "source": "넥스트유니콘",
-          "published": "5시간 전",
-          "snippet": "오직 넥스트유니콘 가입 스타트업을 위한 전용 혜택. 성장을 돕는 지원프로그램. [메가존클라우드] AWS Activate $10,000 크레딧 지원 기업 모집. 스타트업."
-        },
-        {
-          "title": "\"젖소, 유니콘, 말(히든) + 행택(일러 미공개) 구성은 이렇고 키 ...",
-          "link": "https://x.com/tabitoyroom/status/2111749513769587038",
-          "source": "X · tabitoyroom",
-          "published": "",
-          "snippet": "绒绒牧场 당나귀, 양 모델링 공개 토끼인줄 알았는데 당나귀였음.. ⌯'▾'⌯ 오 당나귀 그림 있네 근데 일러 5개인데 모델링 공개로 넘어간 거 보니 4+1(히든) 구성인 ..."
-        },
-        {
-          "title": "어썸스테이지 부산 - 엔플라잉 x 하이파이유니콘 - 해운대 공연",
-          "link": "https://popga.co.kr/popup/12740",
-          "source": "Popga",
-          "published": "3시간 전",
-          "snippet": "⚡ 3초 요약 - 두 실력파 밴드가 부산을 뜨거운 사운드로 채우러 찾아옵니다 이런 이야기예요 - 시원한 가창력의 엔플라잉과 청량한 하이파이유니콘이 뭉쳐요 - 두 ..."
-        },
-        {
-          "title": "[매직캐슬 재미있는펠트비지북 유니콘소근육인지놀이]",
-          "link": "https://www.wooriagi.net/m/product.html?branduid=1765359&xcode=092&mcode=002&scode=&type=X&sort=order&pre_idx=5&current_category=092&pre=ok",
-          "source": "아기넷",
-          "published": "12시간 전",
-          "snippet": "매직캐슬 재미있는펠트비지북 유니콘소근육인지놀이 · 상품가 : 회원공개원 · 배송비 : 무게별 차등 ! 지역별 ! · 상품 무게 : · 총 상품 금액 0 원."
-        },
-        {
-          "title": "2022. 3 케이유니콘 오피스 큐레이션 - PINZLE | 핀즐",
-          "link": "https://m.pinzle.net/mundane/html/product/journal_detail.html?product_no=2042&cate_no=1&display_group=22",
-          "source": "PINZLE",
-          "published": "12시간 전",
-          "snippet": "스타트업을 지원하는 케이유니콘 인베스트먼트에 공간 컨설팅을 진행하였습니다. 핀즐만의 독보적 아트워크 IP를 활용하여 일상의 사무 공간을 감각적인 창의 영역으로 ..."
-        }
-      ],
-      "item_count": 8,
-      "time_range": "qdr:d"
-    },
     {
       "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
       "author": "아게도리도리",
@@ -116,49 +12,129 @@
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "자연과학",
-          "link": "https://m.yes24.com/category/display/001001002",
+          "title": "원소 원정대 : ,118개 캐릭터로 마스터하는 주기율표 공략집",
+          "link": "https://rainbow.egentouch.com/detailview.do?action=detailView&searchSubId=0&pageIndex=1&menuPath=newBookSESearch&MASTER_ID=6765685",
+          "source": "두드림시스템",
+          "published": "17시간 전",
+          "snippet": "자료유형. 단행본. 자료명. 원소 원정대 : ,118개 캐릭터로 마스터하는 주기율표 공략집. 저자. ,아게도리도리 글·그림;,박재현 옮김. 발행사항. 윌북주니어: / 2026."
+        },
+        {
+          "title": "청소년 주별 베스트",
+          "link": "https://www.yes24.com/product/category/weekbestseller?categoryNumber=001001005",
           "source": "예스24",
-          "published": "8시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
+          "published": "4일 전",
+          "snippet": "청소년 주별 베스트 · 1. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 미리보기 · 2. 공부가 결국 너를 지켜줄 거야. 미리보기 · 3. 오백 년째 열다섯 0. 미리 ..."
         },
         {
           "title": "빨간내복야코 괴수대백과 1 - 11번가 추천",
           "link": "https://search.11st.co.kr/pc/total-search?kwd=%EB%B9%A8%EA%B0%84%EB%82%B4%EB%B3%B5%EC%95%BC%EC%BD%94%20%EA%B4%B4%EC%88%98%EB%8C%80%EB%B0%B1%EA%B3%BC%201",
           "source": "11번가",
-          "published": "9시간 전",
+          "published": "1일 전",
           "snippet": "상품명: (인기도서 모음) 빨간내복야코 괴수대백과 1 + 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집 (전2권). 가격정보: 판매가 34,800원 ..."
         },
         {
-          "title": "청소년",
-          "link": "https://m.yes24.com/category/display/001001005",
+          "title": "[단독] 이재문 신간 <안녕, 안녕, 안녕!> 저자 친필 사인본 증정 ...",
+          "link": "https://event.yes24.com/277266",
           "source": "예스24",
-          "published": "16시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
+          "published": "5일 전",
+          "snippet": "실시간 이벤트 랭킹. 그래제본소 : 읽으면 논술이 되는 최신과학뉴스 40 · [단독] 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』 · [단독] 제2회 소원 ..."
+        },
+        {
+          "title": "청소년 종합 베스트",
+          "link": "https://www.yes24.com/product/category/bestseller?CategoryNumber=001001005&SumGb=02",
+          "source": "예스24",
+          "published": "3일 전",
+          "snippet": "청소년 종합 베스트 · 1. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 미리보기 · 2. 공부가 결국 너를 지켜줄 거야. 미리보기 · 3. 오백 년째 열다섯 0. 미리 ..."
+        },
+        {
+          "title": "예문사 탄탄한 기초를 위한 PLC 프로그래밍 XGB series",
+          "link": "https://global.gmarket.co.kr/item?goodscode=2059637775",
+          "source": "Gmarket",
+          "published": "7일 전",
+          "snippet": "원소 원정대(118개캐릭터로마스터하는주기율표공략집); 너를 아끼며 살아라( 나태주 시인이 들려주는 가장 소중한 말); 시대고시기획 식물보호기사 식물보호산업기사 ..."
         },
         {
           "title": "타키 포오 코믹 어드벤처 4권 세트 6 7 8 9",
           "link": "https://m.gsshop.com/prd/prd.gs?prdid=1095325959&bnclick=prd-b02_prdb02A_apiPrdBrand&mseq=437159",
           "source": "GS-SHOP-홈쇼핑",
-          "published": "13시간 전",
+          "published": "2일 전",
           "snippet": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집. 판매가 17,820원. 무료배송. 상품이미지. 소년이 온다 - 한강 장편소설 (2024 노벨문학상 수상작가). 판매가 ..."
         },
         {
-          "title": "청소년 종합 베스트",
-          "link": "https://www.yes24.com/product/category/bestseller?categoryNumber=001001005",
-          "source": "예스24",
-          "published": "20시간 전",
-          "snippet": "청소년 종합 베스트 · 1. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 미리보기 · 2. 공부가 결국 너를 지켜줄 거야. 미리보기 · 3. 오백 년째 열다섯 0. 미리 ..."
-        },
-        {
-          "title": "설민석의 한국사 대모험 3권 세트 32 33 34",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1092827070&bnclick=prd-nbst2_prdNowBestY_PopularCateItemRltmMc&rank=2&svcid=pc&dseq=0&mseq=419578",
-          "source": "GS-SHOP-홈쇼핑",
-          "published": "12시간 전",
-          "snippet": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집. 판매가 17,820원. 무료배송. 평점 5.0점 상품평 (2건). 상품이미지. [제이북스]개념원리 확률과통계 확통 ( ..."
+          "title": "수경출판사 자이스토리 고등 영어 독해 기본 2026)",
+          "link": "https://per.auction.co.kr/recommend/recommendbridge.aspx?itemno=F388923564",
+          "source": "모바일 쇼핑은 옥션",
+          "published": "5일 전",
+          "snippet": "남들은 뭘살까? 원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집. 17,820원 · 남들은 뭘살까? Xistory 자이스토리 전국연합 모의고사 고2 영어 (2026년). 17,550 ..."
         }
       ],
-      "item_count": 6,
+      "item_count": 8,
+      "time_range": "qdr:w"
+    },
+    {
+      "title": "내면 근력",
+      "author": "짐 머피",
+      "publisher": "윌북(willbook)",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "일하는 사람에서 사랑하는 사람으로 - 독서노트",
+          "link": "https://brunch.co.kr/@5f343aff8e6c498/note/131",
+          "source": "브런치",
+          "published": "14시간 전",
+          "snippet": "내면 근력. by보니. Aug 11. 2026. 내면 근력. 1. 생각이 쉴 새 없이 몰아칠 때는 깊게 호흡하라. 호흡은 하나님이 주신 것이다. 호흡을 주심으로 비로서 살아있는 영이 된 ..."
+        },
+        {
+          "title": "#내면근력 #짐머피지음 #윌북 #지여울옮김 도서명 ...",
+          "link": "https://www.instagram.com/p/DerNUdPT7dl/",
+          "source": "Instagram · jhlee20021004",
+          "published": "",
+          "snippet": "내면 근력은 단순한 긍정적 사고나 정신력으로 버티는 기술이 아니다. 결과와 타인의 평가에 대한 집착을 내려놓고, 지금 이 순간에 집중하며 자신이 중요하게 생각하는 ..."
+        },
+        {
+          "title": "'자뻑'은 최고의 에너지 드링크 《황금 멘탈을 만드는 60가지 ...",
+          "link": "https://www.threads.com/@wybook/post/DeqJzdsExXJ/%EC%9E%90%EB%BB%91-%ED%95%9C-%EB%B2%88-%ED%95%B4%EB%B3%B4%EC%84%B8%EC%9A%94-%EB%B6%80%EB%81%84%EB%9F%AC%EC%9B%8C%ED%95%A0-%ED%95%84%EC%9A%94-%EC%97%86%EC%8A%B5%EB%8B%88%EB%8B%A4-%EB%82%B4%EA%B0%80-%EB%82%98%EB%A5%BC-%EC%9E%90%EB%9E%91%EC%8A%A4%EB%9F%BD%EA%B2%8C-%EC%97%AC%EA%B8%B0%EA%B3%A0-%EB%82%B4%EA%B0%80-%EB%82%98%EB%A5%BC-%EC%98%88%EB%BB%90%ED%95%B4%EC%A3%BC%EB%8A%94-%EA%B2%83%EC%9D%B4-%EB%AC%B4%EC%8A%A8-%EC%9E%98%EB%AA%BB%EC%9D%80-%EC%95%84%EB%8B%88%EC%9E%96%EC%8A%B5%EB%8B%88%EA%B9%8C-%EC%9E%90%EB%BB%91%EC%9D%80-%EC%B5%9C%EA%B3%A0%EC%9D%98-%EC%97%90/",
+          "source": "Threads · wybook",
+          "published": "",
+          "snippet": "외부의 흔들림에 흔들리지 않는 내면근력 15가지 10. 역경은 내면근력을 키우는 최고의 덤벨이다. 시련과 실패는 나를 파괴하는 장애물이 아니라, 멘탈 근육을 더욱 ..."
+        },
+        {
+          "title": "나는 한다 나는 그래도 한다 열심히 하고, 꾸준히 하고, 잘 ...",
+          "link": "https://www.instagram.com/reel/DeqWB82To8_/",
+          "source": "Instagram · happyhanhahaha",
+          "published": "",
+          "snippet": "출처 | 책 내면 근력 (Inner Excellence). 하루 5줄 영어 어른의 영어는 공부가 아니라 습관입니다. 매일 조금씩, 영어를 내 것으로 만드는 시간 ..."
+        },
+        {
+          "title": "오늘의 책 어떻게 살 것인가 일과 놀이와 사랑만으로는 인생 ...",
+          "link": "https://www.instagram.com/p/Deq4sxesF7A/",
+          "source": "Instagram",
+          "published": "",
+          "snippet": "#내면근력 #어떻게살것인가 한동안은 수필과 소설만 읽고 싶다는 생각이 들었다. 불안감에 책을 읽어내고 있는건 아닌지...생각되었다. 결국 ..."
+        },
+        {
+          "title": "⠀⠀ [📔]조용히 계속하는 사람 [✒️]브랜든 최 제목만 보고 ...",
+          "link": "https://www.instagram.com/p/DeqIDq3ia2V/",
+          "source": "Instagram · im__bookish",
+          "published": "",
+          "snippet": "내면근력도 탄탄하게 기르며 균형진 삶을 살려고 하루하루 계속 하는 사람! 힘든 유학생활, 암을 극복하고 자신을 증명하며 살아야했다던 대목에서 울컥! 명상을 만나 ..."
+        },
+        {
+          "title": "⠀ 버섯 치즈 파니니가 감사하게 인기를 얻으며... ...",
+          "link": "https://www.instagram.com/reel/DerHS7hhHYA/",
+          "source": "Instagram · coffeewalk__",
+          "published": "",
+          "snippet": "요즘 내면근력이라는 책을 읽고 있는데, 내가 원하는 삶을 위해서는 고통을 즐겨야한다고 하더라고요. 브런치나 디저트를 자알 만들어내기위한 시간들이 마냥 고통 ..."
+        },
+        {
+          "title": "본계정으로는 히어로물 장편 소설로 데뷔하겠다했으나. ...",
+          "link": "https://www.instagram.com/p/Deqipr2p8ik/",
+          "source": "Instagram",
+          "published": "",
+          "snippet": "♧내면 근력을 키우고 비범한 삶을 추구하는 일은 우리가 하는 일의 분야와 목표의 종류와는 상관없다 ♧누구나 비범한 운명을 개척할 수 있고 삶을 의미 있는 관계와 ..."
+        }
+      ],
+      "item_count": 8,
       "time_range": "qdr:d"
     }
   ]
