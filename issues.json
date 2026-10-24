@@ -1,8 +1,64 @@
 {
-  "generated_at": "2026-10-23T23:46:37.470492+00:00",
+  "generated_at": "2026-10-24T22:59:33.936299+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 0,
-  "searches_used": 0,
-  "books": []
+  "book_count": 2,
+  "searches_used": 2,
+  "books": [
+    {
+      "title": "원소 원정대",
+      "author": "아게도리도리",
+      "publisher": "윌북주니어",
+      "brand": "윌북주니어",
+      "items": [
+        {
+          "title": "스타벅스 자몽 허니 에어로카노, 원소 원정대 ...",
+          "link": "https://www.youtube.com/shorts/hspPSShxv6w",
+          "source": "YouTube · 장규범 (callskycall)",
+          "published": "",
+          "snippet": "스타벅스 자몽 허니 에어로카노, 원소 원정대 #스타벅스 #윌북주니어. 2. 0. Share. Video unavailable. This content isn't available. Skip video."
+        },
+        {
+          "title": "New 업로드 일정!! 본편(롱폼)은 유튜브 새빨간 화학으로!! ...",
+          "link": "https://www.instagram.com/p/De3VlrjK4z8/",
+          "source": "Instagram · mad_chemy",
+          "published": "",
+          "snippet": "[광고] 원소 원정대 많은 관심 부탁드립니다~~ #광고 #통합과학 #화학 #원소원정대 · View all 4 comments · sangw0._.0. 원소원정대 넌 이제 뜬거야~. dahyun0203. 헉 책 ..."
+        },
+        {
+          "title": "Photo by 경꽃🌹 (@__kk_._._) · October 24, 2026",
+          "link": "https://www.instagram.com/p/De24RH5CYRX/",
+          "source": "Instagram · __kk_._._",
+          "published": "",
+          "snippet": "공통과학이랑 화학좀열심히할껄…… View 1 comment · lacsume. ㅋㅋㅋ 원소는 남자애들의 관문인가요 원소원정대 책 추천합니다^^. September 30 · jungbojungbo's ..."
+        },
+        {
+          "title": "알라딘) 책추천&적맂금 정보 / 편집장의 퀴즈 500원 + 룰렛 ...",
+          "link": "https://jjoob.com/hotdeal/review/3762884",
+          "source": "JJoob",
+          "published": "13시간 전",
+          "snippet": "<원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집> 초4 이상 남자 ... 어린이 삼국지 시리즈 7권으로, 배신자 여포와 급변하는 천하를 다룬 책입니다. 구매하러 ..."
+        }
+      ],
+      "item_count": 4,
+      "time_range": "qdr:d"
+    },
+    {
+      "title": "미요의 신비한 고전책방 : 만화 홍계월전",
+      "author": "SEC",
+      "publisher": "윌북주니어",
+      "brand": "윌북주니어",
+      "items": [
+        {
+          "title": "미요의 신비한 고전책방 : 만화 운영전 | 해랑 | 윌북주니어",
+          "link": "https://www.yes24.com/product/goods/197648860",
+          "source": "예스24",
+          "published": "8시간 전",
+          "snippet": "미요의 신비한 고전책방 : 만화 홍계월전. SEC 글그림. 14,220원 (10% 할인). 물고기보다 작아진 정브르 2. 정브르 원저/강민희 글/강신영 그림/샌드박스네트워크 감수."
+        }
+      ],
+      "item_count": 1,
+      "time_range": "qdr:d"
+    }
+  ]
 }
