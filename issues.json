@@ -1,54 +1,8 @@
 {
-  "generated_at": "2026-10-30T00:40:51.853418+00:00",
+  "generated_at": "2026-10-31T00:33:24.121318+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 1,
-  "searches_used": 2,
-  "books": [
-    {
-      "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
-      "author": "아게도리도리",
-      "publisher": "윌북주니어",
-      "brand": "윌북주니어",
-      "items": [
-        {
-          "title": "빨간내복야코 괴수대백과 1 - 11번가 추천",
-          "link": "https://search.11st.co.kr/pc/total-search?kwd=%EB%B9%A8%EA%B0%84%EB%82%B4%EB%B3%B5%EC%95%BC%EC%BD%94%20%EA%B4%B4%EC%88%98%EB%8C%80%EB%B0%B1%EA%B3%BC%201",
-          "source": "11번가",
-          "published": "1일 전",
-          "snippet": "상품명: (인기도서 모음) 빨간내복야코 괴수대백과 1 + 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집 (전2권). 가격정보: 판매가 34,800원 ..."
-        },
-        {
-          "title": "발견 | BOOKINI - 내 책을 한눈에, 디지털 서재와 중고책 거래",
-          "link": "https://bookini.kr/discover?view=book",
-          "source": "bookini.kr",
-          "published": "3일 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집 표지 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집아게도리도리 글그림/박재현 역/장홍제 ..."
-        },
-        {
-          "title": "숨은그림 다른그림찾기 1000",
-          "link": "https://www.yes24.com/product/goods/197081882",
-          "source": "예스24",
-          "published": "4일 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 ..."
-        },
-        {
-          "title": "알라딘) 책추천&적맂금 정보 / 편집장의 퀴즈 500원 + 룰렛 ...",
-          "link": "https://jjoob.com/hotdeal/review/3762884",
-          "source": "JJoob",
-          "published": "6일 전",
-          "snippet": "<원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집> 초4 이상 남자 ... 원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집. 초등학생 대상 과학 ..."
-        },
-        {
-          "title": "[그래제본소] 읽으면 논술이 되는 최신과학뉴스 40 | 송혜진",
-          "link": "https://www.yes24.com/product/goods/197815893",
-          "source": "예스24",
-          "published": "22시간 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수. 17,820원 (10% 할인). 미적분의 쓸모. 한화택 저. 17,550원 (10 ..."
-        }
-      ],
-      "item_count": 5,
-      "time_range": "qdr:w"
-    }
-  ]
+  "book_count": 0,
+  "searches_used": 0,
+  "books": []
 }
