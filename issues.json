@@ -1,10 +1,76 @@
 {
-  "generated_at": "2026-11-02T00:24:48.240320+00:00",
+  "generated_at": "2026-11-03T02:48:18.991547+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 1,
-  "searches_used": 1,
+  "book_count": 3,
+  "searches_used": 3,
   "books": [
+    {
+      "title": "원소 원정대",
+      "author": "아게도리도리, 박재현, 장홍제",
+      "publisher": "윌북주니어",
+      "brand": "윌북주니어",
+      "items": [
+        {
+          "title": "청소년 종합 베스트",
+          "link": "https://www.yes24.com/product/category/bestseller?CategoryNumber=001001005&SumGb=02",
+          "source": "예스24",
+          "published": "20시간 전",
+          "snippet": "1. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 미리보기 · 2. 교과서 수필 다보기 1. 미리보기 · 3. 교과서 시 다보기 1. 미리보기 · 4. 예술에 대한 여덟 ..."
+        },
+        {
+          "title": "11월 책 골라주는 사서📚 1️⃣ 노동문제 2️⃣ 한국에세이 ...",
+          "link": "https://www.instagram.com/p/DfOYZvZAT2m/",
+          "source": "Instagram · m_u.library",
+          "published": "",
+          "snippet": "원소원정대. View all 10 comments · jiminnie.seong. 가시고기 읽다 눈물 줄줄 ... 앗 원소원정대 그림이 넘 예쁜데요 ㅋㅋ 책속이 궁금해져요. October 21 ..."
+        },
+        {
+          "title": "호모 데우스 ←버리기로 했음 - 학식 채널",
+          "link": "https://arca.live/b/haksic12/187856609?p=1",
+          "source": "아카라이브",
+          "published": "8시간 전",
+          "snippet": "원소 원정대,. 정치와 도덕을 말하다,. 인간 본성의 법칙,. 데일 카네기 시리즈,. 설득자,. 뇌는 어떻게 나를 조종하는가 ...가 있고. 그 뒤로는 뭐. 재미있어 보이면 사서 ..."
+        },
+        {
+          "title": "너에게 최고의 고등학교를 줄게 - 국내도서 - 교보문고",
+          "link": "https://product.kyobobook.co.kr/detail/S000221600796",
+          "source": "국내도서",
+          "published": "22시간 전",
+          "snippet": "원소 원정대. 국내도서. 원소 원정대. 아게도리도리. 박재현. 장홍제. 17,820원. 공부가 결국 너를 지켜줄 거야. 국내도서. 공부가 결국 너를 지켜줄 거야. 임민찬. 이로."
+        },
+        {
+          "title": "대치동에 간 뇌과학자 - 어린이/청소년 - 전자책",
+          "link": "https://ridibooks.com/books/914000202?_s=search&_q=%EA%B9%80%EA%B5%AC%ED%83%9C&_rdt_sid=SearchBookListWithTab&_rdt_idx=0&srsltid=AYCX9vJ3X8utcNrsxwMmObRL4zpnzaE9MUmGY2ldZAE-qPHHZZ6cY1pE",
+          "source": "리디",
+          "published": "15시간 전",
+          "snippet": "청소년 베스트더보기 · 원소원정대 · 아게도리도리, 장홍제. 5.0(1). 모모 · 미하엘 엔데, 한미희. 4.8(238)."
+        },
+        {
+          "title": "제24회 예스24 올해의 책 2026 - 이벤트",
+          "link": "https://event.yes24.com/boy/2026?p=vote",
+          "source": "예스24",
+          "published": "17시간 전",
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북주니어. 종이책 eBook 크레마클럽. 표지 책등. 고구마랑깨."
+        },
+        {
+          "title": "원소율예열",
+          "link": "https://www.tiktok.com/discover/%EC%9B%90%EC%86%8C%EC%9C%A8%EC%98%88%EC%97%B4",
+          "source": "TikTok",
+          "published": "5시간 전",
+          "snippet": "캐릭터만 보고 주기율표 원소 맞추기! 괴도님 추천 책 '원소 원정대'. 귀여운 캐릭터만 보고 주기율표 원소를 맞힐 수 있을까? 과학 커뮤니케이터 괴도님이 추천한 '원소 ..."
+        },
+        {
+          "title": "청소년",
+          "link": "https://m.yes24.com/category/display/001001005",
+          "source": "예스24",
+          "published": "7시간 전",
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
+        }
+      ],
+      "item_count": 8,
+      "time_range": "qdr:d"
+    },
     {
       "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
       "author": "아게도리도리",
@@ -12,14 +78,94 @@
       "brand": "윌북주니어",
       "items": [
         {
+          "title": "청소년 종합 베스트",
+          "link": "https://www.yes24.com/product/category/bestseller?CategoryNumber=001001005&SumGb=02",
+          "source": "예스24",
+          "published": "20시간 전",
+          "snippet": "1. 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 미리보기 · 2. 교과서 수필 다보기 1. 미리보기 · 3. 교과서 시 다보기 1. 미리보기 · 4. 예술에 대한 여덟 ..."
+        },
+        {
           "title": "청소년",
           "link": "https://m.yes24.com/category/display/001001005",
           "source": "예스24",
-          "published": "3시간 전",
+          "published": "7시간 전",
           "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북 ..."
+        },
+        {
+          "title": "제24회 예스24 올해의 책 2026 - 이벤트",
+          "link": "https://event.yes24.com/boy/2026?p=vote",
+          "source": "예스24",
+          "published": "17시간 전",
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 윌북주니어. 종이책 eBook 크레마클럽. 표지 책등. 고구마랑깨."
+        },
+        {
+          "title": "초등 3년 Q&A 다이어리 | 임민찬 | 메가스터디북스",
+          "link": "https://www.yes24.com/product/goods/197648767",
+          "source": "예스24",
+          "published": "16시간 전",
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수 ..."
         }
       ],
-      "item_count": 1,
+      "item_count": 4,
+      "time_range": "qdr:d"
+    },
+    {
+      "title": "이성과 감성",
+      "author": "제인 오스틴",
+      "publisher": "윌북(willbook)",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "이성과 감성",
+          "link": "https://www.lottecinema.co.kr/NLCHS/Movie/MovieDetailView?movie=25073",
+          "source": "롯데시네마",
+          "published": "8시간 전",
+          "snippet": "이성과 감성. 예고편 재생. 이성과 감성. 2026.10.28 개봉; 132분; 12세이상관람가; 8,986명. 좋아요363; 공유하기; 예매하기. “당신의 사랑은 어느 쪽인가요?” <오만과 ..."
+        },
+        {
+          "title": "부산국제영화제 | 6-15 October, 2026",
+          "link": "https://www.biff.kr/kor/artyboard/mboard.asp?Action=view&strBoardID=9612_42&intSeq=103131",
+          "source": "BUSAN International Film Festival",
+          "published": "16시간 전",
+          "snippet": "그러나 사랑을 둘러싼 기대와 현실의 간극이 드러나면서 두 자매는 각기 다른 방식으로 상처와 혼란을 경험한다. 제인 오스틴의 동명 소설을 원작으로 한 <이성과 감성>은 ..."
+        },
+        {
+          "title": "이성과 감성 후기 - 오리지널 티켓 마이너 갤러리",
+          "link": "https://gall.dcinside.com/mgallery/board/view/?id=oticket&no=3131526&t=cv&page=1",
+          "source": "갤러리",
+          "published": "22시간 전",
+          "snippet": "외부 링크 이동 경고 new; 신뢰할 수 있는 사이트 new. [후기/인증] 이성과 감성 후기. 원희메시쵸비. 2026.11.02 13:29. 스크랩 갤로그 가기. 조회수 77; 추천 1; 댓글 2."
+        },
+        {
+          "title": "movie_book_holic | 🎬 이성과 감성 #영화리뷰. ...",
+          "link": "https://www.instagram.com/p/DfPnZbuGEqD/",
+          "source": "Instagram · movie_book_holic",
+          "published": "",
+          "snippet": "어떤 사랑은 조심스럽고, 어떤 사랑은 솔직하다 #이성과감성 메인 포스터 공개 '오만과 편견' 제인 오스틴 소설 원작 <이성과 감성> 10월 28일 대개봉 · Photo by 사서 ..."
+        },
+        {
+          "title": "유니버설 픽쳐스",
+          "link": "https://x.com/UniversalPicsKR/status/2117089328648126629",
+          "source": "X · UniversalPicsKR",
+          "published": "",
+          "snippet": "영화 보고 한 번, X 리뷰 보고 두 번 웃게 되는 #이성과감성 X 리뷰까지 읽어면 <이성과 감성> 200% 즐길 수 있습니다 아래 링크에서 지금 바로 예매하기 https ..."
+        },
+        {
+          "title": "이성과 감성",
+          "link": "https://stilltheater.com/movies/kobis-20266747/rate",
+          "source": "stilltheater.com",
+          "published": "9시간 전",
+          "snippet": "이성과 감성. 2026 · 드라마, 로맨스, 역사 · 133분. 아버지의 죽음 후 평생을 살아온 저택을 떠나 새로운 곳에서 삶을 시작하게 된 '엘리너'와 '메리앤'."
+        },
+        {
+          "title": "이성과 감성 - 독서노트",
+          "link": "https://brunch.co.kr/@d2812a7f3a7c482/note/543",
+          "source": "브런치",
+          "published": "19시간 전",
+          "snippet": "'이성과 감성'에 대한 독서노트입니다."
+        }
+      ],
+      "item_count": 7,
       "time_range": "qdr:d"
     }
   ]
