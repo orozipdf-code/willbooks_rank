@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-07T00:42:48.568180+00:00",
+  "generated_at": "2026-11-08T00:17:41.018800+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 2,
-  "searches_used": 2,
+  "book_count": 4,
+  "searches_used": 7,
   "books": [
     {
       "title": "나뭇잎 프레디 이야기",
@@ -12,29 +12,32 @@
       "brand": "윌북",
       "items": [
         {
-          "title": "나뭇잎 프레디 이야기 - 국내도서 - 교보문고",
-          "link": "https://product.kyobobook.co.kr/detail/S000221728177",
-          "source": "국내도서",
-          "published": "16시간 전",
-          "snippet": "『나뭇잎 프레디 이야기』는 단 한 번뿐인 삶의 의미를 묻는 철학 동화다. 우리는 왜 이리 애쓰며 사는 걸까. 이토록 짧은 인생의 의미란 무엇일까. 책은 쉬운 답을 내어 ..."
-        },
-        {
-          "title": "🏆교보문고 [오늘의 선택] 선정! ❝끝이 있다는 두려움을 내려 ...",
-          "link": "https://www.instagram.com/p/DfZKA7fgdWF/",
-          "source": "Instagram · willbooks_pub",
+          "title": "https://book.naver.com/bookdb/book_detail.nhn?bid=...",
+          "link": "https://book.naver.com/bookdb/book_detail.nhn?bid=6966198",
+          "source": "네이버 책",
           "published": "",
-          "snippet": "24개국 1,800만 부 작가 레오 버스카글리아의 철학 동화 세대를 넘어 깊은 감동을 선사하는 올에이지 그림책을 만나 보세요. 『나뭇잎 프레디 이야기』 ~11/10(화) ..."
-        },
-        {
-          "title": "윌북 (@willbooks_pub) • Instagram photos and videos",
-          "link": "https://www.instagram.com/willbooks_pub/",
-          "source": "Instagram · willbooks_pub",
-          "published": "",
-          "snippet": "참고 도서 : 나뭇잎 프레디 이야기 #나뭇잎프레디이야기 #나뭇잎프레디 #가을 #겨울 #가을동화 #철학동화 #그림책 #펀자이씨툰 #엄유진작가님 #일본버블경제 ..."
+          "snippet": "이 페이지에 관한 정보가 없습니다."
         }
       ],
-      "item_count": 3,
+      "item_count": 1,
       "time_range": "qdr:d"
+    },
+    {
+      "title": "오만과 편견",
+      "author": "제인 오스틴, 박아람",
+      "publisher": "윌북",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "오만과 편견 | 윌북 클래식 제인 오스틴 컬렉션",
+          "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=404299996&srsltid=AYCX9vLrVFR1p1784-PeBUyF_xp5Z-EBReqe5RdlhmDXSzhzCNQNCSZX",
+          "source": "알라딘",
+          "published": "4일 전",
+          "snippet": "모든 로맨스 서사의 시초이자 뿌리인 제인 오스틴의 소설 『오만과 편견』이 윌북 클래식 세계문학 시리즈로 출간됐다. 『이성과 감성』과 함께 출간되는 '제인 오스틴 ..."
+        }
+      ],
+      "item_count": 1,
+      "time_range": "qdr:w"
     },
     {
       "title": "이성과 감성",
@@ -43,63 +46,30 @@
       "brand": "윌북",
       "items": [
         {
-          "title": "이성과 감성이 치열하게 싸워도 결국 그들이 바라는 것은",
-          "link": "https://brunch.co.kr/@mindirrle/1003",
-          "source": "브런치",
-          "published": "24시간 전",
-          "snippet": "흔히 이성과 감성은 서로 대립하는 영역으로 그려진다. 하나를 선택하면 다른 하나를 포기해야 하는 것처럼 말이다. 하지만 과연 사랑도 그럴까? 이성적인 사람이라고 해서 ..."
+          "title": "이성과 감성 - 플라이북",
+          "link": "https://web.flybook.kr/book/1018999",
+          "source": "플라이북(Flybook)",
+          "published": "7일 전",
+          "snippet": "2025년 12월 16일, 제인 오스틴 탄생 250주년을 맞아 제인 오스틴의 첫 번째 장편소설 『이성과 감성』이 새로운 번역으로 출간된다. 이 작품은 제인 오스틴의 천재성 ..."
         },
         {
-          "title": "필사하고 싶어지는 제인 오스틴의 명문장들...✏️🍂 또다시 ...",
-          "link": "https://www.instagram.com/p/DfZPBftj-uX/",
-          "source": "Instagram · willbook.zip",
-          "published": "15시간 전",
-          "snippet": "필사하고 싶어지는 제인 오스틴의 명문장들...✏️ 또다시 영화로 찾아온 제인 오스틴의 『이성과 감성』. 200년이 넘는 시간 동안 그의 작품이 꾸준히 사랑받는 ..."
-        },
-        {
-          "title": "카뮈 on X: \"이래서 글쓰기 잘해야 함 글쓰기는 이성과 감성 ...",
-          "link": "https://x.com/asyours_/status/2118636147807232073",
-          "source": "X · asyours_",
-          "published": "15시간 전",
-          "snippet": "이래서 글쓰기 잘해야 함 글쓰기는 이성과 감성의 영역이라 대화에서 큰 강점이 생김 내 상황을 감정적으로 설명하지 않고 원하는 부분에만 살짝 감성을 섞어주는…"
-        },
-        {
-          "title": "Jane Austen <Sense and Sensibility> Elinor — 이성과 절제 ...",
-          "link": "https://www.threads.com/@claire.j.choi/post/DfY8mgClZ3q/media",
-          "source": "Threads · claire.j.choi",
-          "published": "18시간 전",
-          "snippet": "제인 오스틴 <이성과 감성> · November 5, 2026 at 10:19 PM. Jane Austen <Sense and Sensibility>. Elinor — 이성과 절제 이성적이고 신중하며, 자신의 감정을 쉽게 ..."
-        },
-        {
-          "title": "유니버설 픽쳐스",
-          "link": "https://x.com/UniversalPicsKR/status/2118629480625569975",
-          "source": "X · UniversalPicsKR",
-          "published": "",
-          "snippet": "엘리너와 에드워드가 사랑하게 된 이유 = 함께할 수 없는 이유라고? 영화 본 뒤에 읽으면 과몰입 + 깊생하게 될 수 밖에... #이성과감성 배우들과 조지아 오클리 ..."
-        },
-        {
-          "title": "2026-11-05(오늘)",
-          "link": "https://www.lottecinema.co.kr/NLCHS/ticketing?link_screenId=300801&link_cinemaCode=3008&link_movieCd=24958&link_date=2026-10-05&link_time=19:05&link_channelCode=naver",
-          "source": "롯데시네마",
-          "published": "15시간 전",
-          "snippet": "12세 관람가이성과 감성. 132분. 개봉일: 2026.10.28. 순위35 포스터. 0세 관람가[씨네21 특별전]썸머 필름을 타고! 98분D-9. 개봉일: 2026.11.14. 순위36 포스터. 15세 ..."
-        },
-        {
-          "title": "11월 책탑 ▫️이성과 감성, 오만과편견 (제인오스틴)",
-          "link": "https://www.instagram.com/p/DfY6wOUTMCk/",
-          "source": "Instagram · soogi0305",
-          "published": "18시간 전",
-          "snippet": "11월 책탑 ▫️이성과 감성, 오만과편견 (제인오스틴) - 책이 아주 예쁨 ▫️아메리칸 학원 1,2 (이민진) - 추천이 많음 ▫️저항의 멜랑콜리(크러스너호르커이 라 ..."
-        },
-        {
-          "title": "현재 상영작",
-          "link": "https://www.cinecube.co.kr/cinema/time-order-table?date=2026-11-07",
-          "source": "씨네큐브",
-          "published": "14시간 전",
-          "snippet": "이성과 감성. 12세 관람가. 132분. 26.10.28 개봉. 영화정보. 예매하기. 이성과 감성 포스터. 16:00. - 17:59. 아사코. 12세 관람가. 119분. 26.10.21 개봉."
+          "title": "미리보기 | 이성과 감성",
+          "link": "https://m.yes24.com/Goods/GoodsPreview/33264680?contentsGoodsNo=33264680",
+          "source": "예스24",
+          "published": "2일 전",
+          "snippet": "도서, 티켓, 음반, 굿즈, 커뮤니티까지 문화 전반을 아우르는 국내 대표 문화콘텐츠 플랫폼, 아낌없는 혜택과 총알배송을 경험해보세요."
         }
       ],
-      "item_count": 8,
+      "item_count": 2,
+      "time_range": "qdr:w"
+    },
+    {
+      "title": "나는 내가 죽었다고 생각했습니다",
+      "author": "질 볼트 테일러, 장호연",
+      "publisher": "윌북",
+      "brand": "윌북",
+      "items": [],
+      "item_count": 0,
       "time_range": "qdr:d"
     }
   ]
