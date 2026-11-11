@@ -1,113 +1,10 @@
 {
-  "generated_at": "2026-11-10T03:18:10.876062+00:00",
+  "generated_at": "2026-11-11T01:06:12.862867+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 5,
-  "searches_used": 9,
+  "book_count": 1,
+  "searches_used": 1,
   "books": [
-    {
-      "title": "나뭇잎 프레디 이야기",
-      "author": "레오 버스카글리아",
-      "publisher": "윌북",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "#신간 《원피스》, 《이누야샤》, 《포켓몬스터》 등 일본 만화와 ...",
-          "link": "https://www.instagram.com/p/Dfg26XGiX5a/",
-          "source": "Instagram · baruntrans",
-          "published": "",
-          "snippet": "참고 도서 : 나뭇잎 프레디 이야기 #나뭇잎프레디이야기 #나뭇잎프레디 #가을 #겨울 #가을동화 #철학동화 #그림책 #펀자이씨툰 #엄유진작가님 #일본버블경제 · 4 days ..."
-        },
-        {
-          "title": "잘 마른 햇살이 다녀가셨다(토담시인선64)",
-          "link": "https://www.ypbooks.co.kr/books/202610120827255056?srsltid=AYCX9vKSxmrTysb2EFrtRVLvUEFPB9-TYk7WgTs99dsXiUNZ0P0H1zfz",
-          "source": "영풍문고",
-          "published": "22시간 전",
-          "snippet": "나뭇잎 프레디 이야기레오 버스카글리아 | 윌북. 곧 파란불이 켜집니다박시형 | 지식과감성. 7살의 나를 다시 만난다면 - 작은 현자와 7년의 마음정화 말 기록김은주 ..."
-        },
-        {
-          "title": "단풍나무 그레이 모직 리본 시리즈 part 1. 오프닝. 가을의 ...",
-          "link": "https://www.instagram.com/reel/DfhKljDyptf/",
-          "source": "Instagram · elen.bijou_",
-          "published": "",
-          "snippet": "... 나뭇잎프레디이야기 #thefalloffreddietheleaf · View all 104 comments · xx_o63o. 벌써 기대됩미다. jiney0410. 책이 나오면 보고 싶네요 출판되면 그 소식도 알려주세요 ..."
-        }
-      ],
-      "item_count": 3,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "원소 원정대",
-      "author": "아게도리도리, 박재현, 장홍제",
-      "publisher": "윌북주니어",
-      "brand": "윌북주니어",
-      "items": [
-        {
-          "title": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1122164527&bnclick=prd-b02_prdb02A_apiPrdBrand&iid=l6UI79x28NMzP&mseq=437159",
-          "source": "GS SHOP홈쇼핑",
-          "published": "7일 전",
-          "snippet": "『원소 원정대』는 원소 주기율표와 각 원소들의 특성, 상호 작용 등을 게임 공략집처럼 재미있고 자연스럽게 익힐 수 있는 과학책이다. 어릴 적 공룡 이름을 달달 외던 ..."
-        },
-        {
-          "title": "윌북 원소 원정대",
-          "link": "https://m.gmarket.co.kr/vi/product/4846128085?utparam-url=%7B%22x_object_id%22%3A%224846128085%22%2C%22x_object_type%22%3A%22item%22%2C%22pvid%22%3A%226b83c2be-f959-46b9-875a-c710dd707784%22%2C%22pvid_sys%22%3A%22gmarket%20server%22%2C%22origin_price%22%3A%2217820%22%2C%22promotion_price%22%3A%2217820%22%2C%22coupon_price%22%3A%22%22%2C%22trafficType%22%3A%22organic%22%2C%22adProduct%22%3A%22%22%2C%22adSubProduct%22%3A%22%22%2C%22ab_buckets%22%3A%22%22%2C%22query%22%3A%22%22%7D",
-          "source": "G마켓",
-          "published": "6일 전",
-          "snippet": "『원소 원정대』는 원소 주기율표와 각 원소들의 특성, 상호 작용 등을 게임 공략집처럼 재미있고 자연스럽게 익힐 수 있는 과학책이다. 어릴 적 공룡 이름을 달달 외던 ..."
-        },
-        {
-          "title": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1122164527&bnclick=prd-b02_prdb02A_apiPrdBrand&iid=IKeiCUGfy9lWA&mseq=437159",
-          "source": "GS SHOP홈쇼핑",
-          "published": "4일 전",
-          "snippet": "『원소 원정대』는 원소 주기율표와 각 원소들의 특성, 상호 작용 등을 게임 공략집처럼 재미있고 자연스럽게 익힐 수 있는 과학책이다. 어릴 적 공룡 이름을 달달 외던 ..."
-        }
-      ],
-      "item_count": 3,
-      "time_range": "qdr:w"
-    },
-    {
-      "title": "이성과 감성",
-      "author": "제인 오스틴, 이은선",
-      "publisher": "윌북",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "미리보기 | 이성과 감성",
-          "link": "https://m.yes24.com/Goods/GoodsPreview/33264680?contentsGoodsNo=33264680",
-          "source": "예스24",
-          "published": "4일 전",
-          "snippet": "도서, 티켓, 음반, 굿즈, 커뮤니티까지 문화 전반을 아우르는 국내 대표 문화콘텐츠 플랫폼, 아낌없는 혜택과 총알배송을 경험해보세요."
-        }
-      ],
-      "item_count": 1,
-      "time_range": "qdr:w"
-    },
-    {
-      "title": "오만과 편견",
-      "author": "제인 오스틴, 박아람",
-      "publisher": "윌북",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "오만과 편견 줄거리·등장인물·작품 소개 - 제인 오스틴",
-          "link": "https://www.otteok.com/pride/0/",
-          "source": "otteok.com",
-          "published": "2일 전",
-          "snippet": "오만과 편견 ... 재산 없는 시골 신사 집안의 둘째 딸 엘리자베스 베넷과, 오만해 보이는 부자 신사 다아시가 서로를 오해하고 그 오해를 하나씩 풀어 가는 이야기다. \"재산 ..."
-        },
-        {
-          "title": "https://hanabooksquare.co.kr/board/product/write.h...",
-          "link": "https://hanabooksquare.co.kr/board/product/write.html?board_no=4&product_no=281254&cate_no=0&display_group=0&srsltid=AYCX9vIfBRsAdOxn55-D9n1RTGLhhr9Bhq0S1lok7aa8ZGbLuo7Xk0IY",
-          "source": "하나북스퀘어",
-          "published": "",
-          "snippet": "이 페이지에 관한 정보가 없습니다."
-        }
-      ],
-      "item_count": 2,
-      "time_range": "qdr:w"
-    },
     {
       "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
       "author": "아게도리도리",
@@ -116,49 +13,14 @@
       "items": [
         {
           "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
-          "link": "https://www.kmarket365.com/me/redirect_pcurl.asp?redurl=/me/prod_detail.asp?prod_code=wbj1211",
-          "source": "MissyShop |",
-          "published": "3일 전",
-          "snippet": "원소 주기율표 속 원소들을 생동감 넘치는 캐릭터와 웅장한 세계관으로 만날 수 있는 신개념 화학책 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』이 윌북 ..."
-        },
-        {
-          "title": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1122164527&bnclick=prd-b02_prdb02A_apiPrdBrand&iid=l6UI79x28NMzP&mseq=437159",
-          "source": "GS SHOP홈쇼핑",
-          "published": "7일 전",
-          "snippet": "원소 주기율표 속 원소들을 생동감 넘치는 캐릭터와 웅장한 세계관으로 만날 수 있는 신개념 화학책 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』이 ..."
-        },
-        {
-          "title": "자이행복마을 작은도서관 > 상세보기",
-          "link": "https://xihappy.egentouch.com/detailview.do?action=detailView&searchSubId=0&pageIndex=1&menuPath=newBookSESearch&MASTER_ID=6831424",
-          "source": "두드림시스템",
-          "published": "4일 전",
-          "snippet": "시험이 끝나면 금방 까먹을 힘겨운 단순 암기에 질렸다면 이 책 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』을 만나 보자. 『원소 원정대』는 단순히 ..."
-        },
-        {
-          "title": "(팝북)원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 ...",
-          "link": "https://m.gmarket.co.kr/vi/product/4782058993?utparam-url=%7B%22x_object_id%22%3A%224782058993%22%2C%22x_object_type%22%3A%22item%22%2C%22pvid%22%3A%2261fa2b8c-3a56-44eb-84cf-3f93da5a58bc%22%2C%22pvid_sys%22%3A%22gmarket%20server%22%2C%22origin_price%22%3A%2217820%22%2C%22promotion_price%22%3A%2217820%22%2C%22coupon_price%22%3A%22%22%2C%22trafficType%22%3A%22organic%22%2C%22adProduct%22%3A%22%22%2C%22adSubProduct%22%3A%22%22%2C%22ab_buckets%22%3A%22%22%2C%22query%22%3A%22%22%7D",
-          "source": "G마켓",
-          "published": "4일 전",
-          "snippet": "... 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 17,820원. 평점4.8후기(47). 결제할인 10%. 배송비무료최저가 사러가기 · 50건 가격 비교하기. 상품정보 제공 ..."
-        },
-        {
-          "title": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1122164527&bnclick=prd-b02_prdb02A_apiPrdBrand&iid=IKeiCUGfy9lWA&mseq=437159",
-          "source": "GS SHOP홈쇼핑",
-          "published": "4일 전",
-          "snippet": "원소 주기율표 속 원소들을 생동감 넘치는 캐릭터와 웅장한 세계관으로 만날 수 있는 신개념 화학책 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』이 ..."
-        },
-        {
-          "title": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집",
-          "link": "https://m.gmarket.co.kr/vi/product/4758398477",
-          "source": "G마켓",
-          "published": "5일 전",
-          "snippet": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집. 공유하기. 17,820원판매가 가격 안내 레이어 열기. 가격 안내 가격 안내 레이어 닫기. 판매가: 판매자가 할인 ..."
+          "link": "https://chaekjang.net/works/edition-cd676e7e6215786ca87531f7/?period=month&q=&category=&listPeriod=month",
+          "source": "chaekjang.net",
+          "published": "12시간 전",
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수. Non-fiction · Children & teens. 256. Combined points · Past ..."
         }
       ],
-      "item_count": 6,
-      "time_range": "qdr:w"
+      "item_count": 1,
+      "time_range": "qdr:d"
     }
   ]
 }
