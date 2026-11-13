@@ -1,109 +1,71 @@
 {
-  "generated_at": "2026-11-12T02:09:43.765045+00:00",
+  "generated_at": "2026-11-13T01:43:16.341076+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
   "book_count": 3,
   "searches_used": 5,
   "books": [
     {
-      "title": "나뭇잎 프레디 이야기",
-      "author": "레오 버스카글리아",
-      "publisher": "윌북",
-      "brand": "윌북",
+      "title": "원소 원정대",
+      "author": "아게도리도리",
+      "publisher": "윌북주니어",
+      "brand": "윌북주니어",
       "items": [
         {
-          "title": "나뭇잎 프레디 이야기 | 레오 버스카글리아",
-          "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=406517299&srsltid=AYCX9vJNiH3JEaDfFNR_WQ1KynT9NW-6JAHDtu-YJ1IwPc7s1qswpCXQ",
-          "source": "알라딘",
-          "published": "3시간 전",
-          "snippet": "1982년 출간된 『나뭇잎 프레디 이야기』는 버스카글리아의 철학을 가장 아름다운 언어로 담아낸 작품으로 손꼽힌다. 출간된 지 40년이 넘은 현재도 전 세계 교육계와 심리 ..."
-        },
-        {
-          "title": "#신간알림 #나뭇잎프레디이야기 🏆 펀딩 ... - Instagram",
-          "link": "https://www.instagram.com/p/Dfl10p5gWlo/",
-          "source": "Instagram · willbooks_pub",
-          "published": "19시간 전",
-          "snippet": "「펀자이씨툰」 엄유진 작가의 그림과 번역으로 재탄생한 세계적인 고전 베스트셀러 『나뭇잎 프레디 이야기』 정식 출간! ❝삶의 허무와 슬픔에 잠긴 이들에게, 삶의 의미 ..."
-        },
-        {
-          "title": "펀딩 1507% 달성! 🏆 베스트셀러 1위 🏆 교보문고 '오늘의 선택'",
-          "link": "https://www.threads.com/@willbooks_pub/post/Dfl11rAAfX-/%ED%8E%80%EB%94%A9-1507-%EB%8B%AC%EC%84%B1-%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%85%80%EB%9F%AC-1%EC%9C%84-%EA%B5%90%EB%B3%B4%EB%AC%B8%EA%B3%A0-%EC%98%A4%EB%8A%98%EC%9D%98-%EC%84%A0%ED%83%9D%ED%8E%80%EC%9E%90%EC%9D%B4%EC%94%A8%ED%88%B0-%EC%97%84%EC%9C%A0%EC%A7%84-%EC%9E%91%EA%B0%80%EC%9D%98-%EA%B7%B8%EB%A6%BC%EA%B3%BC-%EB%B2%88%EC%97%AD%EC%9C%BC%EB%A1%9C-%EC%9E%AC%ED%83%84%EC%83%9D%ED%95%9C%EC%84%B8%EA%B3%84%EC%A0%81%EC%9D%B8-%EA%B3%A0%EC%A0%84-%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%85%80%EB%9F%AC-%EB%82%98%EB%AD%87%EC%9E%8E-%ED%94%84%EB%A0%88%EB%94%94-/",
-          "source": "Threads · willbooks_pub",
+          "title": "#원소원정대 탄소 교수님의 분자생물학 개론! 화학은 우리 ...",
+          "link": "https://www.instagram.com/p/Dfg9YpaCa1z/",
+          "source": "Instagram · willbooks_jr",
           "published": "",
-          "snippet": "... 책 『나뭇잎 프레디 이야기』를 지금 서점에서 만나보세요! #나뭇잎프레디이야기 #엄유진 #레오버스카글리아 #에세이 #동화책 #그림책 #가을. Log in. Get app."
+          "snippet": "원소원정대 탄소 교수님의 분자생물학 개론! 화학은 우리 일상에서 쉽게 발견할 수 있는 재미난 학문이야. 아직도 화학을 어렵게 공부하고 있다면? <원소 원정대>의 ..."
         },
         {
-          "title": "지금 이 계절에 가장 잘 어울리는 책 한 권을 소개합니다. ...",
-          "link": "https://www.instagram.com/p/DfmBE91gXrN/",
-          "source": "Instagram · willbooks_pub",
-          "published": "18시간 전",
-          "snippet": "... 나뭇잎 프레디 이야기』를 만나보세요. #나뭇잎프레디이야기 #엄유진 #레오버스카글리아 #에세이 #그림책 - @willbooks_pub on November 11, 2026."
-        }
-      ],
-      "item_count": 4,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "내면 근력",
-      "author": "짐 머피",
-      "publisher": "윌북",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "결국, 멘탈 게임이다 🏔️ 📖 오늘의 책: 내면 근력 (Inner ...",
-          "link": "https://www.instagram.com/p/DfWdJXQzHGb/",
-          "source": "Instagram",
-          "published": "",
-          "snippet": "몸에 근육을 키우듯, 마음에도 근력이 필요하다는 이야기예요. 내면 근력을 만드는 3가지 힘 ✔️ 감정을 다스리는 힘 ✔️ 집중하는 힘 ✔️ 지속하는 힘 오늘부터 ..."
+          "title": "원소원정대",
+          "link": "https://www.google.com/goto?url=CAESigEBxCJF16xmHgeOIK6VDRjjPXydBO6qoYV_uGgyh-15lbTv2YjYVR-s6DfGFYMwX8mQn_-PQyLg-43QY7Nh9JIWwu0wk3LHbtDmMNcUv6dsYZjPYXxOGbMA4N5F45zfPEvFPDAVBhrU7nXwFAkUd4lYwL4Ob5MV_Buc2ZStkzwy2H2D8Og9c0PQ_E4",
+          "source": "TikTok",
+          "published": "4일 전",
+          "snippet": "원소 원정대는 일본의 여고생 사토가 홋카이도 대학 과학 프레젠테이션 대회에서 선보인 원소 주기율표 의인화 프로젝트입니다. 원소들을 애니메이션 캐릭터처럼 표현한 ..."
         },
         {
-          "title": "교보문고와 독자가 선택하는 2026 올해의 책",
-          "link": "https://www.google.com/goto?url=CAESZgHEIkXXutAS2s0wCJXW181ryfjJzSCZCJ2KdzmtSWUKOfQ_Q15qEXEsLVCSiuBEQMIzUMfSEU6u73MGocrlU3Y5a-LwdQMn0OIDXDMAv1kS5RB_7RxUd-IU3AO8HfpzAx-j1LfmLA",
-          "source": "교보문고",
+          "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
+          "link": "https://chaekjang.net/ko/works/edition-cd676e7e6215786ca87531f7/?period=month&q=&category=&listPeriod=month",
+          "source": "chaekjang.net",
           "published": "3일 전",
-          "snippet": "내면 근력 짐 머피 좌절을 딛고 코치가 된 저자가 정상급 선수들을 연구해 쓴, 무너지지 않는 마음의 근력을 기르는 자기계발서. 113표 선택한 책."
+          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 아게도리도리 글그림/박재현 역/장홍제 감수. 논픽션 · 어린이 / 청소년. 256. 합산 점수 · 최근 30일. 교보 ..."
         },
         {
-          "title": "지여울 | 번역가",
-          "link": "https://www.yes24.com/product/author/140096",
-          "source": "예스24",
-          "published": "3일 전",
-          "snippet": "지여울 작가는 국내 번역가로 대표작 《내면 근력》, 《캐릭터 심리 사전》을 비롯한 다양한 작품을 예스24 작가 페이지에서 확인할 수 있습니다."
-        },
-        {
-          "title": "중요한 순간일수록 왜 흔들릴까 | 짐 머피 《내면 근력》",
-          "link": "https://www.youtube.com/shorts/BVSAK9K8loQ",
-          "source": "YouTube",
+          "title": "원원소악장원소원정대 브로민Br. #원소악장 #元素楽章 13 ...",
+          "link": "https://www.youtube.com/shorts/EogsMYpRlHI",
+          "source": "YouTube · 선챈",
           "published": "",
-          "snippet": "... 내면 근력은 독기가 아니라, 폭풍 속에서도 평정을 지키는 부드럽고 단단한 마음 오늘은 결과 대신 과정에, 시선 대신 나 자신에게 집중해 보세요. 사진: Unsplash ..."
+          "snippet": "원원소악장원소원정대 브로민Br. #원소악장 #元素楽章 13년생 #손그림 #떡상기원. 3. 1. Share. Video unavailable. This content isn't available. Skip video."
         },
         {
-          "title": "경이롭다! 내 예전 책은 《내면 근력》의 그림자조차 밟지 ...",
-          "link": "https://www.google.com/goto?url=CAESmAMBxCJF1xR7nRhLogoEthvF-raKdgRb7GZquvOqVbOkmkqLYYeMBvk7P7jCjjEQzgJlpLg61WoQN0Qg2pz9KPR-6jZGLbYyWBMVF2AnuLkcWm1_-Dqz3Xip-ad6VhnLbmtZyUvWYtUC0XyNyQK_nPtcs1lT40xqtHOHellTGQYjIroY5SOHvxNO6ZUuOLKN7AsjJSmCYq-nVp4tTjmdDf6Aa2AlOpCXU1zdbAv95XyEwx3HkIUPN_d-H2JsChlHoN1f0J-nRGhbADps9_JwH-3e_D8BZjf2NR7lqLLRouJRiKATinwxRcRn8XMLrRVH2nB2VyuVRcbGibQqL_4D_TM_k6E0Q8E2t5yVhav1dl2nD1hjtS0GOmuWfvDphMir5-qOj1QUcX8R7sUAX2GOX2dhqyvVZraL-oSd3P3GPECqhNk0UyYJbKgZ_fmvokliil4i3weduXxxUcWdoSsPRGdvTaP9eEF71ikZ2AKpyrP7E9qCHgTXbMnPNQUj9BdCXuEhNt104pdYqgEno_lmC2RpJ99xETpRA88",
-          "source": "Threads · queenalice_153",
-          "published": "",
-          "snippet": "지금 누워서 스레드 볼 때가 아닙니다. · 교보문고 멘탈분야 상위권. 현재 많은 분들이 읽고 계십니다. · 내면 근력이 말하지 않습니까? 결국 멘탈 게임이다."
-        },
-        {
-          "title": "내면근력, Jim Murphy : 외부 환경과 타인의 시선에 흔들리지 ...",
-          "link": "https://www.instagram.com/p/DfjzOVVJ_pd/",
-          "source": "Instagram · hm._.park",
-          "published": "",
-          "snippet": "내면근력, Jim Murphy : 외부 환경과 타인의 시선에 흔들리지 않고 스스로의 감정을 통제할 수 있는 힘 ​\"당신에게 일어나는 일은 통제할 수 없지만, 그 일에 어떻게 ..."
-        },
-        {
-          "title": "2026년 하반기 북러닝(독서경시대회)이 진행 ...",
-          "link": "http://www.hanurirmi.or.kr/community/community1_view.jsp?id=6211",
-          "source": "한우리 독서경영",
+          "title": "엉뚱한 질문이 과학을 만나는 순간 - 국내도서 - 교보문고",
+          "link": "https://www.google.com/goto?url=CAEScQHEIkXXFUJbyDYBhWEHv4-ONC_wGImtAo28t4y5QNFzqs92b-mbkcvjZCkwKXGSstN2CnpGnWgc79DHibTE_P-XjQp-A7myRr22J1XlwwPh3lPhCtvTcXjZFRCJ-zcVwQwZ8A2rSzbxp-w4MmjpbBZ8",
+          "source": "국내도서",
           "published": "1일 전",
-          "snippet": "- 비문학 : 내면 근력 / 우리에게는 매일 철학이 필요하다. □ 관련 문의. ○ 본부 독서진흥팀 : 02-6276-2604. ○ 홈페이지 : www.hanurirmi.or.kr. 한우리 독서경영 ..."
+          "snippet": "원소 원정대. 국내도서. 원소 원정대. 아게도리도리. 박재현. 장홍제. 17,820원. AI와 함께 꼼꼼 윈도우(윈도우11+AI): 컴퓨터로 사라진 시계. 국내도서. AI와 함께 꼼꼼 ..."
         },
         {
-          "title": "요즘 자기계발 책 뭐 읽지? 교보문고에 들렀다가 ...",
-          "link": "https://www.instagram.com/reel/DfWXnvcKfGY/",
-          "source": "Instagram · ovagul",
-          "published": "6일 전",
-          "snippet": "[아주 작은 습관의 힘]처럼 익숙한 책도 보이고, [어떻게 살아낼것인가], [내면 근력]처럼 눈길이 가는 책들도 있더라고요. 돈을 잘 버는 법부터 좋은 습관을 만드는 법,"
+          "title": "대한민국의 비디오 게임/업계 현황/게임 내부의 문제",
+          "link": "https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98%20%EB%B9%84%EB%94%94%EC%98%A4%20%EA%B2%8C%EC%9E%84/%EC%97%85%EA%B3%84%20%ED%98%84%ED%99%A9/%EA%B2%8C%EC%9E%84%20%EB%82%B4%EB%B6%80%EC%9D%98%20%EB%AC%B8%EC%A0%9C",
+          "source": "나무위키",
+          "published": "5일 전",
+          "snippet": "... 원소 원정대』를 출간했으며, 이후 외전 작품으로 1인 개발 게임도 출시하였다.[46] 이에 반해 대다수의 한국 게임사들은 직원들을 살인적인 크런치 모드로 혹사시키며 ..."
+        },
+        {
+          "title": "11/27) 독자분들이 주신 사랑 덕분에 윌북의 책 5종이 후보 ...",
+          "link": "https://www.instagram.com/p/DfY3OdjAQA1/",
+          "source": "Instagram · willbooks_pub",
+          "published": "",
+          "snippet": "윌북의 책 5종이 후보에 올랐습니다! <내면 근력> <콘텐츠 설계자> <원소 원정대> <눈에 보이지 않는 전쟁과 돈의 역사> <우리가 가진 슬프고 아름다운 것들>"
+        },
+        {
+          "title": "2026학년도 4차 구입희망도서 목록",
+          "link": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3840&no=1",
+          "source": "북일고등학교",
+          "published": "2일 전",
+          "snippet": "원소 원정대. 윌북주니어. 아게도리도리. 22. 유전자는 어떻게 발견됐을까? 길벗스쿨. 이은희. 2026학년도 4차 구입희망도서 목록. Page 2. 번호. 도서명. 출판사. 저자."
         }
       ],
       "item_count": 8,
@@ -116,56 +78,80 @@
       "brand": "윌북주니어",
       "items": [
         {
-          "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
-          "link": "https://www.kmarket365.com/me/redirect_pcurl.asp?redurl=/me/prod_detail.asp?prod_code=wbj1211",
-          "source": "MissyShop |",
-          "published": "5일 전",
-          "snippet": "원소 주기율표 속 원소들을 생동감 넘치는 캐릭터와 웅장한 세계관으로 만날 수 있는 신개념 화학책 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』이 윌북 ..."
-        },
-        {
-          "title": "자이행복마을 작은도서관 > 상세보기",
-          "link": "https://www.google.com/goto?url=CAESwAEBxCJF19Bfd0mKBg_e_zDiDxpBQDFkdjeV6JEoEeeN5IUJE4P6lfW-UbVait4KFJwlnoOLB5h5gQLdTMTQ33noa5k94uGVd-COFwVAZDIRaQZC7YAfE59UpcGxoC8guxLwSxbwrgcBGGZvo_W_GdIAb6ve1fshLPMCk_J5Inryz1hYjJf1H0RMxQPMODYiAONahrxKRB8YoCu3GYIj8v12GETQxNxG9NFn1D2OrDZdcSRfQvaAlkZR06DoLRt_mcs",
-          "source": "두드림시스템",
-          "published": "6일 전",
-          "snippet": "시험이 끝나면 금방 까먹을 힘겨운 단순 암기에 질렸다면 이 책 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』을 만나 보자. 『원소 원정대』는 단순히 ..."
-        },
-        {
-          "title": "[밑줄] 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 ...",
-          "link": "https://m.yes24.com/Goods/PageComment/189630591",
-          "source": "예스24",
-          "published": "5일 전",
-          "snippet": "더 이상 주기율표 속 기호로 머물지 않는 위대한 존재들은 각자의 성질로 관계를 맺고, 충돌하고, 때로는 조화를 이룹니다. f*****7 ..."
-        },
-        {
-          "title": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집",
-          "link": "https://m.gsshop.com/prd/prd.gs?prdid=1122164527&bnclick=prd-b02_prdb02A_apiPrdBrand&iid=IKeiCUGfy9lWA&mseq=437159",
-          "source": "GS SHOP홈쇼핑",
-          "published": "6일 전",
-          "snippet": "원소 주기율표 속 원소들을 생동감 넘치는 캐릭터와 웅장한 세계관으로 만날 수 있는 신개념 화학책 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』이 ..."
-        },
-        {
-          "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
-          "link": "https://sarak.yes24.com/reading-note/fille77/a0hPaceOxjUTCLM5",
-          "source": "사락",
-          "published": "1일 전",
-          "snippet": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 글쓴이: 아게도리도리 글그림/박재현 역/장홍제 감수; 출판사: 윌북주니어. 어디까지 읽었나요? p. 0/164."
-        },
-        {
-          "title": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집",
-          "link": "https://m.gmarket.co.kr/vi/product/4758398477",
-          "source": "G마켓",
-          "published": "7일 전",
-          "snippet": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집. 공유하기. 17,820원판매가 가격 안내 레이어 열기. 가격 안내 가격 안내 레이어 닫기. 판매가: 판매자가 할인 ..."
-        },
-        {
-          "title": "(팝북)원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 ...",
-          "link": "https://m.gmarket.co.kr/vi/product/4782058993?utparam-url=%7B%22x_object_id%22%3A%224782058993%22%2C%22x_object_type%22%3A%22item%22%2C%22pvid%22%3A%2261fa2b8c-3a56-44eb-84cf-3f93da5a58bc%22%2C%22pvid_sys%22%3A%22gmarket%20server%22%2C%22origin_price%22%3A%2217820%22%2C%22promotion_price%22%3A%2217820%22%2C%22coupon_price%22%3A%22%22%2C%22trafficType%22%3A%22organic%22%2C%22adProduct%22%3A%22%22%2C%22adSubProduct%22%3A%22%22%2C%22ab_buckets%22%3A%22%22%2C%22query%22%3A%22%22%7D",
-          "source": "G마켓",
-          "published": "6일 전",
-          "snippet": "... 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 17,820원. 평점4.8후기(47). 결제할인 10%. 배송비무료최저가 사러가기 · 50건 가격 비교하기. 상품정보 제공 ..."
+          "title": "원소 원정대 (118개 캐릭터로 마스터하는 주기율표 공략집)",
+          "link": "https://shop.com/products/10679134781745/118?variantId=54303202214193",
+          "source": "Shop",
+          "published": "22시간 전",
+          "snippet": "원소 원정대 (118개 캐릭터로 마스터하는 주기율표 공략집). 4.5 (1,234). Sold 100+ last 30 days."
         }
       ],
-      "item_count": 7,
+      "item_count": 1,
+      "time_range": "qdr:d"
+    },
+    {
+      "title": "내면 근력",
+      "author": "짐 머피",
+      "publisher": "윌북(willbook)",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "내면근력, Jim Murphy : 외부 환경과 타인의 시선에 흔들리지 ...",
+          "link": "https://www.google.com/goto?url=CAESZQHEIkXXtBptsHIrZyxxNCUpaaBW9RY0R5G5o7UUKudDlw_NM2MnEX4AQ4ETm9obfvVg-3Sxkq76TkBf6xuGihLtyjmoyhAT0hdWCDMVCSmX3xDOPAxmOfn_YNAkKsp-Znk2QFrS",
+          "source": "Instagram · hm._.park",
+          "published": "",
+          "snippet": "내면근력, Jim Murphy : 외부 환경과 타인의 시선에 흔들리지 않고 스스로의 감정을 통제할 수 있는 힘 ​\"당신에게 일어나는 일은 통제할 수 없지만, 그 일에 어떻게 ..."
+        },
+        {
+          "title": "지여울 | 번역가",
+          "link": "https://www.yes24.com/product/author/140096",
+          "source": "예스24",
+          "published": "4일 전",
+          "snippet": "지여울 작가는 국내 번역가로 대표작 《내면 근력》, 《캐릭터 심리 사전》을 비롯한 다양한 작품을 예스24 작가 페이지에서 확인할 수 있습니다."
+        },
+        {
+          "title": "중요한 순간일수록 왜 흔들릴까 | 짐 머피 《내면 근력》",
+          "link": "https://www.youtube.com/shorts/BVSAK9K8loQ",
+          "source": "YouTube",
+          "published": "",
+          "snippet": "... 내면 근력은 독기가 아니라, 폭풍 속에서도 평정을 지키는 부드럽고 단단한 마음 오늘은 결과 대신 과정에, 시선 대신 나 자신에게 집중해 보세요. 사진: Unsplash ..."
+        },
+        {
+          "title": "교보문고와 독자가 선택하는 2026 올해의 책",
+          "link": "https://event.kyobobook.co.kr/make/250112",
+          "source": "교보문고",
+          "published": "4일 전",
+          "snippet": "내면 근력 짐 머피 좌절을 딛고 코치가 된 저자가 정상급 선수들을 연구해 쓴, 무너지지 않는 마음의 근력을 기르는 자기계발서. 442표 선택한 책."
+        },
+        {
+          "title": "[북리뷰] 내면 근력, 결국 맨탈 싸움이다 - 짐 머피 - X",
+          "link": "https://x.com/pilgrimnote/status/2119247863494725867",
+          "source": "X · pilgrimnote",
+          "published": "",
+          "snippet": "경기에서 실수한 선수는 방금 놓친 공이 아쉬워도 다음 공이 오면 다시 움직여야 한다. 그 장면을 떠올리니 책에서 말하는 내면 근력이 조금 쉽게 이해가 되기 시작했다."
+        },
+        {
+          "title": "경이롭다! 내 예전 책은 《내면 근력》의 그림자조차 밟지 ...",
+          "link": "https://www.threads.com/@queenalice_153/post/DfeL8MLEVPE/20%EA%B0%9C%EC%9D%98-%EB%AC%B8%ED%95%B4%EB%A0%A5%EC%9C%BC%EB%A1%9C-%EC%99%84%EC%84%B1%ED%95%98%EB%8A%94-ai-%EC%8B%9C%EB%8C%80-%EC%9D%B8%EA%B0%84-%EC%83%9D%EC%A1%B4%EB%B2%95ai-1-%EB%A9%98%ED%83%88%EA%B4%80%EB%A6%AC-%EB%B0%B1%EC%96%B5-%EB%A9%98%ED%83%88%EC%9D%84-%EA%B0%80%EC%A0%B8%EB%9D%BC/",
+          "source": "Threads · queenalice_153",
+          "published": "",
+          "snippet": "지금 누워서 스레드 볼 때가 아닙니다. · 교보문고 멘탈분야 상위권. 현재 많은 분들이 읽고 계십니다. · 내면 근력이 말하지 않습니까? 결국 멘탈 게임이다."
+        },
+        {
+          "title": ". 자기 욕구를 충족하는 데만 연연한다면, 그 행복 또한 손에 ...",
+          "link": "https://www.facebook.com/parkdae/videos/%EC%9E%90%EA%B8%B0-%EC%9A%95%EA%B5%AC%EB%A5%BC-%EC%B6%A9%EC%A1%B1%ED%95%98%EB%8A%94-%EB%8D%B0%EB%A7%8C-%EC%97%B0%EC%97%B0%ED%95%9C%EB%8B%A4%EB%A9%B4%EA%B7%B8-%ED%96%89%EB%B3%B5-%EB%98%90%ED%95%9C-%EC%86%90%EC%97%90-%EC%9E%A1%ED%9E%88%EC%A7%80-%EC%95%8A%EA%B3%A0-%EB%A7%88%EB%83%A5-%EB%8B%AC%EC%95%84%EB%82%98%EA%B8%B0%EB%A7%8C-%ED%95%A0-%EA%B2%83%EC%9D%B4%EB%8B%A4-%EC%B1%85-%EB%82%B4%EB%A9%B4-%EA%B7%BC%EB%A0%A5-%EB%B0%9C%EC%B7%8C-%EB%82%B4%EB%A9%B4%EA%B7%BC%EB%A0%A5-%EB%A9%98%ED%83%88%EA%B4%80%EB%A6%AC-%EB%B3%B5%EC%8B%B1-%EB%AA%B0%EC%9E%85-/2434870623713370/",
+          "source": "Facebook",
+          "published": "",
+          "snippet": "자기 욕구를 충족하는 데만 연연한다면, 그 행복 또한 손에 잡히지 않고 마냥 달아나기만 할 것이다. -책 '내면 근력' 발췌- #내면근력 #멘탈관리 #복싱 #몰입 #목표."
+        },
+        {
+          "title": "우리가 무엇을 선택하고 어떤 삶을 사는지는 결국 ...",
+          "link": "https://www.instagram.com/p/DfeoESajzp5/",
+          "source": "Instagram · willbook.zip",
+          "published": "",
+          "snippet": "중요한 것은 순간의 몰입, 내면 근력! 현재를 자괴감과 불안으로 채우지 마세요. 작은 순간과 몰입이 우리의 힘입니다. 슬럼프에 빠진 선수들을 구한 <내면 근력> 불안 ..."
+        }
+      ],
+      "item_count": 8,
       "time_range": "qdr:w"
     }
   ]
