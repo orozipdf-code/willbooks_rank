@@ -1,32 +1,181 @@
 {
-  "generated_at": "2026-11-18T02:46:55.644804+00:00",
+  "generated_at": "2026-11-19T02:23:09.115314+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 1,
-  "searches_used": 1,
+  "book_count": 4,
+  "searches_used": 7,
   "books": [
     {
       "title": "팔란티어의 제왕",
       "author": "맥스 채프킨",
+      "publisher": "윌북",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "팔란티어의 제왕",
+          "link": "https://hanabooksquare.co.kr/product/detail.html?product_no=315281&srsltid=AYCX9vLSQohe-HDwafd_GwitdiP4dbt6ZcHBsAf-NAmneBCQNfsO4srC",
+          "source": "하나북스퀘어",
+          "published": "3일 전",
+          "snippet": "[하나북] 팔란티어의 제왕. 피터 틸의 성장과 전략을 따라가며 미국 기술과 권력의 역학을 읽는 비즈니스·정치 통찰. 하나북스퀘어 큐레이션 도서."
+        },
+        {
+          "title": "[전자책] [단독] 팔란티어의 제왕 | 맥스 채프킨 | 윌북(willbook)",
+          "link": "https://www.yes24.com/product/goods/201103480",
+          "source": "예스24",
+          "published": "2일 전",
+          "snippet": "최첨단 AI 개발을 비롯해 미국이 꾸준히 혁신하는 원동력인 '창조적 파괴'는 어떠한 토대 위에서 작동하는가? [팔란티어의 제왕]은 과거 스탠퍼드대학교 괴짜 학생에서 빅 ..."
+        },
+        {
+          "title": "[하나북] 팔란티어의 제왕",
+          "link": "https://m.hanabooksquare.co.kr/amp/product/detail.html?product_no=315281",
+          "source": "하나북스퀘어",
+          "published": "3일 전",
+          "snippet": "[하나북] 팔란티어의 제왕. 피터 틸의 성장과 전략을 따라가며 미국 기술과 권력의 역학을 읽는 비즈니스·정치 통찰. 하나북스퀘어 큐레이션 도서."
+        }
+      ],
+      "item_count": 3,
+      "time_range": "qdr:w"
+    },
+    {
+      "title": "오만과 편견",
+      "author": "제인 오스틴",
+      "publisher": "윌북",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "http://www.yes24.com/Cooperate/Yes24Gateway.aspx?p...",
+          "link": "http://www.yes24.com/Cooperate/Yes24Gateway.aspx?pid=131297&ReturnURL=http://www.yes24.com/Product/Goods/49856188?art_ch=44255",
+          "source": "예스24",
+          "published": "",
+          "snippet": "이 페이지에 관한 정보가 없습니다."
+        },
+        {
+          "title": "[소설] 오만과 편견 - 줄거리&후기 (스포o)",
+          "link": "https://m.blog.naver.com/mezero1/223445796405",
+          "source": "블로그",
+          "published": "4일 전",
+          "snippet": "책의 내용은 두 남녀의 사랑 이야기이지만 책을 읽으며 모든 사람은 오만과 편견이 있다고 생각한다. 이런 말을 하는 것조차도 오만이라서 나를 편견 있는 시선으로 바라 ..."
+        }
+      ],
+      "item_count": 2,
+      "time_range": "qdr:w"
+    },
+    {
+      "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
+      "author": "아게도리도리",
+      "publisher": "윌북주니어",
+      "brand": "윌북주니어",
+      "items": [
+        {
+          "title": "원소 원정대 - hrlee86님의 독서노트",
+          "link": "https://sarak.yes24.com/reading-note/hrlee86/yVPOHmy3okNhAXF1",
+          "source": "사락",
+          "published": "7일 전",
+          "snippet": "hrlee86님이 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집 독서노트에 남긴 밑줄과 생각을 사락에서 확인해 보세요."
+        },
+        {
+          "title": "원소 원정대 (118개 캐릭터로 마스터하는 주기율표 공략집)",
+          "link": "https://shop.com/products/10679134781745/118?variantId=54303202214193",
+          "source": "Shop",
+          "published": "7일 전",
+          "snippet": "원소 원정대 (118개 캐릭터로 마스터하는 주기율표 공략집). 4.5 (1,234). Sold 100+ last 30 days."
+        },
+        {
+          "title": "원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집",
+          "link": "https://per.auction.co.kr/recommend/recommendbridge.aspx?itemno=F564771334",
+          "source": "모바일 쇼핑은 옥션",
+          "published": "2일 전",
+          "snippet": "[윌북주니어] 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집. 17,820원. 상품상세정보 · 관심상품등록. 만족도0%. 상품평0건; 상품0%; 배송0% ..."
+        },
+        {
+          "title": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집",
+          "link": "https://www.google.com/goto?url=CAESrwEBxCJF131LBkbNJMQXtJemO-vjSOyOL68iaB02zWAfxTBdOrWU5Cs8uaOlgFZpMToxmm94MOxqRqnHCppG3ggw6ZRaSQpc8L6FSuCXmLMyOGyeBA3ujYOJXxfug8iqEEHHjBFhthCkEMnUgWIjcZJtsTGufRHdwFY-Cv0LbBnIFi6Xe90cZY_zbwZlg11aT1P4jWovHcIY3faU0gAyJA_7WFuESBPX1cGJuyzhHnsJ",
+          "source": "GS SHOP홈쇼핑",
+          "published": "3일 전",
+          "snippet": "원소 주기율표 속 원소들을 생동감 넘치는 캐릭터와 웅장한 세계관으로 만날 수 있는 신개념 화학책 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』이 ..."
+        },
+        {
+          "title": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집",
+          "link": "https://www.google.com/goto?url=CAESrwEBxCJF1xguGQYIaUipOVxCYAe0866DrwOhf32o7WCgxyHWWXSm0fqcg3NPly0FARUeXoz6Mr-yCyapYdg5cDwNMTvo55XyYJo3Y2clKQykkRVhp2N1K2DsIRqZdT57_4hjqyTm5nkmRLGfvlsOjWYDcdtlpqr4K4Th0bExNFvsXR8AZ7i3kyfEMlOicj9DYAELS8a7i3DTv4Uu34FnK59GMhSkgkgY8PnufusZnCVm",
+          "source": "GS SHOP홈쇼핑",
+          "published": "1일 전",
+          "snippet": "원소 주기율표 속 원소들을 생동감 넘치는 캐릭터와 웅장한 세계관으로 만날 수 있는 신개념 화학책 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』이 ..."
+        },
+        {
+          "title": "원소 원정대 - 118개 캐릭터로 마스터하는 주기율표 공략집",
+          "link": "https://www.google.com/goto?url=CAESrwEBxCJF12zRoK0De1kkTXrwrUkkR0QDl2BhbJgmoCWwN8usAWlOFLKQmuxkMIvwpuz6lJv1K02N30-PHVf8t_LXKDe3NGkY6lZxNGooxJs-7JEo_s43WSmD-7KJFXa-SLQ21QSH02Q4tatTZopkLd5poTTgjXBjmHTkC16sYhwqjDA794SasPScLaA0aqJ0zBVlYL5yeeBz_1bx5c0x3vixXUTsJoTAo6H-BVZS8mC7",
+          "source": "GS SHOP홈쇼핑",
+          "published": "4일 전",
+          "snippet": "원소 주기율표 속 원소들을 생동감 넘치는 캐릭터와 웅장한 세계관으로 만날 수 있는 신개념 화학책 『원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집』이 ..."
+        }
+      ],
+      "item_count": 6,
+      "time_range": "qdr:w"
+    },
+    {
+      "title": "내면 근력",
+      "author": "짐 머피",
       "publisher": "윌북(willbook)",
       "brand": "윌북",
       "items": [
         {
-          "title": "[단독]《팔란티어의 제왕》기대평 이벤트 - 예스24",
-          "link": "https://www.google.com/goto?url=CAESbAHEIkXX8O4GatlAlx2pQVHYTG_60sjQPn6WBbjrUX33pkgoemeWkH0UYxOu_Tc42Nry2XVEF8b9fauNqcumhvkx2cMFxehtreRlVbwVuP2sH-bHwF8w8mNGql-byD-HcMIgi2DWt4y36cI_0g",
-          "source": "예스24",
-          "published": "22시간 전",
-          "snippet": "[팔란티어의 제왕]은 과거 스탠퍼드대학교 괴짜 학생에서 빅테크 기업의 선두자로 발돋움한 피터 틸의 생애를 추적하는 책이다. 그 과정에서 기술 자유주의와 권위주의가 ..."
+          "title": "직함이 사라진 뒤의 공허함 내면 근력이 필요해요",
+          "link": "https://www.youtube.com/shorts/d4EXwJEVuyw",
+          "source": "YouTube · 28층남자",
+          "published": "16시간 전",
+          "snippet": "... 내면근력 #50대 #자기계발 #엔릿 #shorts #숏폼편집 #enlit."
         },
         {
-          "title": "억만장자는 어떻게 세계를 지배하는가 | 칼 로즈",
-          "link": "https://www.google.com/goto?url=CAESugEBxCJF1x6_2f7C6wIQlDepwXi-azuK9reFJaGHBEX3aJF92bseVRNQuA0LyLAnUKh3VO9mhMQzlOxU659O5iC_JNGGRH_WVEWlVEwBXF6RsHPFQayKVlbH6Vr8QSBamR0_dF2f5AIclCtiMhaxdLglocujyBG5yl4opu-ka0NKgpHByn-06rI66r2l3auj1NPZ6lwcPMh16fX1fnVq1ug-FSsnqTgzJUkTADUGb4ucIobkNkNJg0u5bYY",
-          "source": "알라딘",
-          "published": "6시간 전",
-          "snippet": "팔란티어의 제왕 · 토큰 시프트 · 금융이 쉬워지는 최소한의 세계사 · 슈퍼리치의 시선 · 숫자를 내 편으로 만드는 법 · 한국은 어떻게 제조 강국이 되었나 · 월가는 버블 ..."
+          "title": "어렸을때 부터 저 3가지를 운동으로 해결해온 사람이라ㅎㅎ ...",
+          "link": "https://www.threads.com/@lunckkim/post/Df4jIC7k9_l/%EC%96%B4%EB%A0%B8%EC%9D%84%EB%95%8C-%EB%B6%80%ED%84%B0-%EC%A0%80-3%EA%B0%80%EC%A7%80%EB%A5%BC-%EC%9A%B4%EB%8F%99%EC%9C%BC%EB%A1%9C-%ED%95%B4%EA%B2%B0%ED%95%B4%EC%98%A8-%EC%82%AC%EB%9E%8C%EC%9D%B4%EB%9D%BC%E3%85%8E%E3%85%8E-%EC%9A%B4%EB%8F%99%EC%97%90%EC%84%9C-%EC%98%A4%EB%8A%94-%EB%8F%84%ED%8C%8C%EB%AF%BC%EC%9D%B4-%EC%A0%80%EA%B1%B0%EB%B3%B4%EB%8B%A4-%EB%AA%BB%ED%95%A8/",
+          "source": "Threads · lunckkim",
+          "published": "",
+          "snippet": "운동을 꾸준히 해야 하는 이유 1. 체력이 좋아진다 2. 건강해진다 3. 잡생각이 줄어든다 4. 긍정 도파민이 분비된다 5. 내면 근력도 성장한다."
+        },
+        {
+          "title": "존재를 성장시켜라 - ‥‥향기 ♡ 좋은글",
+          "link": "https://cafe.daum.net/dreamt/Dzkw/53593?svc=cafeapi",
+          "source": "Daum 카페",
+          "published": "16시간 전",
+          "snippet": "내면 근력에서. 다음검색. 현재 게시글 추가 기능 열기. 북마크; 공유하기; 신고 센터로 신고. 댓글. 댓글 2; 댓글쓰기; 답글쓰기. 댓글 리스트. 작성자햇살 아래˚ | 작성 ..."
+        },
+        {
+          "title": "뭐든지 다 쌓이는 법이다. 무엇을 쌓을지는 네 손에 달렸다. ...",
+          "link": "https://www.google.com/goto?url=CAESZQHEIkXXB9IW1EEGzLKarYe4MuY600sic9roDNFR-BgTLi_7siFNula3VYmMPmbvn9-iQyLhthjC0QAXISAuYzRxouAL-5UCcXk9EHHmdaZwaJa7G7xV329YBBUx2vJ2GyDuEdk5",
+          "source": "Instagram · stone_muscle_",
+          "published": "",
+          "snippet": "내면 근력을 길러라. 약해지지 마라. 단단해져라. 매일 한 문장으로 멘탈을 단련한다. 저장하고 흔들릴 때 다시 봐라. #동기부여 #멘탈관리 #자기계발 ..."
+        },
+        {
+          "title": "쓸 만한 어른 | 이호선 | 오아시스",
+          "link": "https://www.google.com/goto?url=CAESagHEIkXXHg1IqPl7npIHcMICgz8_h1CnoyRlrkUVy4RyL8r4MkOE1fPBsdnbd89-tkFIhbQAiOj2so89EFqC9P426uH4ItoMBiruiTknx0MDPIBeMq3KsqObipBR47G_UNIFSPYAUAdHjT0",
+          "source": "예스24",
+          "published": "9시간 전",
+          "snippet": "첫번째 밑줄을 남겨주세요. 이 책을 구입하신 분들이 산 분야 연관 책. 내면 근력. 짐 머피 저/지여울 역 | 윌북(willbook). 평균 별점9.2 (261). 19,800원 (10 ..."
+        },
+        {
+          "title": "커밍비북클럽 2026-27 겨울시즌 책 소개 + 멤버 모집! ...",
+          "link": "https://www.google.com/goto?url=CAESZQHEIkXX1Ciyoxwe121xVKhT__QtvzdH95e4En69q8hfmgYdx-eSufm3-_RVlcdg-AMlmiosceVP2ELbQRD69ynnH0FjrUXgh-SpqAOjcIEIQFDLPINmBLhBlf5ZXgsv_-0KPNNp",
+          "source": "Instagram · comingb_4u",
+          "published": "",
+          "snippet": "12월 <내면 근력> 짐 머피 10월엔 밀란 쿤데라의 <참을 수 없는 존재의 가벼움>을 읽습니다. 그런데요, 사실 북클럽에서 중요한 건 좋은 책보다 사람이더라고요. 누구 ..."
+        },
+        {
+          "title": "시추에이티드 - 앤절라 더크워스",
+          "link": "https://www.google.com/goto?url=CAEShgEBxCJF17cCmQNDsNTOEOy1P8ePlJx2tbwwoV5i1GIC9GY4yPM03nUEFOa3c9XGsL3xIaUBZ-4LP8JM2HK47MfrYDnpaquEdB0z-taleZBUYCeHCKdvjAzuyxsU6vhZrs43x68j5zskcJETMSUU3AczMSe7JObol3QBvLTpy4yv5pCZZFHEUA",
+          "source": "반디북US",
+          "published": "8시간 전",
+          "snippet": "... 내면 근력을 키운다 나가며 부록 상황 점검표 세 박스 모형 설계도 상황 변화 플레이북 감사의 글 주 도판 출처 찾아보기. 분야; 발자취; 책소개; 저자,역자소개; 목차 ..."
+        },
+        {
+          "title": "싯다르타 | 헤르만 헤세 | 민음사",
+          "link": "https://www.google.com/goto?url=CAESZwHEIkXXwYnphOugn3egUTvP7pqbQ1VCmO4xPVobVp9k8qW08UqZHDg0PLAUiDqkRxTTkN4NYEMtVqbrJLUloCpmu_mry30cVM8dzWQFHMu3yrW67Dgeex__zn8Fs7bS7sYwPmngmp0",
+          "source": "예스24",
+          "published": "9시간 전",
+          "snippet": "내면 근력. 짐 머피 저/지여울 역 | 윌북(willbook). 19,800원 (10% 할인). 에이든 국내여행 가이드북. 타블라라사 편집팀,이정기 ..."
         }
       ],
-      "item_count": 2,
+      "item_count": 8,
       "time_range": "qdr:d"
     }
   ]
