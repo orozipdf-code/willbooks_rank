@@ -1,10 +1,48 @@
 {
-  "generated_at": "2026-11-20T02:07:12.963778+00:00",
+  "generated_at": "2026-11-21T02:01:26.030239+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 3,
-  "searches_used": 5,
+  "book_count": 2,
+  "searches_used": 2,
   "books": [
+    {
+      "title": "나뭇잎 프레디 이야기",
+      "author": "레오 버스카글리아",
+      "publisher": "윌북",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "\"1800만 독자가 감동한..\" 죽기 전 반드시 읽어야 할 40년 고전ㅣ ...",
+          "link": "https://www.youtube.com/watch?v=iOs5p-4rDoM",
+          "source": "YouTube · 책과삶",
+          "published": "17시간 전",
+          "snippet": "안녕하세요.\"책과삶\" 입니다. 오늘은 엄유진 작가님과 고전 '나뭇잎 프레디 이야기'에 대해 알아봤습니다. 세상의 모든 감동과 지식을 전합니다."
+        },
+        {
+          "title": "Post by 딱세종 | 세종 1호 숏폼 디렉터 (@ttaksejong)",
+          "link": "https://www.threads.com/@ttaksejong/post/Df9AoTMGjCa/",
+          "source": "Threads",
+          "published": "",
+          "snippet": "☀️ 지금 교보문고에서 독서 중 '나뭇잎 프레디 이야기' 읽는데 괜히 마음이 몽글해져 계절 따라 변하는 나뭇잎 이야기인데 짧은 책 이지만 벌써 다섯번째, 빠져서 ..."
+        },
+        {
+          "title": "어린이",
+          "link": "https://www.google.com/goto?url=CAESawHEIkXXJpFqKQs0Aa_mUB5a_4fMUDoWhAj5ZA-sTxcDfykyIblpeaJTTZ01FqLH99zTM3eGlHCRa6gxaCkqqeTyOqUFHvbeZ7ktIuAf-6q149BgEsck2ffuXa8B9O1Yd9NaDzgxTgpWtppI",
+          "source": "예스24",
+          "published": "16시간 전",
+          "snippet": "나뭇잎 프레디 이야기. 레오 버스카글리아 저/엄유진 역 윌북(willbook). 10% 15,120원. 리뷰 총점 10.0 회원리뷰(8). 상품명 이동. 4."
+        },
+        {
+          "title": "7살의 나를 다시 만난다면 | 김은주",
+          "link": "https://www.google.com/goto?url=CAESugEBxCJF15w9Jx9VRs0LZUkpWMxhXEPXh0R-u6_Kzu6VBCx__88VE-zA6cn0SCd5K1acgzcBhOpr19GbTzJKUVAqFvT1neDpIKDNlHtRmGOz__5ox8KTLrwLTydnVkabBwffbLR-VQ8EtwEh-Xn6pxxSh86zEewqNkhGjVSba6-tb411YajcK7bT81bIvgaE51QesU7xm6SRXS6PoTku11SkhWwIYzpcsIs8OMVEyaDUDZ6YEBbu3euxnWs",
+          "source": "알라딘",
+          "published": "17시간 전",
+          "snippet": "보다 한국적인 정서와 풍경을 담아 색다른 매력을 선보인다. 접기. 그림으로 쓰는 마음. 나뭇잎 프레디 이야기 · 작고 귀엽고 사라지는 것들 · 내 마음속 궁궐. 이 상품을 ..."
+        }
+      ],
+      "item_count": 4,
+      "time_range": "qdr:d"
+    },
     {
       "title": "팔란티어의 제왕",
       "author": "맥스 채프킨",
@@ -12,83 +50,63 @@
       "brand": "윌북",
       "items": [
         {
-          "title": "팔란티어의 제왕 - 국내도서 - 교보문고",
-          "link": "https://product.kyobobook.co.kr/detail/S000221942511",
-          "source": "국내도서",
-          "published": "3일 전",
-          "snippet": "[팔란티어의 제왕]은 과거 스탠퍼드대학교 괴짜 학생에서 빅테크 기업의 선두자로 발돋움한 피터 틸의 생애를 추적하는 책이다. 그 과정에서 기술 자유주의와 권위주의가 ..."
+          "title": "[이 주의 책]팔란티어의 제왕 外",
+          "link": "https://www.asiae.co.kr/article/2026111816374588070",
+          "source": "아시아경제",
+          "published": "19시간 전",
+          "snippet": "팔란티어의 제왕. 1999년 페이팔 직원들의 컴퓨터 모니터에는 '세계 정복 지수'라는 작은 상자가 떠 있었다. · 부의 격차. 후배에게 밥을 사주는 돈은 소비일까, 투자일까."
         },
         {
-          "title": "팔란티어의 제왕 | 맥스 채프킨",
-          "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=406648618&srsltid=AYCX9vJtlwQ9yubpi7GQQ-Q5y8a4AWnUBPiuy0tDO8EzFHgyc51LydJR",
-          "source": "알라딘",
-          "published": "2일 전",
-          "snippet": "<팔란티어의 제왕>은 과거 스탠퍼드대학교 괴짜 학생에서 빅테크 기업의 선두자로 발돋움한 피터 틸의 생애를 추적하는 책이다. 그 과정에서 기술 자유주의와 권위주의가 ..."
+          "title": "국가 간섭 비판하던 반항아 … 왜 정치권력 한복판에 섰나",
+          "link": "https://www.mk.co.kr/news/culture/12214701",
+          "source": "매일경제",
+          "published": "19시간 전",
+          "snippet": "블룸버그 비즈니스위크의 선임 기자 맥스 채프킨의 저서 '팔란티어의 제왕'은 이처럼 모순으로 가득한 피터 틸의 삶을 추적하며 실리콘밸리의 기술 자본이 정치적 영향력 ..."
         },
         {
-          "title": "[하나북] 팔란티어의 제왕",
-          "link": "https://m.hanabooksquare.co.kr/amp/product/detail.html?product_no=315281",
-          "source": "하나북스퀘어",
-          "published": "4일 전",
-          "snippet": "[하나북] 팔란티어의 제왕. 피터 틸의 성장과 전략을 따라가며 미국 기술과 권력의 역학을 읽는 비즈니스·정치 통찰. 하나북스퀘어 큐레이션 도서."
+          "title": "[책마을] 자유 부르짖던 테크 황태자, '감시의 제국'을 세우다",
+          "link": "https://www.google.com/goto?url=CAESawHEIkXXzB_BPrO9GEeax8rbFv2eB1COih2Fe7UZEmD3mOf1dHzfmmCYliVgUHChw20gSVdanWXWoDgzGBOlyOztKY5tc8pzVVbpxNc1sLyEhtnGiNgjyYWJC-Kw1FTyxX7Eb5rlMCSbC1Cm",
+          "source": "한국경제",
+          "published": "17시간 전",
+          "snippet": "<팔란티어의 제왕>은 이처럼 신념과 행동 사이에서 모순을 드러내는 틸의 삶을 비판적인 시각으로 추적한다. 저자는 15년 넘게 실리콘밸리를 취재한 기자다. 틸의 친구와 ..."
         },
         {
-          "title": "팔란티어의 제왕",
-          "link": "https://www.google.com/goto?url=CAESwQEBxCJF129t11Lf5rtqDfK1qET61WRXsr0ejFrCtc9kUdybP-aYdQnYKLfQhKFDY2hAoUHgqfnh6JTX9EsunY8D-JAZtXL-wuKhHrTByvIjOOIhYguIZda7tTQ2bozsUZ6BPQI0gbyMSeKgzXzfuT2EoOCmagiIbQdvra679iUnOBw7lmGt3Ktu-Da9-L2VNJKQqpZrZmbWLj8SYtWbQ1fqp7g351Mged9L-MoQHXsEGjQBdXcWeHF0a_Qix0_BgTb-",
-          "source": "하나북스퀘어",
-          "published": "4일 전",
-          "snippet": "[하나북] 팔란티어의 제왕. 피터 틸의 성장과 전략을 따라가며 미국 기술과 권력의 역학을 읽는 비즈니스·정치 통찰. 하나북스퀘어 큐레이션 도서."
+          "title": "독점 자본의 민낯… 피터 틸의 '창조적 파괴', 무엇을 남겼나",
+          "link": "https://www.google.com/goto?url=CAESagHEIkXXdad274y5EzLv662dXi0SX9R9Z5cvFlp3O-3MQf0kHLX4LA_4eTA-xgPPBhET3bJTqchC6zLysQ-bUAyh8ZUPhw9RrQ4JCoN8PMuJebTg0Oo_bzLqEytnOumOSCNchZq_2qQuMb0",
+          "source": "세계일보",
+          "published": "5시간 전",
+          "snippet": "블룸버그 비즈니스위크의 선임기자 맥스 채프킨이 쓴 '팔란티어의 제왕'은 인공지능(AI) 기반 데이터 분석 기업 팔란티어의 공동 설립자 피터 틸을 '창조적 파괴자'로 정의 ..."
         },
         {
-          "title": "[한줄평] 팔란티어의 제왕",
-          "link": "https://www.google.com/goto?url=CAESawHEIkXXAz_ga9jY-Y1oENVPWsL9C2mqyxvwjsofwWBZUMe2CbhDPBVZM2b1gwyJBgUuZ1zInaBVOwMLAdVxwJnv1Bpk0ckKOSNvDwkd8TYQbM2Kpl1VHl3HFg47YwZBaVrPExrW9XxALJg0",
+          "title": "빅테크의 선구자? 그의 모순과 실상",
+          "link": "https://www.google.com/goto?url=CAESaAHEIkXXd_xzFXCRwxtxcIl9aI1HyZyYZ5E4Iy9v-jDFWeIW2HGjx7f-8U_2_W5HD_j0s7-5SGM8eFFuHlUzZTmXxCOZtMQP8k82oU7eh-MFcwri13L8ZO8cpdYvTZeYmPp_wtdr8SSG",
+          "source": "중앙일보",
+          "published": "11시간 전",
+          "snippet": "팔란티어의 제왕 맥스 채프킨 지음 박세연 옮김 윌북. 책은 전기가 아니라 마치 검찰 기소장 같다. 실리콘밸리 억만장자의 삶에 달라붙은 허물들을 연대기 순으로 ..."
+        },
+        {
+          "title": "동성애자 공화당 지지자 '트럼프 킹메이커'의 생애",
+          "link": "https://www.google.com/goto?url=CAESjAEBxCJF1wkBxwElEeW1zdUuM5cv39A_kSLuNBKapg9sVq282riVS9_SDJxlX95jmTq8I4mxjEcp66OcYlbyTq8cb6DjC6dHKS5AgBO3LWQLFVwqRYj_RZtJCkFbV5-mg2VrmPvM1SJ1g3y_bsvLsOAUjZbKKvuZD-wj9pTecYGIkp53ju3CPz2lgjygyQ",
+          "source": "조선일보",
+          "published": "10시간 전",
+          "snippet": "본 기사는 피터 틸의 삶과 사상을 다룬 전기 '팔란티어의 제왕'을 소개함. 이민자 출신이자 동성애자인 틸이 보수 정치의 핵심 인물로 부상하는 과정과 자유지상주의적 ..."
+        },
+        {
+          "title": "인질극 外 [북스&]",
+          "link": "https://www.google.com/goto?url=CAESZQHEIkXXV_eblTYaScLj3AdKqqqTp3jFp6XPYn1ttfqbMm6mR05oyBz4zNduvV069OuhG1-hcXTSu-4f_tFDaQSsxGfCuOUDL5_2-ftN_XFiGEBvTsE8KrS851T7dB2KJtdRPefx",
+          "source": "서울경제",
+          "published": "17시간 전",
+          "snippet": "2만 2000원. 이미지 확대. □팔란티어의 제왕 (맥스 채프킨 지음, 윌북 펴냄). 미국 빅테크 기업 팔란티어의 창업자 피터 틸의 생애를 추적한다. 스탠퍼드대 괴짜 학생 ..."
+        },
+        {
+          "title": "이벤트세상 - 예스24",
+          "link": "https://www.google.com/goto?url=CAESaAHEIkXX3ZWHiF_BxgOmnI9PqiJSQQwfnoYv8IkHRAQjZFau0_C42VsoQHJV3Z6FnrjO99DZBaFiHEnrWVU7GXvYYL7o6YN2uuXeLGZt4TF8XCXpSNX-D7Gj2JxD2RhzmvGVf3JiqNmk",
           "source": "예스24",
-          "published": "6일 전",
-          "snippet": "팔란티어에 피터 틸, 그리고 박세연까지? 이건 못 참지! ????알림 뜨자마자 결제 버튼. YES마니아 : 플래티넘 b*****4 2026.11.18. 공감 0. 리뷰 총점 종이책 구매."
-        },
-        {
-          "title": "팔란티어의 제왕 | 드워프길드",
-          "link": "https://www.google.com/goto?url=CAEScgHEIkXXLQSEB_PSwPGXvfzQ1obWW_Dwvt4gVt7FZuducHbnO5Vt5nsXkMHmfd8grzaNiqq0vD5HJPfZEx-axitiVQKMkcWdKOOUPu8iJ8Q68YtJPgfntSCEFO1Jo1tgt4TevqJjCm6ITLAv8YiCEbnPfg",
-          "source": "dwarfguild.com",
-          "published": "2일 전",
-          "snippet": "팔란티어의 제왕 표지. 분류 전. 팔란티어의 제왕. 맥스 채프킨. 윌북 · 2026-11-25. 읽고 싶은 책. 쿠팡에서 보기 (새 창). 이 포스팅은 쿠팡 파트너스 활동의 일환으로 ..."
+          "published": "13시간 전",
+          "snippet": "[단독]《팔란티어의 제왕》기대평 이벤트 2026.11.17. ~ 2026.11.30."
         }
       ],
-      "item_count": 6,
-      "time_range": "qdr:w"
-    },
-    {
-      "title": "내면 근력",
-      "author": "짐 머피",
-      "publisher": "윌북(willbook)",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "내면 근력 - 짐 머피 - 책인아웃",
-          "link": "https://www.check-inout.com/books/cmv7n90jd002nh3h5a4a08avd",
-          "source": "check-inout.com",
-          "published": "7일 전",
-          "snippet": "『내면 근력』은 바로 그 길을 안내하는 책이다. 자기 삶의 주인으로 살아가고 싶은 이에게 내면 근력은 반드시 필요한 토대다. 흔들림 없이 자기 길을 걸어가고 싶다면, ..."
-        }
-      ],
-      "item_count": 1,
-      "time_range": "qdr:w"
-    },
-    {
-      "title": "미술관 여행자를 위한 도슨트 북",
-      "author": "카미유 주노",
-      "publisher": "윌북(willbook)",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "그들은 어떻게 영어 1등급을 만드나 | 남기정 | 한빛라이프",
-          "link": "https://www.yes24.com/product/goods/200686773",
-          "source": "예스24",
-          "published": "23시간 전",
-          "snippet": "미술관 여행자를 위한 도슨트 북. 평균 별점9.3 (149). 29,700원 (10% 할인). 문해내공. 평균 별점9.5 (57). 22,500원 (10% 할인)."
-        }
-      ],
-      "item_count": 1,
+      "item_count": 8,
       "time_range": "qdr:d"
     }
   ]
