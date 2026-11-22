@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T02:01:26.030239+00:00",
+  "generated_at": "2026-11-22T01:02:09.853216+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
   "book_count": 2,
@@ -12,98 +12,77 @@
       "brand": "윌북",
       "items": [
         {
-          "title": "\"1800만 독자가 감동한..\" 죽기 전 반드시 읽어야 할 40년 고전ㅣ ...",
-          "link": "https://www.youtube.com/watch?v=iOs5p-4rDoM",
-          "source": "YouTube · 책과삶",
-          "published": "17시간 전",
-          "snippet": "안녕하세요.\"책과삶\" 입니다. 오늘은 엄유진 작가님과 고전 '나뭇잎 프레디 이야기'에 대해 알아봤습니다. 세상의 모든 감동과 지식을 전합니다."
-        },
-        {
-          "title": "Post by 딱세종 | 세종 1호 숏폼 디렉터 (@ttaksejong)",
-          "link": "https://www.threads.com/@ttaksejong/post/Df9AoTMGjCa/",
-          "source": "Threads",
+          "title": "https://book.naver.com/bookdb/book_detail.nhn?bid=...",
+          "link": "https://book.naver.com/bookdb/book_detail.nhn?bid=1884373",
+          "source": "Naver Books",
           "published": "",
-          "snippet": "☀️ 지금 교보문고에서 독서 중 '나뭇잎 프레디 이야기' 읽는데 괜히 마음이 몽글해져 계절 따라 변하는 나뭇잎 이야기인데 짧은 책 이지만 벌써 다섯번째, 빠져서 ..."
-        },
-        {
-          "title": "어린이",
-          "link": "https://www.google.com/goto?url=CAESawHEIkXXJpFqKQs0Aa_mUB5a_4fMUDoWhAj5ZA-sTxcDfykyIblpeaJTTZ01FqLH99zTM3eGlHCRa6gxaCkqqeTyOqUFHvbeZ7ktIuAf-6q149BgEsck2ffuXa8B9O1Yd9NaDzgxTgpWtppI",
-          "source": "예스24",
-          "published": "16시간 전",
-          "snippet": "나뭇잎 프레디 이야기. 레오 버스카글리아 저/엄유진 역 윌북(willbook). 10% 15,120원. 리뷰 총점 10.0 회원리뷰(8). 상품명 이동. 4."
-        },
-        {
-          "title": "7살의 나를 다시 만난다면 | 김은주",
-          "link": "https://www.google.com/goto?url=CAESugEBxCJF15w9Jx9VRs0LZUkpWMxhXEPXh0R-u6_Kzu6VBCx__88VE-zA6cn0SCd5K1acgzcBhOpr19GbTzJKUVAqFvT1neDpIKDNlHtRmGOz__5ox8KTLrwLTydnVkabBwffbLR-VQ8EtwEh-Xn6pxxSh86zEewqNkhGjVSba6-tb411YajcK7bT81bIvgaE51QesU7xm6SRXS6PoTku11SkhWwIYzpcsIs8OMVEyaDUDZ6YEBbu3euxnWs",
-          "source": "알라딘",
-          "published": "17시간 전",
-          "snippet": "보다 한국적인 정서와 풍경을 담아 색다른 매력을 선보인다. 접기. 그림으로 쓰는 마음. 나뭇잎 프레디 이야기 · 작고 귀엽고 사라지는 것들 · 내 마음속 궁궐. 이 상품을 ..."
+          "snippet": "이 페이지에 관한 정보가 없습니다."
         }
       ],
-      "item_count": 4,
+      "item_count": 1,
       "time_range": "qdr:d"
     },
     {
-      "title": "팔란티어의 제왕",
-      "author": "맥스 채프킨",
+      "title": "내면 근력",
+      "author": "짐 머피",
       "publisher": "윌북",
       "brand": "윌북",
       "items": [
         {
-          "title": "[이 주의 책]팔란티어의 제왕 外",
-          "link": "https://www.asiae.co.kr/article/2026111816374588070",
-          "source": "아시아경제",
-          "published": "19시간 전",
-          "snippet": "팔란티어의 제왕. 1999년 페이팔 직원들의 컴퓨터 모니터에는 '세계 정복 지수'라는 작은 상자가 떠 있었다. · 부의 격차. 후배에게 밥을 사주는 돈은 소비일까, 투자일까."
-        },
-        {
-          "title": "국가 간섭 비판하던 반항아 … 왜 정치권력 한복판에 섰나",
-          "link": "https://www.mk.co.kr/news/culture/12214701",
-          "source": "매일경제",
-          "published": "19시간 전",
-          "snippet": "블룸버그 비즈니스위크의 선임 기자 맥스 채프킨의 저서 '팔란티어의 제왕'은 이처럼 모순으로 가득한 피터 틸의 삶을 추적하며 실리콘밸리의 기술 자본이 정치적 영향력 ..."
-        },
-        {
-          "title": "[책마을] 자유 부르짖던 테크 황태자, '감시의 제국'을 세우다",
-          "link": "https://www.google.com/goto?url=CAESawHEIkXXzB_BPrO9GEeax8rbFv2eB1COih2Fe7UZEmD3mOf1dHzfmmCYliVgUHChw20gSVdanWXWoDgzGBOlyOztKY5tc8pzVVbpxNc1sLyEhtnGiNgjyYWJC-Kw1FTyxX7Eb5rlMCSbC1Cm",
-          "source": "한국경제",
-          "published": "17시간 전",
-          "snippet": "<팔란티어의 제왕>은 이처럼 신념과 행동 사이에서 모순을 드러내는 틸의 삶을 비판적인 시각으로 추적한다. 저자는 15년 넘게 실리콘밸리를 취재한 기자다. 틸의 친구와 ..."
-        },
-        {
-          "title": "독점 자본의 민낯… 피터 틸의 '창조적 파괴', 무엇을 남겼나",
-          "link": "https://www.google.com/goto?url=CAESagHEIkXXdad274y5EzLv662dXi0SX9R9Z5cvFlp3O-3MQf0kHLX4LA_4eTA-xgPPBhET3bJTqchC6zLysQ-bUAyh8ZUPhw9RrQ4JCoN8PMuJebTg0Oo_bzLqEytnOumOSCNchZq_2qQuMb0",
-          "source": "세계일보",
+          "title": "[깡문칼럼] 시험은 끝났지만, 양심의 시험은 이제부터다",
+          "link": "http://www.yangpatv.kr/news/articleView.html?idxno=29424",
+          "source": "양파티브이뉴스",
           "published": "5시간 전",
-          "snippet": "블룸버그 비즈니스위크의 선임기자 맥스 채프킨이 쓴 '팔란티어의 제왕'은 인공지능(AI) 기반 데이터 분석 기업 팔란티어의 공동 설립자 피터 틸을 '창조적 파괴자'로 정의 ..."
+          "snippet": "이 지점에서 짐 머피의 《내면 근력》에 담긴 문장은 우리에게 깊은 울림을 준다. \"무엇보다도 최우선으로 해야 할 일은 내면의 성장에 집중하는 것이다. 그래야 ..."
         },
         {
-          "title": "빅테크의 선구자? 그의 모순과 실상",
-          "link": "https://www.google.com/goto?url=CAESaAHEIkXXd_xzFXCRwxtxcIl9aI1HyZyYZ5E4Iy9v-jDFWeIW2HGjx7f-8U_2_W5HD_j0s7-5SGM8eFFuHlUzZTmXxCOZtMQP8k82oU7eh-MFcwri13L8ZO8cpdYvTZeYmPp_wtdr8SSG",
-          "source": "중앙일보",
-          "published": "11시간 전",
-          "snippet": "팔란티어의 제왕 맥스 채프킨 지음 박세연 옮김 윌북. 책은 전기가 아니라 마치 검찰 기소장 같다. 실리콘밸리 억만장자의 삶에 달라붙은 허물들을 연대기 순으로 ..."
+          "title": "이 글이 보인다면 1 운동 2 독서 3 필사 추천합니다 힘들 ...",
+          "link": "https://www.threads.com/@ethan_healing/post/Df_6vb7Ggww/%EC%9D%B4-%EA%B8%80%EC%9D%B4-%EB%B3%B4%EC%9D%B8%EB%8B%A4%EB%A9%B41-%EC%9A%B4%EB%8F%992-%EB%8F%85%EC%84%9C3-%ED%95%84%EC%82%AC%EC%B6%94%EC%B2%9C%ED%95%A9%EB%8B%88%EB%8B%A4%ED%9E%98%EB%93%A4%EC%88%98%EB%A1%9D-%EB%8D%94%EC%B6%94%EC%B2%9C%ED%95%A9%EB%8B%88%EB%8B%A4%EC%96%B4%EC%B0%A8%ED%94%BC-%EC%8A%A4%EC%B9%9C%EC%9D%80%EC%9E%98-%EB%90%A0-%EA%B2%83%EC%9D%84%EC%95%8C%EC%95%84%EC%9A%94%EB%AA%85%EB%A6%AC%EC%83%81%EB%8B%B4%EA%B0%80-%EC%9D%B4%EB%93%A0%ED%9E%90%EB%9F%AC/",
+          "source": "Threads · ethan_healing",
+          "published": "",
+          "snippet": "동기부여 팍팍 시켜주는 책 추천해주라!! 일단 '내면근력' 이라는 책 주문은 해놨어. (페이커 선수 추천 책이라서 더 읽어보고싶다는..) 의욕이 자꾸 떨어지는데 ..."
         },
         {
-          "title": "동성애자 공화당 지지자 '트럼프 킹메이커'의 생애",
-          "link": "https://www.google.com/goto?url=CAESjAEBxCJF1wkBxwElEeW1zdUuM5cv39A_kSLuNBKapg9sVq282riVS9_SDJxlX95jmTq8I4mxjEcp66OcYlbyTq8cb6DjC6dHKS5AgBO3LWQLFVwqRYj_RZtJCkFbV5-mg2VrmPvM1SJ1g3y_bsvLsOAUjZbKKvuZD-wj9pTecYGIkp53ju3CPz2lgjygyQ",
-          "source": "조선일보",
-          "published": "10시간 전",
-          "snippet": "본 기사는 피터 틸의 삶과 사상을 다룬 전기 '팔란티어의 제왕'을 소개함. 이민자 출신이자 동성애자인 틸이 보수 정치의 핵심 인물로 부상하는 과정과 자유지상주의적 ..."
+          "title": "밑줄그어가면서 독서를 해보고 싶네요-독서에 관하여",
+          "link": "https://www.google.com/goto?url=CAESbgHEIkXXVWdtQicFxd7ewOe8nliveQvNtwVh8LtTEErbNoXFU1xCgBgjjtibpie5h_8nja4_lhDRKHLPHN97rhErmfPfVS4B4Kvm2MU0dTrAQ8m-qaT4rdojMeGSe7tmXgYM4ZasfuZGTqyLXEDr",
+          "source": "82Cook",
+          "published": "19시간 전",
+          "snippet": "내면근력. 오십이 된 너에게. 자연의 것들은 그저 자란다 .. 저희 모임에서 읽은책입니다. 4. 요약하기. '26.11.21 3:31 PM (59.7.xxx.113). 독서력 높이는데 제일 좋은건 ..."
         },
         {
-          "title": "인질극 外 [북스&]",
-          "link": "https://www.google.com/goto?url=CAESZQHEIkXXV_eblTYaScLj3AdKqqqTp3jFp6XPYn1ttfqbMm6mR05oyBz4zNduvV069OuhG1-hcXTSu-4f_tFDaQSsxGfCuOUDL5_2-ftN_XFiGEBvTsE8KrS851T7dB2KJtdRPefx",
-          "source": "서울경제",
-          "published": "17시간 전",
-          "snippet": "2만 2000원. 이미지 확대. □팔란티어의 제왕 (맥스 채프킨 지음, 윌북 펴냄). 미국 빅테크 기업 팔란티어의 창업자 피터 틸의 생애를 추적한다. 스탠퍼드대 괴짜 학생 ..."
+          "title": "[📌저장] 2027년 연봉 2배 올려줄 책 추천 📚 자기계발 데일 ...",
+          "link": "https://www.google.com/goto?url=CAESaAHEIkXXpRPo-R4u890wDFK7H9FBnMPgzcENZ185PNbpMHBT2XIh3TtU-_xGOrSfZCZrJJRS_cl7W2cuk-zX3xJ7MOhMK3XYjdYhVRh2oE1v5GAkPvXrpOMar1q8paFxLtBo2JpH2V_W",
+          "source": "Instagram · booktive__",
+          "published": "",
+          "snippet": "* 짐 머피 《내면 근력》 * 윤홍균 《자존감 수업》 * 알랭 드 보통 《불안》 * 프리드리히 니체 《니체의 말》 * 마르쿠스 아우렐리우스 《명상록》 * 라이언 ..."
         },
         {
-          "title": "이벤트세상 - 예스24",
-          "link": "https://www.google.com/goto?url=CAESaAHEIkXX3ZWHiF_BxgOmnI9PqiJSQQwfnoYv8IkHRAQjZFau0_C42VsoQHJV3Z6FnrjO99DZBaFiHEnrWVU7GXvYYL7o6YN2uuXeLGZt4TF8XCXpSNX-D7Gj2JxD2RhzmvGVf3JiqNmk",
+          "title": "사흘 만에 접던 결심, 넉 달 동안 같이 이어 가요 | 독서모임",
+          "link": "https://www.google.com/goto?url=CAESgQEBxCJF12kwA3pRYSah0DwV-PEq7dwHg72-nf8IxKE04Ga_nGn58SPhWo36lnVY9c2B6rwU6rcNGugg_i0U6KN2v4MZCmQWyZUe3XYSpzugR1pAUIktjn0vG2I81SD1qJai1COmWl57PkiU_kh08jyxRUqJ7sZXh6nEU9j5mRIAAgc",
+          "source": "트레바리",
+          "published": "19시간 전",
+          "snippet": "다음 달에는 니르 이얄·줄리 리의 『초의식』으로 목표를 세우고도 끝까지 가지 못하는 이유를 내가 가진 믿음에서 찾아보고, 셋째 달에는 짐 머피의 『내면 근력』으로 ..."
+        },
+        {
+          "title": "진인사대천명",
+          "link": "https://www.google.com/goto?url=CAEStQEBxCJF1xUZfR3vMcfvoSfUePSCGhCxKwLdZqqOHcDGMCO0MhUSv5pllbrDsk-RrfrC0Hqo3GA91JAkxOPrAnQJqPJSgjX7GZ3ksxJFTYzGWnJeHNhm1rXsrr60Vi6ik6hHu2YUhME16KEAoPUz6sXCtbp-Wj9pgxpurdVnC8Q5v3Bo9MoTNsj0OUlMsRMw_gJlpupX-79qAK0HaNQf9oXQ4cAHPVnFOx3RTTqlZOgukVAjRRb_",
+          "source": "Facebook",
+          "published": "",
+          "snippet": "나를 위한 것에는 돈을 아끼지 말자 점차 성숙해지는 증거 내면 근력은 이렇게 키워요 가까운 사이라도 침묵하면 좋은 것 · 손힘찬 · 비발디-비전을 발견하고 디자인하라."
+        },
+        {
+          "title": "2027 인생일력 | 민음사 편집부",
+          "link": "https://www.google.com/goto?url=CAESagHEIkXXVuNoX66E4M98C4gWqOB5r5DG82tJ3eW1_61ZgM1TRvkJs5PYFgEwhKeJVPW8pcQr_uLO-v3paCmGUfj3ZqdpVXG3IKJYBCgAzLpNeNUmFwrJ44oIxudZuXccQTTRu4EDnUPsL-c",
           "source": "예스24",
-          "published": "13시간 전",
-          "snippet": "[단독]《팔란티어의 제왕》기대평 이벤트 2026.11.17. ~ 2026.11.30."
+          "published": "9시간 전",
+          "snippet": "내면 근력 짐 머피 저/지여울 역 19,800원. 품목정보. 품목정보. 발행일, 2026년 11월 27일. 쪽수, 무게, 크기, 380쪽 | 95*170*30mm. ISBN13, 2090000165272 ..."
+        },
+        {
+          "title": "의약품 살인사건 > 책력인증-독서인증 - 2026 책 읽는 대한민국",
+          "link": "https://www.google.com/goto?url=CAESZQHEIkXXofNlIJTWdsAq_MKAfiDeRERvJ-6qxQ01VuX7UJbu5LUESzBhY9KU-bVmGlyP--txWxcarndSKfqXkNnIlPJT-XJ9XrzNKE5eBlOasbTob28QWZil7x8TxuyPRPuiinBk",
+          "source": "read365.kr",
+          "published": "23시간 전",
+          "snippet": "어쨌든 악마라고 이름이 붙은 식물에 독이 있었다니 잘 얻어 걸린 것도 같다. 이전글내면 근력 2026-08-11; 다음글뭐 어때 2026-08-11. 댓글 0. 댓글목록. 등록된 댓글이 ..."
         }
       ],
       "item_count": 8,
