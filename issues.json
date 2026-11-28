@@ -1,10 +1,76 @@
 {
-  "generated_at": "2026-11-27T03:32:39.733049+00:00",
+  "generated_at": "2026-11-28T03:09:36.342380+00:00",
   "publisher_filter": "윌북 계열",
   "source": "google (serpapi, qdr:d)",
-  "book_count": 4,
-  "searches_used": 4,
+  "book_count": 2,
+  "searches_used": 3,
   "books": [
+    {
+      "title": "팔란티어의 제왕",
+      "author": "맥스 채프킨",
+      "publisher": "윌북",
+      "brand": "윌북",
+      "items": [
+        {
+          "title": "팔란티어의 제왕 - 교보문고",
+          "link": "https://product.kyobobook.co.kr/detail/S000221942511",
+          "source": "국내도서",
+          "published": "3일 전",
+          "snippet": "팔란티어의 제왕. 아이콘. 맥스 채프킨 저자(글). 박세연 번역. 윌북·2026년 11월 25일. 주간베스트. 국내도서 121위. 경제/경영 10위. 10%. 29,700원. 33,000원."
+        },
+        {
+          "title": "팔란티어의 제왕 | 맥스 채프킨 | 윌북(willbook)",
+          "link": "https://www.yes24.com/product/goods/200774430",
+          "source": "예스24",
+          "published": "3일 전",
+          "snippet": "『팔란티어의 제왕』은 1967년 괴짜 체스 천재의 탄생부터 2003년 팔란티어의 설립, 2016년 트럼프 행정부 인수위원회 합류, 그리고 노화를 늦추고 죽음 자체를 극복하려는 ..."
+        },
+        {
+          "title": "팔란티어의 제왕 | 맥스 채프킨",
+          "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=406648618&srsltid=AY6E9626c_G9pwE9DVF1QXWN-GSedkFvptKwOL17Fzi_zlMa2sAxJgWC",
+          "source": "알라딘",
+          "published": "1일 전",
+          "snippet": "<팔란티어의 제왕>은 과거 스탠퍼드대학교 괴짜 학생에서 빅테크 기업의 선두자로 발돋움한 피터 틸의 생애를 추적하는 책이다. 그 과정에서 기술 자유주의와 권위주의가 ..."
+        },
+        {
+          "title": "[새책] 팔란티어의 제왕",
+          "link": "https://www.fnnews.com/news/202611231407146445",
+          "source": "파이낸셜뉴스",
+          "published": "5일 전",
+          "snippet": "블룸버그 비즈니스위크 기자 맥스 채프킨의 '팔란티어의 제왕'(윌북)은 두 기업을 공동 창업한 피터 틸의 전기다. 틸은 2003년 알렉스 카프 등과 팔란티어를 세웠다. 회사 ..."
+        },
+        {
+          "title": "팔란티어의 제왕",
+          "link": "https://bookstore12.com/products/book-9791155819869?srsltid=AY6E963vGKBoBo8x6Tdxm7B_ujY0rxkOu2TnAqQAE9R2qwsplSHa2Ddf",
+          "source": "Bookstore 12",
+          "published": "3일 전",
+          "snippet": "『팔란티어의 제왕』은 1967년 괴짜 체스 천재의 탄생부터 2003년 팔란티어의 설립, 2016년 트럼프 행정부 인수위원회 합류, 그리고 노화를 늦추고 죽음 자체를 극복하려는 ..."
+        },
+        {
+          "title": "윌북",
+          "link": "https://x.com/onwillbooks/status/2125471351297491457",
+          "source": "X · onwillbooks",
+          "published": "",
+          "snippet": "#신간안내 #팔란티어의제왕 베일에 싸인 남자, '피터 틸'을 파헤친 책, 『팔란티어의 제왕』 한국어판 드디어 출간! \"보복당할 두려움을 무릅쓴 수많은 이들의 흥미 ..."
+        },
+        {
+          "title": "[단독]《팔란티어의 제왕》기대평 이벤트 - 예스24",
+          "link": "https://event.yes24.com/template?eventno=278284",
+          "source": "예스24",
+          "published": "2일 전",
+          "snippet": "미국이 꾸준히 혁신하는 원동력인 '창조적 파괴'는 어떠한 토대 위에서 작동하는가? [팔란티어의 제왕]은 과거 스탠퍼드대학교 괴짜 학생에서 빅테크 기업의 선두자로 ..."
+        },
+        {
+          "title": "중앙선데이 이훈범 작가 지난 주 윌북의 신간 <팔란티어 ...",
+          "link": "https://www.instagram.com/p/DgHpmq3j5GN/?hl=el",
+          "source": "Instagram · willbooks_pub",
+          "published": "",
+          "snippet": "이 책은 마치 검찰 기소장 같다. 아니 기소장보다 더하다\"_중앙선데이 이훈범 작가 지난 주 윌북의 신간 <팔란티어의 제왕>을 많은 언론에서 다뤄주셨어요!"
+        }
+      ],
+      "item_count": 8,
+      "time_range": "qdr:w"
+    },
     {
       "title": "두 번째 돈",
       "author": "크리스틴 벤즈",
@@ -12,170 +78,42 @@
       "brand": "윌북",
       "items": [
         {
-          "title": "[재테크 클래스-오건영] 이벤트 대상 도서 포함 국내 ...",
-          "link": "https://www.aladin.co.kr/events/wevent.aspx?EventId=318626&srsltid=AYCX9vIex_GDVOHSxZz-67P4guxiQRSb3brhDcwkDVO_QaOa9jLnsUX4",
-          "source": "알라딘",
-          "published": "21시간 전",
-          "snippet": "두 번째 돈; 크리스틴 벤즈 지음, 박세연 옮김, 영주 닐슨 감수; 22,320원 (10%). 숫자의 배신; 장진영 지음; 20,700원 (10%). 돈의 ..."
+          "title": "[책꽂이] '뚫려도 털리지 않는 회사' 등",
+          "link": "https://www.hankyung.com/article/2026112753111",
+          "source": "한국경제",
+          "published": "19시간 전",
+          "snippet": "○ 두 번째 돈 리서치 기업 모닝스타의 개인 금융 및 은퇴 설계 디렉터가 미국 금융 전문가 20인에게 듣는 은퇴 후 자산 관리와 노후 설계 방법. (크리스틴 벤즈 지음 ..."
         },
         {
-          "title": "송년회 사진 단톡에 올라왔는데 나만 얼굴이 번들번들해 조명 ...",
-          "link": "https://www.threads.com/@hwali5959/post/DgMW4x8GV3s/%EC%86%A1%EB%85%84%ED%9A%8C-%EC%82%AC%EC%A7%84-%EB%8B%A8%ED%86%A1%EC%97%90-%EC%98%AC%EB%9D%BC%EC%99%94%EB%8A%94%EB%8D%B0%EB%82%98%EB%A7%8C-%EC%96%BC%EA%B5%B4%EC%9D%B4-%EB%B2%88%EB%93%A4%EB%B2%88%EB%93%A4%ED%95%B4%EC%A1%B0%EB%AA%85-%ED%83%93%EC%9D%B4%EB%9D%BC%EA%B3%A0-%EB%AF%BF%EC%9D%84%EB%9E%98-%E3%85%8B%E3%85%8B%E3%85%8B/",
-          "source": "Threads · hwali5959",
+          "title": "너무 알찬 송년회일 것 같습니다!",
+          "link": "https://www.threads.com/@nougungli/post/DgQPy8wEvEg/%EB%84%88%EB%AC%B4-%EC%95%8C%EC%B0%AC-%EC%86%A1%EB%85%84%ED%9A%8C%EC%9D%BC-%EA%B2%83-%EA%B0%99%EC%8A%B5%EB%8B%88%EB%8B%A4/",
+          "source": "Threads",
           "published": "",
           "snippet": "윌북의 두 번째 돈. @yellowlamppub. 노랑램프출판의 관찰자의 시선. 제공해주신 책들 덕분에 풍성해지는 송년회네요! 66챌 분들 올해도 기억에 남는 시간 보내봅시다!"
         },
         {
-          "title": "썰단지 (@sseoldanji)",
-          "link": "https://www.tiktok.com/@sseoldanji",
-          "source": "TikTok",
-          "published": "21시간 전",
-          "snippet": "누이를 판 오라비에게 대감이 내민 두 번째 돈 10부 (간장독 10편) 누이를 팔아넘긴 오라비 앞에 대감이 돈을 또 내밀었습니다. 그 두 번째 돈의 뜻은 무엇이었을까요?"
-        },
-        {
-          "title": "1년도 안 됐는데 결혼까지 끝내버림.. 영상 속 오늘의 집 잠옷은 ...",
-          "link": "https://www.instagram.com/reel/DgNAL5UT451/",
-          "source": "Instagram · yeondu_saedek",
-          "published": "14시간 전",
-          "snippet": "... 두 번째, 돈을 빨리 모을 수 있어요 공동 지출과 공동 목표가 생기다보니 결혼 후의 경제생활도 미리 계획할 수 있어요 ✔️ 세 번째, 서로의 생활 습관을 미리 맞출 ..."
-        },
-        {
-          "title": "Ns 블프시작♥️ 지금이 젤 저렴해요! 🔥 #ns프로틴 #단백질 ...",
-          "link": "https://www.facebook.com/100006521079330/videos/ns-%EB%B8%94%ED%94%84%EC%8B%9C%EC%9E%91-%EC%A7%80%EA%B8%88%EC%9D%B4-%EC%A0%A4-%EC%A0%80%EB%A0%B4%ED%95%B4%EC%9A%94-ns%ED%94%84%EB%A1%9C%ED%8B%B4-%EB%8B%A8%EB%B0%B1%EC%A7%88%EC%89%90%EC%9D%B4%ED%81%AC/1092045777142588/",
-          "source": "Facebook",
+          "title": "성과급이 집값을 밀어 올린다 _ '반도체 머니'에 경기 남부가 ...",
+          "link": "https://www.youtube.com/watch?v=mR1xACJtiow",
+          "source": "YouTube · KIM MYOUNG WOO",
           "published": "",
-          "snippet": "두 번째, 두 번째, 돈의 리벤드 프로치 고구마. 두 사기로 오만 구천 팔백 원에 달달한 불고구마 드라이 됐다? 좋은 이 부스는 단 킬로 사만 구천팔백 원, 지난 초콜릿 ..."
+          "snippet": "... 두 번째. 돈의 정체, 영업이익 10%라는 판도라의 상자 SK하이닉스 2026년 2월 PS 지급률 기본급의 2964%. 삼성전자 반도체 특별경영성과급은 사업성과의 10.5%, 2027년 ..."
+        },
+        {
+          "title": "대한민국은 창업이 가능한 나라인가? 13조를 부어도 큰 회사 ...",
+          "link": "https://www.youtube.com/watch?v=22PV_bJ6Evs",
+          "source": "YouTube",
+          "published": "",
+          "snippet": "... 두 번째. 돈이 한쪽으로만 몰립니다 04:13 세 번째. 성공한 사람의 돈이 다시 투자되지 않습니다 06:20 막간. 정부 탓일까 08:03 그럼 어떻게 하면 나아질까요 10:24 ..."
+        },
+        {
+          "title": "이 중에 몇 개 해당돼요? ① 사주에 돈을 쌓아 두는 “창고 글자 ...",
+          "link": "https://www.instagram.com/reel/DgOsO7EOnNi/",
+          "source": "Instagram",
+          "published": "",
+          "snippet": "✨ 두 번째, 돈을 지키는 힘이 있어요 버는 기운만큼 중요한 게 지키는 기운이에요. 계획을 세우고 새는 돈을 막는 힘이 함께 있어야 모은 돈이 오래 가요. ✨ 세 번째 ..."
         }
       ],
       "item_count": 5,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "나뭇잎 프레디 이야기",
-      "author": "레오 버스카글리아, 엄유진",
-      "publisher": "윌북",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "대구 달서구에서 엄유진 작가님 초청 청년 공감토크가 ...",
-          "link": "https://www.instagram.com/p/DgMz7nIBODV/",
-          "source": "Instagram",
-          "published": "",
-          "snippet": "... 나뭇잎프레디이야기 #청년공감토크 · View all 29 comments · _sparklingdays. 이미 한참 전에 신청했어요 책 갖고 가면 사인도 해주시나요? 저의 슈퍼스타셔요 ..."
-        },
-        {
-          "title": "7살의 나를 다시 만난다면 - 교보문고",
-          "link": "https://product.kyobobook.co.kr/detail/S000221887598",
-          "source": "국내도서",
-          "published": "7시간 전",
-          "snippet": "나뭇잎 프레디 이야기. 국내도서. 나뭇잎 프레디 이야기. 레오 버스카글리아. 엄유진. 15,120원. 편지할게요(10주년 기념 전면 개정판). 국내도서. 편지할게요(10주년 기념 ..."
-        },
-        {
-          "title": "아버지 간병에서 시작한 '생명의 수프'…다쓰미 요시코 별세",
-          "link": "https://news.jkn.co.kr/post/1124700",
-          "source": "재경일보",
-          "published": "22시간 전",
-          "snippet": "레오 버스카글리아의 나뭇잎 프레디 이야기는 계절의 변화를 통해 삶과 죽음의 연계성을 짚어냈다. 요지 야마모토 청담 팝업스토어 개점…단독 제품 선봬신세계 ..."
-        },
-        {
-          "title": "미리 보기 _ 《외롭지 않은 어른은 없어》 - 카멜북스 (@ ...",
-          "link": "https://www.instagram.com/p/DgMrNjFGv75/",
-          "source": "Instagram · camelbook",
-          "published": "",
-          "snippet": "➀ <나뭇잎 프레디 이야기> ➁ <미술관에 간 할미 II> ➂ <그럼에도 나는 이 삶을 사랑하므로> ➃ <자연의 것들은 그저 자란다> ➄ <내 인생이 왜 당신 마음에 들어야 ..."
-        }
-      ],
-      "item_count": 4,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "팔란티어의 제왕",
-      "author": "맥스 채프킨, 박세연",
-      "publisher": "윌북",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "팔란티어의 제왕 | 맥스 채프킨",
-          "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=406648618&srsltid=AYCX9vLZDZEaSwUFSrSs8W54yJNx5k_0eVKYvR9jiBOopthgfYKNkffM",
-          "source": "알라딘",
-          "published": "3시간 전",
-          "snippet": "<팔란티어의 제왕>은 과거 스탠퍼드대학교 괴짜 학생에서 빅테크 기업의 선두자로 발돋움한 피터 틸의 생애를 추적하는 책이다. 그 과정에서 기술 자유주의와 권위주의가 ..."
-        },
-        {
-          "title": "Chang-dong Mun: 유권자들이 지난해 대선 국면에서 이재명 ...",
-          "link": "https://www.facebook.com/chang.dong.mun/posts/29376466785319488/",
-          "source": "Facebook",
-          "published": "",
-          "snippet": "블룸버그 비즈니스위크 기자 맥스 채프킨이 쓴 틸의 전기 '팔란티어의 제왕'에 등장하는 구절이다. 틸이 과거 한 친구에게 건넸던 말인 것으로 보면, 거대기업을 ..."
-        },
-        {
-          "title": "사회 정치",
-          "link": "https://m.yes24.com/category/display/001001022",
-          "source": "예스24",
-          "published": "10시간 전",
-          "snippet": "팔란티어의 제왕. 맥스 채프킨 저/박세연 역 윌북(willbook). 10% 29,700원. 리뷰 총점 10.0 회원리뷰(2). 상품명 이동. 8. 호루몽. 신숙옥,이일하 저 ..."
-        }
-      ],
-      "item_count": 3,
-      "time_range": "qdr:d"
-    },
-    {
-      "title": "내면 근력",
-      "author": "짐 머피, 지여울",
-      "publisher": "윌북",
-      "brand": "윌북",
-      "items": [
-        {
-          "title": "#내면근력 #원서 #멘탈관리 #읽힐까?",
-          "link": "https://www.instagram.com/reel/DgNDSi3Nb8t/",
-          "source": "Instagram",
-          "published": "",
-          "snippet": "내면근력, Jim Murphy : 외부 환경과 타인의 시선에 흔들리지 않고 스스로의 감정을 통제할 수 있는 힘 ​\"당신에게 일어나는 일은 통제할 수 없지만, 그 일에 어떻게 ..."
-        },
-        {
-          "title": "제비꽃 책방",
-          "link": "https://www.youtube.com/@violetbookstore",
-          "source": "YouTube · 제비꽃 책방",
-          "published": "",
-          "snippet": "잘 살아내는 사람들의 비밀 내면 근력 글귀 책리뷰 제비꽃 책방. 46 views. 2 months ago · 12:58 · 다시 걸을 수 있는 힘을 얻고 싶다면 니체의 초월자 책리뷰 제비꽃 ..."
-        },
-        {
-          "title": "운동을 하는 이유 ✨ 1. 스트레스 해소. 2. 면역력이 좋아진다. ...",
-          "link": "https://www.threads.com/@yurim_han/post/DgMT2UQGu6V/%EC%9A%B4%EB%8F%99%EC%9D%84-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-1-%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4-%ED%95%B4%EC%86%8C2-%EB%A9%B4%EC%97%AD%EB%A0%A5%EC%9D%B4-%EC%A2%8B%EC%95%84%EC%A7%84%EB%8B%A43-%ED%94%BC%EB%B6%80%EA%B0%80-%EC%A2%8B%EC%95%84%EC%A7%84%EB%8B%A44-%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8%EC%97%90-%EB%8F%84%EC%9B%80-%EB%90%9C%EB%8B%A45-%EB%AA%B8%EC%9D%B4-%EA%B1%B4%EA%B0%95%ED%95%B4%EC%A7%84%EB%8B%A46-%EC%82%B6%EC%9D%98-%ED%99%9C%EB%A0%A5%EC%86%8C%EA%B0%80-%EC%83%9D%EA%B8%B4%EB%8B%A4/",
-          "source": "Threads",
-          "published": "",
-          "snippet": "... 11:01 PM. 운동을 꾸준히 해야 하는 이유 1. 체력이 좋아진다 2. 건강해진다 3. 잡생각이 줄어든다 4. 긍정 도파민이 분비된다 5. 내면 근력도 성장한다. 45. 4. 5. 1."
-        },
-        {
-          "title": "누가 나의 시간을 훔쳐 가는가 - 만권당 - 알라딘",
-          "link": "https://max.aladin.co.kr/product/406837840",
-          "source": "만권당",
-          "published": "20시간 전",
-          "snippet": "내면 근력 커버. 더보기. 내면 근력 · 데일 카네기 자기관리론 커버. 더보기. 데일 카네기 자기관리론 · 기분이 태도가 되지 않게 커버. 더보기. 기분이 태도가 되지 않게."
-        },
-        {
-          "title": "Photos by 김대환 (@kimdaehwan3338) · November 26, 2026",
-          "link": "https://www.instagram.com/p/DgNKpxkE2iB/",
-          "source": "Instagram · kimdaehwan3338",
-          "published": "",
-          "snippet": "#내면근력 속 훈련을 통해 단단한 중심을 만들어 보세요. 어떤 파도에도 휩쓸리지 않는 깊고 단단한 뿌리를 내릴 수 있게 될 것입니다. 내 안을 채워주는 건강한 생각 ..."
-        },
-        {
-          "title": "한장마음·정신건강",
-          "link": "https://www.youtube.com/playlist?list=PLS2zhlaF4Bxo",
-          "source": "YouTube · 한장독서 一紙洞察",
-          "published": "",
-          "snippet": "한장독서 一紙洞察 · 마음·정신건강 14편. 우울·불안·중독·감정과 내면근력을 다룬 책 요약. ...more 한장독서 一紙洞察 · 마음·정신건강 14편. 우울·불안·중독·감정과 ..."
-        },
-        {
-          "title": "서평책을 신청합니다",
-          "link": "https://www.cbooknews.com/?m=bbs&bid=book_order&uid=15912",
-          "source": "크리스찬북뉴스",
-          "published": "22시간 전",
-          "snippet": "내면 근력/짐 머피/지여울/윌북 [2+1]. 크리스찬북뉴스 | 2026.04.27 15:02 사진 첨부파일. 대분열: 1054년, 동서교회 갈등과 충돌의 역사/스티븐 런시먼 저/유재덕 역 ..."
-        }
-      ],
-      "item_count": 7,
       "time_range": "qdr:d"
     }
   ]
